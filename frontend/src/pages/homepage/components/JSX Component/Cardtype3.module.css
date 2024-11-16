@@ -1,0 +1,23 @@
+.cardtype3 {
+    background-color: rgb(7, 25, 82);
+    border: 2px none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 1vw;
+    margin-bottom: 2vw
+}
+.cardtype3 h1 {
+    font-size: 1.5vw;
+    color: white;
+    padding: 1vw
+}
+.cardtype3 p {
+    font-size: 1.5vw;
+    color: white;
+    padding: 1vw
+}
+.mail {
+    font-size: 1.5vw;
+    color: white;
+    padding: .5vw
+}

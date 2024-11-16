@@ -1,0 +1,28 @@
+.footer {
+    background-color: rgb(7, 25, 82);
+    overflow: hidden
+}
+
+.footernavbars {
+    display: flex;
+    flex-wrap: wrap
+
+}
+.li {
+    list-style: none;
+    color: white
+}
+
+.footer1 {
+    margin-left: 5vw
+}
+
+.footer p {
+    padding: 3vh;
+    text-align: center;
+    font-size: 2vw;
+    color: white
+}
+
+
+
