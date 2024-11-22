@@ -3,7 +3,7 @@ import { useForm} from "react-hook-form"
 import styles from './form.module.css'
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-function Form1() {
+function Login() {
   
   const {
     register,
@@ -12,8 +12,6 @@ function Form1() {
   } = useForm();
   const [message,setmessage]=useState('');
   const onSubmit = async(data) => {
-  
-    
     try {
           const response = await fetch('https://jsonplaceholder.typicode.com/posts', {
             method: 'POST',
@@ -24,15 +22,16 @@ function Form1() {
              // Send numbers as JSON
           }).then(response=>response.json())
           .then(data=>{console.log(JSON.stringify(data, null, 4));
-            setmessage('Account created Successfully')
-          setTimeout(() => {
+            setmessage('Login Successfully')
+            setTimeout(() => {
             setmessage('')
           }, 1000);})
 
-  }catch{}
+  }catch{
+    setmessage('Invalid Credentials')
+  }
  } // your form submit function which will invoke after successful validation
   return (
-    
     <form onSubmit={handleSubmit(onSubmit)} className={styles.form}>
      <h1 className={styles.h1}>LOGIN</h1>
       {/* register your input into the hook by invoking the "register" function */}
@@ -74,4 +73,4 @@ function Form1() {
 }
 
 
-export default Form1
+export default Login

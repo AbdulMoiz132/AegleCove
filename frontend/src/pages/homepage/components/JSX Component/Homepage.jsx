@@ -18,14 +18,14 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 function Homepage() {
     // Data for cards to reduce repetition
     const featuredCards = [
-        { title: "Flu Vaccine", description: "Find out about the flu vaccine, who should get it, when to get it, and common side effects." },
-        { title: "Shingles Vaccine", description: "Find out about the shingles vaccine, who should get it, when it's recommended, and common side effects." },
-        { title: "HPV Vaccine", description: "Discover details about the HPV vaccine, including who should receive it, how it prevents certain cancers, and the recommended age range for vaccination." },
-        { title: "Women's health", description: "Information and support on health, wellbeing, conditions and screening." },
-        { title: "Men's Health", description: "Learn about key health issues affecting men, including prostate health, heart disease, and others." },
-        { title: "Sexual Health", description: "Find information about sexually transmitted infections (STIs), sexual wellbeing, and where to get testing and treatment." },
-        { title: "Mental Health", description: "Find information and support for managing mental health conditions, including anxiety, depression, and stress." },
-        { title: "Diabetes", description: "Get advice on managing diabetes, including symptoms, treatments, dietary advice, and monitoring blood sugar levels." },
+        { title: "Flu Vaccine", description: "Find out about the flu vaccine, who should get it, when to get it, and common side effects.",link:'/medicines/' },
+        { title: "Shingles Vaccine", description: "Find out about the shingles vaccine, who should get it, when it's recommended, and common side effects.",link:'/medicines/' },
+        { title: "HPV Vaccine", description: "Discover details about the HPV vaccine, including who should receive it, how it prevents certain cancers, and the recommended age range for vaccination.",link:'/medicines' },
+        { title: "Women's health", description: "Information and support on health, wellbeing, conditions and screening." ,link:'/medicines/'},
+        { title: "Men's Health", description: "Learn about key health issues affecting men, including prostate health, heart disease, and others." ,link:'/medicines/'},
+        { title: "Sexual Health", description: "Find information about sexually transmitted infections (STIs), sexual wellbeing, and where to get testing and treatment.",link:'/medicines/' },
+        { title: "Mental Health", description: "Find information and support for managing mental health conditions, including anxiety, depression, and stress.",link:'/medicines/' },
+        { title: "Diabetes", description: "Get advice on managing diabetes, including symptoms, treatments, dietary advice, and monitoring blood sugar levels.",link:'/medicines/' },
     ];
     const backgoundpics = [
         { url: 'src/images/drimg3.jpeg', title: 'AegleCove For Everyone', desc: 'Discover the right treatments, doctors, and hospitals tailored to your health needs' },
@@ -60,7 +60,7 @@ function Homepage() {
                             <div
                                 key={index}>
                                 <div style={{ ...divStyle, 'backgroundImage': `url(${pic.url})` }}>
-                                    <Cardtype2 title={pic.title} description={pic.desc} className="cardtype2" />
+                                    <Cardtype2 title={pic.title} description={pic.desc}  className="cardtype2" />
                                 </div>
                             </div>
                         ))}
@@ -103,9 +103,10 @@ function Homepage() {
                             navigation={false}
                             modules={[Autoplay, Pagination, Navigation]}
                             className="mySwiper"
-                        >
+                        > 
                             {featuredCards.map((card, index) => (
-                                <SwiperSlide> <Card key={index} title={card.title} description={card.description} className="Card1" /> </SwiperSlide>
+                                 
+                                <SwiperSlide> <Card key={index} title={card.title} description={card.description} link={card.link.concat(card.title)} className="Card1" /> </SwiperSlide>
                             ))}
                         </Swiper>
                     </div>
