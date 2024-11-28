@@ -1,5 +1,7 @@
 package com.example.AegleCove.structures;
 
+import com.fasterxml.jackson.annotation.JsonValue;
+
 class Node<T>
 {
     T data;
@@ -9,6 +11,14 @@ class Node<T>
     {
         this.data = data;
         this.next = null;
+    }
+    
+    public T getData() {
+        return data;
+    }
+
+    public Node<T> getNext() {
+        return next;
     }
 }
 
@@ -70,5 +80,33 @@ public class linkedList<T>
         System.out.println();
     }
 
+    // Custom serialization to JSON without using a built-in List
+    @JsonValue
+    public Object[] toJson() 
+    {
+        int size = getSize();
+        Object[] result = new Object[size];
+        Node<T> temp = head;
+        int index = 0;
+        while (temp != null) 
+        {
+            result[index++] = temp.data;
+            temp = temp.next;
+        }
+        return result;
+    }
+
+    // Helper method to get the size of the linked list
+    private int getSize() 
+    {
+        int count = 0;
+        Node<T> temp = head;
+        while (temp != null) 
+        {
+            count++;
+            temp = temp.next;
+        }
+        return count;
+    }
 }
 

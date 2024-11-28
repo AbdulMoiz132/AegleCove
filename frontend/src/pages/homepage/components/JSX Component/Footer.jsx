@@ -4,28 +4,27 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
 
 
-  const footerlinks=[
-    {title:'Home',link:'/'},
-    {title:'Health',link:'/'},
-    {title:'Dieases',link:''},
-    {title:'Live well',link:''},
-    {title:'Pregrency',link:''},
-    {title:'Care&Support',link:''},
-    {title:'BMI Calculator',link:''},
-    {title:'COVID_19',link:''},
-    {title:'Find Doctor',link:''},
-    {title:'Symptom Analyzer',link:''},
-    {title:'Medicine Lookup',link:''},
-    {title:'Researches',link:''},
-    {title:'Create Account',link:'/Signup'},
-    {title:'AegleCove Services',link:''},
-    {title:'Our Helpline',link:''},
-    {title:'Our Policies',link:''},
-    {title:'How we improve',link:''},
-    {title:'AegleCove Works',link:''},
-    
+  const footerlinks = [
+    { title: 'Home', link: '/' },
+    { title: 'Health', link: '/' },
+    { title: 'Diseases and Conditions', link: '' },
+    { title: 'Live Well', link: '' },
+    { title: 'Pregnancy Care', link: '' },
+    { title: 'Care & Support', link: '' },
+    { title: 'BMI Calculator', link: '' },
+    { title: 'COVID-19 Information', link: '' },
+    { title: 'Find a Doctor', link: '' },
+    { title: 'Symptom Analyzer', link: '' },
+    { title: 'Medicine Lookup', link: '' },
+    { title: 'Health Research', link: '' },
+    { title: 'Create Account', link: '/Signup' },
+    { title: 'AegleCove Services', link: '' },
+    { title: 'Our Helpline', link: '' },
+    { title: 'Our Policies', link: '' },
+    { title: 'Our Commitment to Excellence', link: '' },
+    { title: 'How AegleCove Works', link: '' },
+];
 
-  ];
   return (
     <footer className='footer'>
 
