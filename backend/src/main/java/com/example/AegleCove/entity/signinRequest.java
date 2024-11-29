@@ -1,6 +1,6 @@
 package com.example.AegleCove.entity;
 
-public class signinRequest 
+public class SigninRequest 
 {
     private String username;
     private String password;

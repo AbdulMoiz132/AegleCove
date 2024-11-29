@@ -1,5 +1,6 @@
 package com.example.AegleCove.structures;
 
+import com.example.AegleCove.entity.User;
 import com.fasterxml.jackson.annotation.JsonValue;
 
 class Node<T>
@@ -22,7 +23,7 @@ class Node<T>
     }
 }
 
-public class linkedList<T> 
+public class LinkedList<T> 
 {
     Node<T> head;
 
@@ -78,6 +79,24 @@ public class linkedList<T>
             temp = temp.next;
         }
         System.out.println();
+    }
+
+    public T find(String data)
+    {
+        Node<T> temp = head;
+        while(temp != null)
+        {
+            if(temp.data instanceof User)
+            {
+                User entry = (User) temp.data;
+                if(entry.getUsername().equals(data))
+                {
+                    return temp.data;
+                }
+            }                         
+            temp = temp.next;
+        }
+        return null;
     }
 
     // Custom serialization to JSON without using a built-in List

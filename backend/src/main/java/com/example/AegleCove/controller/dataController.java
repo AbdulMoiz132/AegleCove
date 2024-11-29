@@ -3,25 +3,23 @@ package com.example.AegleCove.controller;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import com.example.AegleCove.structures.linkedList;
+import com.example.AegleCove.structures.LinkedList;
 
 
 @RestController
 @RequestMapping("/data")
-public class dataController 
+public class DataController 
 {
-    linkedList<String> medicList = new linkedList<>();
-    linkedList<String> diseaseList = new linkedList<>();
+    LinkedList<String> medicList = new LinkedList<>();
+    LinkedList<String> diseaseList = new LinkedList<>();
 
     @GetMapping("/medicines")
-    public linkedList<String> getMedicines() {
-        medicList.append("Paracetamol");
+    public LinkedList<String> getMedicines() {
         return medicList;
     }
 
     @GetMapping("/diseases")
-    public  linkedList<String >getDiseases() {
-        diseaseList.append("Fever");
+    public  LinkedList<String >getDiseases() {
         return diseaseList;
     }
     

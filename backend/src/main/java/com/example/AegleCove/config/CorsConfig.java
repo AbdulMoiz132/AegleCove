@@ -15,10 +15,10 @@ public class CorsConfig {
             public void addCorsMappings(@NonNull CorsRegistry registry)
             {
                 registry.addMapping("/**") // Allow all endpoints
-                        .allowedOrigins("http://localhost:5173") // Allow your React frontend origin
+                        .allowedOrigins("http://localhost:5173") 
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") // Allowed HTTP methods
                         .allowedHeaders("*") // Allow all headers
-                        .allowCredentials(true); // Allow cookies if needed
+                        .allowCredentials(true); // Allow cookies
             }
         };
     }
