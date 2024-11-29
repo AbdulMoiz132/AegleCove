@@ -19,7 +19,8 @@
     background-color:  rgb(32, 30, 67);
 }
 
-.listtype1 a {
+
+.listlink{
     text-decoration: none;
     color: white;
     font-size: 1.2vw;

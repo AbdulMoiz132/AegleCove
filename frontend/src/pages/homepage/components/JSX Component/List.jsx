@@ -9,12 +9,12 @@ function List() {
 
       <nav>
         <ul>
-            <li className="listtype1"><Link to='#'>Find Doctor</Link></li> 
-            <li className="listtype1"><Link to='#'>Find Pharmacy</Link></li> 
-            <li className="listtype1"><Link to='#'>Symptom Analyzer</Link></li> 
-            <li className="listtype1"><Link to='#'>Calculate BMI</Link></li> 
-            <li className="listtype1"><Link to='#'>Live Well</Link></li> 
-            <li className="listtype1"><Link to='#'>Researches</Link></li> 
+            <Link to='#' className="listlink"><li className="listtype1">Find Doctor</li> </Link>
+            <Link to='#' className="listlink"><li className="listtype1">Find Pharmacy</li></Link> 
+            <Link to='#' className="listlink"><li className="listtype1">Symptom Analyzer</li> </Link>
+            <Link to='/bmicalculator' className='listlink'> <li className="listtype1">Calculate BMI</li> </Link>
+            <Link to='#' className="listlink"><li className="listtype1">Live Well</li> </Link>
+            <Link to='#' className="listlink"><li className="listtype1">Researches</li></Link> 
         </ul>
       </nav>
   </div>

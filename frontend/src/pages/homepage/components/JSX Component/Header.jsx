@@ -2,11 +2,11 @@ import React from 'react';
 import './header.css';
 import { FaMagnifyingGlass } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
-
+import Logo from '../../../Logo/Logo';
 const Header = () => {
     const HeaderLinks = [
-        { title: 'Health', link: '/' },
-        { title: 'Diseases', link: '#' },
+        { title: 'Diseases and Conditions', link: '/' },
+        { title: 'Medicines', link: '/medicines' },
         { title: 'Live Well', link: '#' },
         { title: 'Pregnancy', link: '#' },
         { title: 'Care & Support', link: '#' },
@@ -17,7 +17,7 @@ const Header = () => {
     return (
         <header className='header'>
             <div className='upperheader'>
-                <Link to='/' className='innerlogo'>AEGLECOVE</Link>
+            <Link to='/' className='link'><img src='public/images/logo2.png'  className='logoimg'></img>AEGLECOVE</Link>
                 <div className='searchbar'>
                     <input
                         type='text'

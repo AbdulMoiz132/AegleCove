@@ -1,0 +1,31 @@
+.img{
+    height: 15vh;
+    
+}
+.head{
+   background-color: rgb(7, 25, 82);
+   display: flex;
+   align-items: center;
+   
+}
+.link{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 2vw;
+    margin:2vw ;
+
+}
+.righthalf{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    color: white;
+
+}
+.righthalf img{
+    height: 20vh;
+}
