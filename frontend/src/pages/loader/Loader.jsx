@@ -3,19 +3,31 @@ import { ThreeDots } from 'react-loader-spinner'
 
 const Loader = () => {
   return (
-    <div>
+<div>
 <ThreeDots
-  visible={true}
-  height="80"
-  width="80"
-  color="#4fa94d"
-  radius="9"
-  ariaLabel="three-dots-loading"
-  wrapperStyle={{}}
-  wrapperClass=""
-  />
-  {console.log(true)}
-    </div>
+        visible={true}
+        height="100"
+        width="100"
+        color="rgb(7, 25, 82)"
+        radius="20"
+        ariaLabel="three-dots-loading"
+        wrapperStyle={{
+          position: "fixed",
+          top: "50%",
+          left: "50%",
+          transform: "translate(-50%, -50%)",
+          zIndex: 9999,
+          background: "rgba(0, 0, 0, 0.6)", /* Add a semi-transparent background */
+          padding: "20px",
+          borderRadius: "8px",
+          width:"100vw",
+          height:"100vh",
+          display:"flex",
+          justifyContent:"center",
+          alignItems:"center",
+        }}
+        />
+</div>
   )
 }
 

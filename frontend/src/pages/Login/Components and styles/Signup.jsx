@@ -2,7 +2,7 @@ import React from 'react'
 import { useForm, Controller  ,FormProvider, useFormContext } from "react-hook-form"
 import styles from './form.module.css'
 import { Link, Route, useNavigate } from 'react-router-dom';
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 import Logo from '../../Logo/Logo';
 import PhoneInput from "react-phone-number-input";
 import "react-phone-number-input/style.css";
@@ -16,29 +16,31 @@ function Signup() {
   const navigate = useNavigate();
   const onSubmit = async (data) => {
     console.log(data);
-    fetch('http://localhost:8080/auth/signup', {
+    const response = await fetch('http://localhost:8080/auth/signup', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ data }),
-    }).then(response => response.json())
-      .then(responsedata => {
-        console.log(JSON.stringify(responsedata));
-        setMessage('Account created Successfully')
-        setTimeout(() => {
-          setMessage('')
-          navigate("/login");
-        }, 1000);
-      }).catch(err => {
-        console.log(err);
-      })
-  }
+      body: JSON.stringify(data),
+    })
+    if (!response.ok) {
+      setMessage(Error.message)
+      throw new Error('Network not responding');
+      
+    }
+    const result = await response.json();
+    console.log(result);
+    setMessage('Signup Successfully');
+    navigate('/login')
+    }
+  
   return (
     <div className="Container">
       <Logo />
+      {isSubmitting &&<Loader/> }
       <FormProvider {...methods}>
       <form onSubmit={methods.handleSubmit(onSubmit)} className={styles.form}>
+
         <h1 className={styles.h1}>SIGN UP</h1>
         {methods.isSubmitting && <div>Loading...</div>}
         <h2 className={styles.h2}>Personal Information</h2>
