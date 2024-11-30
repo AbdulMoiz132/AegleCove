@@ -35,7 +35,6 @@ const Medicines = () => {
   return (
     <div className="container">
       <Logo title='Medicines' src='/images/medicines.png'/>
-    
         <div>
           <Charul />
           <h2>Character: {char}</h2>
@@ -47,7 +46,7 @@ const Medicines = () => {
             )}
           </ul>
         </div>
-      )}
+      
     </div>
   );
 };
