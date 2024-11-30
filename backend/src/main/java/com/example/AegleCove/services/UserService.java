@@ -5,8 +5,8 @@ import com.example.AegleCove.entity.User;
 @Service
 public class UserService 
 {
-    private String USERNAME;
-    private String PASSWORD;
+    private String USERNAME = null;
+    private String PASSWORD = null;
 
     public boolean authenticate(String username, String password) 
     {

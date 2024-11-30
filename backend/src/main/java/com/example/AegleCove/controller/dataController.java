@@ -14,13 +14,14 @@ public class DataController
     LinkedList<String> diseaseList = new LinkedList<>();
 
     @GetMapping("/medicines")
-    public LinkedList<String> getMedicines() {
+    public LinkedList<String> getMedicines() 
+    {
         return medicList;
     }
 
     @GetMapping("/diseases")
-    public  LinkedList<String >getDiseases() {
+    public  LinkedList<String >getDiseases() 
+    {
         return diseaseList;
-    }
-    
+    }    
 }

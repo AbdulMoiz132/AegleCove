@@ -10,7 +10,6 @@ import com.example.AegleCove.services.UserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-
 @RestController
 @RequestMapping("/auth")
 public class AuthController 
@@ -24,7 +23,7 @@ public class AuthController
     }
 
     @CrossOrigin(origins = "http://localhost:5173")
-    @GetMapping("/signin")
+    @PostMapping("/signin")
     public ResponseEntity<String> login(@RequestBody SigninRequest request)
     {
         boolean valid = authService.authenticate(request.getUsername(), request.getPassword());
@@ -58,6 +57,7 @@ public class AuthController
     {
         return users.find(username);
     }
+    
     
 }
 
