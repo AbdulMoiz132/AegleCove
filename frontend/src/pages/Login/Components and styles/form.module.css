@@ -26,6 +26,14 @@
     
  
   }
+
+  .linkto{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    
+
+  }
   .name_information{
     display: flex;
     align-items: center;

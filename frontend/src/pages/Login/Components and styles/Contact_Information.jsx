@@ -45,7 +45,7 @@ const Contact_Information = () => {
         )}
 
       />
-      {errors.phonenumber && <p>{errors.phonenumber.message}</p>}
+      {errors.phonenumber && <p className={styles.p}>{errors.phonenumber.message}</p>}
       </div>
       </div>
 
@@ -60,6 +60,7 @@ const Contact_Information = () => {
           )}
           type="text"
         />
+        {errors.address&&<p className={styles.p}>{errors.address.message}</p>}
         </div>
         </div>
         </div>

@@ -28,7 +28,6 @@ const Medicines = () => {
       setIsLoading(false);
     }
   };
-
   useEffect(() => {
     fetchMedicines();
   }, [char]); 
@@ -36,9 +35,7 @@ const Medicines = () => {
   return (
     <div className="container">
       <Logo title='Medicines' src='/images/medicines.png'/>
-      {isLoading ? (
-        <div>Loading...</div>
-      ) : (
+    
         <div>
           <Charul />
           <h2>Character: {char}</h2>

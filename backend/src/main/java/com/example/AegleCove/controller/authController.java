@@ -2,40 +2,62 @@ package com.example.AegleCove.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.AegleCove.entity.signupEntry;
-import com.example.AegleCove.structures.linkedList;
+import com.example.AegleCove.entity.SigninRequest;
+import com.example.AegleCove.entity.User;
+import com.example.AegleCove.structures.LinkedList;
+import com.example.AegleCove.services.UserService;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 
 @RestController
 @RequestMapping("/auth")
-public class authController 
+public class AuthController 
 {
-    private linkedList<signupEntry> users = new linkedList<>();
+    private LinkedList<User> users = new LinkedList<>();
+    private final UserService authService;;
 
-    @GetMapping("/signin")
-    public String login()
+    public AuthController(UserService authService)
     {
-        return "Sign In";
+        this.authService = authService;
     }
 
+    @CrossOrigin(origins = "http://localhost:5173")
+    @GetMapping("/signin")
+    public ResponseEntity<String> login(@RequestBody SigninRequest request)
+    {
+        boolean valid = authService.authenticate(request.getUsername(), request.getPassword());
+        if (!valid)
+        {
+            return ResponseEntity.status(401).body("Invalid credentials");
+        }
+
+        return ResponseEntity.ok("Login successful");
+    }
+
+    @CrossOrigin(origins = "http://localhost:5173")
     @PostMapping("/signup")
-    public String register(@RequestBody signupEntry entry)
+    public User register(@RequestBody User entry)
     {
         users.append(entry);
-        return "Sign Up Successfull";
-    }
+        boolean registered = authService.register(entry);
+        if (registered)
+        {
+            return entry;
+        }
+        else
+        {
+            return null;
+        }
+    }  
+
 
     @GetMapping("/users")
-    public linkedList<signupEntry> getUsers()
+    public User getuserInfo(@RequestParam String username) 
     {
-        return users;
+        return users.find(username);
     }
-
-
+    
 }
+
