@@ -28,10 +28,10 @@ function Homepage() {
         { title: "Diabetes", description: "Get advice on managing diabetes, including symptoms, treatments, dietary advice, and monitoring blood sugar levels.",link:'/medicines/' },
     ];
     const backgoundpics = [
-        { url: 'src/images/drimg3.jpeg', title: 'AegleCove For Everyone', desc: 'Discover the right treatments, doctors, and hospitals tailored to your health needs' },
-        { url: 'src/images/image1.png', title: '', desc: 'Easily track your symptoms, get disease analysis, and find the best care options near you.' },
-        { url: 'src/images/image2.png', title: '', desc: 'Find information and services to help you manage your health' },
-        { url: 'src/images/image4.png', title: '', desc: 'Find reliable health resources and connect with professionals to improve your well-being.' },
+        { url: '/images/drimg3.jpeg', title: 'AegleCove For Everyone', desc: 'Discover the right treatments, doctors, and hospitals tailored to your health needs' },
+        { url: '/images/image1.png', title: '', desc: 'Easily track your symptoms, get disease analysis, and find the best care options near you.' },
+        { url: '/images/image2.png', title: '', desc: 'Find information and services to help you manage your health' },
+        { url: '/images/image4.png', title: '', desc: 'Find reliable health resources and connect with professionals to improve your well-being.' },
     ];
     const divStyle = {
         display: 'flex',
@@ -69,10 +69,10 @@ function Homepage() {
                 {/* cards to display */}
                 <div className="cards">
                     <div className="card1">
-                        <Card title="Health A to Z" description="Find out about conditions, symptoms and treatments, including what to do and when to get help" />
+                        <Card title="Health A to Z" description="Find out about conditions, symptoms and treatments, including what to do and when to get help"  />
                     </div>
                     <div className="card1">
-                        <Card title="Medicines A to Z" description="Find out about conditions, symptoms and treatments, including what to do and when to get help" />
+                        <Card title="Medicines A to Z" description="Find out about conditions, symptoms and treatments, including what to do and when to get help" link='/medicines/A' />
                     </div>
                 </div>
                 {/* cards to display */}

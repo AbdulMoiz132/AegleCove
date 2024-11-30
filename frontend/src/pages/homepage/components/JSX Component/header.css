@@ -9,6 +9,7 @@
     height: 25vh;
 }
 
+
 .upperheader {
     display: flex;
     flex-direction: row;
@@ -16,7 +17,9 @@
     justify-content: space-between;
     position: relative;
     padding: 1vh;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    height: 10vh;
+    
 }
 
 .lowerheader {
@@ -33,6 +36,20 @@
     margin: 1vw;
     cursor: pointer;
     font-weight: bold
+}
+.link{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 2vw;
+    margin-left: 2vw ;
+    margin-top: .5vh;
+
+}
+.logoimg{
+    height: 12vh;
 }
 
 .separator {

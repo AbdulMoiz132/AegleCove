@@ -6,12 +6,12 @@ const Footer = () => {
 
   const footerlinks = [
     { title: 'Home', link: '/' },
-    { title: 'Health', link: '/' },
-    { title: 'Diseases and Conditions', link: '' },
+    { title: 'Diseases and Conditions', link: '/' },
+    { title: 'Medicines', link: '' },
     { title: 'Live Well', link: '' },
     { title: 'Pregnancy Care', link: '' },
     { title: 'Care & Support', link: '' },
-    { title: 'BMI Calculator', link: '' },
+    { title: 'BMI Calculator', link: '/bmicalculator' },
     { title: 'COVID-19 Information', link: '' },
     { title: 'Find a Doctor', link: '' },
     { title: 'Symptom Analyzer', link: '' },

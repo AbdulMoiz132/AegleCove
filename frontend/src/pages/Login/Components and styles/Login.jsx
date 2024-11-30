@@ -1,76 +1,70 @@
 import React from 'react'
-import { useForm} from "react-hook-form"
+import { useForm, Controller, FormProvider, useFormContext } from "react-hook-form"
 import styles from './form.module.css'
-import { Link } from 'react-router-dom';
-import { useState } from 'react';
-function Login() {
-  
-  const {
-    register,
-    handleSubmit,
-    formState: { errors, isSubmitting },
-  } = useForm();
-  const [message,setmessage]=useState('');
-  const onSubmit = async(data) => {
-    try {
-          const response = await fetch('https://jsonplaceholder.typicode.com/posts', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({data}),
-             // Send numbers as JSON
-          }).then(response=>response.json())
-          .then(data=>{console.log(JSON.stringify(data, null, 4));
-            setmessage('Login Successfully')
-            setTimeout(() => {
-            setmessage('')
-          }, 1000);})
+import { Link, useNavigate } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import Logo from '../../Logo/Logo';
+import Login_Cradential from './Login_Cradential';
+import Loader from '../../loader/Loader';
 
-  }catch{
-    setmessage('Invalid Credentials')
-  }
- } // your form submit function which will invoke after successful validation
+
+function Login() {
+
+  const methods = useForm();
+  const { isSubmitting } = methods.formState;
+  const navigate = useNavigate();
+  const [message, setMessage] = useState('');
+
+  const onSubmit = async (data) => {
+
+    try {
+      setMessage('');
+      const response = await fetch('http://localhost:8080/auth/signin', {
+        method: 'POST',
+        header: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
+      //
+      if (!response.ok) {
+        setMessage('Server not Responding');
+        throw new Error(response.statusText);
+      }
+      const responsedata = await response.json();
+      console.log(responsedata);
+      setMessage('Login Successfully');
+      // Clear the success message after 1 second
+      setTimeout(() => {
+        setMessage('');
+        navigate(`/dashboard/${data.username}`)
+      }, 1000);
+    } catch (error) {
+      console.error("Error during login:", error);
+      setMessage('Server not Responding');
+    }
+
+  };
+
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className={styles.form}>
-     <h1 className={styles.h1}>LOGIN</h1>
-      {/* register your input into the hook by invoking the "register" function */}
-      {isSubmitting && <div>Loading...</div>}
-      <label className={styles.label}>Username:</label>
-      <input
-        placeholder="Username"
-        disabled={isSubmitting}
-        {...register("Username", {
-          required: { value: true, message: "Username is required" },
-          minLength: {
-            value: 5,
-            message: "Username must be 5 characters or more.",
-          },
-        })}
-        type="text" className={styles.input}
-      />
-      {errors.Username && <p className={styles.p}>{errors.Username.message}</p>}
-      <label className={styles.label}>Password:</label>
-      <input
-        placeholder="Password"
-        disabled={isSubmitting}
-        {...register("Password", {
-          required: { value: true, message: "Password is required" },
-          minLength: {
-            value: 8,
-            message: "Password must be 8 characters long",
-          },
-        })}
-        type="Password" className={styles.input}
-      />
-      {errors.Password && <p className={styles.p}>{errors.Password.message}</p>}
-      {/* include validation with required or other standard HTML validation rules */}
-      <button type="submit" disabled={isSubmitting} className={styles.button}>LOGIN</button>
-       {message&&<h1 className={styles.h1}>{message}</h1>}
-      <Link to='/Signup'>I have not an account</Link>
-    </form>
+    <div className="container">
+      <Logo />
+      {isSubmitting && <Loader />}
+      <FormProvider{...methods}>
+        <form onSubmit={methods.handleSubmit(onSubmit)} className={styles.form} disabled={isSubmitting}>
+          <h1 className={styles.h1}>LOGIN</h1>
+          <Login_Cradential />
+
+          <button type="submit" disabled={methods.isSubmitting} className={styles.button}>LOGIN</button>
+
+          {message && <h1 className={styles.h1}>{message}</h1>}
+
+          <Link to='/signup'className={styles.linkto}>I have not an account</Link>
+        </form>
+      </FormProvider>
+      {console.log(isSubmitting)}
+
+    </div>
   );
 }
-
-
 export default Login

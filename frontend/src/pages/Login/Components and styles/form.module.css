@@ -1,6 +1,6 @@
  .form {
-    width: 50vw;
-    border: 2px solid;
+    width: 100vw;
+   
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   }
   
@@ -12,23 +12,50 @@
     border-bottom: 1px solid rgb(79, 98, 148);
     font-weight: bold;
   }
+  .h2 {
+    font-weight: 100;
+    margin-top: 1vh;
+    color: white;
+    font-weight: bold;
+  }
   
   .form {
     background:  rgb(7, 25, 82);;
-    max-width: 400px;
-    margin: 2vh auto;
+    width: 100vw;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    border: 2px none ;
-    border-radius: 5px;
+    
+ 
   }
-  
+
+  .linkto{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    
+
+  }
+  .name_information{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 1vh;
+  }
   .p {
     color: #bf1650;
+    height: 2vh;
   }
-  
+  .hr{
+    border: 1px solid  rgb(79, 98, 148);
+  }
   .p::before {
     display: inline;
+    font-size: 15px;
     content: "⚠ ";
+  }
+  .wrapper{
+    width: 30%;
+    margin-right: 1vw;
+    height: 7vh;
   }
   
   .input,
@@ -36,22 +63,28 @@
     display: block;
     box-sizing: border-box;
     width: 100%;
+    height: 7vh;
     border-radius: 4px;
     border: 1px solid white;
     padding: 10px 15px;
     margin-bottom: 10px;
     font-size: 14px;
+  
   }
+
   
   .label {
+    height: 7vh;
+    width: 8vw;
     line-height: 2;
     text-align: left;
     display: block;
     margin-bottom: 13px;
     margin-top: 20px;
     color: white;
-    font-size: 14px;
-    font-weight: 200;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 1vw;
   }
   
   .button[type="submit"],
@@ -65,6 +98,7 @@
     font-size: 16px;
     font-weight: 100;
     letter-spacing: 10px;
+    
   }
   
   .button[type="submit"]:hover,
@@ -95,10 +129,7 @@
     -webkit-appearance: none;
   }
   
-  .App {
-    max-width: 600px;
-    margin: 0 auto;
-  }
+ 
   
   .button[type="button"] {
     display: block;
@@ -124,6 +155,7 @@
     text-transform: uppercase;
     padding: 10px 20px;
     border-radius: 4px;
+    width: 30%;
   }
   
   @media screen and (max-width:800px) {

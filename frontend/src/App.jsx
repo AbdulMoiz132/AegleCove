@@ -2,9 +2,11 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import Homepage from "./pages/homepage/components/JSX Component/Homepage";
 import Notfound from "./pages/homepage/components/JSX Component/Notfound";
 import Login from "./pages/Login/Components and styles/Login";
-import Medicinedetails from "./pages/MedicineTemplate/Components/Medicinedetails";
+// import Medicinedetails from "./pages/MedicineTemplate/Components/Medicinedetails";
 import Signup from "./pages/Login/Components and styles/Signup";
-import Patientdetails from './pages/Login/Components and styles/Patientdetails';
+import Medicines from './pages/MedicineTemplate/Components/Medicines';
+import Bmi from './pages/BMI_CALC/Components/Bmi';
+import Loader from './pages/loader/Loader';
 function App() {
   return (
     <div className="homepage">
@@ -12,8 +14,10 @@ function App() {
         <Route path="/" element={<Homepage />} />
         <Route path="/signup" element={<Signup/>} />
         <Route path="/login" element={<Login/>} />
-        <Route path="/medicines/:name" element={<Medicinedetails />} />
-        <Route path='/patientdetails' element={<Patientdetails />} />
+        <Route path="/medicines/:char" element={<Medicines />} />
+        <Route path="/medicines" element={<Medicines/>} />
+        <Route path='/bmicalculator' element={<Bmi/>}/>
+        <Route path="/loader" element={<Loader />} />
         <Route path="*" element={<Notfound />} />
       </Routes> 
     </div>
