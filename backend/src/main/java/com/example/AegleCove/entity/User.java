@@ -1,6 +1,5 @@
 package com.example.AegleCove.entity;
 
-
 public class User 
 {
     private Long id;
@@ -112,3 +111,4 @@ public class User
 }
 
 
+ 

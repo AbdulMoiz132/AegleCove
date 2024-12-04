@@ -99,6 +99,8 @@ public class LinkedList<T>
         return null;
     }
 
+    
+
     // Custom serialization to JSON without using a built-in List
     @JsonValue
     public Object[] toJson() 
