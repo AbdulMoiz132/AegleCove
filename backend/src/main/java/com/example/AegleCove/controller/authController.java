@@ -26,13 +26,13 @@ public class AuthController
     @PostMapping("/signin")
     public ResponseEntity<String> login(@RequestBody SigninRequest request)
     {
-        boolean valid = authService.authenticate(request.getUsername(), request.getPassword());
-        if (!valid)
+        String id = authService.authenticate(request.getUsername(), request.getPassword());
+        if (id == null)
         {
             return ResponseEntity.status(401).body("Invalid credentials");
         }
 
-        return ResponseEntity.ok("Login successful");
+        return ResponseEntity.ok(id);
     }
 
     @CrossOrigin(origins = "http://localhost:5173")
@@ -51,13 +51,11 @@ public class AuthController
         }
     }  
 
-
     @GetMapping("/users")
     public User getuserInfo(@RequestParam String username) 
     {
         return users.find(username);
     }
-    
-    
+
 }
 

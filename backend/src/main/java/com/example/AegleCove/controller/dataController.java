@@ -2,8 +2,11 @@ package com.example.AegleCove.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+
+import com.example.AegleCove.entity.Medicine;
 import com.example.AegleCove.structures.LinkedList;
 
 @RestController
@@ -14,7 +17,7 @@ public class DataController
     LinkedList<String> diseaseList = new LinkedList<>();
 
     @GetMapping("/medicines")
-    public LinkedList<String> getMedicines(@RequestParam char letter) 
+    public LinkedList<String> getMedicines(@PathVariable char letter) 
     {
         // TODO: Search for medicines in file with given letter and return list
         return medicList;
@@ -28,10 +31,11 @@ public class DataController
     }
   
     @GetMapping("/medicines/{medicine}")
-    public String getMedicineInfo(@RequestParam String medicine) 
+    public Medicine getMedicineInfo(@RequestParam String medicine) 
     {
         // TODO: Search for medicine in file and return information
-        return "Medicine info for " + medicine;
+        
+        return new Medicine();
     }
 }
 

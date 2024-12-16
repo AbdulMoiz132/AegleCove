@@ -1,63 +1,41 @@
 package com.example.AegleCove.structures;
 
-public class Stack 
+public class Stack<T> 
 {
-   private int top;
-    private int maxSize;
-    private String[] stackArray;
+    private LinkedList<T> stackList;
 
-    public Stack(int size)
+    public Stack() 
     {
-        maxSize = size;
-        stackArray = new String[maxSize];
-        top = -1;
+        stackList = new LinkedList<>();
     }
 
-    public void push(String value)
+    public void push(T value) 
     {
-        if(top == maxSize - 1)
-        {
-            System.out.println("Stack is full");
-        }
-        else
-        {
-            stackArray[++top] = value;
-        }
+        stackList.append(value);
     }
 
-    public String pop()
+    public T pop() 
     {
-        if(top == -1)
+        if (isEmpty()) 
+        {
+            System.out.println("Stack is empty");
+            return null;
+        } 
+        return stackList.deleteAtTail();
+    }
+
+    public T peek() 
+    {
+        if (isEmpty()) 
         {
             System.out.println("Stack is empty");
             return null;
         }
-        else
-        {
-            return stackArray[top--];
-        }
+        return stackList.getTail();
     }
 
-    public String peek()
+    public boolean isEmpty() 
     {
-        if(top == -1)
-        {
-            System.out.println("Stack is empty");
-            return null;
-        }
-        else
-        {
-            return stackArray[top];
-        }
+        return stackList.isEmpty();
     }
-
-    public boolean isEmpty()
-    {
-        return top == -1;
-    }
-
-    public boolean isFull()
-    {
-        return top == maxSize - 1;
-    }    
 }
