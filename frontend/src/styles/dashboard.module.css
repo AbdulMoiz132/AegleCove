@@ -1,0 +1,46 @@
+ .body{
+    background-color: black;
+ 
+ }
+.dashboardsection{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    left: 5vw;
+    top: 15vh;
+    color: white;
+    transition: left 0.3s ease;
+}
+.dashboardsectionExpanded{
+    left: 15vw;
+
+}
+
+.greetUser{
+    margin: 2vh;
+    line-height: 1.2;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+.bodyTracker{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2vw;
+    align-items: center;
+    width: 85vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    
+}
+.dashmiddleSection{
+   
+ 
+   display: flex;
+   gap:2vw;
+   justify-content: flex-end;
+   flex-direction: row-reverse;
+   margin-left: 3vw;
+    
+}
+

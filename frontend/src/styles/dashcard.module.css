@@ -1,0 +1,14 @@
+.Dash_Card{
+        width: 25vw;
+        height: 70vh;
+        margin-bottom: 2vh;
+        background-color:#191c24;
+        border: 2px none;
+        border-radius: 5px;
+        box-shadow: rgba(10, 11, 14, 0.25) 0px 14px 28px, rgba(10, 11, 14, 0.22) 0px 10px 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+       
+}

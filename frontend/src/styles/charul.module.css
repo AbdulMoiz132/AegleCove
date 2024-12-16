@@ -1,0 +1,28 @@
+.alphabets{
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80vw;
+
+}
+.alphabets a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 18px;
+    width: 2vw;
+    text-align: center;
+    border-radius: 2px;
+
+
+}
+
+.alphabets a:hover{
+    background-color: #181818;
+    color: white;
+}

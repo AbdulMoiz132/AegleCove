@@ -1,0 +1,75 @@
+import React from 'react'
+import styles from '../styles/dashboard.module.css'
+import DashHeader from '../components/DashHeader'
+import DashSidemenu from '../components/DashSidemenu'
+import { useState,useEffect } from 'react'
+import DashCard from '../components/DashCard'
+import OnesymptomCard from '../components/OnesymptomCard'
+import DashlivewellTodos from '../components/DashlivewellTodos'
+import { useParams } from 'react-router-dom'
+import useAegleCoveStore from '../store/AeglcoveStore'
+
+const Dashboard = () => {
+    const [showMenu, setShowMenu] = useState(false)
+    //err message 
+    const [message , setMessage]=useState('');
+    const setUser = useAegleCoveStore((state) => state.setUser)
+    const user = useAegleCoveStore((state) => state.user)
+
+  
+    //sidemenubar function
+    const handleonclick = () => {
+        setShowMenu(!showMenu);
+    }
+    const dashboardsection = showMenu?
+    `${styles.dashboardsection} ${styles.dashboardsectionExpanded}`:
+    `${styles.dashboardsection} ${styles.dashboardsectionCollapsed}`
+
+    //fetching user data 
+      const userdata = async () => {
+      const response= await fetch(`http/localhost8080/user/${user.id}`);
+      if(!response.ok){
+        setMessage('User not Found please Login again!');
+        throw new Error('Failed to find user');
+      }
+      const data = response.json();
+      setUser(data);
+
+     }
+     useEffect(() => {
+      if(!user.firstname){
+        userdata();
+      }
+      }, [user.id])
+
+
+  return (
+   <div className='body'>
+      <DashHeader showMenu={showMenu} handleonclick={handleonclick} />
+      <DashSidemenu showMenu={showMenu} />
+      <div className={styles.dashboard}>
+      <div className={dashboardsection}>
+        <div className={styles.greetUser}>
+          <h2>Welcome Back {user.username} 👋</h2>
+          <p> We're here to help you manage your health with ease</p>
+        </div>
+          <div className={styles.bodyTracker}>
+           <OnesymptomCard title='BMI' text={'NA'}/>
+           <OnesymptomCard title="HWR" text={'NA'}/>
+           <OnesymptomCard title='BFP' text={'NA'}/>
+           <OnesymptomCard title='WHTR' text={'NA'}/>
+           <OnesymptomCard title='LBM' text={'NA'}/>
+           </div>
+
+           <div className={styles.dashmiddleSection}>
+           <DashCard/>
+           <DashlivewellTodos/>
+           </div>
+        
+      </div>
+      </div>
+      </div>
+  )
+}
+
+export default Dashboard

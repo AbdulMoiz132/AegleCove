@@ -1,0 +1,39 @@
+.searchbox{
+    outline: none;
+    width: 30vw;
+    height: 5vh;
+    border: none;
+    border-radius: 5vw;
+}   
+.searchbar {
+    display: flex;
+    border: 1px solid white;
+    border-radius: 5vw;
+    flex-direction: row-reverse;
+    margin-left: 20vw;
+    margin-top: 1vh;
+    height: 5vh;
+    background-color: white;
+    align-items: center;
+}
+
+
+.searchBtn{
+    background-color:transparent;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin: 0 .5vw;
+    cursor: pointer;
+
+    
+    
+
+}
+.searchBtn:hover{
+    background-color: gray;
+}

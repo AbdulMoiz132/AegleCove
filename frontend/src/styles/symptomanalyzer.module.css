@@ -1,0 +1,55 @@
+.body{
+    overflow: hidden;
+    width: 100vw;
+    background-color: #000;
+    color: white;
+}
+.overlay{
+    position:absolute;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(29,26,57,0.3);
+    z-index: 100000;
+    font-weight: 700;
+    overflow: hidden;
+}
+.heading{
+    position: absolute;
+    color: #fff;
+    left: 5vw;
+    top:40vh;
+    font-size: 96px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+.button{
+    position: absolute;
+    padding: 10px;
+    background-color:black ;
+    outline: none;
+    border: 0.5px solid white;
+    color: white;
+    border-radius: 10px;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    transition: all;
+    transition-duration: 1s ease;
+    cursor: pointer;
+    overflow: hidden;
+    top:60vh;
+    left: 5vw;
+ 
+
+}
+.button:hover{
+    background-color: white;
+    color: black;
+}
+header{
+    overflow: hidden;
+    width: 100vw;
+}

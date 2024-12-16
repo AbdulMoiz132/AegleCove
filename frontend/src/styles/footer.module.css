@@ -1,0 +1,37 @@
+.footer {
+    background-color: #181818;
+    overflow: hidden
+}
+
+.footernavbars {
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 2px;
+
+
+}
+.li {
+    list-style: none;
+    color: white;
+    padding: 3.2vh 1.5vw;
+  
+}
+.li a{
+    text-decoration: none;
+}
+
+.footer1 {
+    margin-left: 5vw
+}
+
+.footer p {
+    padding: 1vh;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    margin-top: 2vh;
+}
+
+
+
