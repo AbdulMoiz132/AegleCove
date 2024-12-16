@@ -10,6 +10,8 @@ import com.example.AegleCove.services.UserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.io.IOException;;
+
 @RestController
 @RequestMapping("/auth")
 public class AuthController 
@@ -37,7 +39,7 @@ public class AuthController
 
     @CrossOrigin(origins = "http://localhost:5173")
     @PostMapping("/signup")
-    public User register(@RequestBody User entry)
+    public User register(@RequestBody User entry) throws IOException
     {
         users.append(entry);
         boolean registered = authService.register(entry);
