@@ -25,6 +25,7 @@ public class UserController
         return user;
     }     
     
+    @PostMapping("/update")
     public ResponseEntity<String> updateUser(@RequestBody User entry) 
     {
         boolean updated = userService.updateInfo(entry);
@@ -35,6 +36,7 @@ public class UserController
         return ResponseEntity.ok("Successfully Updated");
     }
 
+    @PostMapping("/delete")
     public ResponseEntity<String> deleteUser(@PathVariable int id)
     {
         boolean deleted = userService.deleteUser(id);

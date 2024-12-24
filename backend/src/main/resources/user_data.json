@@ -1,0 +1,51 @@
+{
+  "1" : {
+    "id" : 1,
+    "firstname" : "John",
+    "lastname" : "Doe",
+    "birthdate" : "1990-01-01",
+    "gender" : "Male",
+    "address" : "123 Main St, Cityville, Country",
+    "contact" : "9876543210",
+    "username" : "johndoe",
+    "password" : "password123",
+    "email" : "johndoe@example.com"
+  },
+  "2" : {
+    "firstname" : "Coco",
+    "lastname" : "Mo",
+    "birthdate" : "1990-01-01",
+    "gender" : "Male",
+    "address" : "123 Main St, Cityville, Country",
+    "contact" : "9876543210",
+    "email" : "johndoe@example.com"
+  },
+  "3" : {
+    "firstname" : "Sita",
+    "lastname" : "Mo",
+    "birthdate" : "1990-01-01",
+    "gender" : "feMale",
+    "address" : "123 Main St, Cityville, Country",
+    "contact" : "9876543210",
+    "email" : "johndoe@example.com"
+  },
+  "4" : {
+    "firstname" : "John",
+    "lastname" : "Doe",
+    "birthdate" : "1990-01-01",
+    "gender" : "Male",
+    "address" : "123 Main St, City, Country",
+    "contact" : "+1234567890",
+    "email" : "john.doe@example.com"
+  },
+  "5" : {
+    "firstname" : "John",
+    "lastname" : "Doe",
+    "birthdate" : "1990-01-01",
+    "gender" : "Male",
+    "address" : "123 Main St, City, Country",
+    "contact" : "+1234567890",
+    "email" : "john.doe@example.com"
+  },
+  "6" : { }
+}
