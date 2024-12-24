@@ -11,7 +11,6 @@ import useAegleCoveStore from '../store/AeglcoveStore'
 const Dashboard = () => {
     const [showMenu, setShowMenu] = useState(false)
     //err message 
-    const [message , setMessage]=useState('');
     const setUser = useAegleCoveStore((state) => state.setUser)
     const user = useAegleCoveStore((state) => state.user)
 
@@ -28,7 +27,7 @@ const Dashboard = () => {
       const userdata = async () => {
       const response= await fetch(`http/localhost8080/user/${user.id}`);
       if(!response.ok){
-        setMessage('User not Found please Login again!');
+
         throw new Error('Failed to find user');
       }
       const data = response.json();
@@ -49,7 +48,7 @@ const Dashboard = () => {
       <div className={styles.dashboard}>
       <div className={dashboardsection}>
         <div className={styles.greetUser}>
-          <h2>Welcome Back {user.username} 👋</h2>
+          <h2>Welcome Back {user.firstname} 👋</h2>
           <p> We're here to help you manage your health with ease</p>
         </div>
           <div className={styles.bodyTracker}>

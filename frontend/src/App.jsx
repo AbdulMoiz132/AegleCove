@@ -1,17 +1,12 @@
-import { Routes, Route, useLocation } from 'react-router-dom'
-
+import { Routes, Route} from 'react-router-dom'
 import HomePage from './pages/HomePage.jsx'
-// import Notfound from "./pages/homepage/components/JSX Component/Notfound"
 import Login from "./pages/Login.jsx"
-// import Medicinedetails from "./pages/MedicineTemplate/Components/Medicinedetails";
 import Signup from "./pages/Signup.jsx"
 import Medicines from './pages/Medicines.jsx'
 import Bmi from './components/Bmi.jsx'
 import Loader from './components/Loader.jsx'
-// import ProtectedRoute from './pages/Routinghandels/ProtectedRoutes'
 import Dashboard from './pages/Dashboard.jsx'
 import SymptomAnalyzer from './pages/SymptomAnalyzer.jsx'
-// import DashCard from './components/DashCard.jsx';
 import Diseases from './pages/Diseases.jsx'
 import AboutUs from './pages/AboutUs.jsx'
 import MedicineDetails from './pages/MedicineDetails.jsx'
@@ -19,6 +14,7 @@ import SymptomForm from './components/SymptomForm.jsx'
 import MedicalRecordForm from './components/MedicalRecordForm.jsx'
 import MedicalRecords from './pages/MedicalRecords.jsx'
 import Profile from './pages/Profile.jsx'
+import Notfound from './pages/Notfound.jsx'
 
 function App() {
   return (
@@ -38,7 +34,7 @@ function App() {
 
          {/* }></Route> */}
         {/* <Route path="/dashcard" element={<DashCard />} /> */}
-        <Route path='/dashboard'element={<Dashboard/>}/>
+        <Route path='/dashboard/my'element={<Dashboard/>}/>
         <Route path='/diseases/:char'element={<Diseases/>}/>
         <Route path='/aboutus' element={<AboutUs/>} />
         <Route path='medicinesdetails/:name' element={<MedicineDetails/>}/>
@@ -46,6 +42,8 @@ function App() {
         <Route path='/medicalrecordform' element={<MedicalRecordForm/>}/>
         <Route path='/medicalrecords' element={<MedicalRecords/>}/> 
         <Route path='/profile' element={<Profile />}/>
+        <Route path ='*' element={<Notfound/>}/>
+
       </Routes> 
     </div>
   );

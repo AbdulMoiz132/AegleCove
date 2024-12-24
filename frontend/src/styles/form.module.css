@@ -19,6 +19,7 @@
   justify-content: center;
   width: 30vw;
   margin-top: 2vh;
+  
 }
 
 .form {
@@ -32,7 +33,7 @@
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  margin: auto;
+  margin: 2vh auto;
 }
 
 .h1 {
@@ -54,6 +55,7 @@
   text-decoration: none;
   color: #3db166;
   font-size: medium;
+  margin-top: 1vh;
 }
 
 .p {
