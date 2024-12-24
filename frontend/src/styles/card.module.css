@@ -1,8 +1,7 @@
 .card {
-    height:50vh;
-    width: 20vw;
-    background-color: white;
-    color:black;
+    height:35vh;
+    width: 50vw;
+    background-color: #181818;
     transition-duration: 1s;
     cursor: pointer;
     border: 2px none;
@@ -11,17 +10,16 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid;
+    border: 1px solid ;
     box-shadow:  rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .card h1 {
     text-align: center;
-    color: black;
+    color:white;
     margin-top: 4vh;
-    padding-bottom: auto;
     font-size: 20px;
-    
+    text-decoration: none;
     
 }
 
@@ -29,8 +27,8 @@
     padding: 1vw;
     font-size: 16PX;
     font-weight: 520;
-    color : black;
-    margin-top: 5vh
+    color : white;
+    margin-top: 2vh
 }
 
 
@@ -52,9 +50,9 @@
    
 }
 .button{
-    border: 1px solid black;
+    border: 1px solid #3db166;
     width: 12vw;
-    color: black;
+    color: #3db166;
     border-radius: 3px;
     margin-bottom: 5vh;
 }
@@ -69,6 +67,10 @@
     background-color: #181818;
     color: #3db166;
 
+}
+.button:active{
+    background-color: #181818;
+    color: #3db166;
 }
 
 @media screen and (max-width:800px) {

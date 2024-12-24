@@ -2,13 +2,27 @@
         width: 25vw;
         height: 70vh;
         margin-bottom: 2vh;
-        background-color:#191c24;
+        background-color:#181818;
         border: 2px none;
         border-radius: 5px;
         box-shadow: rgba(10, 11, 14, 0.25) 0px 14px 28px, rgba(10, 11, 14, 0.22) 0px 10px 10px;
         text-align: center;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        color: white    ;
        
+}
+.Dash_Card h1{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #3db166;
+    justify-self: flex-start;
+    margin-bottom: 2vh;
+
+}
+.Dash_Card p{
+    font-size: 1.5rem;
+    color: white;
+    padding: 2vw;
+    justify-self: center;
 }

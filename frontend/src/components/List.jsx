@@ -6,7 +6,7 @@ function List() {
   return (
     <div className='listtype'>
       <h1>AegleCove Services</h1>
-
+    
       <nav>
         <ul>
             <Link to='#' className="listlink"><li className="listtype1">Find Doctor</li> </Link>

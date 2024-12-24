@@ -1,14 +1,14 @@
  .body{
-    background-color: black;
+    background-color: white;
+    color: #181818;
  
  }
 .dashboardsection{
-    background-color: black;
+    background-color: white;
     position: absolute;
     width: 100%;
     left: 5vw;
     top: 15vh;
-    color: white;
     transition: left 0.3s ease;
 }
 .dashboardsectionExpanded{

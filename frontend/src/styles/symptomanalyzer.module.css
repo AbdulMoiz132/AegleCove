@@ -1,55 +1,27 @@
-.body{
-    overflow: hidden;
-    width: 100vw;
-    background-color: #000;
-    color: white;
+
+.body h1{
+    font-size: 2.5vw;
+    color: #181818;
+    padding: 1vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
-.overlay{
-    position:absolute;
-    top: 0;
-    right: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(29,26,57,0.3);
-    z-index: 100000;
-    font-weight: 700;
-    overflow: hidden;
+.description {
+    font-size: 1.5vw;
+    color: #181818;
+    padding: 1vw;
+    font-family: 'Merriweather', sans-serif;
 }
-.heading{
-    position: absolute;
-    color: #fff;
-    left: 5vw;
-    top:40vh;
-    font-size: 96px;
-    font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 900;
-}
-.button{
-    position: absolute;
-    padding: 10px;
-    background-color:black ;
-    outline: none;
-    border: 0.5px solid white;
-    color: white;
-    border-radius: 10px;
-    font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 400;
-    transition: all;
-    transition-duration: 1s ease;
-    cursor: pointer;
-    overflow: hidden;
-    top:60vh;
-    left: 5vw;
- 
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
 
 }
-.button:hover{
-    background-color: white;
-    color: black;
-}
-header{
-    overflow: hidden;
+.symptomanalyzerform{
+    
+    display: flex;
     width: 100vw;
+    transition: right 1s ease;
 }

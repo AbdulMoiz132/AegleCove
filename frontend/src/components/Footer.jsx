@@ -29,7 +29,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.footer1}>
-        <nav className={styles.footernavbars}>
+        {/* <nav className={styles.footernavbars}>
           {footerlinks.map(({ title, link }, index) => (
             <li className={styles.li} key={index}>
               <Link to={link} className={styles2.list}>
@@ -37,7 +37,7 @@ const Footer = () => {
               </Link>
             </li>
           ))}
-        </nav>
+        </nav> */}
         <p>&copy; AegleCove All Rights Reserved</p>
       </div>
     </footer>

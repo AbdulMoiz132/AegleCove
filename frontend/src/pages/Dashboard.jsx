@@ -6,7 +6,6 @@ import { useState,useEffect } from 'react'
 import DashCard from '../components/DashCard'
 import OnesymptomCard from '../components/OnesymptomCard'
 import DashlivewellTodos from '../components/DashlivewellTodos'
-import { useParams } from 'react-router-dom'
 import useAegleCoveStore from '../store/AeglcoveStore'
 
 const Dashboard = () => {
@@ -54,15 +53,15 @@ const Dashboard = () => {
           <p> We're here to help you manage your health with ease</p>
         </div>
           <div className={styles.bodyTracker}>
-           <OnesymptomCard title='BMI' text={'NA'}/>
-           <OnesymptomCard title="HWR" text={'NA'}/>
-           <OnesymptomCard title='BFP' text={'NA'}/>
-           <OnesymptomCard title='WHTR' text={'NA'}/>
-           <OnesymptomCard title='LBM' text={'NA'}/>
+           <OnesymptomCard title='BMI' text={'No Record,fill details'}/>
+           <OnesymptomCard title="HWR" text={'No Record,fill details'}/>
+           <OnesymptomCard title='BFP' text={'No Record,fill details'}/>
+           <OnesymptomCard title='WHTR' text={'No Record,fill details'}/>
+           <OnesymptomCard title='LBM' text={'No Record,fill details'}/>
            </div>
 
            <div className={styles.dashmiddleSection}>
-           <DashCard/>
+           <DashCard title='Recent Health Issues'/>
            <DashlivewellTodos/>
            </div>
         

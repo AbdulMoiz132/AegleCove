@@ -6,8 +6,7 @@ const AboutUs = () => {
     return (
         <div className={styles.aboutus}>
             <Logo />
-            <div className={styles.intro}>
-            <h1 className={styles.h1}>About Us</h1>
+            <div className={styles.intro}>  
 
             <h2 className={styles.h2}>Welcome to Aegle Cove</h2>
             <p className={styles.p}>Aegle Cove is your comprehensive healthcare companion, designed to simplify and enhance your healthcare experience. Our mission is to provide personalized health insights, treatment options, and seamless access to medical resources, empowering individuals to take charge of their health with confidence</p>
@@ -56,7 +55,7 @@ const AboutUs = () => {
             <li>Email: <a href='mailto:AegleCove@outlook.com'>Info@AegleCove.com</a></li>
             <li>Phone: +1-234-567-8900</li>
             </div>
-            <SlideroverlayCard/>
+           
         </div>
     )
 }

@@ -27,7 +27,7 @@ const useAegleCoveStore = create((set) => ({
     birthdate: null,
     gender: null,
     email: null,
-    phonenumber: null,
+    contact: null,
     address: null,
     username: null,
     password: null,
@@ -51,7 +51,17 @@ const useAegleCoveStore = create((set) => ({
   diseases: [], // Stores a list of diseases.
   diseasedetails: [], // Detailed information about diseases.
   medicines: [], // Stores a list of medicines.
-  medicinesdetails: [], // Detailed information about medicines.
+  medicinesdetails:  {
+    name: null,
+    description: null,
+    formula: null,
+    side_effects: [],
+    recommended_dosage: {
+      adults:null,
+      children: null,
+    },
+    alternatives: []
+  }, 
   symptoms: [], // List of symptoms.
   symptomResult: { diseasesRank: [] }, 
   somecommonconditions: {
@@ -106,18 +116,17 @@ const useAegleCoveStore = create((set) => ({
 
   // Add new medicines to the store.
   setMedicines: (medicines) =>
-    set((state) => {
-      const updatedMedicines = [...state.medicines, ...medicines];
-      return { medicines: updatedMedicines };
+    set(() => {
+      return {medicines};
     }),
 
   // Add detailed medicine information.
   setMedicinesDetails: (medicinesDetails) =>
     set((state) => {
-      const updatedMedicinesDetails = [
+      const updatedMedicinesDetails = {
         ...state.medicinesdetails,
         ...medicinesDetails,
-      ];
+      }
       return { medicinesdetails: updatedMedicinesDetails };
     }),
 

@@ -72,10 +72,10 @@ function Homepage() {
             
                 <div className={styles.cards}>
                     <div className={styles.card1}>
-                        <Card title="Health A to Z" description="Find out about conditions, symptoms and treatments, including what to do and when to get help" button='Diagnose Now' />
+                        <Card title="Health A to Z" description="Find out about conditions, symptoms and treatments, including what to do and when to get help" button='Diagnose Now' link='/diseases/A' />
                     </div>
                     <div className={styles.card1}>
-                        <Card title="Medicines A to Z" description="Find out about conditions, symptoms and treatments, including what to do and when to get help" link='/medicines/A' />
+                        <Card title="Medicines A to Z" description="Find out about conditions, symptoms and treatments, including what to do and when to get help" link='/medicines/a' />
                     </div>
                     <div className={styles.card1}>
                         <Card title="Symptom Analyzer" description="Analyze your symptoms and seek guidance for managing your condition effectively" button='Analyze Now' />
@@ -94,19 +94,18 @@ function Homepage() {
                     />
                 </div>
                 <div className={styles.feature}>
-                    <h1 className={styles.showcasedHeading}>Featured For Better Health Awareness</h1>
+                    <h2 className={styles.showcasedHeading}>Featured For Better Health Awareness</h2>
                     <div className={styles.featured}>
                         <Swiper
                             spaceBetween={30}
-                            centeredSlides={true}
+                            centeredSlides={false}
                             autoplay={{
                                 delay: 3000,
                                 disableOnInteraction: false,
                             }}
-                            pagination={{
-                                clickable: true,
-                            }}
+                            pagination={false}
                             navigation={false}
+                            indicators={false}
                             modules={[Autoplay, Pagination, Navigation]}
                             className={styles.mySwiper}
                         > 

@@ -29,7 +29,7 @@ const ContactInformation = () => {
         <label className={styles.label}>Phone Number:</label>
         <div className={styles.wrapper}>
         <Controller 
-        name="phonenumber"
+        name="contact"
         control={control} // Linking React Hook Form to this field
         defaultValue=""
         rules={{
@@ -45,7 +45,7 @@ const ContactInformation = () => {
         )}
 
       />
-      {errors.phonenumber && <p className={styles.p}>{errors.phonenumber.message}</p>}
+      {errors.contact && <p className={styles.p}>{errors.contact.message}</p>}
       </div>
       </div>
 

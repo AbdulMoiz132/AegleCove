@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { useForm, Controller } from "react-hook-form"
-import {bmi_calc} from '../utilities/Bmifunction.js';
+import {bmi_calc} from '../utilities/helperfunctions.js';
 const Bmi = () => {
 
   const [bmiresutlt, setBmiresult] = useState({
@@ -27,7 +27,7 @@ const Bmi = () => {
 
   return (
     <div>
-      <form onSubmit={handleSubmit(handlecalc)}>
+      <form onSubmit={handleSubmit(handlecalc)} className='{styles.bmiForm}'>
         {/* register your input into the hook by invoking the "register" function */}
         
         <h3>Height</h3>

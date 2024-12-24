@@ -37,13 +37,13 @@ function Login() {
     };
 
   return (
-    <div className="container">
+    <div className="logincontainer">
       <Logo />
       {isSubmitting && <Loader />}
-      <FormProvider{...methods}>
+      <FormProvider{...methods} className={styles.formprovider}>
         <form onSubmit={methods.handleSubmit(onSubmit)} className={styles.form} disabled={isSubmitting}>
           <h1 className={styles.h1}>LOGIN</h1>
-          <LoginCradential />
+           <LoginCradential />
 
           <button type="submit" disabled={methods.isSubmitting} className={styles.button}>LOGIN</button>
 

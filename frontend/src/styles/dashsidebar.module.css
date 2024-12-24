@@ -1,149 +1,136 @@
 .header {
-    width: 100vw;
-    height: 15vh;
-    left: 5vw;
-    background-color: #181818;
-    display: flex;
-    align-items: center;
-    justify-content:first baseline;
-    position: fixed;
-    z-index: 10000000;
-    transition: left 0.3s ease;
-}
-.headerExpanded{
-    left: 15vw;
+  width: 100vw;
+  height: 15vh;
+  left: 5vw;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: fixed;
+  z-index: 10000000;
+  transition: left 0.3s ease;
 }
 
-
-
+.headerExpanded {
+  left: 15vw;
+}
 
 .menu_Icon {
-    width: 5vw;
-    height: 4vh;
-    font-size: 2vw;
-    color: white;
-    cursor: pointer;
-    padding-bottom: 1vh;
-    background-color: transparent;
-    border: none;
+  width: 3vw;
+  height: 4vh;
+  font-size: 2vw;
+  color: #181818;
+  cursor: pointer;
+  padding-bottom: 1vh;
+  background-color: transparent;
+  border: none;
 }
 
 .Link_Btn {
-    display: flex;
+  display: flex;
 }
 
 .sideMenu {
-    width: 5vw;
-    height: 100vh;
-    top: 0vh;
-    position: fixed;
-    background-color: #181818;
-    border: 2px solid none;
-    padding-top: 2vw;
-    transition: width 0.3s ease;
-    z-index: 1000000;
-
-    /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
-    /* box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
-} */
+  width: 5vw;
+  height: 100vh;
+  top: 0vh;
+  position: fixed;
+  background-color: white;
+  padding-top: 2vw;
+  transition: width 0.3s ease;
+  z-index: 1000000;
 }
-.sideMenuExpanded{
-    width: 15vw !important;
 
+.sideMenuExpanded {
+  width: 15vw !important;
 }
-.sideMenuCollapsed{
-    width: 5vw !important
+
+.sideMenuCollapsed {
+  width: 5vw !important;
 }
 
 .logo {
-    
-    display: flex;
-    width: 15vw;
-    height: 15vh;
-    justify-content: center;
-    align-items: center;
-    color: white;
+  display: flex;
+  width: 15vw;
+  height: 15vh;
+  justify-content: center;
+  align-items: center;
+  color: #181818;
 }
 
-
 .logoImg {
-    height: 8vh;
-
+  height: 8vh;
 }
 
 .sidebar_Icon {
-    width: 4vw;
-    height: 4vh;
+  width: 3vw;
+  height: 4vh;
 }
 
 .LinkBtn {
-    display: flex;
-    flex-direction: row;
-    color: white;
-    text-decoration: none;
-    list-style: none;
+  display: flex;
+  flex-direction: row;
+  color: #181818;
+  text-decoration: none;
+  list-style: none;
+}
 
+.LinkBtnExpanded {
+  width: 15vw !important;
 }
-.LinkBtnExpanded{
-    width: 15vw !important;
-}
-.LinkBtnCollapsed{
-  width: 5vw;
+
+.LinkBtnCollapsed {
+  width: 4vw;
 }
 
 .sideMenulist {
-    width: 5vw;
-    height: 6vh;
-    color: white;
-    cursor: pointer;
-    margin-top: 5vh;
-    display: flex;
-    align-items: center;
-    transition-duration: 1s ease;
-    border: none;
-    border-radius: 10px;
+  width: 3vw;
+  height: 2vh;
+  color: #181818;
+  cursor: pointer;
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  transition-duration: 1s ease;
+  border: none;
+  border-radius: 10px;
 }
 
-.sideMenulistExpanded{
-    width: 15vw;
-}
-.sideMenulistCollapsed{
-    width: 5vw;
+.sideMenulistExpanded {
+  width: 15vw;
 }
 
+.sideMenulistCollapsed {
+  width: 5vw;
+}
 
 .linkHeading {
-    display: none;
-    font-size: 16px;
-    margin-left: .5vw;
- 
+  display: none;
+  font-size: 16px;
+  margin-left: 0.5vw;
 }
-.linkHeadingExpanded{
-    display: block;
+
+.linkHeadingExpanded {
+  display: block;
 }
-/* .linkHeadingCollapsed{
-    display: none
-} */
 
 .sideMenulist:hover {
-    background-color: #3db166;
-    color:#181818 ;
-
+  background-color: #3db166;
+  color: #181818;
 }
 
-.profile{
-    width: 12vw;
-    height: 15vh;
-    color: white;
-    cursor: pointer;
-    margin-left: 4vw ;
-    display: flex;
-    align-items: center;
-    padding: 2vh;
-
+.profile {
+  width: 12vw;
+  height: 15vh;
+  color: white;
+  cursor: pointer;
+  margin-left: 4vw;
+  display: flex;
+  align-items: center;
+  padding: 2vh;
 }
-.userIcon{
-    width: 3vw;
-    height: 5vh;
-    padding: auto;
+
+.userIcon {
+  width: 3vw;
+  height: 5vh;
 }

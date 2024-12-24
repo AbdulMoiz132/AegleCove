@@ -14,6 +14,11 @@ import SymptomAnalyzer from './pages/SymptomAnalyzer.jsx'
 // import DashCard from './components/DashCard.jsx';
 import Diseases from './pages/Diseases.jsx'
 import AboutUs from './pages/AboutUs.jsx'
+import MedicineDetails from './pages/MedicineDetails.jsx'
+import SymptomForm from './components/SymptomForm.jsx'
+import MedicalRecordForm from './components/MedicalRecordForm.jsx'
+import MedicalRecords from './pages/MedicalRecords.jsx'
+import Profile from './pages/Profile.jsx'
 
 function App() {
   return (
@@ -23,7 +28,6 @@ function App() {
         <Route path="/signup" element={<Signup/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/medicines/:char" element={<Medicines />} />
-        <Route path="/medicines" element={<Medicines/>} />
         <Route path='/bmicalculator' element={<Bmi/>}/>
         <Route path="/loader" element={<Loader />} />
         <Route path="/symptomanalyzer" element={<SymptomAnalyzer />} />
@@ -35,8 +39,13 @@ function App() {
          {/* }></Route> */}
         {/* <Route path="/dashcard" element={<DashCard />} /> */}
         <Route path='/dashboard'element={<Dashboard/>}/>
-        <Route path='/diseases'element={<Diseases/>}/>
+        <Route path='/diseases/:char'element={<Diseases/>}/>
         <Route path='/aboutus' element={<AboutUs/>} />
+        <Route path='medicinesdetails/:name' element={<MedicineDetails/>}/>
+        <Route path='/symptomform' element={<SymptomForm/>}/>
+        <Route path='/medicalrecordform' element={<MedicalRecordForm/>}/>
+        <Route path='/medicalrecords' element={<MedicalRecords/>}/> 
+        <Route path='/profile' element={<Profile />}/>
       </Routes> 
     </div>
   );

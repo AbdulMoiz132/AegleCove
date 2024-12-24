@@ -1,5 +1,8 @@
 .listtype h1 {
-    padding: 1vw
+
+    padding-left: 1vw;
+    padding-top: 1vw;
+    font-size: 2vw;
 }
 
 .listtype nav {
@@ -7,7 +10,7 @@
 }
 
 .listtype1 {
-    background-color: black;
+    background-color: #181818;
     margin: .5vw;
     padding: 1vw;
     width: 30vw;

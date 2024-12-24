@@ -1,9 +1,8 @@
 import React from 'react'
 import styles from '../styles/dashcard.module.css'
 import Button from './Button'
-import useAegleCoveStore from '../store/AeglcoveStore'
+
 const DashCard = ({title}) => {
- 
 
   return (
     <div className={styles.Dash_Card}>

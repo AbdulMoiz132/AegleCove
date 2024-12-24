@@ -11,7 +11,6 @@ const LoginCradential = () => {
         } = useFormContext();
 
   return (
-    <div className={styles.container}>
     <div className={styles.name_information}>
     <label className={styles.label}>Username:</label>
     <div className={styles.wrapper}>
@@ -45,7 +44,7 @@ const LoginCradential = () => {
     </div>
     </div>
   
-    </div>
+   
     
   )
 }

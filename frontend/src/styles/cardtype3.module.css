@@ -12,7 +12,7 @@
     padding: 1vw
 }
 .cardtype3 p {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     color: white;
     padding: 1vw
 }
@@ -20,4 +20,7 @@
     font-size: 1.5vw;
     color: white;
     padding: .5vw
+}
+.mail a{
+    color: #3db166;
 }
