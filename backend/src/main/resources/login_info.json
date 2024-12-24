@@ -1,27 +1,12 @@
 {
-  "johndoe" : {
+  "MaierT" : {
     "id" : 1,
-    "username" : "johndoe",
-    "password" : "password123"
+    "username" : "MaierT",
+    "password" : "qazishb123"
   },
-  "cocomo" : {
+  "AbdulMoiz" : {
     "id" : 2,
-    "username" : "cocomo",
-    "password" : "123"
-  },
-  "mo" : {
-    "id" : 3,
-    "username" : "mo",
-    "password" : "12333"
-  },
-  "maierrr" : {
-    "id" : 5,
-    "username" : "maierrr",
-    "password" : "32421"
-  },
-  "maierr" : {
-    "id" : 6,
-    "username" : "maierr",
-    "password" : "32421"
+    "username" : "AbdulMoiz",
+    "password" : "12345678"
   }
 }

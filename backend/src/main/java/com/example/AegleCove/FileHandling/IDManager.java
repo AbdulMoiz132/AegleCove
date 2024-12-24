@@ -6,7 +6,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class IDManager{
-    private static final String Id_file_path = "D://Desktop//AegleCove//backend//src//main//resources//next_id.json" ;
+    private static final String Id_file_path = "src//main//resources//next_id.json" ;
     private final ObjectMapper objectMapper = new ObjectMapper();
 
     public long getNextUser_ID() throws IOException {

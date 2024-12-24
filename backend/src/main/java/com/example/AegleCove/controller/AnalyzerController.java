@@ -21,6 +21,7 @@ public class AnalyzerController
     }
 
     void initializeGraph() {
+        
         graph.addEdge("fever", "Flu", 7);
         graph.addEdge("fever", "Malaria", 9);
         graph.addEdge("fever", "Dengue", 8);

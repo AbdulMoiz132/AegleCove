@@ -7,7 +7,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import com.example.AegleCove.entity.Medicine;
+import com.example.AegleCove.entity.Disease;
 import com.example.AegleCove.structures.LinkedList;
+
+import com.example.AegleCove.services.DataService;
 
 @RestController
 @RequestMapping("/data")
@@ -15,27 +18,39 @@ public class DataController
 {
     LinkedList<String> medicList = new LinkedList<>();
     LinkedList<String> diseaseList = new LinkedList<>();
+    DataService dataService;
+
+    DataController()
+    {
+        dataService = new DataService();
+    }
 
     @GetMapping("/medicines")
     public LinkedList<String> getMedicines(@PathVariable char letter) 
     {
-        // TODO: Search for medicines in file with given letter and return list
+        medicList = dataService.getmedicwithLetter(letter);
         return medicList;
     }
 
     @GetMapping("/diseases")
     public LinkedList<String >getDiseases(@RequestParam char letter) 
     {
-        // TODO: Search for diseases in file with given letter and return list
+        diseaseList = dataService.getdiseasewithLetter(letter);
         return diseaseList;
     }
   
     @GetMapping("/medicines/{medicine}")
     public Medicine getMedicineInfo(@RequestParam String medicine) 
     {
-        // TODO: Search for medicine in file and return information
-        
-        return new Medicine();
+        Medicine medicineInfo = dataService.getMedicineInfo(medicine);
+        return medicineInfo;
+    }
+
+    @GetMapping("/diseases/{disease}")
+    public Disease getDiseaseInfo(@RequestParam String disease)
+    {
+        Disease diseaseInfo = dataService.getDiseaseInfo(disease);
+        return diseaseInfo;
     }
 }
 

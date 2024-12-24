@@ -19,7 +19,7 @@ public class UserController
     }
     
     @GetMapping("/{id}")
-    public User getUser(@PathVariable int id) 
+    public User getUser(@PathVariable Long id) 
     {
         User user = userService.UserInfo(id);
         return user;
@@ -37,7 +37,7 @@ public class UserController
     }
 
     @PostMapping("/delete")
-    public ResponseEntity<String> deleteUser(@PathVariable int id)
+    public ResponseEntity<String> deleteUser(@PathVariable Long id)
     {
         boolean deleted = userService.deleteUser(id);
         if (!deleted) 

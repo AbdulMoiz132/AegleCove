@@ -2,7 +2,6 @@ package com.example.AegleCove.entity;
 
 public class BodyTrack 
 {
-
     private String ibw;
     private String bmi;
     private String hipToWristRatio;
