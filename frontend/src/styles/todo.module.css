@@ -1,0 +1,121 @@
+.todos{
+    background-color:#181818 ;
+    color: white;
+    width: 50vw;
+    height: 70vh;
+    margin-bottom: 2vh;
+    border: 2px none;
+    border-radius: 10px;
+}
+
+.addtodo{   
+    width: 50vw;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border: 1px none;
+    border-radius: 10px;
+    flex-direction: row;
+    margin-bottom: 1vw;
+
+}
+.addtodo input{
+    width: 40vw;
+    height: 10vh;
+    background-color:#181818;
+    margin-top: 1vh;
+    margin-left: 1vw;
+    outline: none;
+    border: 1px none;
+    border-radius: 10px ;
+    color: white;
+  
+
+}
+.addtodo button{
+    width: 8vw;
+    height: 10vh;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.wrapper{
+    width: 40vw;
+    display:flex;
+    flex-direction: column;
+}
+
+
+.pendingtodos{
+   
+    z-index: 10;
+    margin-bottom: 1vw;
+    overflow-y: scroll;
+    height: 20vh;
+    overflow-x: hidden;
+    scrollbar-width: 2px;
+    scroll-behavior: smooth;
+    scroll-snap-align: start;
+    scrollbar-color:   white #181818 ;
+    
+
+
+}
+.checkbox{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 10vh;
+    margin-top: 1vh;
+
+}
+.checkbox input{
+    width: 40vw;
+    display: flex;
+
+}
+.checkbox button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 10vw;
+}
+.buttonIcon{
+    display: flex;
+}
+
+label {
+    cursor: pointer;
+    font-size: 16px;
+    color:white; /* Text color */
+    width: 30vw;
+  }
+  input[type="checkbox"]{
+    width: 2vw;
+    height: 5vh;
+ 
+   
+  }
+
+
+input[type="checkbox"]:checked + label::before {
+    background-color: #4caf50; /* Green background when checked */
+    border-color: #4caf50; /* Match border with background */
+  }
+.completetodos{
+    overflow-y: scroll;
+    height: 20vh;
+    overflow-x: hidden;
+    z-index: 10;
+    scrollbar-width: 2px;
+    scroll-behavior: smooth;
+    scroll-snap-align: start;
+    scrollbar-color:   white #181818 ;
+
+}

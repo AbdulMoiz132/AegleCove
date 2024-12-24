@@ -2,3 +2,18 @@
   margin: 0;
   padding: 0;
 }
+body{
+  width: 100vw;
+  overflow-x: hidden;
+ 
+}
+
+main{
+  width: 100vw;
+}
+html{
+  width: 100vw;
+}
+::-webkit-scrollbar-corner{
+  width: .5vw;
+}

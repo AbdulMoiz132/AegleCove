@@ -1,0 +1,139 @@
+/* Import Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.logincontainer {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  height: 100vh;
+}
+
+.formprovider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+  margin-top: 2vh;
+}
+
+.form {
+  width: 30vw;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  background-color: #fff;
+  border-radius: 8px;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin: auto;
+}
+
+.h1 {
+  font-weight: 700;
+  color: #181818;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #181818;
+  margin-bottom: 1rem;
+}
+
+.h2 {
+  font-weight: 700;
+  margin-top: 1vh;
+  color: #181818;
+}
+
+.linkto {
+  text-decoration: none;
+  color: #3db166;
+  font-size: medium;
+}
+
+.p {
+  color: #bf1650;
+  height: 2vh;
+}
+
+.hr {
+  border: 1px solid #181818;
+}
+
+.p::before {
+  display: inline;
+  font-size: 15px;
+  content: "⚠ ";
+}
+
+.input,
+.button {
+  display: block;
+  box-sizing: border-box;
+  width: 30vw;
+  height: 7vh;
+  border-radius: 4px;
+  border: 1px solid #181818;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.label {
+  height: auto;
+  width: 100%;
+  line-height: 2;
+  text-align: left;
+  display: block;
+  margin-bottom: 13px;
+  margin-top: 20px;
+  color: #181818;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.button[type="submit"],
+.input[type="submit"] {
+  background: #3db166;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  width: 25vw;
+  justify-self: center;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.button[type="submit"]:hover,
+.input[type="submit"]:hover {
+  background: #34a65f;
+}
+
+.input[type="button"]:hover {
+  transition: 0.3s all;
+}
+
+.button {
+  display: block;
+  appearance: none;
+  background: #333;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 800px) {
+  .form {
+    width: 90%;
+  }
+}

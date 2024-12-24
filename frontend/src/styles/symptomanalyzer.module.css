@@ -1,0 +1,27 @@
+
+.body h1{
+    font-size: 2.5vw;
+    color: #181818;
+    padding: 1vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.description {
+    font-size: 1.5vw;
+    color: #181818;
+    padding: 1vw;
+    font-family: 'Merriweather', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+.symptomanalyzerform{
+    
+    display: flex;
+    width: 100vw;
+    transition: right 1s ease;
+}

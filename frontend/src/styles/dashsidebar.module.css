@@ -1,0 +1,136 @@
+.header {
+  width: 100vw;
+  height: 15vh;
+  left: 5vw;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: fixed;
+  z-index: 10000000;
+  transition: left 0.3s ease;
+}
+
+.headerExpanded {
+  left: 15vw;
+}
+
+.menu_Icon {
+  width: 3vw;
+  height: 4vh;
+  font-size: 2vw;
+  color: #181818;
+  cursor: pointer;
+  padding-bottom: 1vh;
+  background-color: transparent;
+  border: none;
+}
+
+.Link_Btn {
+  display: flex;
+}
+
+.sideMenu {
+  width: 5vw;
+  height: 100vh;
+  top: 0vh;
+  position: fixed;
+  background-color: white;
+  padding-top: 2vw;
+  transition: width 0.3s ease;
+  z-index: 1000000;
+}
+
+.sideMenuExpanded {
+  width: 15vw !important;
+}
+
+.sideMenuCollapsed {
+  width: 5vw !important;
+}
+
+.logo {
+  display: flex;
+  width: 15vw;
+  height: 15vh;
+  justify-content: center;
+  align-items: center;
+  color: #181818;
+}
+
+.logoImg {
+  height: 8vh;
+}
+
+.sidebar_Icon {
+  width: 3vw;
+  height: 4vh;
+}
+
+.LinkBtn {
+  display: flex;
+  flex-direction: row;
+  color: #181818;
+  text-decoration: none;
+  list-style: none;
+}
+
+.LinkBtnExpanded {
+  width: 15vw !important;
+}
+
+.LinkBtnCollapsed {
+  width: 4vw;
+}
+
+.sideMenulist {
+  width: 3vw;
+  height: 2vh;
+  color: #181818;
+  cursor: pointer;
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  transition-duration: 1s ease;
+  border: none;
+  border-radius: 10px;
+}
+
+.sideMenulistExpanded {
+  width: 15vw;
+}
+
+.sideMenulistCollapsed {
+  width: 5vw;
+}
+
+.linkHeading {
+  display: none;
+  font-size: 16px;
+  margin-left: 0.5vw;
+}
+
+.linkHeadingExpanded {
+  display: block;
+}
+
+.sideMenulist:hover {
+  background-color: #3db166;
+  color: #181818;
+}
+
+.profile {
+  width: 12vw;
+  height: 15vh;
+  color: white;
+  cursor: pointer;
+  margin-left: 4vw;
+  display: flex;
+  align-items: center;
+  padding: 2vh;
+}
+
+.userIcon {
+  width: 3vw;
+  height: 5vh;
+}

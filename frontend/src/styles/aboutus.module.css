@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+.aboutus {
+    color: #181818;
+    font-family: 'popins', sans-serif;
+}
+.aboutus h2{
+    color: #3db166;
+    padding: 1.5vh;
+
+}
+.aboutus p{
+    padding: 2vh;
+    line-height: 2.5;
+    font-family: 'popins', sans-serif;
+}
+.plans {
+    margin-top: 1vh;
+    font-size: 1rem;
+}
+
+.intro {
+    margin: 1vh;
+    font-size: 1rem;
+    font-family: 'Merriweather', sans-serif;
+}
+li{
+    
+    padding:1vw
+}
+
