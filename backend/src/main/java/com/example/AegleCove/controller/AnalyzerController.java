@@ -2,9 +2,12 @@ package com.example.AegleCove.controller;
 import org.springframework.web.bind.annotation.*;
 
 import com.example.AegleCove.structures.SymptomDiseaseGraph;
+import com.example.AegleCove.entity.Edge;
+import com.example.AegleCove.structures.LinkedList;
+import com.example.AegleCove.structures.ListNode; 
+import com.example.AegleCove.services.DataService;
 
 import org.springframework.http.ResponseEntity;
-
 import java.util.*;
 
 
@@ -13,37 +16,25 @@ import java.util.*;
 public class AnalyzerController 
 {
     private final SymptomDiseaseGraph graph;
-
+    private DataService dataService;
     public AnalyzerController() 
     {
+        dataService = new DataService();
         this.graph = new SymptomDiseaseGraph();
         initializeGraph();
     }
 
-    void initializeGraph() {
-        
-        graph.addEdge("fever", "Flu", 7);
-        graph.addEdge("fever", "Malaria", 9);
-        graph.addEdge("fever", "Dengue", 8);
-        graph.addEdge("cough", "Flu", 8);
-        graph.addEdge("cough", "Tuberculosis", 9);
-        graph.addEdge("cough", "Pneumonia", 7);
-        graph.addEdge("headache", "Migraine", 10);
-        graph.addEdge("headache", "Dengue", 6);
-        graph.addEdge("headache", "Tension Headache", 8);
-        graph.addEdge("fatigue", "Anemia", 9);
-        graph.addEdge("fatigue", "Flu", 6);
-        graph.addEdge("fatigue", "Diabetes", 7);
-        graph.addEdge("rash", "Chickenpox", 10);
-        graph.addEdge("rash", "Measles", 8);
-        graph.addEdge("rash", "Dengue", 6);
-        graph.addEdge("chills", "Malaria", 10);
-        graph.addEdge("chills", "Flu", 7);
-        graph.addEdge("vomiting", "Food Poisoning", 10);
-        graph.addEdge("vomiting", "Dengue", 5);
-        graph.addEdge("vomiting", "Malaria", 6);
+    void initializeGraph() 
+    {
+        LinkedList<Edge> edges = dataService.getEdgeInfo();
+        ListNode<Edge> current = edges.getHeadNode();
+        while (current != null) 
+        {
+            Edge edge = current.getData();
+            graph.addEdge(edge.getSymptom(), edge.getDisease(), edge.getWeight());
+            current = current.getNext();
+        }
     }
-
 
     @PostMapping("/analyze")
     public ResponseEntity<Map<String, Integer>> analyzeSymptoms(@RequestBody List<String> symptoms) 

@@ -6,6 +6,8 @@ import { useState } from 'react';
 import Logo from '../components/Logo';
 import LoginCradential from '../components/LoginCradential';
 import Loader from '../components/Loader';
+import useAegleCoveStore from '../store/AeglcoveStore';
+import PopOut from '../components/PopOut';
 
 function Login() {
 
@@ -13,10 +15,13 @@ function Login() {
   const { isSubmitting } = methods.formState;
   const navigate = useNavigate();
   const [message, setMessage] = useState('');
+  const setUser = useAegleCoveStore((state) => state.setUser);
+
+
+
 
   const onSubmit = async (data) => {
 
-      setMessage('');
       console.log(data)
       const response = await fetch('http://localhost:8080/auth/signin', {
         method: 'POST',
@@ -26,13 +31,18 @@ function Login() {
         body: JSON.stringify(data),
       });
       if (!response.ok) {
-        setMessage('Invalid');
+        const err = await response.json();
+        setMessage(err.message);
         throw new Error(response.statusText);
+       
       }
-      setMessage('Login Successfully');
+      const result = await response.json();
+      console.log(result);
+      setUser(result);
+      console.log(user);
+      <PopOut title="Login Successfull"  />;
       setTimeout(() => {
-        setMessage('');
-        navigate(`/dashboard/${data.username}`)
+        navigate(`/dashboard/my`);
       }, 1000);
     };
 
@@ -47,7 +57,7 @@ function Login() {
 
           <button type="submit" disabled={methods.isSubmitting} className={styles.button}>LOGIN</button>
 
-          {message && <h1 className={styles.h1}>{message}</h1>}
+          {message && <h2 className={styles.h1}>{message}</h2>}
 
           <Link to='/signup'className={styles.linkto}>I have not an account</Link>
         </form>

@@ -23,7 +23,9 @@ const OnesymptomCard = ({ text, title }) => {
       
     }}>
       <h1>{title}</h1>
-      {text}
+
+      <p style={{ color: 'white' }}>{text}</p>
+
   </div>
   )
 }

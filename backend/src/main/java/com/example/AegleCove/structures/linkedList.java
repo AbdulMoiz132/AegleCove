@@ -3,42 +3,20 @@ package com.example.AegleCove.structures;
 import com.example.AegleCove.entity.User;
 import com.fasterxml.jackson.annotation.JsonValue;
 
-class Node<T>
-{
-    T data;
-    Node<T> next;
-
-    Node(T data)
-    {
-        this.data = data;
-        this.next = null;
-    }
-    
-    public T getData() 
-    {
-        return data;
-    }
-
-    public Node<T> getNext() 
-    {
-        return next;
-    }
-}
-
 public class LinkedList<T> 
 {
-    Node<T> head;
+    private ListNode<T> head;
 
     public void append(T data)
     {
-        Node<T> newNode = new Node<T>(data);
+        ListNode<T> newNode = new ListNode<T>(data);
         if(head == null)
         {
             head = newNode;
         }
         else
         {
-            Node<T> temp = head;
+            ListNode<T> temp = head;
             while(temp.next != null)
             {
                 temp = temp.next;
@@ -59,7 +37,7 @@ public class LinkedList<T>
         }
         else
         {
-            Node<T> temp = head;
+            ListNode<T> temp = head;
             while(temp.next != null)
             {
                 if(temp.next.data == data)
@@ -102,7 +80,7 @@ public class LinkedList<T>
         }
         else
         {
-            Node<T> temp = head;
+            ListNode<T> temp = head;
             while(temp.next.next != null)
             {
                 temp = temp.next;
@@ -120,7 +98,7 @@ public class LinkedList<T>
 
     public T find(String data)
     {
-        Node<T> temp = head;
+        ListNode<T> temp = head;
         while(temp != null)
         {
             if(temp.data instanceof User)
@@ -151,7 +129,7 @@ public class LinkedList<T>
         {
             return null;
         }
-        Node<T> temp = head;
+        ListNode<T> temp = head;
         while(temp.next != null)
         {
             temp = temp.next;
@@ -162,7 +140,7 @@ public class LinkedList<T>
 
     public void display()
     {
-        Node<T> temp = head;
+        ListNode<T> temp = head;
         while(temp != null)
         {
             System.out.print(temp.data + " ");
@@ -177,7 +155,7 @@ public class LinkedList<T>
     {
         int size = getSize();
         Object[] result = new Object[size];
-        Node<T> temp = head;
+        ListNode<T> temp = head;
         int index = 0;
         while (temp != null) 
         {
@@ -190,13 +168,17 @@ public class LinkedList<T>
     private int getSize() 
     {
         int count = 0;
-        Node<T> temp = head;
+        ListNode<T> temp = head;
         while (temp != null) 
         {
             count++;
             temp = temp.next;
         }
         return count;
+    }
+
+    public ListNode<T> getHeadNode() {
+        return head;
     }
 }
 

@@ -13,36 +13,15 @@ const Medicines = () =>
   const medicines = useAegleCoveStore((state)=>state.medicines)
   const setMedicines = useAegleCoveStore((state)=>state.setMedicines)
   const { char } = useParams();
-  const medicineslist = [
-    "Aspirin",
-    "Amoxil",
-    "Augmentin",
-    "Ansaid",
-    "Azomax",
-    "Amlor",
-    "Alp",
-    "Ascard",
-    "Ativan",
-    "Aerius",
-    "Anexate",
-    "Avamys",
-    "Avarin",
-    "Azithral",
-    "Acefyl",
-    "Aeri-Tab",
-    "Avastin",
-    "Atarax",
-    "Aloxi",
-    "Arinac"
-  ];
-  
+
 
 
   const fetchMedicines = async () => {
       
-        setMedicines(medicineslist);
-        const response = await fetch(`https://example.com/api/medicine/${char}`);
+        setMedicines([]);
+        const response = await fetch(`http:localhost:8080/data/medicines/${char}`);
         if (!response.ok){ 
+          
           
           throw new Error('Failed to fetch medicines'); 
         }
@@ -56,16 +35,16 @@ const Medicines = () =>
 
   const handleSearch = (e) => {
     if (e.target.value === "") {
-      setMedicines(medicineslist); 
+      setMedicines(medicines); 
     } else {
-      setMedicines(searchItems(e.target.value,medicineslist));
+      setMedicines(searchItems(e.target.value,medicines));
     }
   }
 
   return (
   <div className={Styles.medicinespage}>
          <Logo/>
-         <h1>Medicines A to Z</h1> 
+         
       <div className={Styles.container}>
       <Charul page='medicines' char={char} />
         <div className={Styles.sectionA}>

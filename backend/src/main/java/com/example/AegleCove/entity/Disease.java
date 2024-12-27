@@ -1,54 +1,34 @@
 package com.example.AegleCove.entity;
 
-public class Disease 
-{
-    String name;
-    String description;
-    String symptoms;
-    String treatment;
-    String prevention;
-    
-    public Disease()
-    { 
-      
-    }
-    
-    public Disease(String name, String description, String symptoms, String treatment, String prevention)
-    {
+public class Disease implements Comparable<Disease> {
+    private Long id;
+    private String name;
+
+    public Disease() {}
+
+    public Disease(Long id, String name) {
+        this.id = id;
         this.name = name;
-        this.description = description;
-        this.symptoms = symptoms;
-        this.treatment = treatment;
-        this.prevention = prevention;
     }
 
-    public String getName()
-    {
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
         return name;
     }
 
-    public String getDescription()
-    {
-        return description;
-    }
-
-    public String getSymptoms()
-    {
-        return symptoms;
-    }
-
-    public String getTreatment()
-    {
-        return treatment;
-    }
-
-    public String getPrevention()
-    {
-        return prevention;
-    }
-
-    public void setName(String name)
-    {
+    public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public int compareTo(Disease other) {
+        return this.id.compareTo(other.getId());
     }
 }

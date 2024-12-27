@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from '../styles/dashsidebar.module.css'
-import { Link } from 'react-router-dom'
 import { AiOutlineMenuUnfold } from "react-icons/ai";
 import { AiOutlineMenuFold } from "react-icons/ai";
 import { FaCircleUser } from 'react-icons/fa6';
@@ -23,7 +22,7 @@ const DashHeader = ({showMenu ,handleonclick}) => {
         </button>
       )}
         <div className={styles.logo}>
-          <img src='images/logo2.png' className={styles.logoImg}></img>
+          
           <h2>AegleCove</h2>
         </div>
         <SearchBar/>

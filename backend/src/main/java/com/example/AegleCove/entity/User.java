@@ -18,8 +18,7 @@ public class User
     private String email;
     private String weight;
     private String height;
-    private BodyTrack bodyTrack;
-    private LinkedList<String> medical_history;
+    private LinkedList<Record> medical_history;
     private Stack<String> taskListCompleted;
     private Queue<String> taskListPending;
 
@@ -45,7 +44,6 @@ public class User
         this.contact = contact;
         this.email = email;
     }
-
 
     public Long getId()
     {
@@ -167,26 +165,16 @@ public class User
         this.height = height;
     }
 
-    public LinkedList<String> getMedical_history()
+    public LinkedList<Record> getMedical_history()
     {
         return medical_history;
     }
 
-    public void setMedical_history(LinkedList<String> medical_history)
+    public void setMedical_history(LinkedList<Record> medical_history)
     {
         this.medical_history = medical_history;
     }
-
-    public BodyTrack getBodyTrack()
-    {
-        return bodyTrack;
-    }
-
-    public void setBodyTrack(BodyTrack bodyTrack)
-    {
-        this.bodyTrack = bodyTrack;
-    }
-
+    
     public Stack<String> getTaskListCompleted()
     {
         return taskListCompleted;

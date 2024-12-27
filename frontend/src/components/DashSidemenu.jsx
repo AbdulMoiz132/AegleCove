@@ -36,7 +36,7 @@ const logout=async()=>{
   return (
     <div className={styles.container}>
       <div className={sideMenu}>
-        <Link to='/dashboard' className={LinkBtn}><li className={sideMenulist}><IoHome className={styles.sidebar_Icon} /><h2 className={linkHeading}>Dashboard</h2></li></Link>
+        <Link to='/dashboard/my' className={LinkBtn}><li className={sideMenulist}><IoHome className={styles.sidebar_Icon} /><h2 className={linkHeading}>Dashboard</h2></li></Link>
         <Link to='dashboard/medicines' className={LinkBtn}><li className={sideMenulist}><GiMedicines className={styles.sidebar_Icon} /><h2 className={linkHeading}>Medicines</h2></li></Link>
         <Link to='dashboard/dieases' className={LinkBtn}><li className={sideMenulist}><RiHealthBookFill className={styles.sidebar_Icon} /><h2 className={linkHeading}>Dieases & Conditions</h2></li></Link>
         <Link to='dashboard/symptomanalyzer' className={LinkBtn}><li className={sideMenulist}>< TbAnalyzeFilled className={styles.sidebar_Icon} /><h2 className={linkHeading}>Symptom Analyzer</h2></li></Link>

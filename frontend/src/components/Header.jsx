@@ -20,9 +20,10 @@ const Header = () => {
             <div className={styles.upperheader}>
                 <Link to="/" className={styles.link}>
                     <img src="/images/logo2.png" className={styles.logoimg} alt="Logo" />
-                    AEGLECOVE
                 </Link>
+                <div className={styles.searchbardiv}>
                 <SearchBar />
+                </div>
             </div>
             <nav className={styles.lowerheader}>
                 <ul className={styles.ul}>

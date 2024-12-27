@@ -9,19 +9,15 @@ import "react-phone-number-input/style.css";
 import LoginCradential from '../components/LoginCradential';
 import ContactInformation from '../components/ContactInformation';
 import PersonalInformation from '../components/PersonalInformation';
-import useAegleCoveStore from '../store/AeglcoveStore';
+
 
 function Signup() {
   const methods = useForm();
   const { isSubmitting } = methods.formState;
   const [message, setMessage] = useState('');
   const navigate = useNavigate();
-  const signup = useAegleCoveStore((state) => state.setUser);
-  const data1  = useAegleCoveStore((state)=>state.user);
   const onSubmit = async (data) => {
-
     console.log(data);
-    try {
       setMessage('');
       const response = await fetch('http://localhost:8080/auth/signup', {
         method: 'POST',
@@ -31,22 +27,19 @@ function Signup() {
         body: JSON.stringify(data),
       })
       if (!response.ok) {
-        setMessage(Error.message)
+        const err = await response.json();
+        setMessage(err.message);
         throw new Error('Network not responding');
+       
       }
       const result = await response.json();
-      signup(result);
-      console.log(data1);
       console.log(result);
-      setMessage('Signup Successfully');
+      <PopOut title="Signup Successfull"  />;
       setTimeout(() => {
-        setMessage('')
         navigate('/login')
       }, 1000);
       
-    } catch (error) {
-      setMessage('Signup Failed')
-    }
+    
   }
 
   return (
@@ -66,7 +59,7 @@ function Signup() {
           <h2 className={styles.h2}>Login Credentials</h2>
           <LoginCradential />
           <button type="submit" disabled={methods.isSubmitting} className={styles.button}>Signup</button>
-          {message && <h1 className={styles.h1}>{message}</h1>}
+          {message && <h2 className={styles.h2}>{message}</h2>}
           <Link to='/login' className={styles.linkto}>I have an account</Link>
         </form>
       </FormProvider>

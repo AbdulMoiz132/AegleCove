@@ -14,16 +14,17 @@ const Diseases = () =>
 
 
   const fetchDiseases = async () => {
-    if (char) {
+  
       setDiseases([]);
-      const response = await fetch(`https://example.com/api/medicine/${char}`);
+      const response = await fetch(`http:localhost:8080/diseases/${char}`);
       if (!response.ok){ 
+
         throw new Error('Failed to fetch medicines');
-        setDiseases();
+        
       }
       const data = await response.json();
       setDiseases(data);
-    }
+    
   }
   useEffect(() => {
     

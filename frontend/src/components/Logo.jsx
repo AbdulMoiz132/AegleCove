@@ -2,16 +2,15 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import styles from '../styles/logo.module.css'
 
-const Logo = (props) => {
+const Logo = () => {
   return (
+    <div className={styles.logo}>
     <div className={styles.head}>
-        <Link to='/' className={styles.link}><img src='/images/logo2.png' alt='sham' className={styles.img}></img>AEGLECOVE</Link>
-        <div className={styles.righthalf}>  
-        {props.title&&<h1>{props.title}</h1>}
-        {props.src&&<img src={props.src}></img>}
-        
-</div>
+        <Link to='/' className={styles.link}><img src='/images/logo2.png' alt='AegleCove' className={styles.img}></img></Link>       
   </div>
+  <hr className={styles.hr}/>
+  </div>
+ 
   )
 
 }

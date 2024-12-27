@@ -4,12 +4,12 @@ import org.springframework.stereotype.Service;
 
 import com.example.AegleCove.entity.User;
 import com.example.AegleCove.FileHandling.FileHandler;
+import com.example.AegleCove.structures.HashMap;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.File;
-import java.util.Map;
 import java.io.IOException;
 
 
@@ -29,12 +29,12 @@ public class UserService
          File file = new File(login_file);
 
         try{
-            Map<String,User> logins = objectMapper.readValue(file, new TypeReference<Map<String,User>>(){});
+            HashMap<String,User> logins = objectMapper.readValue(file, new TypeReference<HashMap<String,User>>(){});
 
-            for(Map.Entry<String,User> entry : logins.entrySet()){
+            for (HashMap.Entry<String, User> entry : logins.entrySet()) {
                 User user = entry.getValue();
 
-                if(user.getUsername().equals(username) && user.getPassword().equals(password)){
+                if (user.getUsername().equals(username) && user.getPassword().equals(password)) {
                     return String.valueOf(user.getId());
                 }
             }
@@ -61,7 +61,7 @@ public class UserService
         File file = new File(user_data_file);
 
         try{
-            Map<Long,User> user_data = objectMapper.readValue(file, new TypeReference<Map<Long,User>>() {} );
+            HashMap<Long,User> user_data = objectMapper.readValue(file, new TypeReference<HashMap<Long,User>>() {} );
             
             if(user_data.containsKey(id)){
                 return user_data.get(id);
@@ -83,7 +83,7 @@ public class UserService
         File file = new File(user_data_file);
 
         try{
-            Map<Long,User> user_data = objectMapper.readValue(file, new TypeReference<Map<Long,User>>(){});
+            HashMap<Long,User> user_data = objectMapper.readValue(file, new TypeReference<HashMap<Long,User>>(){});
 
             if(user_data.containsKey(entry.getId())){
 
@@ -108,7 +108,7 @@ public class UserService
         File file = new File(user_data_file);
 
         try{
-            Map<Long,User> user_data = objectMapper.readValue(file, new TypeReference<Map<Long,User>>(){});
+            HashMap<Long,User> user_data = objectMapper.readValue(file, new TypeReference<HashMap<Long,User>>(){});
 
             if(user_data.containsKey(id)){
                 user_data.remove(id);
