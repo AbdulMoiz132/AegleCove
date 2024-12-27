@@ -1,6 +1,7 @@
 package com.example.AegleCove.services;
 
 import org.springframework.stereotype.Service;
+
 import com.example.AegleCove.entity.User;
 import com.example.AegleCove.FileHandling.FileHandler;
 
@@ -18,7 +19,10 @@ public class UserService
     FileHandler file1 = new FileHandler();
 
     private static final String login_file = "D://Desktop//AegleCove//backend//src//main//resources//login_info.json";
+    private static final String user_data_file = "D://Desktop//AegleCove//backend//src//main//resources//user_data.json";
     private final ObjectMapper objectMapper = new ObjectMapper();
+
+
 
     public String authenticate(String username, String password) 
     {
@@ -42,28 +46,85 @@ public class UserService
         }
     }
 
+
+
     public boolean register(User entry) throws IOException 
     {
         boolean valid = file1.saveUser(entry);
         return valid;
     }
 
-    public User UserInfo(int id) 
+
+
+    public User UserInfo(Long id) 
     {
-        //TODO: Read from file and return user info
-        return new User();
+        File file = new File(user_data_file);
+
+        try{
+            Map<Long,User> user_data = objectMapper.readValue(file, new TypeReference<Map<Long,User>>() {} );
+            
+            if(user_data.containsKey(id)){
+                return user_data.get(id);
+            }
+            else{
+                return null;
+            }               
+          }
+
+          catch(IOException e){
+            System.err.println("Error encountered while retrieving user info "+e.getMessage());
+            return null;
+          }
     }
+
 
     public boolean updateInfo(User entry) 
     {
-        //TODO: Read from file, update and write back
-        return true;
+        File file = new File(user_data_file);
+
+        try{
+            Map<Long,User> user_data = objectMapper.readValue(file, new TypeReference<Map<Long,User>>(){});
+
+            if(user_data.containsKey(entry.getId())){
+
+                user_data.put(entry.getId(), entry);
+                objectMapper.writeValue(file,user_data);
+
+                return true;
+            }
+            else{
+                System.err.println("The user with Id "+entry.getId()+" does not exist");
+                return false;
+            }
+        }
+        catch(IOException e){
+            System.err.println("Error whilst updating user info:"+e.getMessage());
+            return false;
+        }
     }
 
-    public boolean deleteUser(int id) 
+    public boolean deleteUser(Long id) 
     {
-        //TODO: Read from file, delete and write back
-        return true;
+        File file = new File(user_data_file);
+
+        try{
+            Map<Long,User> user_data = objectMapper.readValue(file, new TypeReference<Map<Long,User>>(){});
+
+            if(user_data.containsKey(id)){
+                user_data.remove(id);
+                objectMapper.writeValue(file,user_data);
+
+                return true;
+            }
+            else{
+                System.err.println("User with Id "+id+"not found");
+                return false;
+            }
+        }
+        catch(IOException e){
+            System.err.println("Error whilst deleting the user"+e.getMessage());
+            return false;
+        }
     }
 }
 
