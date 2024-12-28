@@ -18,14 +18,23 @@
     "email" : "me@gmail.com"
   },
   "3" : {
-    "firstname" : "hello",
-    "lastname" : "bro",
+    "firstname" : "hllo",
+    "lastname" : "bo",
     "birthdate" : "2024-12-24",
     "gender" : "custom",
-    "address" : "changeme",
+    "address" : "chaneme",
     "contact" : "+92333633444",
     "email" : "me@gmail.com",
-    "weight" : "67",
-    "height" : "77"
+    "weight" : "68",
+    "height" : "89",
+    "medical_history" : [ {
+      "diseasename" : "AIDS",
+      "type" : "chronic",
+      "medicines" : [ "brufin", "panadol" ]
+    }, {
+      "diseasename" : "AIDS",
+      "type" : "chronic",
+      "medicines" : [ "brufin", "panadol" ]
+    } ]
   }
 }

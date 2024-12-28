@@ -15,7 +15,6 @@ import com.example.AegleCove.services.DataService;
 import com.example.AegleCove.structures.LinkedList;
 
 
-
 @RestController
 @RequestMapping("/data")
 public class DataController 

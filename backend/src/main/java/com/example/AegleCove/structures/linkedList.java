@@ -2,7 +2,15 @@ package com.example.AegleCove.structures;
 
 import com.example.AegleCove.entity.User;
 import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.core.JsonParser;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.DeserializationContext;
+import com.fasterxml.jackson.databind.JsonDeserializer;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 
+import java.io.IOException;
+
+@JsonDeserialize(using = LinkedList.LinkedListDeserializer.class)
 public class LinkedList<T> 
 {
     private ListNode<T> head;
@@ -179,6 +187,19 @@ public class LinkedList<T>
 
     public ListNode<T> getHeadNode() {
         return head;
+    }
+
+    // Custom deserializer for LinkedList
+    public static class LinkedListDeserializer extends JsonDeserializer<LinkedList<?>> {
+        @Override
+        public LinkedList<?> deserialize(JsonParser p, DeserializationContext ctxt) throws IOException, JsonProcessingException {
+            LinkedList<Object> list = new LinkedList<>();
+            Object[] items = p.readValueAs(Object[].class);
+            for (Object item : items) {
+                list.append(item);
+            }
+            return list;
+        }
     }
 }
 

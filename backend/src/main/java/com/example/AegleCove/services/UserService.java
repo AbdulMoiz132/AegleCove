@@ -60,9 +60,12 @@ public class UserService
         try {
             HashMap<Long, User> user_data = objectMapper.readValue(file, new TypeReference<HashMap<Long, User>>() {});
             
-            if (user_data.containsKey(id)) {
+            if (user_data.containsKey(id)) 
+            {
                 return user_data.get(id);
-            } else {
+            } 
+            else 
+            {
                 return null;
             }               
         } catch (IOException e) {
@@ -71,51 +74,67 @@ public class UserService
         }
     }
 
-    public boolean updateInfo(User entry) 
-    {
+    public boolean updateInfo(User entry) {
         File userFile = new File(user_data_file);
         File loginFile = new File(login_data_file);
-
+    
         try {
+            // Load user data from file
             HashMap<Long, User> user_data = objectMapper.readValue(userFile, new TypeReference<HashMap<Long, User>>() {});
-            
-            if (user_data.containsKey(entry.getId())) {
-                User existingUser = user_data.get(entry.getId());
-
-                existingUser.setFirstname(entry.getFirstname()); 
-                existingUser.setLastname(entry.getLastname()); 
-                existingUser.setBirthdate(entry.getBirthdate()); 
-                existingUser.setGender(entry.getGender()); 
-                existingUser.setAddress(entry.getAddress()); 
-                existingUser.setContact(entry.getContact()); 
-                existingUser.setEmail(entry.getEmail()); 
-                existingUser.setWeight(entry.getWeight()); 
-                existingUser.setHeight(entry.getHeight()); 
-
-                user_data.put(entry.getId(), existingUser);
-                objectMapper.writerWithDefaultPrettyPrinter().writeValue(userFile, user_data);
-
-                HashMap<String, User> login_data = objectMapper.readValue(loginFile, new TypeReference<HashMap<String, User>>() {});
-
-                if (login_data.containsKey(entry.getUsername())) {
-                    User loginInfo = login_data.get(entry.getUsername());
-                    loginInfo.setPassword(entry.getPassword()); 
-                    login_data.put(entry.getUsername(), loginInfo);
-                    objectMapper.writerWithDefaultPrettyPrinter().writeValue(loginFile, login_data);
-                    return true;  
-                } else {
-                    System.err.println("The user with username " + entry.getUsername() + " does not exist in login data.");
-                    return false;  // Indicate failure
-                }
-            } else {
-                System.err.println("The user with Id " + entry.getId() + " does not exist in user data.");
+            System.out.println("Loaded User Data: " + user_data);
+    
+            // Validate if the user ID exists
+            if (!user_data.containsKey(entry.getId())) {
+                System.err.println("User with ID " + entry.getId() + " does not exist in user data.");
                 return false;
             }
+    
+            // Update user data
+            User existingUser = user_data.get(entry.getId());
+            updateUserDetails(existingUser, entry); // Update all relevant fields
+            user_data.put(entry.getId(), existingUser);
+            objectMapper.writerWithDefaultPrettyPrinter().writeValue(userFile, user_data);
+            System.out.println("User data updated successfully for ID: " + entry.getId());
+    
+            // Load login data from file
+            HashMap<String, User> login_data = objectMapper.readValue(loginFile, new TypeReference<HashMap<String, User>>() {});
+            System.out.println("Loaded Login Data: " + login_data);
+    
+            // Validate if the username exists
+            if (!login_data.containsKey(entry.getUsername())) {
+                System.err.println("User with Username " + entry.getUsername() + " does not exist in login data.");
+                return false;
+            }
+    
+            // Update login data (e.g., password only)
+            User loginInfo = login_data.get(entry.getUsername());
+            loginInfo.setPassword(entry.getPassword()); // Update the password
+            login_data.put(entry.getUsername(), loginInfo);
+            objectMapper.writerWithDefaultPrettyPrinter().writeValue(loginFile, login_data);
+            System.out.println("Login data updated successfully for Username: " + entry.getUsername());
+    
+            return true; // Successfully updated
         } catch (IOException e) {
-            System.err.println("Error whilst updating user info: " + e.getMessage());
+            System.err.println("Error while updating user info: " + e.getMessage());
+            e.printStackTrace(); // Log stack trace for debugging
             return false;
         }
     }
+    
+    // Helper method to update all fields of a user
+    private void updateUserDetails(User existingUser, User newUser) {
+        existingUser.setFirstname(newUser.getFirstname());
+        existingUser.setLastname(newUser.getLastname());
+        existingUser.setBirthdate(newUser.getBirthdate());
+        existingUser.setGender(newUser.getGender());
+        existingUser.setAddress(newUser.getAddress());
+        existingUser.setContact(newUser.getContact());
+        existingUser.setEmail(newUser.getEmail());
+        existingUser.setWeight(newUser.getWeight());
+        existingUser.setHeight(newUser.getHeight());
+        existingUser.setMedical_history(newUser.getMedical_history());
+    }
+    
 
     public boolean deleteUser(Long id) 
     {
