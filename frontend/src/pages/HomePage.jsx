@@ -49,7 +49,6 @@ function Homepage() {
             <main>
                 <Header />
                 <hr />
-                <Feedback />
                 <div className={styles.slideContainer}>
                     <Slide
                         autoplay={true}
@@ -75,10 +74,10 @@ function Homepage() {
                         <Card title="Health A to Z" description="Find out about conditions, symptoms and treatments, including what to do and when to get help" button='Diagnose Now' link='/diseases/A' />
                     </div>
                     <div className={styles.card1}>
-                        <Card title="Medicines A to Z" description="Find out about conditions, symptoms and treatments, including what to do and when to get help" link='/medicines/a' />
+                        <Card title="Medicines A to Z" description="Find out about medicines, dosage and Sideeffects, including what to do and when to get help" button='Search here'link='/medicines/a' />
                     </div>
                     <div className={styles.card1}>
-                        <Card title="Symptom Analyzer" description="Analyze your symptoms and seek guidance for managing your condition effectively" button='Analyze Now' />
+                        <Card title="Symptom Analyzer" description="Analyze your symptoms and seek guidance for managing your condition effectively" button='Analyze Now' link='/symptomanalyzer' />
                     </div>
                 </div>
        

@@ -4,12 +4,14 @@ import { AiOutlineMenuUnfold } from "react-icons/ai";
 import { AiOutlineMenuFold } from "react-icons/ai";
 import { FaCircleUser } from 'react-icons/fa6';
 import SearchBar from './SearchBar';
-
+import useAegleCoveStore from '../store/AegleCoveStore';
+import { Link } from 'react-router-dom';
 const DashHeader = ({showMenu ,handleonclick}) => {
+  const user = useAegleCoveStore((state) => state.user);
   const header=showMenu
   ? `${styles.header} ${styles.headerExpanded}`
   : `${styles.header} ${styles.headerCollapsed}`
-  const username = 'admin'
+  const username = user.firstname
   return (
     <div className={header}>
          {!showMenu ? (
@@ -23,13 +25,15 @@ const DashHeader = ({showMenu ,handleonclick}) => {
       )}
         <div className={styles.logo}>
           
-          <h2>AegleCove</h2>
+          <Link to='/' className={styles.adminlink}><h2>AegleCove</h2></Link>
         </div>
         <SearchBar/>
         <div className={styles.profile}>
           <FaCircleUser className={styles.userIcon}/>
-          <h3>{username}</h3>
+           <Link to = '/profile' className={styles.adminlink}>
+            {username}</Link>
         </div>
+
         
       </div>
   )

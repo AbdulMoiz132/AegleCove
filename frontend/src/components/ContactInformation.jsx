@@ -32,12 +32,13 @@ const ContactInformation = () => {
         name="contact"
         control={control} // Linking React Hook Form to this field
         defaultValue=""
+        className={styles.contact}
         rules={{
           required: "Phone number is required",
          
         }}
         render={({ field  }) => (
-          <PhoneInput className={styles.input}
+          <PhoneInput className={styles.contact}
             {...field } 
             placeholder="Enter phone number"
             country="PK" 

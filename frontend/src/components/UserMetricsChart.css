@@ -1,0 +1,12 @@
+
+
+.chart-container {
+  width: 50vw; /* Set the width of the graph */
+  height: 65vh;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  background-color: #181818;
+  color: white;
+  border-radius: 5px;
+  padding: 1vw;
+  border: 1px solid #3db166;
+}

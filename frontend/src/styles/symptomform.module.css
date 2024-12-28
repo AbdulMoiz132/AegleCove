@@ -1,4 +1,4 @@
-/* Import Poppins font */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 .symptomForm {
@@ -18,9 +18,6 @@
   margin-top: 2vh;
   align-items: center;
   justify-content: flex-end;
-  position: relative;
-  left: 20%;
-  
 }
 .formTitle{
   text-decoration: underline;

@@ -17,7 +17,7 @@
 .card h1 {
     text-align: center;
     color:white;
-    margin-top: 4vh;
+    margin-top: 3vh;
     font-size: 20px;
     text-decoration: none;
     
@@ -25,10 +25,10 @@
 
 .cardp {
     padding: 1vw;
-    font-size: 16PX;
+    font-size: 12PX;
     font-weight: 520;
     color : white;
-    margin-top: 2vh
+    margin-top: 1vh
 }
 
 
@@ -49,12 +49,13 @@
     border-radius: 50%;
    
 }
-.button{
+.linkbutton{
     border: 1px solid #3db166;
-    width: 12vw;
+    width: 15vw;
     color: #3db166;
     border-radius: 3px;
-    margin-bottom: 5vh;
+    margin-bottom: 1vh;
+    
 }
 .span{
     display: flex;

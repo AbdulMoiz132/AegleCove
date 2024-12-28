@@ -1,0 +1,56 @@
+/* Import Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.report {
+  margin-top: 2rem;
+  width: 100%;
+  min-width: 30vw;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 2rem;
+}
+
+.reportTitle {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #3db166;
+  text-decoration: underline;
+}
+
+.reportDescription {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #181818;
+}
+
+.reportList {
+  list-style-type: none;
+  padding: 0;
+}
+.reportList h3{
+  margin-top: 5vh;
+  color: #3db166;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.reportItem {
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+  color: #181818;
+
+}
+.downloadButton{
+  background-color: #181818;
+  color: #3db166;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 2px;
+  font-weight: 700;
+  height: 5vh;
+  padding:1vh;
+
+}

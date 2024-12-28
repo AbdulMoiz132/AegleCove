@@ -1,0 +1,20 @@
+{
+  "1" : {
+    "firstname" : "Maier",
+    "lastname" : "Ali",
+    "birthdate" : "2024-12-24",
+    "gender" : "custom",
+    "address" : "Mall Road Khairpur",
+    "contact" : "+92333633444",
+    "email" : "maier@gmail.com"
+  },
+  "2" : {
+    "firstname" : "Abdul",
+    "lastname" : "Moiz",
+    "birthdate" : "2024-12-24",
+    "gender" : "male",
+    "address" : "Mall Road Khairpur",
+    "contact" : "+923133502069",
+    "email" : "abdulmoizmemon560@gmail.com"
+  }
+}

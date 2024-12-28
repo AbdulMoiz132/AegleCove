@@ -9,6 +9,18 @@ const PersonalInformation = () => {
         handleSubmit,
         control,
       } = useFormContext();
+
+      const validateAge = (birthdate) => {
+        const today = new Date();
+        const birthDate = new Date(birthdate);
+        const age = today.getFullYear() - birthDate.getFullYear();
+        const monthDifference = today.getMonth() - birthDate.getMonth();
+        if (monthDifference < 0 || (monthDifference === 0 && today.getDate() < birthDate.getDate())) {
+          age--;
+        }
+        return age >= 5 || "You must be at least 5 years old";
+      };
+
   return (
     <div>
      
@@ -47,6 +59,7 @@ const PersonalInformation = () => {
           placeholder="Birthdate"
           {...register("birthdate", {
             required: { value: true, message: "Birthdate is required" },
+            validate: validateAge,
           }
           )}
           type="date"

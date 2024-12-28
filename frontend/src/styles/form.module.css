@@ -78,7 +78,7 @@
   display: block;
   box-sizing: border-box;
   width: 30vw;
-  height: 7vh;
+  height: 8vh;
   border-radius: 4px;
   border: 1px solid #181818;
   padding: 10px 15px;
@@ -133,6 +133,7 @@
   border-radius: 4px;
   margin-top: 40px;
 }
+
 
 @media screen and (max-width: 800px) {
   .form {

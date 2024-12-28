@@ -1,5 +1,5 @@
 .Dash_Card{
-        width: 25vw;
+        width: 30vw;
         height: 70vh;
         margin-bottom: 2vh;
         background-color:#181818;
@@ -10,6 +10,7 @@
         display: flex;
         flex-direction: column;
         color: white    ;
+        border: 1px solid #3db166;
        
 }
 .Dash_Card h1{
