@@ -1,12 +1,27 @@
 {
-  "MaierT" : {
+  "abmoiz12" : {
     "id" : 1,
-    "username" : "MaierT",
-    "password" : "qazishb123"
+    "username" : "abmoiz12",
+    "password" : "12345678"
   },
-  "AbdulMoiz" : {
+  "sham123" : {
     "id" : 2,
-    "username" : "AbdulMoiz",
+    "username" : "sham123",
+    "password" : "sham1234"
+  },
+  "sham.bscs23seecs" : {
+    "id" : 3,
+    "username" : "sham.bscs23seecs",
+    "password" : "12345678"
+  },
+  "soaem" : {
+    "id" : 4,
+    "username" : "soaem",
+    "password" : "12345678"
+  },
+  "shamtarani" : {
+    "id" : 5,
+    "username" : "shamtarani",
     "password" : "12345678"
   }
 }

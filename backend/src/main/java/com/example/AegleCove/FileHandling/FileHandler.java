@@ -13,8 +13,8 @@ import java.util.Map;
 
 
 public class FileHandler{
-    private static final String userdata_FILE_PATH = "src//main//resources//user_data.json";
-    private static final String login_FILE_PATH = "src//main//resources//login_info.json";
+    private static final String userdata_FILE_PATH = "C://Users//LENOVO//Desktop//project//AegleCove//backend//src//main//resources//user_data.json";
+    private static final String login_FILE_PATH = "C://Users//LENOVO//Desktop//project//AegleCove//backend//src//main//resources//login_info.json";
 
     private final ObjectMapper objectMapper = new ObjectMapper();
     private final IDManager idManager = new IDManager();

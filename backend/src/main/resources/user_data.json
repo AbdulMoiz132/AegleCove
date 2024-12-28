@@ -1,20 +1,47 @@
-{
+  {
   "1" : {
-    "firstname" : "Maier",
-    "lastname" : "Ali",
-    "birthdate" : "2024-12-24",
-    "gender" : "custom",
-    "address" : "Mall Road Khairpur",
-    "contact" : "+92333633444",
-    "email" : "maier@gmail.com"
+    "firstname" : "moiz",
+    "lastname" : "abdul",
+    "birthdate" : "2121-12-12",
+    "gender" : "male",
+    "address" : "Nust Sector H-12 Islamabad",
+    "contact" : "+923428008672",
+    "email" : "shamtarani05@gmail.com"
   },
   "2" : {
-    "firstname" : "Abdul",
-    "lastname" : "Moiz",
-    "birthdate" : "2024-12-24",
+    "firstname" : "Sham",
+    "lastname" : "Tarani",
+    "birthdate" : "2024-12-25",
     "gender" : "male",
-    "address" : "Mall Road Khairpur",
-    "contact" : "+923133502069",
-    "email" : "abdulmoizmemon560@gmail.com"
+    "address" : "Nust Sector H-12 Islamabad",
+    "contact" : "+923428008672",
+    "email" : "shamtarani05@gmail.com"
+  },
+  "3" : {
+    "firstname" : "sham",
+    "lastname" : "tarani",
+    "birthdate" : "2002-10-02",
+    "gender" : "male",
+    "address" : "kaloo",
+    "contact" : "+923341680664",
+    "email" : "shamtarani26@gmail.com"
+  },
+  "4" : {
+    "firstname" : "soaem",
+    "lastname" : "luhana",
+    "birthdate" : "1233-12-03",
+    "gender" : "male",
+    "address" : "best hostel in nust",
+    "contact" : "+92336825555555",
+    "email" : "kumarsoaem@gmail.com"
+  },
+  "5" : {
+    "firstname" : "Sham",
+    "lastname" : "Sham",
+    "birthdate" : "2017-06-28",
+    "gender" : "male",
+    "address" : "Nust Sector H-12 Islamabad",
+    "contact" : "+923428008672",
+    "email" : "shamtarani05@gmail.com"
   }
 }

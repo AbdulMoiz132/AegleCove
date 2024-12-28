@@ -18,8 +18,8 @@ public class UserService
 {
     FileHandler file1 = new FileHandler();
 
-    private static final String login_file = "src//main//resources//login_info.json";
-    private static final String user_data_file = "src//main//resources//user_data.json";
+    private static final String login_file = "C://Users//LENOVO//Desktop//project//AegleCove//backend//src//main//resources//login_info.json";
+    private static final String user_data_file = "C://Users//LENOVO//Desktop//project//AegleCove//backend//src//main//resources//user_data.json";
     private final ObjectMapper objectMapper = new ObjectMapper();
 
 
