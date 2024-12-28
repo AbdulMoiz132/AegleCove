@@ -73,7 +73,7 @@ public class UserService
     public boolean updateInfo(User entry) 
     {
         File userFile = new File(user_data_file);
-        File loginFile = new File(login_data_file);
+        File loginFile = new File(login_file);
 
         try {
             HashMap<Long, User> user_data = objectMapper.readValue(userFile, new TypeReference<HashMap<Long, User>>() {});

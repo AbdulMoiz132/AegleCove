@@ -11,26 +11,26 @@ public class DataService
 {
     public LinkedList<Medicine> getMedicinesByLetter(char letter) 
     {
-        return null;
+        return new LinkedList<Medicine>();
     }
 
     public LinkedList<Disease> getDiseasesByLetter(char letter) 
     {
-        return null;
+        return new LinkedList<Disease>();
     }
 
     public MedicineData getMedicineInfo(Long id) 
     {   
-        return null;
+        return new MedicineData();
     }
 
     public DiseaseData getDiseaseInfo(Long id) 
     {
-        return null;
+        return new DiseaseData();
     }
 
     public LinkedList<Edge> getEdgeInfo()
     {
-        return null;
+        return new LinkedList<Edge>();
     }
 }

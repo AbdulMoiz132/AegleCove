@@ -2,30 +2,32 @@
   "1" : {
     "firstname" : "Mai",
     "lastname" : "Ali",
-    "birthdate" : "2024-12-24",
-    "gender" : "custom",
+    "birthdate" : "2019-01-24",
+    "gender" : "male",
     "address" : "Bhawalpur",
     "contact" : "+92333633444",
-    "email" : "me@gmail.com"
+    "email" : "me@gmail.com",
+    "weight" : "78",
+    "height" : "67"
   },
   "2" : {
     "firstname" : "Sham",
     "lastname" : "idrees",
-    "birthdate" : "2024-12-24",
-    "gender" : "custom",
+    "birthdate" : "2018-10-23",
+    "gender" : "male",
     "address" : "kaloi",
     "contact" : "+92333633444",
-    "email" : "me@gmail.com"
+    "email" : "me@gmail.com",
+    "weight" : "76",
+    "height" : "72"
   },
   "3" : {
-    "firstname" : "hello",
-    "lastname" : "bro",
-    "birthdate" : "2024-12-24",
-    "gender" : "custom",
-    "address" : "changeme",
-    "contact" : "+92333633444",
-    "email" : "me@gmail.com",
-    "weight" : "67",
-    "height" : "77"
+    "firstname" : "Sham",
+    "lastname" : "Tarani",
+    "birthdate" : "2018-10-02",
+    "gender" : "male",
+    "address" : "Nust Sector H-12 Islamabad",
+    "contact" : "+923428008672",
+    "email" : "shamtarani05@gmail.com"
   }
 }
