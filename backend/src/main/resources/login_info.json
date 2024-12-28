@@ -1,37 +1,17 @@
 {
-  "MaierT" : {
+  "helpme" : {
     "id" : 1,
-    "username" : "MaierT",
-    "password" : "qazishb123"
-  },
-  "AbdulMoiz" : {
-    "id" : 2,
-    "username" : "AbdulMoiz",
+    "username" : "helpme",
     "password" : "12345678"
   },
-  "testing" : {
+  "test" : {
     "id" : 3,
-    "username" : "testing",
+    "username" : "test",
     "password" : "12345678"
   },
-  "shamtarani" : {
-    "id" : 4,
-    "username" : "shamtarani",
-    "password" : "sham1234"
-  },
-  "shamyaki" : {
-    "id" : 5,
-    "username" : "shamyaki",
-    "password" : "sham1234"
-  },
-  "testagain" : {
-    "id" : 6,
-    "username" : "testagain",
+  "shamtest" : {
+    "id" : 2,
+    "username" : "shamtest",
     "password" : "12345678"
-  },
-  "Price" : {
-    "id" : 7,
-    "username" : "Price",
-    "password" : "road123456"
   }
 }

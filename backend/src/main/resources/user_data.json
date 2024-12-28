@@ -1,65 +1,31 @@
 {
   "1" : {
-    "firstname" : "Maier",
+    "firstname" : "Mai",
     "lastname" : "Ali",
     "birthdate" : "2024-12-24",
     "gender" : "custom",
-    "address" : "Mall Road Khairpur",
+    "address" : "Bhawalpur",
     "contact" : "+92333633444",
-    "email" : "maier@gmail.com"
+    "email" : "me@gmail.com"
   },
   "2" : {
-    "firstname" : "Abdul",
-    "lastname" : "Moiz",
-    "birthdate" : "2024-12-24",
-    "gender" : "male",
-    "address" : "Mall Road Khairpur",
-    "contact" : "+923133502069",
-    "email" : "abdulmoizmemon560@gmail.com"
-  },
-  "3" : {
-    "firstname" : "testing",
-    "lastname" : "bro",
-    "birthdate" : "2024-12-24",
-    "gender" : "male",
-    "address" : "Mall Road Khairpur",
-    "contact" : "+923133502069",
-    "email" : "abdulmoizmemon560@gmail.com"
-  },
-  "4" : {
-    "firstname" : "sham",
-    "lastname" : "tarani",
-    "birthdate" : "2024-12-25",
-    "gender" : "male",
-    "address" : "Nust",
-    "contact" : "+92333633444",
-    "email" : "freefiremeri208@gmail.com"
-  },
-  "5" : {
-    "firstname" : "sham",
-    "lastname" : "yaki",
-    "birthdate" : "2024-12-25",
-    "gender" : "male",
-    "address" : "Nust",
-    "contact" : "+92333633444",
-    "email" : "freefiremeri208@gmail.com"
-  },
-  "6" : {
-    "firstname" : "test",
-    "lastname" : "me",
-    "birthdate" : "2024-12-03",
-    "gender" : "male",
-    "address" : "Mall Road Khairpur",
-    "contact" : "+92333633444",
-    "email" : "rmshoaibmalik@gmail.com"
-  },
-  "7" : {
-    "firstname" : "Maier",
-    "lastname" : "Ali",
+    "firstname" : "Sham",
+    "lastname" : "idrees",
     "birthdate" : "2024-12-24",
     "gender" : "custom",
-    "address" : "Mall Road Bhawalpur",
+    "address" : "kaloi",
     "contact" : "+92333633444",
-    "email" : "maier@gmail.com"
+    "email" : "me@gmail.com"
+  },
+  "3" : {
+    "firstname" : "hello",
+    "lastname" : "bro",
+    "birthdate" : "2024-12-24",
+    "gender" : "custom",
+    "address" : "changeme",
+    "contact" : "+92333633444",
+    "email" : "me@gmail.com",
+    "weight" : "67",
+    "height" : "77"
   }
 }
