@@ -1,8 +1,7 @@
 package com.example.AegleCove.entity;
 
 import com.example.AegleCove.structures.LinkedList;
-import com.example.AegleCove.structures.Stack;
-import com.example.AegleCove.structures.Queue;
+
 
 public class User 
 {
@@ -19,8 +18,7 @@ public class User
     private String weight;
     private String height;
     private LinkedList<Record> medical_history;
-    private Stack<String> taskListCompleted;
-    private Queue<String> taskListPending;
+ 
 
     public User()
     {
@@ -175,25 +173,7 @@ public class User
         this.medical_history = medical_history;
     }
     
-    public Stack<String> getTaskListCompleted()
-    {
-        return taskListCompleted;
-    }
-
-    public void setTaskListCompleted(Stack<String> taskListCompleted)
-    {
-        this.taskListCompleted = taskListCompleted;
-    }
-
-    public Queue<String> getTaskListPending()
-    {
-        return taskListPending;
-    }
-
-    public void setTaskListPending(Queue<String> taskListPending)
-    {
-        this.taskListPending = taskListPending;
-    }
+    
 }
 
 

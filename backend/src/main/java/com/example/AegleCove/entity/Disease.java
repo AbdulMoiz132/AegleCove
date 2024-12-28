@@ -1,6 +1,6 @@
 package com.example.AegleCove.entity;
 
-public class Disease implements Comparable<Disease> {
+public class Disease implements Identifiable, Comparable<Disease> {
     private Long id;
     private String name;
 
