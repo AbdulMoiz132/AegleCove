@@ -3,9 +3,9 @@ import styles from '../styles/dashsidebar.module.css'
 import { AiOutlineMenuUnfold } from "react-icons/ai";
 import { AiOutlineMenuFold } from "react-icons/ai";
 import { FaCircleUser } from 'react-icons/fa6';
-import SearchBar from './SearchBar';
 import useAegleCoveStore from '../store/AegleCoveStore';
 import { Link } from 'react-router-dom';
+import GlobalSearchBar from './GlobalSearchBar';
 const DashHeader = ({showMenu ,handleonclick}) => {
   const user = useAegleCoveStore((state) => state.user);
   const header=showMenu
@@ -27,7 +27,7 @@ const DashHeader = ({showMenu ,handleonclick}) => {
           
           <Link to='/' className={styles.adminlink}><h2>AegleCove</h2></Link>
         </div>
-        <SearchBar/>
+        <GlobalSearchBar/>
         <div className={styles.profile}>
           <FaCircleUser className={styles.userIcon}/>
            <Link to = '/profile' className={styles.adminlink}>

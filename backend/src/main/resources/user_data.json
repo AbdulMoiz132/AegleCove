@@ -1,20 +1,31 @@
 {
   "1" : {
-    "firstname" : "Maier",
+    "firstname" : "Mai",
     "lastname" : "Ali",
     "birthdate" : "2024-12-24",
     "gender" : "custom",
-    "address" : "Mall Road Khairpur",
+    "address" : "Bhawalpur",
     "contact" : "+92333633444",
-    "email" : "maier@gmail.com"
+    "email" : "me@gmail.com"
   },
   "2" : {
-    "firstname" : "Abdul",
-    "lastname" : "Moiz",
+    "firstname" : "Sham",
+    "lastname" : "idrees",
     "birthdate" : "2024-12-24",
-    "gender" : "male",
-    "address" : "Mall Road Khairpur",
-    "contact" : "+923133502069",
-    "email" : "abdulmoizmemon560@gmail.com"
+    "gender" : "custom",
+    "address" : "kaloi",
+    "contact" : "+92333633444",
+    "email" : "me@gmail.com"
+  },
+  "3" : {
+    "firstname" : "hello",
+    "lastname" : "bro",
+    "birthdate" : "2024-12-24",
+    "gender" : "custom",
+    "address" : "changeme",
+    "contact" : "+92333633444",
+    "email" : "me@gmail.com",
+    "weight" : "67",
+    "height" : "77"
   }
 }

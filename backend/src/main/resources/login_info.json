@@ -1,12 +1,17 @@
 {
-  "MaierT" : {
+  "helpme" : {
     "id" : 1,
-    "username" : "MaierT",
-    "password" : "qazishb123"
+    "username" : "helpme",
+    "password" : "12345678"
   },
-  "AbdulMoiz" : {
+  "test" : {
+    "id" : 3,
+    "username" : "test",
+    "password" : "12345678"
+  },
+  "shamtest" : {
     "id" : 2,
-    "username" : "AbdulMoiz",
+    "username" : "shamtest",
     "password" : "12345678"
   }
 }

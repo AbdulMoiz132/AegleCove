@@ -1,13 +1,12 @@
 package com.example.AegleCove.structures;
 
 import java.util.HashMap;
-import java.util.Map;
 
 public class GraphNode 
 {
     
-    public String name; // Symptom or Disease name
-    public Map<GraphNode, Integer> neighbors; // Adjacent nodes and edge weights
+    public String name;
+    public HashMap<GraphNode, Integer> neighbors; 
 
     public GraphNode(String name) 
     {

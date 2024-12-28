@@ -1,34 +1,36 @@
 package com.example.AegleCove.services;
 
 import com.example.AegleCove.entity.Disease;
-import com.example.AegleCove.structures.LinkedList;
 import com.example.AegleCove.entity.Medicine;
+import com.example.AegleCove.entity.Edge;
+import com.example.AegleCove.entity.MedicineData;
+import com.example.AegleCove.entity.DiseaseData;
+import com.example.AegleCove.structures.LinkedList;
 
 public class DataService 
 {
-    public LinkedList<String> data = new LinkedList<String>();
-
-    public LinkedList<String> getmedicwithLetter(char letter)
+    public LinkedList<Medicine> getMedicinesByLetter(char letter) 
     {
-        //TODO: Search for medicines in file with given letter and return list
-        return data;
+        return null;
     }
 
-    public LinkedList<String> getdiseasewithLetter(char letter)
+    public LinkedList<Disease> getDiseasesByLetter(char letter) 
     {
-        //TODO: Search for diseases in file with given letter and return list
-        return data;
+        return null;
     }
 
-    public Medicine getMedicineInfo(String name)
+    public MedicineData getMedicineInfo(Long id) 
     {   
-        //TODO: Search for medicines in file with given name and return list
-        return new Medicine();
+        return null;
     }
 
-    public Disease getDiseaseInfo(String name)
+    public DiseaseData getDiseaseInfo(Long id) 
     {
-        //TODO: Search for diseases in file with given name and return list
-        return new Disease();
+        return null;
+    }
+
+    public LinkedList<Edge> getEdgeInfo()
+    {
+        return null;
     }
 }

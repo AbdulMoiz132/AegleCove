@@ -35,7 +35,7 @@ public class AuthController
         {
             return ResponseEntity.status(401).body(new Message("Invalid credentials"));
         }
-
+        
         return ResponseEntity.ok(new Message(id));
     }
 
@@ -51,7 +51,7 @@ public class AuthController
         }
         else
         {
-            return ResponseEntity.badRequest().body(new Message("Failed to register"));
+            return ResponseEntity.badRequest().body(new Message("Username already Exist"));
         }
     }  
     
@@ -60,6 +60,5 @@ public class AuthController
     {
         return users.find(username);
     }
-
 }
 

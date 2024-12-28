@@ -1,0 +1,2803 @@
+
+    [
+        {
+            "id": 1,
+            "name": "AIDS (Acquired Immunodeficiency Syndrome)"
+        },
+        {
+            "id": 2,
+            "name": "Alzheimer's Disease"
+        },
+        {
+            "id": 3,
+            "name": "Asthma"
+        },
+        {
+            "id": 4,
+            "name": "Anemia"
+        },
+        {
+            "id": 5,
+            "name": "Appendicitis"
+        },
+        {
+            "id": 6,
+            "name": "Arthritis"
+        },
+        {
+            "id": 7,
+            "name": "Acne"
+        },
+        {
+            "id": 8,
+            "name": "Anxiety Disorders"
+        },
+        {
+            "id": 9,
+            "name": "Atrial Fibrillation"
+        },
+        {
+            "id": 10,
+            "name": "Acanthosis Nigricans"
+        },
+        {
+            "id": 11,
+            "name": "Achondroplasia"
+        },
+        {
+            "id": 12,
+            "name": "Acoustic Neuroma"
+        },
+        {
+            "id": 13,
+            "name": "Acromegaly"
+        },
+        {
+            "id": 14,
+            "name": "Actinic Keratosis"
+        },
+        {
+            "id": 15,
+            "name": "Addison's Disease"
+        },
+        {
+            "id": 16,
+            "name": "Adenoiditis"
+        },
+        {
+            "id": 17,
+            "name": "Adrenal Insufficiency"
+        },
+        {
+            "id": 18,
+            "name": "Alkaptonuria"
+        },
+        {
+            "id": 19,
+            "name": "Alopecia Areata"
+        },
+        {
+            "id": 20,
+            "name": "Amyloidosis"
+        },
+        {
+            "id": 21,
+            "name": "Amnesia"
+        },
+        {
+            "id": 22,
+            "name": "Amniotic Band Syndrome"
+        },
+        {
+            "id": 23,
+            "name": "Amyotrophic Lateral Sclerosis (ALS)"
+        },
+        {
+            "id": 24,
+            "name": "Anal Fistula"
+        },
+        {
+            "id": 25,
+            "name": "Anaphylaxis"
+        },
+        {
+            "id": 26,
+            "name": "Ankylosing Spondylitis"
+        },
+        {
+            "id": 27,
+            "name": "Anthrax"
+        },
+        {
+            "id": 28,
+            "name": "Aortic Aneurysm"
+        },
+        {
+            "id": 29,
+            "name": "Aortic Dissection"
+        },
+        {
+            "id": 30,
+            "name": "Asbestosis"
+        },
+        {
+            "id": 31,
+            "name": "Bacterial Vaginosis"
+        },
+        {
+            "id": 32,
+            "name": "Bacillary Dysentery"
+        },
+        {
+            "id": 33,
+            "name": "Benign Prostatic Hyperplasia (BPH)"
+        },
+        {
+            "id": 34,
+            "name": "Bipolar Disorder"
+        },
+        {
+            "id": 35,
+            "name": "Blastomycosis"
+        },
+        {
+            "id": 36,
+            "name": "Borderline Personality Disorder"
+        },
+        {
+            "id": 37,
+            "name": "Bowel Obstruction"
+        },
+        {
+            "id": 38,
+            "name": "Brain Tumor"
+        },
+        {
+            "id": 39,
+            "name": "Bronchitis"
+        },
+        {
+            "id": 40,
+            "name": "Bronchiectasis"
+        },
+        {
+            "id": 41,
+            "name": "Buerger's Disease"
+        },
+        {
+            "id": 42,
+            "name": "Bullous Pemphigoid"
+        },
+        {
+            "id": 43,
+            "name": "Biliary Atresia"
+        },
+        {
+            "id": 44,
+            "name": "Budd-Chiari Syndrome"
+        },
+        {
+            "id": 45,
+            "name": "Basal Cell Carcinoma"
+        },
+        {
+            "id": 46,
+            "name": "Bell's Palsy"
+        },
+        {
+            "id": 47,
+            "name": "Blood Clots (Deep Vein Thrombosis, Pulmonary Embolism)"
+        },
+        {
+            "id": 48,
+            "name": "Brachial Plexus Injury"
+        },
+        {
+            "id": 49,
+            "name": "Burkitt's Lymphoma"
+        },
+        {
+            "id": 50,
+            "name": "Biliary Cirrhosis"
+        },
+        {
+            "id": 51,
+            "name": "Bladder Cancer"
+        },
+        {
+            "id": 52,
+            "name": "Bacterial Meningitis"
+        },
+        {
+            "id": 53,
+            "name": "Barrett's Esophagus"
+        },
+        {
+            "id": 54,
+            "name": "Batten Disease"
+        },
+        {
+            "id": 55,
+            "name": "Biliary Colic"
+        },
+        {
+            "id": 56,
+            "name": "Bacterial Endocarditis"
+        },
+        {
+            "id": 57,
+            "name": "Botulism"
+        },
+        {
+            "id": 58,
+            "name": "Bone Cancer (Osteosarcoma)"
+        },
+        {
+            "id": 59,
+            "name": "Bronchiolitis"
+        },
+        {
+            "id": 60,
+            "name": "Bacterial Pneumonia"
+        },
+        {
+            "id": 61,
+            "name": "Cancer"
+        },
+        {
+            "id": 62,
+            "name": "Chronic Obstructive Pulmonary Disease (COPD)"
+        },
+        {
+            "id": 63,
+            "name": "Cystic Fibrosis"
+        },
+        {
+            "id": 64,
+            "name": "Chickenpox"
+        },
+        {
+            "id": 65,
+            "name": "Crohn's Disease"
+        },
+        {
+            "id": 66,
+            "name": "Cerebral Palsy"
+        },
+        {
+            "id": 67,
+            "name": "Cardiomyopathy"
+        },
+        {
+            "id": 68,
+            "name": "Cholera"
+        },
+        {
+            "id": 69,
+            "name": "Cirrhosis"
+        },
+        {
+            "id": 70,
+            "name": "Chronic Kidney Disease"
+        },
+        {
+            "id": 71,
+            "name": "Cataracts"
+        },
+        {
+            "id": 72,
+            "name": "Colorectal Cancer"
+        },
+        {
+            "id": 73,
+            "name": "Celiac Disease"
+        },
+        {
+            "id": 74,
+            "name": "Common Cold"
+        },
+        {
+            "id": 75,
+            "name": "Cushing's Syndrome"
+        },
+        {
+            "id": 76,
+            "name": "Cold Sores (Herpes Simplex Virus)"
+        },
+        {
+            "id": 77,
+            "name": "Chronic Migraine"
+        },
+        {
+            "id": 78,
+            "name": "Cervical Cancer"
+        },
+        {
+            "id": 79,
+            "name": "Candidiasis"
+        },
+        {
+            "id": 80,
+            "name": "Cystitis"
+        },
+        {
+            "id": 81,
+            "name": "Chronic Fatigue Syndrome"
+        },
+        {
+            "id": 82,
+            "name": "Chronic Lymphocytic Leukemia (CLL)"
+        },
+        {
+            "id": 83,
+            "name": "Cushing's Disease"
+        },
+        {
+            "id": 84,
+            "name": "Cervical Spondylosis"
+        },
+        {
+            "id": 85,
+            "name": "Cataract"
+        },
+        {
+            "id": 86,
+            "name": "Carpal Tunnel Syndrome"
+        },
+        {
+            "id": 87,
+            "name": "Clostridium Difficile Infection"
+        },
+        {
+            "id": 88,
+            "name": "Chronic Sinusitis"
+        },
+        {
+            "id": 89,
+            "name": "Congestive Heart Failure"
+        },
+        {
+            "id": 90,
+            "name": "Craniosynostosis"
+        },
+        {
+            "id": 91,
+            "name": "Diabetes Mellitus"
+        },
+        {
+            "id": 92,
+            "name": "Dengue Fever"
+        },
+        {
+            "id": 93,
+            "name": "Depression"
+        },
+        {
+            "id": 94,
+            "name": "Dermatitis"
+        },
+        {
+            "id": 95,
+            "name": "Dyslexia"
+        },
+        {
+            "id": 96,
+            "name": "Diphtheria"
+        },
+        {
+            "id": 97,
+            "name": "Diverticulitis"
+        },
+        {
+            "id": 98,
+            "name": "Down Syndrome"
+        },
+        {
+            "id": 99,
+            "name": "Dementia"
+        },
+        {
+            "id": 100,
+            "name": "Deep Vein Thrombosis (DVT)"
+        },
+        {
+            "id": 101,
+            "name": "Dupuytren's Contracture"
+        },
+        {
+            "id": 102,
+            "name": "Diabetic Retinopathy"
+        },
+        {
+            "id": 103,
+            "name": "Drug Allergy"
+        },
+        {
+            "id": 104,
+            "name": "Dracunculiasis (Guinea Worm Disease)"
+        },
+        {
+            "id": 105,
+            "name": "Dry Eye Syndrome"
+        },
+        {
+            "id": 106,
+            "name": "Dyspepsia (Indigestion)"
+        },
+        {
+            "id": 107,
+            "name": "Duchenne Muscular Dystrophy"
+        },
+        {
+            "id": 108,
+            "name": "Dystonia"
+        },
+        {
+            "id": 109,
+            "name": "Dental Caries (Cavities)"
+        },
+        {
+            "id": 110,
+            "name": "Depersonalization Disorder"
+        },
+        {
+            "id": 111,
+            "name": "Darier's Disease"
+        },
+        {
+            "id": 112,
+            "name": "Dilated Cardiomyopathy"
+        },
+        {
+            "id": 113,
+            "name": "Dislocated Joint"
+        },
+        {
+            "id": 114,
+            "name": "Dandruff"
+        },
+        {
+            "id": 115,
+            "name": "Drooling Disorder"
+        },
+        {
+            "id": 116,
+            "name": "Disseminated Intravascular Coagulation (DIC)"
+        },
+        {
+            "id": 117,
+            "name": "Drusen (Macular Degeneration)"
+        },
+        {
+            "id": 118,
+            "name": "Diaphragmatic Hernia"
+        },
+        {
+            "id": 119,
+            "name": "Dysphagia"
+        },
+        {
+            "id": 120,
+            "name": "Epilepsy"
+        },
+        {
+            "id": 121,
+            "name": "Eczema"
+        },
+        {
+            "id": 122,
+            "name": "Emphysema"
+        },
+        {
+            "id": 123,
+            "name": "Endometriosis"
+        },
+        {
+            "id": 124,
+            "name": "Ehlers-Danlos Syndrome"
+        },
+        {
+            "id": 125,
+            "name": "Encephalitis"
+        },
+        {
+            "id": 126,
+            "name": "Ebola Virus Disease"
+        },
+        {
+            "id": 127,
+            "name": "Ewing's Sarcoma"
+        },
+        {
+            "id": 128,
+            "name": "Esophageal Cancer"
+        },
+        {
+            "id": 129,
+            "name": "Essential Hypertension"
+        },
+        {
+            "id": 130,
+            "name": "Erectile Dysfunction"
+        },
+        {
+            "id": 131,
+            "name": "Erythema Nodosum"
+        },
+        {
+            "id": 132,
+            "name": "Enteritis"
+        },
+        {
+            "id": 133,
+            "name": "Epididymitis"
+        },
+        {
+            "id": 134,
+            "name": "Erythropoietic Protoporphyria"
+        },
+        {
+            "id": 135,
+            "name": "Excessive Sweating (Hyperhidrosis)"
+        },
+        {
+            "id": 136,
+            "name": "Exercise-Induced Asthma"
+        },
+        {
+            "id": 137,
+            "name": "Edema"
+        },
+        {
+            "id": 138,
+            "name": "Enlarged Heart (Cardiomegaly)"
+        },
+        {
+            "id": 139,
+            "name": "Exophthalmos"
+        },
+        {
+            "id": 140,
+            "name": "Escherichia Coli (E. coli) Infection"
+        },
+        {
+            "id": 141,
+            "name": "Exanthema"
+        },
+        {
+            "id": 142,
+            "name": "Evaporative Dry Eye"
+        },
+        {
+            "id": 143,
+            "name": "Eosinophilic Esophagitis"
+        },
+        {
+            "id": 144,
+            "name": "Erythropoietic Porphyria"
+        },
+        {
+            "id": 145,
+            "name": "Extrapyramidal Symptoms"
+        },
+        {
+            "id": 146,
+            "name": "Enlarged Prostate (Benign Prostatic Hyperplasia)"
+        },
+        {
+            "id": 147,
+            "name": "Endocarditis"
+        },
+        {
+            "id": 148,
+            "name": "Epstein-Barr Virus Infection"
+        },
+        {
+            "id": 149,
+            "name": "Fibromyalgia"
+        },
+        {
+            "id": 150,
+            "name": "Flu (Influenza)"
+        },
+        {
+            "id": 151,
+            "name": "Fungal Infections"
+        },
+        {
+            "id": 152,
+            "name": "Food Poisoning"
+        },
+        {
+            "id": 153,
+            "name": "Fatty Liver Disease"
+        },
+        {
+            "id": 154,
+            "name": "Friedreich's Ataxia"
+        },
+        {
+            "id": 155,
+            "name": "Fissures (Anal Fissures)"
+        },
+        {
+            "id": 156,
+            "name": "Folliculitis"
+        },
+        {
+            "id": 157,
+            "name": "Fetal Alcohol Syndrome"
+        },
+        {
+            "id": 158,
+            "name": "Functional Neurological Disorder"
+        },
+        {
+            "id": 159,
+            "name": "Fractures"
+        },
+        {
+            "id": 160,
+            "name": "Fevers (Various Causes)"
+        },
+        {
+            "id": 161,
+            "name": "Foot and Mouth Disease"
+        },
+        {
+            "id": 162,
+            "name": "Familial Hypercholesterolemia"
+        },
+        {
+            "id": 163,
+            "name": "Fibroid Tumors"
+        },
+        {
+            "id": 164,
+            "name": "Farmer's Lung"
+        },
+        {
+            "id": 165,
+            "name": "Filariasis"
+        },
+        {
+            "id": 166,
+            "name": "Focal Segmental Glomerulosclerosis (FSGS)"
+        },
+        {
+            "id": 167,
+            "name": "Fluoride Poisoning"
+        },
+        {
+            "id": 168,
+            "name": "Focal Dystonia"
+        },
+        {
+            "id": 169,
+            "name": "Focal Epilepsy"
+        },
+        {
+            "id": 170,
+            "name": "Fournier's Gangrene"
+        },
+        {
+            "id": 171,
+            "name": "Friedrich's Ataxia"
+        },
+        {
+            "id": 172,
+            "name": "Factor V Leiden Thrombophilia"
+        },
+        {
+            "id": 173,
+            "name": "Female Infertility"
+        },
+        {
+            "id": 174,
+            "name": "Frontotemporal Dementia"
+        },
+        {
+            "id": 175,
+            "name": "Fanconi Anemia"
+        },
+        {
+            "id": 176,
+            "name": "Focal Nodular Hyperplasia (Liver)"
+        },
+        {
+            "id": 177,
+            "name": "Gastritis"
+        },
+        {
+            "id": 178,
+            "name": "Glaucoma"
+        },
+        {
+            "id": 179,
+            "name": "Gout"
+        },
+        {
+            "id": 180,
+            "name": "Gonorrhea"
+        },
+        {
+            "id": 181,
+            "name": "Gillian-Barre Syndrome"
+        },
+        {
+            "id": 182,
+            "name": "Gallstones"
+        },
+        {
+            "id": 183,
+            "name": "Gastroesophageal Reflux Disease (GERD)"
+        },
+        {
+            "id": 184,
+            "name": "Graves' Disease"
+        },
+        {
+            "id": 185,
+            "name": "Gastric Cancer"
+        },
+        {
+            "id": 186,
+            "name": "Gum Disease (Periodontal Disease)"
+        },
+        {
+            "id": 187,
+            "name": "Germ Cell Tumor"
+        },
+        {
+            "id": 188,
+            "name": "Goiter"
+        },
+        {
+            "id": 189,
+            "name": "Glomerulonephritis"
+        },
+        {
+            "id": 190,
+            "name": "Gastroenteritis"
+        },
+        {
+            "id": 191,
+            "name": "Genital Herpes"
+        },
+        {
+            "id": 192,
+            "name": "G6PD Deficiency"
+        },
+        {
+            "id": 193,
+            "name": "Gastrointestinal Bleeding"
+        },
+        {
+            "id": 194,
+            "name": "Granulomatosis with Polyangiitis"
+        },
+        {
+            "id": 195,
+            "name": "Glycogen Storage Disease"
+        },
+        {
+            "id": 196,
+            "name": "Gluten Sensitivity"
+        },
+        {
+            "id": 197,
+            "name": "Granuloma Annulare"
+        },
+        {
+            "id": 198,
+            "name": "Greenstick Fracture"
+        },
+        {
+            "id": 199,
+            "name": "Gouty Arthritis"
+        },
+        {
+            "id": 200,
+            "name": "Gestational Diabetes"
+        },
+        {
+            "id": 201,
+            "name": "Giant Cell Arteritis"
+        },
+        {
+            "id": 202,
+            "name": "Gastric Ulcer"
+        },
+        {
+            "id": 203,
+            "name": "Gastrointestinal Stromal Tumor (GIST)"
+        },
+        {
+            "id": 204,
+            "name": "Guillain-Barré Syndrome"
+        },
+        {
+            "id": 205,
+            "name": "Hepatitis"
+        },
+        {
+            "id": 206,
+            "name": "Hypertension"
+        },
+        {
+            "id": 207,
+            "name": "HIV/AIDS"
+        },
+        {
+            "id": 208,
+            "name": "Herpes Simplex Virus (HSV) Infection"
+        },
+        {
+            "id": 209,
+            "name": "Heart Disease"
+        },
+        {
+            "id": 210,
+            "name": "Huntington's Disease"
+        },
+        {
+            "id": 211,
+            "name": "Hodgkin's Lymphoma"
+        },
+        {
+            "id": 212,
+            "name": "Hypothyroidism"
+        },
+        {
+            "id": 213,
+            "name": "Hernia"
+        },
+        {
+            "id": 214,
+            "name": "Hemophilia"
+        },
+        {
+            "id": 215,
+            "name": "Hives (Urticaria)"
+        },
+        {
+            "id": 216,
+            "name": "Hyperthyroidism"
+        },
+        {
+            "id": 217,
+            "name": "Heart Attack (Myocardial Infarction)"
+        },
+        {
+            "id": 218,
+            "name": "Hepatic Encephalopathy"
+        },
+        {
+            "id": 219,
+            "name": "Hepatocellular Carcinoma"
+        },
+        {
+            "id": 220,
+            "name": "Hallucinations"
+        },
+        {
+            "id": 221,
+            "name": "Hemorrhoids"
+        },
+        {
+            "id": 222,
+            "name": "Hypoglycemia"
+        },
+        {
+            "id": 223,
+            "name": "Hyperlipidemia"
+        },
+        {
+            "id": 224,
+            "name": "Herpes Zoster (Shingles)"
+        },
+        {
+            "id": 225,
+            "name": "Hysteria"
+        },
+        {
+            "id": 226,
+            "name": "Hydrocephalus"
+        },
+        {
+            "id": 227,
+            "name": "Hand, Foot, and Mouth Disease"
+        },
+        {
+            "id": 228,
+            "name": "Histoplasmosis"
+        },
+        {
+            "id": 229,
+            "name": "Hypercalcemia"
+        },
+        {
+            "id": 230,
+            "name": "Hemorrhagic Stroke"
+        },
+        {
+            "id": 231,
+            "name": "Human Papillomavirus (HPV) Infection"
+        },
+        {
+            "id": 232,
+            "name": "Haploinsufficiency"
+        },
+        {
+            "id": 233,
+            "name": "Hydronephrosis"
+        },
+        {
+            "id": 234,
+            "name": "Influenza"
+        },
+        {
+            "id": 235,
+            "name": "Irritable Bowel Syndrome (IBS)"
+        },
+        {
+            "id": 236,
+            "name": "Infections (Various Causes)"
+        },
+        {
+            "id": 237,
+            "name": "Immunodeficiency Disorders"
+        },
+        {
+            "id": 238,
+            "name": "Irritable Larynx Syndrome"
+        },
+        {
+            "id": 239,
+            "name": "Insomnia"
+        },
+        {
+            "id": 240,
+            "name": "Inflammatory Bowel Disease (IBD)"
+        },
+        {
+            "id": 241,
+            "name": "Idiopathic Pulmonary Fibrosis"
+        },
+        {
+            "id": 242,
+            "name": "Impetigo"
+        },
+        {
+            "id": 243,
+            "name": "Ischemic Heart Disease"
+        },
+        {
+            "id": 244,
+            "name": "Intermittent Claudication"
+        },
+        {
+            "id": 245,
+            "name": "Insulin Resistance"
+        },
+        {
+            "id": 246,
+            "name": "Intestinal Obstruction"
+        },
+        {
+            "id": 247,
+            "name": "Intestinal Worms"
+        },
+        {
+            "id": 248,
+            "name": "Infective Endocarditis"
+        },
+        {
+            "id": 249,
+            "name": "Invasive Candidiasis"
+        },
+        {
+            "id": 250,
+            "name": "Induced Abortion"
+        },
+        {
+            "id": 251,
+            "name": "Incontinentia Pigmenti"
+        },
+        {
+            "id": 252,
+            "name": "Increased Intracranial Pressure"
+        },
+        {
+            "id": 253,
+            "name": "Idiopathic Thrombocytopenic Purpura (ITP)"
+        },
+        {
+            "id": 254,
+            "name": "Infertility"
+        },
+        {
+            "id": 255,
+            "name": "Invasive Pneumococcal Disease"
+        },
+        {
+            "id": 256,
+            "name": "Iron Deficiency Anemia"
+        },
+        {
+            "id": 257,
+            "name": "Ichthyosis"
+        },
+        {
+            "id": 258,
+            "name": "Immune Thrombocytopenic Purpura"
+        },
+        {
+            "id": 259,
+            "name": "Inguinal Hernia"
+        },
+        {
+            "id": 260,
+            "name": "Inflammatory Arthritis"
+        },
+        {
+            "id": 261,
+            "name": "Infection Control Issues"
+        },
+        {
+            "id": 262,
+            "name": "Intradermal Nevi"
+        },
+        {
+            "id": 263,
+            "name": "Jaundice"
+        },
+        {
+            "id": 264,
+            "name": "Jacuzzi Burns"
+        },
+        {
+            "id": 265,
+            "name": "Jock Itch (Tinea Cruris)"
+        },
+        {
+            "id": 266,
+            "name": "Jellyfish Stings"
+        },
+        {
+            "id": 267,
+            "name": "Juvenile Diabetes"
+        },
+        {
+            "id": 268,
+            "name": "Juvenile Arthritis"
+        },
+        {
+            "id": 269,
+            "name": "Jungle Fever (Malaria)"
+        },
+        {
+            "id": 270,
+            "name": "Jervell and Lange-Nielsen Syndrome"
+        },
+        {
+            "id": 271,
+            "name": "Jordan's Syndrome"
+        },
+        {
+            "id": 272,
+            "name": "Juvenile Myoclonic Epilepsy"
+        },
+        {
+            "id": 273,
+            "name": "Johne's Disease"
+        },
+        {
+            "id": 274,
+            "name": "Japanese Encephalitis"
+        },
+        {
+            "id": 275,
+            "name": "Junctional Tachycardia"
+        },
+        {
+            "id": 276,
+            "name": "Joint Dislocation"
+        },
+        {
+            "id": 277,
+            "name": "Joint Pain (Arthralgia)"
+        },
+        {
+            "id": 278,
+            "name": "Jaundice (Neonatal)"
+        },
+        {
+            "id": 279,
+            "name": "Jumping Frenchmen of Maine"
+        },
+        {
+            "id": 280,
+            "name": "Jaundice (Obstructive)"
+        },
+        {
+            "id": 281,
+            "name": "Junctional Ectopic Tachycardia"
+        },
+        {
+            "id": 282,
+            "name": "Joubert Syndrome"
+        },
+        {
+            "id": 283,
+            "name": "Jumper's Knee (Patellar Tendonitis)"
+        },
+        {
+            "id": 284,
+            "name": "Jelly Belly (Bloating)"
+        },
+        {
+            "id": 285,
+            "name": "JRA (Juvenile Rheumatoid Arthritis)"
+        },
+        {
+            "id": 286,
+            "name": "Junctional Bradycardia"
+        },
+        {
+            "id": 287,
+            "name": "Jod-Basedow Syndrome"
+        },
+        {
+            "id": 288,
+            "name": "Jaundice (Hemolytic)"
+        },
+        {
+            "id": 289,
+            "name": "Jarisch-Herxheimer Reaction"
+        },
+        {
+            "id": 290,
+            "name": "Junctional Rhythm"
+        },
+        {
+            "id": 291,
+            "name": "Juvenile Huntington's Disease"
+        },
+        {
+            "id": 292,
+            "name": "Kawasaki Disease"
+        },
+        {
+            "id": 293,
+            "name": "Knee Osteoarthritis"
+        },
+        {
+            "id": 294,
+            "name": "Klinefelter Syndrome"
+        },
+        {
+            "id": 295,
+            "name": "Keratitis"
+        },
+        {
+            "id": 296,
+            "name": "Kidney Stones"
+        },
+        {
+            "id": 297,
+            "name": "Klebsiella Infection"
+        },
+        {
+            "id": 298,
+            "name": "Knee Ligament Injuries"
+        },
+        {
+            "id": 299,
+            "name": "Kaposi's Sarcoma"
+        },
+        {
+            "id": 300,
+            "name": "Kuru"
+        },
+        {
+            "id": 301,
+            "name": "Keratoconus"
+        },
+        {
+            "id": 302,
+            "name": "Krabbe Disease"
+        },
+        {
+            "id": 303,
+            "name": "Kallmann Syndrome"
+        },
+        {
+            "id": 304,
+            "name": "Keloids"
+        },
+        {
+            "id": 305,
+            "name": "Kawasaki Syndrome"
+        },
+        {
+            "id": 306,
+            "name": "Keratopathy"
+        },
+        {
+            "id": 307,
+            "name": "Klinfelter Syndrome"
+        },
+        {
+            "id": 308,
+            "name": "Kisspeptin Deficiency"
+        },
+        {
+            "id": 309,
+            "name": "Koschade's Syndrome"
+        },
+        {
+            "id": 310,
+            "name": "Koplik Spots"
+        },
+        {
+            "id": 311,
+            "name": "Koch's Postulates"
+        },
+        {
+            "id": 312,
+            "name": "Kleine-Levin Syndrome"
+        },
+        {
+            "id": 313,
+            "name": "Keratocystic Odontogenic Tumor"
+        },
+        {
+            "id": 314,
+            "name": "Kallmann Syndrome"
+        },
+        {
+            "id": 315,
+            "name": "Klippel-Feil Syndrome"
+        },
+        {
+            "id": 316,
+            "name": "Kidney Cancer"
+        },
+        {
+            "id": 317,
+            "name": "Kearns-Sayre Syndrome"
+        },
+        {
+            "id": 318,
+            "name": "Kryptopyrrole Disorder"
+        },
+        {
+            "id": 319,
+            "name": "Kennedy Disease"
+        },
+        {
+            "id": 320,
+            "name": "Kaliophiliasis"
+        },
+        {
+            "id": 321,
+            "name": "Lupus (Systemic Lupus Erythematosus)"
+        },
+        {
+            "id": 322,
+            "name": "Leukemia"
+        },
+        {
+            "id": 323,
+            "name": "Lung Cancer"
+        },
+        {
+            "id": 324,
+            "name": "Liver Cirrhosis"
+        },
+        {
+            "id": 325,
+            "name": "Laryngitis"
+        },
+        {
+            "id": 326,
+            "name": "Lyme Disease"
+        },
+        {
+            "id": 327,
+            "name": "Lymphoma"
+        },
+        {
+            "id": 328,
+            "name": "Lactose Intolerance"
+        },
+        {
+            "id": 329,
+            "name": "Legionnaire's Disease"
+        },
+        {
+            "id": 330,
+            "name": "Liver Disease"
+        },
+        {
+            "id": 331,
+            "name": "Lipoma"
+        },
+        {
+            "id": 332,
+            "name": "Lupus Nephritis"
+        },
+        {
+            "id": 333,
+            "name": "Lichen Planus"
+        },
+        {
+            "id": 334,
+            "name": "Lupus Vulgaris"
+        },
+        {
+            "id": 335,
+            "name": "Lateral Epicondylitis (Tennis Elbow)"
+        },
+        {
+            "id": 336,
+            "name": "Leprosy"
+        },
+        {
+            "id": 337,
+            "name": "Lung Fibrosis"
+        },
+        {
+            "id": 338,
+            "name": "Laryngopharyngeal Reflux (LPR)"
+        },
+        {
+            "id": 339,
+            "name": "Lactational Mastitis"
+        },
+        {
+            "id": 340,
+            "name": "Lung Infection"
+        },
+        {
+            "id": 341,
+            "name": "Lead Poisoning"
+        },
+        {
+            "id": 342,
+            "name": "Leber's Hereditary Optic Neuropathy"
+        },
+        {
+            "id": 343,
+            "name": "Lymphadenitis"
+        },
+        {
+            "id": 344,
+            "name": "Liver Cancer"
+        },
+        {
+            "id": 345,
+            "name": "Lichen Sclerosus"
+        },
+        {
+            "id": 346,
+            "name": "Lymphocytic Colitis"
+        },
+        {
+            "id": 347,
+            "name": "Lung Embolism"
+        },
+        {
+            "id": 348,
+            "name": "Long QT Syndrome"
+        },
+        {
+            "id": 349,
+            "name": "Lipodystrophy"
+        },
+        {
+            "id": 350,
+            "name": "Malaria"
+        },
+        {
+            "id": 351,
+            "name": "Multiple Sclerosis"
+        },
+        {
+            "id": 352,
+            "name": "Myocardial Infarction (Heart Attack)"
+        },
+        {
+            "id": 353,
+            "name": "Meningitis"
+        },
+        {
+            "id": 354,
+            "name": "Migraine"
+        },
+        {
+            "id": 355,
+            "name": "Melanoma"
+        },
+        {
+            "id": 356,
+            "name": "Mumps"
+        },
+        {
+            "id": 357,
+            "name": "Muscular Dystrophy"
+        },
+        {
+            "id": 358,
+            "name": "Macular Degeneration"
+        },
+        {
+            "id": 359,
+            "name": "Meniere's Disease"
+        },
+        {
+            "id": 360,
+            "name": "Myasthenia Gravis"
+        },
+        {
+            "id": 361,
+            "name": "Measles"
+        },
+        {
+            "id": 362,
+            "name": "Mononucleosis (Mono)"
+        },
+        {
+            "id": 363,
+            "name": "Motor Neuron Disease"
+        },
+        {
+            "id": 364,
+            "name": "Mental Illness"
+        },
+        {
+            "id": 365,
+            "name": "Menorrhagia"
+        },
+        {
+            "id": 366,
+            "name": "Mast Cell Activation Syndrome"
+        },
+        {
+            "id": 367,
+            "name": "Myeloma"
+        },
+        {
+            "id": 368,
+            "name": "Morgellons Disease"
+        },
+        {
+            "id": 369,
+            "name": "Menstrual Disorders"
+        },
+        {
+            "id": 370,
+            "name": "Metabolic Syndrome"
+        },
+        {
+            "id": 371,
+            "name": "Meningococcal Disease"
+        },
+        {
+            "id": 372,
+            "name": "Malignant Hyperthermia"
+        },
+        {
+            "id": 373,
+            "name": "Mucopolysaccharidosis"
+        },
+        {
+            "id": 374,
+            "name": "Mild Cognitive Impairment"
+        },
+        {
+            "id": 375,
+            "name": "Mitochondrial Disease"
+        },
+        {
+            "id": 376,
+            "name": "Mastocytosis"
+        },
+        {
+            "id": 377,
+            "name": "Narcolepsy"
+        },
+        {
+            "id": 378,
+            "name": "Nephritis"
+        },
+        {
+            "id": 379,
+            "name": "Norovirus Infection"
+        },
+        {
+            "id": 380,
+            "name": "Neurofibromatosis"
+        },
+        {
+            "id": 381,
+            "name": "Non-Hodgkin's Lymphoma"
+        },
+        {
+            "id": 382,
+            "name": "Nutritional Deficiencies"
+        },
+        {
+            "id": 383,
+            "name": "Nasal Polyps"
+        },
+        {
+            "id": 384,
+            "name": "Nasal Congestion"
+        },
+        {
+            "id": 385,
+            "name": "Niemann-Pick Disease"
+        },
+        {
+            "id": 386,
+            "name": "Neuroblastoma"
+        },
+        {
+            "id": 387,
+            "name": "Nail Fungus"
+        },
+        {
+            "id": 388,
+            "name": "Neurodegenerative Diseases"
+        },
+        {
+            "id": 389,
+            "name": "Nummular Eczema"
+        },
+        {
+            "id": 390,
+            "name": "Nerve Damage (Neuropathy)"
+        },
+        {
+            "id": 391,
+            "name": "Necrotizing Fasciitis"
+        },
+        {
+            "id": 392,
+            "name": "Nystagmus"
+        },
+        {
+            "id": 393,
+            "name": "Non-Alcoholic Fatty Liver Disease (NAFLD)"
+        },
+        {
+            "id": 394,
+            "name": "Non-Specific Urethritis"
+        },
+        {
+            "id": 395,
+            "name": "Nutritional Anemia"
+        },
+        {
+            "id": 396,
+            "name": "Neuralgia"
+        },
+        {
+            "id": 397,
+            "name": "Night Blindness"
+        },
+        {
+            "id": 398,
+            "name": "Neurocysticercosis"
+        },
+        {
+            "id": 399,
+            "name": "Nasal Infection"
+        },
+        {
+            "id": 400,
+            "name": "Neuropsychiatric Disorders"
+        },
+        {
+            "id": 401,
+            "name": "Nodular Lymphoid Hyperplasia"
+        },
+        {
+            "id": 402,
+            "name": "Nutritional Rickets"
+        },
+        {
+            "id": 403,
+            "name": "Nodular Dermatitis"
+        },
+        {
+            "id": 404,
+            "name": "Nail Psoriasis"
+        },
+        {
+            "id": 405,
+            "name": "Osteoarthritis"
+        },
+        {
+            "id": 406,
+            "name": "Osteoporosis"
+        },
+        {
+            "id": 407,
+            "name": "Obesity"
+        },
+        {
+            "id": 408,
+            "name": "Ovarian Cancer"
+        },
+        {
+            "id": 409,
+            "name": "Osteomyelitis"
+        },
+        {
+            "id": 410,
+            "name": "Otitis Media (Middle Ear Infection)"
+        },
+        {
+            "id": 411,
+            "name": "Obstructive Sleep Apnea"
+        },
+        {
+            "id": 412,
+            "name": "Overactive Bladder"
+        },
+        {
+            "id": 413,
+            "name": "Osteosarcoma"
+        },
+        {
+            "id": 414,
+            "name": "Ocular Migraine"
+        },
+        {
+            "id": 415,
+            "name": "Ocular Herpes"
+        },
+        {
+            "id": 416,
+            "name": "Oral Cancer"
+        },
+        {
+            "id": 417,
+            "name": "Ovarian Cyst"
+        },
+        {
+            "id": 418,
+            "name": "Orchitis"
+        },
+        {
+            "id": 419,
+            "name": "Oropharyngeal Cancer"
+        },
+        {
+            "id": 420,
+            "name": "Opioid Addiction"
+        },
+        {
+            "id": 421,
+            "name": "Osteogenesis Imperfecta"
+        },
+        {
+            "id": 422,
+            "name": "Ovarian Hyperstimulation Syndrome"
+        },
+        {
+            "id": 423,
+            "name": "Optic Neuritis"
+        },
+        {
+            "id": 424,
+            "name": "Onychomycosis (Nail Fungus)"
+        },
+        {
+            "id": 425,
+            "name": "Ocular Hypertension"
+        },
+        {
+            "id": 426,
+            "name": "Obstructive Biliary Disease"
+        },
+        {
+            "id": 427,
+            "name": "Oral Thrush"
+        },
+        {
+            "id": 428,
+            "name": "Occipital Neuralgia"
+        },
+        {
+            "id": 429,
+            "name": "Oxygen Toxicity"
+        },
+        {
+            "id": 430,
+            "name": "Osmotic Diuresis"
+        },
+        {
+            "id": 431,
+            "name": "Oligozoospermia"
+        },
+        {
+            "id": 432,
+            "name": "Osteochondritis Dissecans"
+        },
+        {
+            "id": 433,
+            "name": "Oropharyngeal Candidiasis"
+        },
+    {
+            "id": 434,
+            "name": "Pneumonia"
+        },
+        {
+            "id": 435,
+            "name": "Parkinson's Disease"
+        },
+        {
+            "id": 436,
+            "name": "Psoriasis"
+        },
+        {
+            "id": 437,
+            "name": "Prostate Cancer"
+        },
+        {
+            "id": 438,
+            "name": "Pancreatitis"
+        },
+        {
+            "id": 439,
+            "name": "Peptic Ulcer Disease"
+        },
+        {
+            "id": 440,
+            "name": "Preeclampsia"
+        },
+        {
+            "id": 441,
+            "name": "Polycystic Ovary Syndrome (PCOS)"
+        },
+        {
+            "id": 442,
+            "name": "Pneumothorax"
+        },
+        {
+            "id": 443,
+            "name": "Pulmonary Embolism"
+        },
+        {
+            "id": 444,
+            "name": "Plague"
+        },
+        {
+            "id": 445,
+            "name": "Post-Traumatic Stress Disorder (PTSD)"
+        },
+        {
+            "id": 446,
+            "name": "Pityriasis Rosea"
+        },
+        {
+            "id": 447,
+            "name": "Prion Disease"
+        },
+        {
+            "id": 448,
+            "name": "Postpartum Depression"
+        },
+        {
+            "id": 449,
+            "name": "Pediatric Asthma"
+        },
+        {
+            "id": 450,
+            "name": "Phlebitis"
+        },
+        {
+            "id": 451,
+            "name": "Pachyonychia Congenita"
+        },
+        {
+            "id": 452,
+            "name": "Paget's Disease"
+        },
+        {
+            "id": 453,
+            "name": "Pneumococcal Infections"
+        },
+        {
+            "id": 454,
+            "name": "Pediatric Epilepsy"
+        },
+        {
+            "id": 455,
+            "name": "Pemphigus Vulgaris"
+        },
+        {
+            "id": 456,
+            "name": "Plantar Fasciitis"
+        },
+        {
+            "id": 457,
+            "name": "Psoriatic Arthritis"
+        },
+        {
+            "id": 458,
+            "name": "Pituitary Disorders"
+        },
+        {
+            "id": 459,
+            "name": "Peptic Esophagitis"
+        },
+        {
+            "id": 460,
+            "name": "Primary Biliary Cholangitis"
+        },
+        {
+            "id": 461,
+            "name": "Pediatric Diabetes"
+        },
+        {
+            "id": 462,
+            "name": "Quinsy (Peritonsillar Abscess)"
+        },
+        {
+            "id": 463,
+            "name": "Q Fever"
+        },
+        {
+            "id": 464,
+            "name": "Quadriplegia"
+        },
+        {
+            "id": 465,
+            "name": "Quality of Life Issues"
+        },
+        {
+            "id": 466,
+            "name": "Quetiapine-induced Side Effects"
+        },
+        {
+            "id": 467,
+            "name": "Quickening (Pregnancy-related)"
+        },
+        {
+            "id": 468,
+            "name": "Quinine Toxicity"
+        },
+        {
+            "id": 469,
+            "name": "Querter's Syndrome"
+        },
+        {
+            "id": 470,
+            "name": "Quill Syndrome"
+        },
+        {
+            "id": 471,
+            "name": "Quilblat Syndrome"
+        },
+        {
+            "id": 472,
+            "name": "Rheumatoid Arthritis"
+        },
+        {
+            "id": 473,
+            "name": "Rheumatic Fever"
+        },
+        {
+            "id": 474,
+            "name": "Respiratory Syncytial Virus (RSV) Infection"
+        },
+        {
+            "id": 475,
+            "name": "Rickets"
+        },
+        {
+            "id": 476,
+            "name": "Rosacea"
+        },
+        {
+            "id": 477,
+            "name": "Ringworm"
+        },
+        {
+            "id": 478,
+            "name": "Rabies"
+        },
+        {
+            "id": 479,
+            "name": "Ruptured Appendix"
+        },
+        {
+            "id": 480,
+            "name": "Rashes"
+        },
+        {
+            "id": 481,
+            "name": "Renal Failure"
+        },
+        {
+            "id": 482,
+            "name": "Retinopathy"
+        },
+        {
+            "id": 483,
+            "name": "Restless Legs Syndrome"
+        },
+        {
+            "id": 484,
+            "name": "Reactive Arthritis"
+        },
+        {
+            "id": 485,
+            "name": "Rash (General)"
+        },
+        {
+            "id": 486,
+            "name": "Respiratory Failure"
+        },
+        {
+            "id": 487,
+            "name": "Rectal Cancer"
+        },
+        {
+            "id": 488,
+            "name": "Retinal Detachment"
+        },
+        {
+            "id": 489,
+            "name": "Rectal Prolapse"
+        },
+        {
+            "id": 490,
+            "name": "Renal Cell Carcinoma"
+        },
+        {
+            "id": 491,
+            "name": "Rare Genetic Disorders"
+        },
+        {
+            "id": 492,
+            "name": "Reproductive Health Issues"
+        },
+        {
+            "id": 493,
+            "name": "Rubeola (Measles)"
+        },
+        {
+            "id": 494,
+            "name": "Rashes in Children"
+        },
+        {
+            "id": 495,
+            "name": "Radiculopathy"
+        },
+        {
+            "id": 496,
+            "name": "Rachitis (Rickets)"
+        },
+        {
+            "id": 497,
+            "name": "Stroke"
+        },
+        {
+            "id": 498,
+            "name": "Sinusitis"
+        },
+        {
+            "id": 499,
+            "name": "Sickle Cell Anemia"
+        },
+        {
+            "id": 500,
+            "name": "Shingles (Herpes Zoster)"
+        },
+        {
+            "id": 501,
+            "name": "Sepsis"
+        },
+        {
+            "id": 502,
+            "name": "Skin Cancer"
+        },
+        {
+            "id": 503,
+            "name": "Systemic Lupus Erythematosus (SLE)"
+        },
+        {
+            "id": 504,
+            "name": "Sleep Apnea"
+        },
+        {
+            "id": 505,
+            "name": "Schizophrenia"
+        },
+        {
+            "id": 506,
+            "name": "Spondylitis"
+        },
+        {
+            "id": 507,
+            "name": "SARS (Severe Acute Respiratory Syndrome)"
+        },
+        {
+            "id": 508,
+            "name": "Syphilis"
+        },
+        {
+            "id": 509,
+            "name": "Scabies"
+        },
+        {
+            "id": 510,
+            "name": "Stomach Cancer"
+        },
+        {
+            "id": 511,
+            "name": "Strep Throat"
+        },
+        {
+            "id": 512,
+            "name": "Sore Throat"
+        },
+        {
+            "id": 513,
+            "name": "Sprained Ankle"
+        },
+        {
+            "id": 514,
+            "name": "Sjögren's Syndrome"
+        },
+        {
+            "id": 515,
+            "name": "Sarcoidosis"
+        },
+        {
+            "id": 516,
+            "name": "Spondylosis"
+        },
+        {
+            "id": 517,
+            "name": "Spina Bifida"
+        },
+        {
+            "id": 518,
+            "name": "Shigellosis"
+        },
+        {
+            "id": 519,
+            "name": "Stomach Ulcer"
+        },
+        {
+            "id": 520,
+            "name": "Sickle Cell Disease"
+        },
+        {
+            "id": 521,
+            "name": "Seborrheic Dermatitis"
+        },
+        {
+            "id": 522,
+            "name": "Seasonal Affective Disorder (SAD)"
+        },
+        {
+            "id": 523,
+            "name": "Sodium Deficiency"
+        },
+        {
+            "id": 524,
+            "name": "Stevens-Johnson Syndrome"
+        },
+        {
+            "id": 525,
+            "name": "Sexually Transmitted Infections (STIs)"
+        },
+        {
+            "id": 526,
+            "name": "Tuberculosis"
+        },
+        {
+            "id": 527,
+            "name": "Tonsillitis"
+        },
+        {
+            "id": 528,
+            "name": "Tinnitus"
+        },
+        {
+            "id": 529,
+            "name": "Typhoid Fever"
+        },
+        {
+            "id": 530,
+            "name": "Tetanus"
+        },
+        {
+            "id": 531,
+            "name": "Thyroid Cancer"
+        },
+        {
+            "id": 532,
+            "name": "Toxic Shock Syndrome"
+        },
+        {
+            "id": 533,
+            "name": "Thyroiditis"
+        },
+        {
+            "id": 534,
+            "name": "Trigeminal Neuralgia"
+        },
+        {
+            "id": 535,
+            "name": "Tachycardia"
+        },
+        {
+            "id": 536,
+            "name": "Testicular Cancer"
+        },
+        {
+            "id": 537,
+            "name": "Thalassemia"
+        },
+        {
+            "id": 538,
+            "name": "Trauma (Physical Injury)"
+        },
+        {
+            "id": 539,
+            "name": "Toxoplasmosis"
+        },
+        {
+            "id": 540,
+            "name": "Trichomoniasis"
+        },
+        {
+            "id": 541,
+            "name": "Tropical Diseases"
+        },
+        {
+            "id": 542,
+            "name": "Turner Syndrome"
+        },
+        {
+            "id": 543,
+            "name": "Thrombocytopenia"
+        },
+        {
+            "id": 544,
+            "name": "Temporomandibular Joint Disorder (TMJ)"
+        },
+        {
+            "id": 545,
+            "name": "Tracheitis"
+        },
+        {
+            "id": 546,
+            "name": "Tracheal Cancer"
+        },
+        {
+            "id": 547,
+            "name": "Trichotillomania"
+        },
+        {
+            "id": 548,
+            "name": "Tinea (Ringworm)"
+        },
+        {
+            "id": 549,
+            "name": "Thrombosis"
+        },
+        {
+            "id": 550,
+            "name": "Tourette Syndrome"
+        },
+        {
+            "id": 551,
+            "name": "Thyroid Disorders"
+        },
+        {
+            "id": 552,
+            "name": "Tuberculous Meningitis"
+        },
+        {
+            "id": 553,
+            "name": "Tardive Dyskinesia"
+        },
+        {
+            "id": 554,
+            "name": "Ulcerative Colitis"
+        },
+        {
+            "id": 555,
+            "name": "Urinary Tract Infection (UTI)"
+        },
+        {
+            "id": 556,
+            "name": "Uterine Cancer"
+        },
+        {
+            "id": 557,
+            "name": "Uremia"
+        },
+        {
+            "id": 558,
+            "name": "Urticaria (Hives)"
+        },
+        {
+            "id": 559,
+            "name": "Ulcer"
+        },
+        {
+            "id": 560,
+            "name": "Uveitis"
+        },
+        {
+            "id": 561,
+            "name": "Umbilical Hernia"
+        },
+        {
+            "id": 562,
+            "name": "Ulnar Nerve Injury"
+        },
+        {
+            "id": 563,
+            "name": "Urinary Incontinence"
+        },
+        {
+            "id": 564,
+            "name": "Uptake Disorder"
+        },
+        {
+            "id": 565,
+            "name": "Urinary Retention"
+        },
+        {
+            "id": 566,
+            "name": "Urethritis"
+        },
+        {
+            "id": 567,
+            "name": "Usher Syndrome"
+        },
+        {
+            "id": 568,
+            "name": "Undescended Testicle"
+        },
+        {
+            "id": 569,
+            "name": "Upper Respiratory Infection (URI)"
+        },
+        {
+            "id": 570,
+            "name": "Uric Acid Kidney Stones"
+        },
+        {
+            "id": 571,
+            "name": "Ulnar Neuropathy"
+        },
+        {
+            "id": 572,
+            "name": "Uncontrolled Hypertension"
+        },
+        {
+            "id": 573,
+            "name": "Ursodeoxycholic Acid Therapy Side Effects"
+        },
+        {
+            "id": 574,
+            "name": "Urinary Bladder Cancer"
+        },
+        {
+            "id": 575,
+            "name": "Uremic Frost"
+        },
+        {
+            "id": 576,
+            "name": "Uptake Dysfunction"
+        },
+        {
+            "id": 577,
+            "name": "Urogenital Cancers"
+        },
+        {
+            "id": 578,
+            "name": "Urolithiasis (Kidney Stones)"
+        },
+        {
+            "id": 579,
+            "name": "Ulcerative Keratitis"
+        },
+        {
+            "id": 580,
+            "name": "Ureaplasma Infection"
+        },
+        {
+            "id": 581,
+            "name": "Urinary System Infections"
+        },
+        {
+            "id": 582,
+            "name": "Varicella (Chickenpox)"
+        },
+        {
+            "id": 583,
+            "name": "Viral Hepatitis"
+        },
+        {
+            "id": 584,
+            "name": "Viral Meningitis"
+        },
+        {
+            "id": 585,
+            "name": "Viral Pneumonia"
+        },
+        {
+            "id": 586,
+            "name": "Viral Infections"
+        },
+        {
+            "id": 587,
+            "name": "Valvular Heart Disease"
+        },
+        {
+            "id": 588,
+            "name": "Vaginitis"
+        },
+        {
+            "id": 589,
+            "name": "Vasculitis"
+        },
+        {
+            "id": 590,
+            "name": "Venous Insufficiency"
+        },
+        {
+            "id": 591,
+            "name": "Ventricular Fibrillation"
+        },
+        {
+            "id": 592,
+            "name": "Ventricular Tachycardia"
+        },
+        {
+            "id": 593,
+            "name": "Viral Conjunctivitis (Pink Eye)"
+        },
+        {
+            "id": 594,
+            "name": "Varicose Veins"
+        },
+        {
+            "id": 595,
+            "name": "Vaccine-Preventable Diseases"
+        },
+        {
+            "id": 596,
+            "name": "Vaginal Infections"
+        },
+        {
+            "id": 597,
+            "name": "Vocal Cord Dysfunction"
+        },
+        {
+            "id": 598,
+            "name": "Viral Sinusitis"
+        },
+        {
+            "id": 599,
+            "name": "Vaginal Candidiasis (Yeast Infection)"
+        },
+        {
+            "id": 600,
+            "name": "Vibrio Infection"
+        },
+        {
+            "id": 601,
+            "name": "Vaginal Atrophy"
+        },
+        {
+            "id": 602,
+            "name": "Von Willebrand Disease"
+        },
+        {
+            "id": 603,
+            "name": "Vitiligo"
+        },
+        {
+            "id": 604,
+            "name": "Viral Gastroenteritis"
+        },
+        {
+            "id": 605,
+            "name": "Ventricular Septal Defect"
+        },
+        {
+            "id": 606,
+            "name": "Vagotomy Complications"
+        },
+        {
+            "id": 607,
+            "name": "Vas deferens Disorders"
+        },
+        {
+            "id": 608,
+            "name": "Vitamin D Deficiency"
+        },
+        {
+            "id": 609,
+            "name": "Vaginal Cancer"
+        },
+        {
+            "id": 610,
+            "name": "Whooping Cough (Pertussis)"
+        },
+        {
+            "id": 611,
+            "name": "West Nile Virus"
+        },
+        {
+            "id": 612,
+            "name": "Warts"
+        },
+        {
+            "id": 613,
+            "name": "Whipple's Disease"
+        },
+        {
+            "id": 614,
+            "name": "Wegener's Granulomatosis"
+        },
+        {
+            "id": 615,
+            "name": "Wilson's Disease"
+        },
+        {
+            "id": 616,
+            "name": "Wiskott-Aldrich Syndrome"
+        },
+        {
+            "id": 617,
+            "name": "Wound Infections"
+        },
+        {
+            "id": 618,
+            "name": "Waterborne Diseases"
+        },
+        {
+            "id": 619,
+            "name": "Waldenström's Macroglobulinemia"
+        },
+        {
+            "id": 620,
+            "name": "Weakness (Generalized)"
+        },
+        {
+            "id": 621,
+            "name": "White Blood Cell Disorders"
+        },
+        {
+            "id": 622,
+            "name": "Werner Syndrome"
+        },
+        {
+            "id": 623,
+            "name": "Weight Loss Disorders"
+        },
+        {
+            "id": 624,
+            "name": "Whitening of Nails (Leukonychia)"
+        },
+        {
+            "id": 625,
+            "name": "Wernicke-Korsakoff Syndrome"
+        },
+        {
+            "id": 626,
+            "name": "Wasting Syndrome"
+        },
+        {
+            "id": 627,
+            "name": "White Spot Disease"
+        },
+        {
+            "id": 628,
+            "name": "Wrist Fracture"
+        },
+        {
+            "id": 629,
+            "name": "Webbed Toes or Fingers (Syndactyly)"
+        },
+        {
+            "id": 630,
+            "name": "Wilson-Turner Syndrome"
+        },
+        {
+            "id": 631,
+            "name": "Wallenberg Syndrome"
+        },
+        {
+            "id": 632,
+            "name": "Warts (Genital)"
+        },
+        {
+            "id": 633,
+            "name": "Wound Healing Issues"
+        },
+        {
+            "id": 634,
+            "name": "Wolf-Hirschhorn Syndrome"
+        },
+        {
+            "id": 635,
+            "name": "Wet Macular Degeneration"
+        },
+        {
+            "id": 636,
+            "name": "Waterhouse-Friderichsen Syndrome"
+        },
+        {
+            "id": 637,
+            "name": "Wood Tick Disease"
+        },
+        {
+            "id": 638,
+            "name": "Xerophthalmia"
+        },
+        {
+            "id": 639,
+            "name": "X-linked Agammaglobulinemia"
+        },
+        {
+            "id": 640,
+            "name": "X-linked Hyper IgM Syndrome"
+        },
+        {
+            "id": 641,
+            "name": "Xanthoma"
+        },
+        {
+            "id": 642,
+            "name": "X-Linked Ichthyosis"
+        },
+        {
+            "id": 643,
+            "name": "Xenotropic Murine Leukemia Virus-related Virus (XMRV) Infection"
+        },
+        {
+            "id": 644,
+            "name": "Xeroderma Pigmentosum"
+        },
+        {
+            "id": 645,
+            "name": "Xenograft Rejection"
+        },
+        {
+            "id": 646,
+            "name": "X-Linked Retinitis Pigmentosa"
+        },
+        {
+            "id": 647,
+            "name": "Xanthogranulomatous Pyelonephritis"
+        },
+        {
+            "id": 648,
+            "name": "Yellow Fever"
+        },
+        {
+            "id": 649,
+            "name": "Yersiniosis"
+        },
+        {
+            "id": 650,
+            "name": "Yohimbine Toxicity"
+        },
+        {
+            "id": 651,
+            "name": "Yaws"
+        },
+        {
+            "id": 652,
+            "name": "Yolk Sac Tumor"
+        },
+        {
+            "id": 653,
+            "name": "Yerkes-Dodson Syndrome"
+        },
+        {
+            "id": 654,
+            "name": "Zika Virus Infection"
+        },
+        {
+            "id": 655,
+            "name": "Zollinger-Ellison Syndrome"
+        },
+        {
+            "id": 656,
+            "name": "Zygomycosis"
+        },
+        {
+            "id": 657,
+            "name": "Zinc Deficiency"
+        },
+        {
+            "id": 658,
+            "name": "Zoonotic Diseases"
+        },
+        {
+            "id": 659,
+            "name": "Zenker's Diverticulum"
+        },
+        {
+            "id": 660,
+            "name": "Zoster (Shingles)"
+        },
+        {
+            "id": 661,
+            "name": "Zebra Body Myopathy"
+        },
+        {
+            "id": 662,
+            "name": "Zierl Syndrome"
+        },
+        {
+            "id": 663,
+            "name": "Zellweger Syndrome"
+        },
+        {
+            "id": 664,
+            "name": "Zygomatic Arch Fracture"
+        },
+        {
+            "id": 665,
+            "name": "Zosteriform Herpes"
+        },
+        {
+            "id": 666,
+            "name": "Zylkene Toxicity"
+        },
+        {
+            "id": 667,
+            "name": "Zinc Overload"
+        },
+        {
+            "id": 668,
+            "name": "Zoonoses of Parasitic Origin"
+        },
+        {
+            "id": 669,
+            "name": "Zoster Sine Herpete"
+        },
+        {
+            "id": 670,
+            "name": "Zamecnik's Syndrome"
+        },
+        {
+            "id": 671,
+            "name": "Zinc Acrodermatitis"
+        },
+        {
+            "id": 672,
+            "name": "Zoonotic Influenza"
+        },
+        {
+            "id": 673,
+            "name": "Zeman’s Disease"
+        },
+        {
+            "id": 674,
+            "name": "Zygomaticomaxillary Complex Fracture"
+        },
+        {
+            "id": 675,
+            "name": "Zinc-Induced Anemia"
+        },
+        {
+            "id": 676,
+            "name": "Zoonotic Leishmaniasis"
+        },
+        {
+            "id": 677,
+            "name": "Zebra Syndrome"
+        },
+        {
+            "id": 678,
+            "name": "Zoonotic Rabies"
+        },
+        {
+            "id": 679,
+            "name": "Zinc Imbalance Disorders"
+        },
+        {
+            "id": 680,
+            "name": "Zollner's Syndrome"
+        },
+        {
+            "id": 681,
+            "name": "Zaldivar Syndrome"
+        },
+        {
+            "id": 682,
+            "name": "Zorubicin Side Effects"
+        },
+        {
+            "id": 683,
+            "name": "Zygodactyly Deficiency Disorders"
+        },
+        {
+            "id": 684,
+            "name": "Zinc Malabsorption Disorders"
+        },
+        {
+            "id": 685,
+            "name": "Zebra Stripe Syndrome"
+        },
+        {
+            "id": 686,
+            "name": "Zschokke Syndrome"
+        },
+        {
+            "id": 687,
+            "name": "Zoonotic Brucellosis"
+        },
+        {
+            "id": 688,
+            "name": "Zeta-Globin Gene Mutation Disorders"
+        },
+        {
+            "id": 689,
+            "name": "Zygomatic Bone Disorders"
+        },
+        {
+            "id": 690,
+            "name": "Zinc Transporter Disorders"
+        },
+        {
+            "id": 691,
+            "name": "Zinc-Related Neurological Disorders"
+        },
+        {
+            "id": 692,
+            "name": "Zoonotic Typhus"
+        },
+        {
+            "id": 693,
+            "name": "Zellweger Spectrum Disorders"
+        },
+        {
+            "id": 694,
+            "name": "Zoonotic Anthrax"
+        },
+        {
+            "id": 695,
+            "name": "Zygomatic Soft Tissue Disorders"
+        },
+        {
+            "id": 696,
+            "name": "Zinc-Associated Dermatitis"
+        },
+        {
+            "id": 697,
+            "name": "Zymogen Deficiency"
+        },
+        {
+            "id": 698,
+            "name": "Zollinger's Syndrome"
+        },
+        {
+            "id": 699,
+            "name": "Zoonotic Cryptosporidiosis"
+        },
+        {
+            "id": 700,
+            "name": "Zoster Oticus (Ramsay Hunt Syndrome)"
+        }
+    ]

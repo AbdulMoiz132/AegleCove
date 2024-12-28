@@ -36,7 +36,9 @@ function Login() {
         setMessage(result.message);
         return;
       }
-      const userid = { id: result.message };
+      const userid = { id:result.message , username:data.username , password:data.password};
+      console.log(data)
+      console.log(result.message);
       setUser(userid);
       login();
       setTimeout(() => {

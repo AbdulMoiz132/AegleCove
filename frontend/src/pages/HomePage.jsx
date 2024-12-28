@@ -2,7 +2,6 @@ import React from 'react';
 import Card from '../components/Card';
 import CardType2 from '../components/CardType2';
 import CardType3 from '../components/CardType3'; 
-import Feedback from '../components/Feedback';
 import List from '../components/List';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
@@ -14,6 +13,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+
 
 function Homepage() {
     // Data for cards to reduce repetition

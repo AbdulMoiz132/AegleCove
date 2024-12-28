@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import com.example.AegleCove.services.UserService;
+import com.example.AegleCove.entity.Message;
 import com.example.AegleCove.entity.User;
 
 @RestController
@@ -26,14 +27,14 @@ public class UserController
     }     
     
     @PostMapping("/update")
-    public ResponseEntity<String> updateUser(@RequestBody User entry) 
+    public ResponseEntity<Message> updateUser(@RequestBody User entry) 
     {
         boolean updated = userService.updateInfo(entry);
         if (!updated) 
         {
-            return ResponseEntity.badRequest().body("Failed to update");
+            return ResponseEntity.badRequest().body(new Message("Failed to update"));
         }
-        return ResponseEntity.ok("Successfully Updated");
+        return ResponseEntity.ok(new Message("Successfully Updated"));
     }
 
     @PostMapping("/delete")

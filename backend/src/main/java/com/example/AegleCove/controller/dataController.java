@@ -4,20 +4,22 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.http.ResponseEntity;
+import org.springframework.http.HttpStatus;
 
 import com.example.AegleCove.entity.Medicine;
+import com.example.AegleCove.entity.MedicineData;
 import com.example.AegleCove.entity.Disease;
+import com.example.AegleCove.entity.DiseaseData;
+import com.example.AegleCove.services.DataService;
 import com.example.AegleCove.structures.LinkedList;
 
-import com.example.AegleCove.services.DataService;
+
 
 @RestController
 @RequestMapping("/data")
 public class DataController 
 {
-    LinkedList<String> medicList = new LinkedList<>();
-    LinkedList<String> diseaseList = new LinkedList<>();
     DataService dataService;
 
     DataController()
@@ -25,32 +27,48 @@ public class DataController
         dataService = new DataService();
     }
 
-    @GetMapping("/medicines")
-    public LinkedList<String> getMedicines(@PathVariable char letter) 
+    @GetMapping("/medicines/{letter}")
+    public ResponseEntity<LinkedList<Medicine>> getMedicines(@PathVariable char letter) 
     {
-        medicList = dataService.getmedicwithLetter(letter);
-        return medicList;
+    
+            LinkedList<Medicine> medicines = dataService.getMedicinesByLetter(letter);
+            if (medicines == null || medicines.isEmpty()) {
+                return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+            }
+            return new ResponseEntity<>(medicines, HttpStatus.OK);
     }
 
-    @GetMapping("/diseases")
-    public LinkedList<String >getDiseases(@RequestParam char letter) 
+    @GetMapping("/diseases/{letter}")
+    public ResponseEntity<LinkedList<Disease>> getDiseases(@PathVariable char letter) 
     {
-        diseaseList = dataService.getdiseasewithLetter(letter);
-        return diseaseList;
-    }
-  
-    @GetMapping("/medicines/{medicine}")
-    public Medicine getMedicineInfo(@RequestParam String medicine) 
-    {
-        Medicine medicineInfo = dataService.getMedicineInfo(medicine);
-        return medicineInfo;
+       
+            LinkedList<Disease> diseases = dataService.getDiseasesByLetter(letter);
+            if (diseases == null || diseases.isEmpty()) {
+                return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+            }
+            return new ResponseEntity<>(diseases, HttpStatus.OK);
     }
 
-    @GetMapping("/diseases/{disease}")
-    public Disease getDiseaseInfo(@RequestParam String disease)
+    @GetMapping("/medicine/{id}")
+    public ResponseEntity<MedicineData> getMedicineInfo(@PathVariable Long id) 
     {
-        Disease diseaseInfo = dataService.getDiseaseInfo(disease);
-        return diseaseInfo;
+        MedicineData medicineData = dataService.getMedicineInfo(id);
+        if (medicineData == null) {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+        return new ResponseEntity<>(medicineData, HttpStatus.OK);
+    }
+
+    @GetMapping("/disease/{id}")
+    public ResponseEntity<DiseaseData> getDiseaseInfo(@PathVariable Long id)
+    {
+    
+        DiseaseData diseaseData = dataService.getDiseaseInfo(id);
+        if (diseaseData == null) {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+        return new ResponseEntity<>(diseaseData, HttpStatus.OK);
+        
     }
 }
 

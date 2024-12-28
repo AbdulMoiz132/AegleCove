@@ -1,7 +1,9 @@
 package com.example.AegleCove.structures;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import java.util.LinkedList;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class HashMap<K, V> 
 {
     private static final int INITIAL_CAPACITY = 50;
@@ -61,12 +63,36 @@ public class HashMap<K, V>
         return false;
     }
 
+    public boolean containsKey(K key) 
+    {
+        int bucketIndex = getBucketIndex(key);
+        LinkedList<Entry<K, V>> bucket = buckets[bucketIndex];
+        for (Entry<K, V> entry : bucket) 
+        {
+            if (entry.key.equals(key)) 
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public Iterable<Entry<K, V>> entrySet() 
+    {
+        LinkedList<Entry<K, V>> allEntries = new LinkedList<>();
+        for (LinkedList<Entry<K, V>> bucket : buckets) 
+        {
+            allEntries.addAll(bucket);
+        }
+        return allEntries;
+    }
+
     private int getBucketIndex(K key) 
     {
         return Math.abs(key.hashCode() % buckets.length);
     }
 
-    private static class Entry<K, V> 
+    public static class Entry<K, V> 
     {
         K key;
         V value;
@@ -74,6 +100,16 @@ public class HashMap<K, V>
         Entry(K key, V value) {
             this.key = key;
             this.value = value;
+        }
+
+        public V getValue() 
+        {
+            return value;
+        }
+
+        public K getKey() 
+        {
+            return key;
         }
     }
 }

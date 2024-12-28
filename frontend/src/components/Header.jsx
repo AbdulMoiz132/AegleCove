@@ -1,8 +1,7 @@
 import React from 'react';
 import styles from '../styles/header.module.css';
-import styles2 from '../styles/footer.module.css';
 import { Link } from 'react-router-dom';
-import SearchBar from './SearchBar';
+import GlobalSearchBar from './GlobalSearchBar';
 
 const Header = () => {
     const HeaderLinks = [
@@ -22,7 +21,7 @@ const Header = () => {
                     <img src="/images/logo2.png" className={styles.logoimg} alt="Logo" />
                 </Link>
                 <div className={styles.searchbardiv}>
-                <SearchBar />
+                <GlobalSearchBar />
                 </div>
             </div>
             <nav className={styles.lowerheader}>

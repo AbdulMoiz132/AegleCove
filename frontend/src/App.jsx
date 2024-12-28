@@ -20,6 +20,7 @@ import ProtectedRouteforAuthenticatedUser from './components/ProtectedRouteforAu
 import OtherSymptomAnalyzer from './pages/OtherSymptomAnalyzer.jsx'
 import Help from './pages/Help.jsx'
 import ComingSoon from './pages/ComingSoon.jsx'
+import SearchResults from './pages/SearchResults.jsx'
 
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
         <Route path='/finddoctor' element={<FindDoctor />} />
         <Route path='/findpharmacy' element={<FindPharmacy />} />
         <Route path='/comingsoon' element={<ComingSoon/>} />
+        <Route path="/search" element={<SearchResults />} />
         <Route path='*' element={<Notfound />} />
         
 

@@ -14,14 +14,12 @@ public class SymptomDiseaseGraph
         this.nodes = new HashMap<>();
     }
 
-    // Add a node (Symptom or Disease)
     public GraphNode addNode(String name) 
     {
         nodes.putIfAbsent(name, new GraphNode(name));
         return nodes.get(name);
     }
 
-    // Add an edge between a symptom and a disease
     public void addEdge(String symptom, String disease, int weight) 
     {
         GraphNode symptomNode = addNode(symptom);
@@ -29,13 +27,11 @@ public class SymptomDiseaseGraph
         symptomNode.addNeighbor(diseaseNode, weight);
     }
 
-    // Get node by name
     public GraphNode getNode(String name) 
     {
         return nodes.get(name);
     }
 
-    // Calculate disease scores using BFS algorithm
     public Map<String, Integer> calculateDiseaseScores(List<String> symptoms) 
     {
         Map<String, Integer> allScores = BFS.calculateDiseaseScores(nodes, symptoms);
