@@ -66,6 +66,7 @@ const Dashboard = () => {
         address: data.address,
         weight: data.weight,
         height: data.height,
+        medical_history:data.medical_history,
       };
 
       setUser(updatedUser); 

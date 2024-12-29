@@ -13,7 +13,7 @@
     const user = useAegleCoveStore((state) => state.user);
     const setUser = useAegleCoveStore((state) => state.setUser);
     const [isEditing, setIsEditing] = useState(false);
-    const excludedKeys = ['patient_bodytrack','medical_history'];
+    const excludedKeys = ['patient_bodytrack'];
 
     const filteredUser = Object.fromEntries(
       Object.entries(user).filter(([key]) => !excludedKeys.includes(key))
@@ -73,7 +73,7 @@
                   <p className={styles.profilDetails_p}><strong>Birthdate:</strong> {user.birthdate}</p>
                   <p className={styles.profilDetails_p}><strong>Age:</strong> {age}</p>
                   <p className={styles.profilDetails_p}><strong>Weight:</strong> {user.weight} kg</p>
-                  <p className={styles.profilDetails_p}><strong>Height:</strong> {user.height} cm</p>
+                  <p className={styles.profilDetails_p}><strong>Height:</strong> {user.height} inches</p>
                   <p className={styles.profilDetails_p}><strong>Contact:</strong> {user.contact}</p>
                   <p className={styles.profilDetails_p}><strong>Email:</strong> {user.email}</p>
                   <button onClick={() => setIsEditing(true)}>Edit</button>

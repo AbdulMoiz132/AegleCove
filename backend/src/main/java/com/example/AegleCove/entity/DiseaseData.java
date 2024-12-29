@@ -1,24 +1,29 @@
 package com.example.AegleCove.entity;
 
-import com.example.AegleCove.structures.LinkedList;
+import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class DiseaseData implements Identifiable, Comparable<DiseaseData> {
     private Long id;
     private String name;
     private String description;
-    private LinkedList<String> symptoms;
-    private LinkedList<String> treatment;
-    private LinkedList<String> preventive_measures;
+    @JsonProperty("symptoms")
+    private List<String> symptoms;
+    @JsonProperty("treatment")
+    private List<String> treatment;
+    @JsonProperty("preventiveMeasures")
+    private List<String> preventiveMeasures;
 
     public DiseaseData() {}
 
-    public DiseaseData(Long id, String name, String description, LinkedList<String> symptoms, LinkedList<String> treatment, LinkedList<String> preventive_measures) {
+    public DiseaseData(Long id, String name, String description, List<String> symptoms, List<String> treatment, List<String> preventive_measures) {
         this.id = id;
         this.name = name;
         this.description = description;
         this.symptoms = symptoms;
         this.treatment = treatment;
-        this.preventive_measures = preventive_measures;
+        this.preventiveMeasures = preventive_measures;
     }
 
     public Long getId() {
@@ -33,16 +38,16 @@ public class DiseaseData implements Identifiable, Comparable<DiseaseData> {
         return description;
     }
 
-    public LinkedList<String> getSymptoms() {
+    public List<String> getSymptoms() {
         return symptoms;
     }
 
-    public LinkedList<String> getTreatment() {
+    public List<String> getTreatment() {
         return treatment;
     }
 
-    public LinkedList<String> getPreventiveMeasures() {
-        return preventive_measures;
+    public List<String> getPreventiveMeasures() {
+        return preventiveMeasures;
     }
 
     public void setId(Long id) {
@@ -57,16 +62,16 @@ public class DiseaseData implements Identifiable, Comparable<DiseaseData> {
         this.description = description;
     }
 
-    public void setSymptoms(LinkedList<String> symptoms) {
+    public void setSymptoms(List<String> symptoms) {
         this.symptoms = symptoms;
     }
 
-    public void setTreatment(LinkedList<String> treatment) {
+    public void setTreatment(List<String> treatment) {
         this.treatment = treatment;
     }
 
-    public void setPreventiveMeasures(LinkedList<String> preventive_measures) {
-        this.preventive_measures = preventive_measures;
+    public void setPreventiveMeasures(List<String> preventive_measures) {
+        this.preventiveMeasures = preventive_measures;
     }
 
     @Override

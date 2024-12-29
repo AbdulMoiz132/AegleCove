@@ -8,17 +8,15 @@ import Styles from '../styles/medicinedetails.module.css';
 
 
 function DiseasesDetails() {
-  const { name } = useParams();
+  const { id } = useParams();
   const diseasesdetails = useAegleCoveStore((state) => state.diseasesdetails);
   const setDiseasesDetails = useAegleCoveStore((state) => state.setDiseasesDetails);
-  const [message , setMessage] = useState('');
 
   const fetchDiseases = async () => {
     try {
-      const response = await fetch(`http://localhost:5000/disease/${name}`);
+      const response = await fetch(`http://localhost:8080/data/disease/${id}`);
       const data = await response.json();
       if (!response.ok) {
-
         setMessage(data.message)
         throw new Error("Diseases not found");
       }
@@ -30,7 +28,7 @@ function DiseasesDetails() {
 
   useEffect(() => {
     fetchDiseases()
-  }, [name]);
+  }, [id]);
 
   return (
     <div className={Styles.diseasesdeatilspage}>
@@ -59,11 +57,11 @@ function DiseasesDetails() {
               </strong>
             ))}
             
-            <h4 className={Styles.preventive_measure}>Alternatives:</h4>
-            {diseasesdetails.preventive_measure.map((preventive_measure, index) => (
+            <h4 className={Styles.preventiveMeasure}>Prevention:</h4>
+            {diseasesdetails.preventiveMeasure.map((preventiveMeasure, index) => (
               <strong key={index}>
-                <Link to='#' className={Styles.preventive_measureList}>
-                  <li>{preventive_measure}</li>
+                <Link to='#' className={Styles.preventiveMeasureList}>
+                  <li>{preventiveMeasure}</li>
                 </Link>
                 <br />
               </strong>

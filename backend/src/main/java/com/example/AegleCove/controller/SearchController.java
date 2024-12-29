@@ -1,11 +1,9 @@
 package com.example.AegleCove.controller;
-
 import org.springframework.web.bind.annotation.RestController;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-
 import com.example.AegleCove.services.SearchService;
 
 
@@ -20,16 +18,14 @@ public class SearchController
         searchService = new SearchService();
     }
 
-    @GetMapping("?query={param}")
-    public Object getSearchinfo(@RequestParam String param) 
+    @GetMapping
+    public Object getSearchinfo(@RequestParam(required = false) String query) 
     {
-        if(param == null)
-        {
+        if (query == null || query.isEmpty()) {
             return "Please enter a search query";
         }
-        Object result = searchService.search(param);
-        if(result == null)
-        {
+        Object result = searchService.Search(query);
+        if (result == null) {
             return "No results found";
         }
         return result;

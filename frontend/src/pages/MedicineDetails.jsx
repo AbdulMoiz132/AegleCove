@@ -4,34 +4,14 @@ import Logo from '../components/Logo';
 import useAegleCoveStore from '../store/AegleCoveStore.js';
 import Styles from '../styles/medicinedetails.module.css';
 
-// Example raw data for a medicine
-const exampleMedicineData = {
-  name: "Paracetamol",
-  formula: "C8H9NO2",
-  description: "Paracetamol is a common painkiller used to treat aches and pain. It can also be used to reduce a high temperature.",
-  recommended_dosage: {
-    adults: "500mg to 1g every 4-6 hours",
-    children: "10-15mg per kg of body weight every 4-6 hours"
-  },
-  side_effects: [
-    "Nausea",
-    "Rash",
-    "Liver damage (in high doses)"
-  ],
-  alternatives: [
-    "Ibuprofen",
-    "Aspirin"
-  ]
-};
-
 function MedicineDetails() {
-  const { char , id } = useParams();
+  const {id } = useParams();
   const medicinesdetails = useAegleCoveStore((state) => state.medicinesdetails);
   const setMedicinesDetails = useAegleCoveStore((state) => state.setMedicinesDetails);
 
   const fetchMedicine = async () => {
     try {
-      const response = await fetch(`http://localhost:5000/medicine/${char}/${id}`);
+      const response = await fetch(`http://localhost:8080/data/medicine/${id}`);
       if (!response.ok) {
         throw new Error("Medicine not found");
       }
@@ -43,11 +23,8 @@ function MedicineDetails() {
   };
 
   useEffect(() => {
-    // For testing purposes, set the example medicine data
-    setMedicinesDetails(exampleMedicineData);
-    // Uncomment the line below to fetch real data from the server
-    // fetchMedicine();
-  }, [name, setMedicinesDetails]);
+     fetchMedicine();
+  }, [id]);
 
   return (
     <div className={Styles.medicinesdeatilspage}>
@@ -66,13 +43,13 @@ function MedicineDetails() {
             <h4 className={Styles.medicinedescription}>{medicinesdetails.description}</h4>
             <h4 className={Styles.medicinedosage}>Recommended Dosage:</h4>
             <h5 className={Styles.dosageforchildren}>Children</h5>
-            <p className={Styles.dosageforchildren}>{medicinesdetails.recommended_dosage.children}</p>
+            <p className={Styles.dosageforchildren}>{medicinesdetails.recommendedDosage.children}</p>
             <h5 className={Styles.dosageforchildren}>Adults</h5>
-            <p className={Styles.dosageforchildren}>{medicinesdetails.recommended_dosage.adults}</p>
+            <p className={Styles.dosageforchildren}>{medicinesdetails.recommendedDosage.adults}</p>
             <h4 className={Styles.medicinesideeffects}>Side Effects:</h4>
-            {medicinesdetails.side_effects.map((side_effect, index) => (
+            {medicinesdetails.sideEffects.map((sideEffect, index) => (
               <strong key={index}>
-                <li className={Styles.medicinesideeffectslist}>{side_effect}</li>
+                <li className={Styles.medicinesideeffectslist}>{sideEffect}</li>
                 <br />
               </strong>
             ))}

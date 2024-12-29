@@ -3,47 +3,53 @@ import { useForm, useFieldArray } from 'react-hook-form';
 import styles from '../styles/medicalrecordform.module.css';
 import useAegleCoveStore from '../store/AegleCoveStore';
 
-const MedicalRecordForm = ({ onSubmit }) => {
+const MedicalRecordForm = () => {
   const diseaseTypes = ['Infectious', 'Chronic', 'Autoimmune', 'Genetic', 'Degenerative'];
   const { register, handleSubmit, control, formState: { errors } } = useForm({
-     defaultValues: {
-      medicines: [{ medicineName: '' }]
-    }
+    defaultValues: {
+      medicines: [''],
+    },
   });
+
   const setUser = useAegleCoveStore((state) => state.setUser);
   const user = useAegleCoveStore((state) => state.user);
 
   const { fields, append, remove } = useFieldArray({
     control,
-    name: 'medicines'
+    name: 'medicines',
   });
 
   const addMedication = () => {
-    append({ medicineName: '' });
+    append('');
   };
 
   const handleMedicalRecordSubmit = async (data) => {
     try {
       const newRecord = {
-        diseasesname: data.diseasename,
+        diseasename: data.diseasename,
         type: data.type,
-        medicines: data.medicines.map(med => med.medicineName),
+        medicines: data.medicines, // Now storing as an array of names
       };
-      const updatedMedicalHistory = [...user.medical_history, newRecord];
-      setUser({ medical_history: updatedMedicalHistory });
 
-      const response = await fetch('http://localhost:8080/medical-records', {
+      const updatedMedicalHistory = [...(user.medical_history || []), newRecord];
+      const updatedUser = { ...user, medical_history: updatedMedicalHistory };
+
+      setUser(updatedUser);
+
+      const response = await fetch('http://localhost:8080/user/update', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(newRecord),
+        body: JSON.stringify(updatedUser),
       });
+
       if (!response.ok) {
         throw new Error('Failed to submit medical record');
       }
+
       await response.json();
-      onSubmit(data);
+      alert('Record Updated Successfully');
     } catch (error) {
       console.error('Error submitting medical record:', error);
     }
@@ -68,8 +74,8 @@ const MedicalRecordForm = ({ onSubmit }) => {
         <label htmlFor="type">Type of Disease</label>
         <select id="type" className={styles.selectField} {...register('type', { required: 'Disease type is required' })}>
           <option value="">Select type of disease</option>
-          {diseaseTypes.map((type, idx) => (
-            <option key={idx} value={type}>{type}</option>
+          {diseaseTypes.map((type, index) => (
+            <option key={index} value={type}>{type}</option>
           ))}
         </select>
         {errors.type && <p className={styles.error}>{errors.type.message}</p>}
@@ -83,13 +89,17 @@ const MedicalRecordForm = ({ onSubmit }) => {
               type="text"
               placeholder="Medicine Name"
               className={styles.inputField}
-              {...register(`medicines[${index}].medicineName`, { required: 'Medicine name is required' })}
+              {...register(`medicines.${index}`, { required: 'Medicine name is required' })}
             />
             <button type="button" className={styles.removeButton} onClick={() => remove(index)}>Remove</button>
+            {errors.medicines?.[index] && (
+              <p className={styles.error}>{errors.medicines[index].message}</p>
+            )}
           </div>
         ))}
         <button type="button" className={styles.addButton} onClick={addMedication}>Add More</button>
       </div>
+
       <button type="submit" className={styles.submitButton}>Submit</button>
     </form>
   );

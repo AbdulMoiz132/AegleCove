@@ -37,22 +37,22 @@ const useAegleCoveStore = create((set) => ({
     },
   }),
 
-  // Diseases, medicines, and symptoms state (initialize empty arrays)
+  
   diseases: [],
   diseasedetails: {
     name: null,
     description: null,
     symptoms: [],
     treatment: [],
-    preventive_measures: [],
+    preventiveMeasures: [],
   },
   medicines: [],
   medicinesdetails: {
     name: null,
     description: null,
     formula: null,
-    side_effects: [],
-    recommended_dosage: { adults: null, children: null },
+    sideEffects: [],
+    recommendedDosage: { adults: null, children: null },
     alternatives: [],
   },
 
@@ -153,17 +153,7 @@ const useAegleCoveStore = create((set) => ({
       return { diseasedetails: {} };
     }),
 
-  // Reset symptoms to an empty array
-  resetSymptoms: () =>
-    set(() => {
-      return { symptoms: [] };
-    }),
 
-  // Reset symptom result to default
-  resetSymptomResult: () =>
-    set(() => {
-      return { symptomResult: {} };
-    }),
 
   // Reset all state values to their default and sync to localStorage
   reset: () =>

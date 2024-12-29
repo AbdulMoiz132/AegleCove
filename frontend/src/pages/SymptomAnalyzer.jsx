@@ -52,7 +52,7 @@ const SymptomAnalyzer = () => {
         <div className={styles.symptomAnalyzerForm} style={{ right: showForm ? '-5vw' : '-100vw' }}>
           <SymptomForm analysis={handleAnalysis} />
         </div>
-        <div className={styles.symptomAnalyzerform} style={{ right: showReport ? '20vw' : '-100vw' }}>
+        <div className={styles.symptomAnalyzerform} style={{ right: showReport ? '10vw' : '-100vw' }}>
         {report && <SymptomReport report={report} />}
         </div>
       </div>

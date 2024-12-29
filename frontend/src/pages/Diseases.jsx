@@ -16,7 +16,7 @@ const Diseases = () => {
   const fetchDiseases = async () => {
    
       setDiseases([]);
-      const response = await fetch(`http://localhost:8080/diseases/${char}`);
+      const response = await fetch(`http://localhost:8080/data/diseases/${char}`);
       if (!response.ok) {
         throw new Error('Failed to fetch diseases');
       }
@@ -32,7 +32,7 @@ const Diseases = () => {
 
   const handleSearch = (e) => {
     if (e.target.value === "") {
-      setFilteredDiseases(diseases); // Reset to original diseases list if search input is cleared
+      setFilteredDiseases(diseases);
     } else {
       setFilteredDiseases(searchItems(e.target.value, diseases));
     }

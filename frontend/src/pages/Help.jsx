@@ -15,8 +15,7 @@ const Help = () => {
           <h1>Help & Support</h1>
           <p>Hey, {user.firstname} {user.lastname} if you need assistance or have any questions, please follow the steps below:</p>
           <ol>
-            <li>Check our <a href="/faq">FAQ page</a> for common questions and answers.</li>
-            <li>If you can't find the answer, feel free to contact our support team.</li>
+            <li>If you have any issue,feel free to contact our support team.</li>
             <li>Send an email to <a href="mailto:support@aeglecove.com">support@aeglecove.com</a> with your query.</li>
             <li>Provide as much detail as possible to help us assist you better.</li>
           </ol>

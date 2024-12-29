@@ -8,7 +8,7 @@ const ComingSoon = () => {
         <Logo/>
         <div className={styles.commingsoonContent}>
           <h1>Coming Soon</h1>
-          <p>We are working hard to bring you new and exciting features. Stay tuned!</p>
+          <p>Our Team is working hard to bring you new and exciting features. Stay tuned!</p>
         </div>
       </div>
   

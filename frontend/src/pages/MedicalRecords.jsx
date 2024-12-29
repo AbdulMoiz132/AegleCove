@@ -17,27 +17,23 @@ const MedicalRecords = () => {
     setUser({ medical_history: updatedRecords });
   };
 
-  const handleMedicalRecordSubmit = (data) => {
-    const updatedRecords = [...medicalRecords];
-    if (editRecordIndex !== null) {
-      updatedRecords[editRecordIndex] = data;
-      setEditRecordIndex(null);
-    } else {
-      updatedRecords.push(data);
-    }
-    setUser({ medical_history: updatedRecords });
-    setShowMedicalRecordForm(false);
-  };
+  // const handleMedicalRecordSubmit = (data) => {
+  //   const updatedRecords = [...medicalRecords];
+  //   if (editRecordIndex !== null) {
+  //     updatedRecords[editRecordIndex] = data;
+  //     setEditRecordIndex(null);
+  //   } else {
+  //     updatedRecords.push(data);
+  //   }
+  //   setUser({ medical_history: updatedRecords });
+  //   setShowMedicalRecordForm(false);
+  // };
 
   const toggleMedicalRecordForm = () => {
     setShowMedicalRecordForm(!showMedicalRecordForm);
     setEditRecordIndex(null);
   };
 
-  const handleEditRecord = (index) => {
-    setEditRecordIndex(index);
-
-  };
 
   return (
     <div className={styles.medicalRecordsPage}>
@@ -50,15 +46,12 @@ const MedicalRecords = () => {
             <button className={styles.actionButton} onClick={toggleMedicalRecordForm}>Add Record</button>
           </div>
           {showMedicalRecordForm && (
-            <MedicalRecordForm
-              onSubmit={handleMedicalRecordSubmit}
-              initialData={editRecordIndex !== null ? medicalRecords[editRecordIndex] : null}
-            />
+            <MedicalRecordForm/>
           )}
           {medicalRecords?.length > 0 ? (
             medicalRecords.map((record, index) => (
               <div key={index} className={styles.recordCard}>
-                <h3>{record.diseasesname}</h3>
+                <h3>{record.diseasename}</h3>
                 <p>Type: {record.type}</p>
                 <p>Medications:</p>
                 <ul>
@@ -66,7 +59,6 @@ const MedicalRecords = () => {
                     <li key={idx}>{med}</li>
                   ))}
                 </ul>
-                <button className={styles.editButton} onClick={() => handleEditRecord(index)}>Edit</button>
                 <button className={styles.deleteButton} onClick={() => handleDeleteRecord(index)}>Delete</button>
               </div>
             ))

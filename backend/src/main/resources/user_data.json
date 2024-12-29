@@ -22,12 +22,23 @@
     "height" : "72"
   },
   "3" : {
-    "firstname" : "Sham",
-    "lastname" : "Tarani",
-    "birthdate" : "2018-10-02",
-    "gender" : "male",
-    "address" : "Nust Sector H-12 Islamabad",
-    "contact" : "+923428008672",
-    "email" : "shamtarani05@gmail.com"
+    "firstname" : "hllo",
+    "lastname" : "bo",
+    "birthdate" : "2024-12-24",
+    "gender" : "custom",
+    "address" : "chaneme",
+    "contact" : "+92333633444",
+    "email" : "me@gmail.com",
+    "weight" : "68",
+    "height" : "89",
+    "medical_history" : [ {
+      "diseasename" : "AIDS",
+      "type" : "chronic",
+      "medicines" : [ "brufin", "panadol" ]
+    }, {
+      "diseasename" : "AIDS",
+      "type" : "chronic",
+      "medicines" : [ "brufin", "panadol" ]
+    } ]
   }
 }
