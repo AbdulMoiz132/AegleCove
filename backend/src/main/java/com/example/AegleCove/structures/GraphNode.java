@@ -14,7 +14,8 @@ public class GraphNode
         this.neighbors = new HashMap<>();
     }
 
-    public void addNeighbor(GraphNode node, int weight) {
+    public void addNeighbor(GraphNode node, int weight) 
+    {
         this.neighbors.put(node, weight);
     }
 }

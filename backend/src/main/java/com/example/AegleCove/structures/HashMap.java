@@ -1,28 +1,29 @@
 package com.example.AegleCove.structures;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import java.util.LinkedList;
+import java.util.ArrayList;
+import java.util.List;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class HashMap<K, V> 
 {
     private static final int INITIAL_CAPACITY = 50;
-    private LinkedList<Entry<K, V>>[] buckets;
+    private List<Entry<K, V>>[] buckets;
 
     @SuppressWarnings("unchecked")
     public HashMap() 
     {
-        buckets = new LinkedList[INITIAL_CAPACITY];
+        buckets = new List[INITIAL_CAPACITY];
         for (int i = 0; i < INITIAL_CAPACITY; i++) 
         {
-            buckets[i] = new LinkedList<>();
+            buckets[i] = new ArrayList<>();
         }
     }
 
     public void put(K key, V value) 
     {
         int bucketIndex = getBucketIndex(key);
-        LinkedList<Entry<K, V>> bucket = buckets[bucketIndex];
+        List<Entry<K, V>> bucket = buckets[bucketIndex];
         for (Entry<K, V> entry : bucket) 
         {
             if (entry.key.equals(key)) 
@@ -37,7 +38,7 @@ public class HashMap<K, V>
     public V get(K key) 
     {
         int bucketIndex = getBucketIndex(key);
-        LinkedList<Entry<K, V>> bucket = buckets[bucketIndex];
+        List<Entry<K, V>> bucket = buckets[bucketIndex];
         for (Entry<K, V> entry : bucket) 
         {
             if (entry.key.equals(key)) 
@@ -51,7 +52,7 @@ public class HashMap<K, V>
     public boolean remove(K key) 
     {
         int bucketIndex = getBucketIndex(key);
-        LinkedList<Entry<K, V>> bucket = buckets[bucketIndex];
+        List<Entry<K, V>> bucket = buckets[bucketIndex];
         for (Entry<K, V> entry : bucket) 
         {
             if (entry.key.equals(key)) 
@@ -66,7 +67,7 @@ public class HashMap<K, V>
     public boolean containsKey(K key) 
     {
         int bucketIndex = getBucketIndex(key);
-        LinkedList<Entry<K, V>> bucket = buckets[bucketIndex];
+        List<Entry<K, V>> bucket = buckets[bucketIndex];
         for (Entry<K, V> entry : bucket) 
         {
             if (entry.key.equals(key)) 
@@ -79,8 +80,8 @@ public class HashMap<K, V>
 
     public Iterable<Entry<K, V>> entrySet() 
     {
-        LinkedList<Entry<K, V>> allEntries = new LinkedList<>();
-        for (LinkedList<Entry<K, V>> bucket : buckets) 
+        List<Entry<K, V>> allEntries = new ArrayList<>();
+        for (List<Entry<K, V>> bucket : buckets) 
         {
             allEntries.addAll(bucket);
         }

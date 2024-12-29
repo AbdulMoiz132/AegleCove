@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.AegleCove.entity.SigninRequest;
 import com.example.AegleCove.entity.User;
-import com.example.AegleCove.structures.LinkedList;
+import com.example.AegleCove.structures.List;
 import com.example.AegleCove.services.UserService;
 
 import java.io.IOException;
@@ -18,7 +18,7 @@ import com.example.AegleCove.entity.Message;
 @RequestMapping("/auth")
 public class AuthController 
 {
-    private LinkedList<User> users = new LinkedList<>();
+    private List<User> users = new List<>();
     private final UserService authService;
 
     public AuthController(UserService authService)

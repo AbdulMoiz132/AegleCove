@@ -2,11 +2,11 @@ package com.example.AegleCove.structures;
 
 public class Stack<T> 
 {
-    private LinkedList<T> stackList;
+    private List<T> stackList;
 
     public Stack() 
     {
-        stackList = new LinkedList<>();
+        stackList = new List<>();
     }
 
     public void push(T value) 

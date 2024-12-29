@@ -1,6 +1,6 @@
 package com.example.AegleCove.entity;
 
-import com.example.AegleCove.structures.LinkedList;
+import com.example.AegleCove.structures.List;
 
 public class User 
 {
@@ -16,7 +16,7 @@ public class User
     private String email;
     private String weight;
     private String height;
-    private LinkedList<Record> medical_history;
+    private List<Record> medical_history;
 
     public User()
     {
@@ -161,12 +161,12 @@ public class User
         this.height = height;
     }
 
-    public LinkedList<Record> getMedical_history()
+    public List<Record> getMedical_history()
     {
         return medical_history;
     }
 
-    public void setMedical_history(LinkedList<Record> medical_history)
+    public void setMedical_history(List<Record> medical_history)
     {
         this.medical_history = medical_history;
     }

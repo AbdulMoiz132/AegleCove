@@ -10,8 +10,8 @@ import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 
 import java.io.IOException;
 
-@JsonDeserialize(using = LinkedList.LinkedListDeserializer.class)
-public class LinkedList<T> 
+@JsonDeserialize(using = List.LinkedListDeserializer.class)
+public class List<T> 
 {
     private ListNode<T> head;
 
@@ -190,10 +190,10 @@ public class LinkedList<T>
     }
 
     // Custom deserializer for LinkedList
-    public static class LinkedListDeserializer extends JsonDeserializer<LinkedList<?>> {
+    public static class LinkedListDeserializer extends JsonDeserializer<List<?>> {
         @Override
-        public LinkedList<?> deserialize(JsonParser p, DeserializationContext ctxt) throws IOException, JsonProcessingException {
-            LinkedList<Object> list = new LinkedList<>();
+        public List<?> deserialize(JsonParser p, DeserializationContext ctxt) throws IOException, JsonProcessingException {
+            List<Object> list = new List<>();
             Object[] items = p.readValueAs(Object[].class);
             for (Object item : items) {
                 list.append(item);

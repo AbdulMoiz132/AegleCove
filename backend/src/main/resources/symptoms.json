@@ -2,27 +2,27 @@
     {
         "symptom": "fever",
         "disease": "Flu",
-        "weight": 7
+        "weight": 8
     },
     {
         "symptom": "fever",
         "disease": "Malaria",
-        "weight": 9
+        "weight": 5
     },
     {
         "symptom": "fever",
         "disease": "Dengue",
-        "weight": 8
+        "weight": 5
     },
     {
         "symptom": "fever",
         "disease": "COVID-19",
-        "weight": 7
+        "weight": 3
     },
     {
         "symptom": "fever",
         "disease": "Typhoid",
-        "weight": 8
+        "weight": 5
     },
     {
         "symptom": "cough",
@@ -32,127 +32,127 @@
     {
         "symptom": "cough",
         "disease": "Tuberculosis",
-        "weight": 9
+        "weight": 5
     },
     {
         "symptom": "cough",
         "disease": "Pneumonia",
-        "weight": 7
+        "weight": 5
     },
     {
         "symptom": "cough",
         "disease": "COVID-19",
-        "weight": 8
+        "weight": 3
     },
     {
         "symptom": "cough",
         "disease": "Asthma",
-        "weight": 6
+        "weight": 5
     },
     {
         "symptom": "headache",
         "disease": "Migraine",
-        "weight": 10
+        "weight": 8
     },
     {
         "symptom": "headache",
         "disease": "Dengue",
-        "weight": 6
+        "weight": 5
     },
     {
         "symptom": "headache",
         "disease": "Tension Headache",
-        "weight": 8
+        "weight": 5
     },
     {
         "symptom": "headache",
         "disease": "Hypertension",
-        "weight": 7
+        "weight": 5
     },
     {
         "symptom": "headache",
         "disease": "Sinusitis",
-        "weight": 6
+        "weight": 5
     },
     {
         "symptom": "fatigue",
         "disease": "Anemia",
-        "weight": 9
+        "weight": 5
     },
     {
         "symptom": "fatigue",
         "disease": "Flu",
-        "weight": 6
+        "weight": 8
     },
     {
         "symptom": "fatigue",
         "disease": "Diabetes",
-        "weight": 7
+        "weight": 5
     },
     {
         "symptom": "fatigue",
         "disease": "Chronic Fatigue Syndrome",
-        "weight": 8
+        "weight": 5
     },
     {
         "symptom": "fatigue",
         "disease": "Hypothyroidism",
-        "weight": 9
+        "weight": 5
     },
     {
         "symptom": "rash",
         "disease": "Chickenpox",
-        "weight": 10
+        "weight": 5
     },
     {
         "symptom": "rash",
         "disease": "Measles",
-        "weight": 8
+        "weight": 5
     },
     {
         "symptom": "rash",
         "disease": "Dengue",
-        "weight": 6
+        "weight": 5
     },
     {
         "symptom": "rash",
         "disease": "Psoriasis",
-        "weight": 7
+        "weight": 5
     },
     {
         "symptom": "rash",
         "disease": "Contact Dermatitis",
-        "weight": 9
+        "weight": 5
     },
     {
         "symptom": "chills",
         "disease": "Malaria",
-        "weight": 10
+        "weight": 5
     },
     {
         "symptom": "chills",
         "disease": "Flu",
-        "weight": 7
+        "weight": 8
     },
     {
         "symptom": "chills",
         "disease": "COVID-19",
-        "weight": 6
+        "weight": 3
     },
     {
         "symptom": "chills",
         "disease": "Sepsis",
-        "weight": 8
+        "weight": 5
     },
     {
         "symptom": "chills",
         "disease": "Hypothermia",
-        "weight": 9
+        "weight": 5
     },
     {
         "symptom": "vomiting",
         "disease": "Food Poisoning",
-        "weight": 10
+        "weight": 8
     },
     {
         "symptom": "vomiting",
@@ -162,47 +162,47 @@
     {
         "symptom": "vomiting",
         "disease": "Malaria",
-        "weight": 6
+        "weight": 5
     },
     {
         "symptom": "vomiting",
         "disease": "Gastroenteritis",
-        "weight": 9
+        "weight": 5
     },
     {
         "symptom": "vomiting",
         "disease": "Pancreatitis",
-        "weight": 7
+        "weight": 5
     },
     {
         "symptom": "abdominal pain",
         "disease": "Appendicitis",
-        "weight": 10
+        "weight": 5
     },
     {
         "symptom": "abdominal pain",
         "disease": "Gallstones",
-        "weight": 8
+        "weight": 5
     },
     {
         "symptom": "abdominal pain",
         "disease": "Gastritis",
-        "weight": 7
+        "weight": 5
     },
     {
         "symptom": "abdominal pain",
         "disease": "Irritable Bowel Syndrome",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
         "disease": "Kidney Stones",
-        "weight": 9
+        "weight": 5
     },
     {
         "symptom": "shortness of breath",
         "disease": "Asthma",
-        "weight": 9
+        "weight": 5
     },
     {
         "symptom": "shortness of breath",
@@ -212,132 +212,132 @@
     {
         "symptom": "shortness of breath",
         "disease": "Pneumonia",
-        "weight": 8
+        "weight": 5
     },
     {
         "symptom": "shortness of breath",
         "disease": "Heart Failure",
-        "weight": 9
+        "weight": 5
     },
     {
         "symptom": "shortness of breath",
         "disease": "Pulmonary Embolism",
-        "weight": 10
+        "weight": 6
     },
     {
         "symptom": "chest pain",
         "disease": "Heart Attack",
-        "weight": 10
+        "weight": 6
     },
     {
         "symptom": "chest pain",
         "disease": "Angina",
-        "weight": 9
+        "weight": 5
     },
     {
         "symptom": "chest pain",
         "disease": "Pneumonia",
-        "weight": 6
+        "weight": 5
     },
     {
         "symptom": "chest pain",
         "disease": "Costochondritis",
-        "weight": 7
+        "weight": 5
     },
     {
         "symptom": "chest pain",
         "disease": "Panic Attack",
-        "weight": 8
+        "weight": 5
     },
     {
         "symptom": "diarrhea",
         "disease": "Food Poisoning",
-        "weight": 9
+        "weight": 8
     },
     {
         "symptom": "diarrhea",
         "disease": "Gastroenteritis",
-        "weight": 10
+        "weight": 5
     },
     {
         "symptom": "diarrhea",
         "disease": "Irritable Bowel Syndrome",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
         "disease": "Cholera",
-        "weight": 9
+        "weight": 5
     },
     {
         "symptom": "diarrhea",
         "disease": "Crohn's Disease",
-        "weight": 7
+        "weight": 5
     },
     {
         "symptom": "weight loss",
         "disease": "Diabetes",
-        "weight": 8
+        "weight": 5
     },
     {
         "symptom": "weight loss",
         "disease": "Hyperthyroidism",
-        "weight": 9
+        "weight": 5
     },
     {
         "symptom": "weight loss",
         "disease": "Cancer",
-        "weight": 10
+        "weight": 6
     },
     {
         "symptom": "weight loss",
         "disease": "Depression",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "weight loss",
         "disease": "Celiac Disease",
-        "weight": 8
+        "weight": 5
     },
     {
         "symptom": "joint pain",
         "disease": "Arthritis",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Lupus",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Gout",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Lyme Disease",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Fibromyalgia",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "rash",
         "disease": "Appendicitis",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Appendicitis",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
         "disease": "Hypertension",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
@@ -347,92 +347,92 @@
     {
         "symptom": "chills",
         "disease": "Angina",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Dengue",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "dizziness",
         "disease": "Typhoid",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "weight loss",
         "disease": "Dengue",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "headache",
         "disease": "COVID-19",
-        "weight": 4
+        "weight": 3
     },
     {
         "symptom": "headache",
         "disease": "Pulmonary Embolism",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Food Poisoning",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "chills",
         "disease": "Tuberculosis",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Pneumonia",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "rash",
         "disease": "Malaria",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "cough",
         "disease": "Chronic Fatigue Syndrome",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "chills",
         "disease": "Gastroenteritis",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "chest pain",
         "disease": "Gastroenteritis",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "chest pain",
         "disease": "Tuberculosis",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "rash",
         "disease": "Hypertension",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
         "disease": "Angina",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "nausea",
         "disease": "Cancer",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "chills",
         "disease": "Tuberculosis",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
@@ -442,72 +442,72 @@
     {
         "symptom": "shortness of breath",
         "disease": "Cancer",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Food Poisoning",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "nausea",
         "disease": "Flu",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
         "disease": "Pulmonary Embolism",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "chest pain",
         "disease": "Diabetes",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "shortness of breath",
         "disease": "Psoriasis",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "vomiting",
         "disease": "Crohn's Disease",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "cough",
         "disease": "Appendicitis",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
         "disease": "Crohn's Disease",
-        "weight": 9
+        "weight": 5
     },
     {
         "symptom": "chills",
         "disease": "Tuberculosis",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "weight loss",
         "disease": "Measles",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "vomiting",
         "disease": "Anemia",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "chest pain",
         "disease": "Sepsis",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "weight loss",
         "disease": "Tuberculosis",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
@@ -517,47 +517,47 @@
     {
         "symptom": "cough",
         "disease": "Heart Attack",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "chest pain",
         "disease": "Hypertension",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Anemia",
-        "weight": 3
+        "weight": 5
     },
     {
         "symptom": "diarrhea",
         "disease": "Appendicitis",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Chronic Fatigue Syndrome",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "dizziness",
         "disease": "Flu",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "dizziness",
         "disease": "Anemia",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "headache",
         "disease": "Chickenpox",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Chronic Fatigue Syndrome",
-        "weight": 3
+        "weight": 5
     },
     {
         "symptom": "nausea",
@@ -567,47 +567,47 @@
     {
         "symptom": "shortness of breath",
         "disease": "Cancer",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Sepsis",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "headache",
         "disease": "Hypothyroidism",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "cough",
         "disease": "Chronic Fatigue Syndrome",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "weight loss",
         "disease": "Dengue",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
         "disease": "Food Poisoning",
-        "weight": 10
+        "weight": 8
     },
     {
         "symptom": "cough",
         "disease": "Dengue",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "chills",
         "disease": "Lupus",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Chickenpox",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "cough",
@@ -617,17 +617,17 @@
     {
         "symptom": "fever",
         "disease": "Measles",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "nausea",
         "disease": "Anemia",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "weight loss",
         "disease": "Anemia",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
@@ -637,12 +637,12 @@
     {
         "symptom": "chest pain",
         "disease": "Angina",
-        "weight": 4
+        "weight": 5
     },
     {
         "symptom": "chest pain",
         "disease": "Pulmonary Embolism",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "cough",
@@ -652,67 +652,67 @@
     {
         "symptom": "abdominal pain",
         "disease": "Lupus",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "cough",
         "disease": "COVID-19",
-        "weight": 7
-    },
-    {
-        "symptom": "headache",
-        "disease": "Anemia",
-        "weight": 7
-    },
-    {
-        "symptom": "headache",
-        "disease": "Chronic Fatigue Syndrome",
-        "weight": 1
-    },
-    {
-        "symptom": "chills",
-        "disease": "Dengue",
-        "weight": 10
-    },
-    {
-        "symptom": "dizziness",
-        "disease": "Malaria",
         "weight": 3
     },
     {
-        "symptom": "fatigue",
+        "symptom": "headache",
         "disease": "Anemia",
         "weight": 2
     },
     {
         "symptom": "headache",
+        "disease": "Chronic Fatigue Syndrome",
+        "weight": 2
+    },
+    {
+        "symptom": "chills",
+        "disease": "Dengue",
+        "weight": 2
+    },
+    {
+        "symptom": "dizziness",
+        "disease": "Malaria",
+        "weight": 2
+    },
+    {
+        "symptom": "fatigue",
+        "disease": "Anemia",
+        "weight": 5
+    },
+    {
+        "symptom": "headache",
         "disease": "Pulmonary Embolism",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "nausea",
         "disease": "Sepsis",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "dizziness",
         "disease": "Gastroenteritis",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "nausea",
         "disease": "Food Poisoning",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Asthma",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Crohn's Disease",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
@@ -722,7 +722,7 @@
     {
         "symptom": "fever",
         "disease": "Cancer",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
@@ -737,52 +737,52 @@
     {
         "symptom": "headache",
         "disease": "Typhoid",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "vomiting",
         "disease": "Hypertension",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "cough",
         "disease": "Hypothyroidism",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "weight loss",
         "disease": "Flu",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "nausea",
         "disease": "COVID-19",
-        "weight": 2
+        "weight": 3
     },
     {
         "symptom": "rash",
         "disease": "Pulmonary Embolism",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Angina",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "chills",
         "disease": "Malaria",
-        "weight": 3
+        "weight": 5
     },
     {
         "symptom": "chills",
         "disease": "Food Poisoning",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
         "disease": "Hypertension",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "shortness of breath",
@@ -792,7 +792,7 @@
     {
         "symptom": "joint pain",
         "disease": "Appendicitis",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "vomiting",
@@ -802,7 +802,7 @@
     {
         "symptom": "dizziness",
         "disease": "Pulmonary Embolism",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "fatigue",
@@ -812,102 +812,102 @@
     {
         "symptom": "vomiting",
         "disease": "Anemia",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "nausea",
         "disease": "Cancer",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Food Poisoning",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
         "disease": "Sepsis",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Sepsis",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "shortness of breath",
         "disease": "COVID-19",
-        "weight": 1
+        "weight": 7
     },
     {
         "symptom": "nausea",
         "disease": "Flu",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Measles",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "weight loss",
         "disease": "Gastroenteritis",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "rash",
         "disease": "Anemia",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "rash",
         "disease": "Chickenpox",
-        "weight": 3
+        "weight": 5
     },
     {
         "symptom": "diarrhea",
         "disease": "Diabetes",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "rash",
         "disease": "Cancer",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "shortness of breath",
         "disease": "Typhoid",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "vomiting",
         "disease": "Gastroenteritis",
-        "weight": 6
+        "weight": 5
     },
     {
         "symptom": "headache",
         "disease": "Flu",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Anemia",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "vomiting",
         "disease": "Heart Attack",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Tuberculosis",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "weight loss",
         "disease": "Gastroenteritis",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "chills",
@@ -917,22 +917,22 @@
     {
         "symptom": "rash",
         "disease": "Sepsis",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "chest pain",
         "disease": "Psoriasis",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Pneumonia",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Measles",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
@@ -942,67 +942,67 @@
     {
         "symptom": "chest pain",
         "disease": "Food Poisoning",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "weight loss",
         "disease": "Diabetes",
-        "weight": 6
+        "weight": 5
     },
     {
         "symptom": "abdominal pain",
         "disease": "Gastroenteritis",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "shortness of breath",
         "disease": "Chronic Fatigue Syndrome",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "vomiting",
         "disease": "Angina",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "dizziness",
         "disease": "Sepsis",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "dizziness",
         "disease": "Lupus",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "chills",
         "disease": "Psoriasis",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
         "disease": "Asthma",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Tuberculosis",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "dizziness",
         "disease": "Typhoid",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
         "disease": "Dengue",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "nausea",
         "disease": "Chickenpox",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
@@ -1012,42 +1012,42 @@
     {
         "symptom": "abdominal pain",
         "disease": "Asthma",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
         "disease": "Chronic Fatigue Syndrome",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "nausea",
         "disease": "Tuberculosis",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "chest pain",
         "disease": "Chronic Fatigue Syndrome",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "headache",
         "disease": "Dengue",
-        "weight": 3
+        "weight": 5
     },
     {
         "symptom": "fatigue",
         "disease": "Pneumonia",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
         "disease": "COVID-19",
-        "weight": 7
+        "weight": 3
     },
     {
         "symptom": "fatigue",
         "disease": "Diabetes",
-        "weight": 2
+        "weight": 5
     },
     {
         "symptom": "rash",
@@ -1057,12 +1057,12 @@
     {
         "symptom": "joint pain",
         "disease": "Malaria",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "chest pain",
         "disease": "Psoriasis",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "shortness of breath",
@@ -1072,12 +1072,12 @@
     {
         "symptom": "rash",
         "disease": "Dengue",
-        "weight": 10
+        "weight": 5
     },
     {
         "symptom": "fatigue",
         "disease": "Asthma",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "chills",
@@ -1087,52 +1087,52 @@
     {
         "symptom": "cough",
         "disease": "Crohn's Disease",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
         "disease": "Gastroenteritis",
-        "weight": 3
+        "weight": 5
     },
     {
         "symptom": "shortness of breath",
         "disease": "Psoriasis",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "chest pain",
         "disease": "Dengue",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "headache",
         "disease": "Flu",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "dizziness",
         "disease": "Angina",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Sepsis",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Anemia",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "dizziness",
         "disease": "Appendicitis",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
         "disease": "Tuberculosis",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "fever",
@@ -1142,62 +1142,62 @@
     {
         "symptom": "rash",
         "disease": "Anemia",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "chills",
         "disease": "Gastroenteritis",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "dizziness",
         "disease": "Angina",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Cancer",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "dizziness",
         "disease": "Typhoid",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "weight loss",
         "disease": "Measles",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "weight loss",
         "disease": "Malaria",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Cancer",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "nausea",
         "disease": "Diabetes",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "dizziness",
         "disease": "Gastroenteritis",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "weight loss",
         "disease": "Hypothyroidism",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "nausea",
         "disease": "Cancer",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "nausea",
@@ -1207,577 +1207,17 @@
     {
         "symptom": "diarrhea",
         "disease": "Asthma",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "vomiting",
         "disease": "Food Poisoning",
-        "weight": 6
-    },
-    {
-        "symptom": "nausea",
-        "disease": "Lupus",
-        "weight": 5
-    },
-    {
-        "symptom": "diarrhea",
-        "disease": "Hypothyroidism",
-        "weight": 5
-    },
-    {
-        "symptom": "chills",
-        "disease": "Sepsis",
-        "weight": 6
-    },
-    {
-        "symptom": "vomiting",
-        "disease": "Asthma",
-        "weight": 8
-    },
-    {
-        "symptom": "fever",
-        "disease": "Chronic Fatigue Syndrome",
-        "weight": 8
-    },
-    {
-        "symptom": "fever",
-        "disease": "Pulmonary Embolism",
-        "weight": 5
-    },
-    {
-        "symptom": "cough",
-        "disease": "Psoriasis",
-        "weight": 2
-    },
-    {
-        "symptom": "weight loss",
-        "disease": "Food Poisoning",
-        "weight": 5
-    },
-    {
-        "symptom": "chest pain",
-        "disease": "Appendicitis",
-        "weight": 2
-    },
-    {
-        "symptom": "headache",
-        "disease": "Malaria",
-        "weight": 2
-    },
-    {
-        "symptom": "dizziness",
-        "disease": "COVID-19",
-        "weight": 10
-    },
-    {
-        "symptom": "rash",
-        "disease": "Hypothyroidism",
-        "weight": 10
-    },
-    {
-        "symptom": "chest pain",
-        "disease": "Lupus",
-        "weight": 5
-    },
-    {
-        "symptom": "rash",
-        "disease": "Gastroenteritis",
-        "weight": 10
-    },
-    {
-        "symptom": "joint pain",
-        "disease": "Angina",
-        "weight": 6
-    },
-    {
-        "symptom": "joint pain",
-        "disease": "Dengue",
-        "weight": 2
-    },
-    {
-        "symptom": "chest pain",
-        "disease": "Food Poisoning",
-        "weight": 5
-    },
-    {
-        "symptom": "cough",
-        "disease": "Crohn's Disease",
-        "weight": 10
-    },
-    {
-        "symptom": "vomiting",
-        "disease": "Chickenpox",
-        "weight": 10
-    },
-    {
-        "symptom": "weight loss",
-        "disease": "Typhoid",
-        "weight": 7
-    },
-    {
-        "symptom": "fever",
-        "disease": "Tuberculosis",
-        "weight": 5
-    },
-    {
-        "symptom": "diarrhea",
-        "disease": "Pneumonia",
-        "weight": 2
-    },
-    {
-        "symptom": "rash",
-        "disease": "Appendicitis",
-        "weight": 8
-    },
-    {
-        "symptom": "fatigue",
-        "disease": "Flu",
-        "weight": 4
-    },
-    {
-        "symptom": "nausea",
-        "disease": "Appendicitis",
-        "weight": 8
-    },
-    {
-        "symptom": "fatigue",
-        "disease": "Measles",
-        "weight": 2
-    },
-    {
-        "symptom": "abdominal pain",
-        "disease": "Crohn's Disease",
-        "weight": 3
-    },
-    {
-        "symptom": "cough",
-        "disease": "Hypertension",
-        "weight": 7
-    },
-    {
-        "symptom": "joint pain",
-        "disease": "Psoriasis",
-        "weight": 4
-    },
-    {
-        "symptom": "chills",
-        "disease": "Measles",
-        "weight": 4
-    },
-    {
-        "symptom": "fever",
-        "disease": "Food Poisoning",
-        "weight": 3
-    },
-    {
-        "symptom": "abdominal pain",
-        "disease": "Food Poisoning",
-        "weight": 8
-    },
-    {
-        "symptom": "headache",
-        "disease": "Lupus",
-        "weight": 10
-    },
-    {
-        "symptom": "dizziness",
-        "disease": "Dengue",
-        "weight": 3
-    },
-    {
-        "symptom": "chest pain",
-        "disease": "Chronic Fatigue Syndrome",
-        "weight": 5
-    },
-    {
-        "symptom": "vomiting",
-        "disease": "Psoriasis",
-        "weight": 9
-    },
-    {
-        "symptom": "rash",
-        "disease": "Anemia",
-        "weight": 10
-    },
-    {
-        "symptom": "shortness of breath",
-        "disease": "Crohn's Disease",
-        "weight": 9
-    },
-    {
-        "symptom": "diarrhea",
-        "disease": "Dengue",
-        "weight": 5
-    },
-    {
-        "symptom": "abdominal pain",
-        "disease": "Heart Attack",
-        "weight": 9
-    },
-    {
-        "symptom": "rash",
-        "disease": "Anemia",
-        "weight": 1
-    },
-    {
-        "symptom": "chest pain",
-        "disease": "Chickenpox",
-        "weight": 7
-    },
-    {
-        "symptom": "vomiting",
-        "disease": "Crohn's Disease",
-        "weight": 8
-    },
-    {
-        "symptom": "fever",
-        "disease": "Measles",
-        "weight": 8
-    },
-    {
-        "symptom": "diarrhea",
-        "disease": "Chronic Fatigue Syndrome",
-        "weight": 4
-    },
-    {
-        "symptom": "rash",
-        "disease": "Anemia",
-        "weight": 4
-    },
-    {
-        "symptom": "chest pain",
-        "disease": "Psoriasis",
-        "weight": 3
-    },
-    {
-        "symptom": "abdominal pain",
-        "disease": "Appendicitis",
-        "weight": 10
-    },
-    {
-        "symptom": "chills",
-        "disease": "Chickenpox",
-        "weight": 6
-    },
-    {
-        "symptom": "weight loss",
-        "disease": "Angina",
-        "weight": 1
-    },
-    {
-        "symptom": "shortness of breath",
-        "disease": "Diabetes",
-        "weight": 10
-    },
-    {
-        "symptom": "abdominal pain",
-        "disease": "Lupus",
-        "weight": 8
-    },
-    {
-        "symptom": "fever",
-        "disease": "Chronic Fatigue Syndrome",
-        "weight": 1
-    },
-    {
-        "symptom": "cough",
-        "disease": "Pneumonia",
-        "weight": 4
-    },
-    {
-        "symptom": "chest pain",
-        "disease": "Hypothyroidism",
-        "weight": 6
-    },
-    {
-        "symptom": "joint pain",
-        "disease": "Tuberculosis",
-        "weight": 9
-    },
-    {
-        "symptom": "weight loss",
-        "disease": "Chickenpox",
-        "weight": 2
-    },
-    {
-        "symptom": "shortness of breath",
-        "disease": "Hypothyroidism",
-        "weight": 9
-    },
-    {
-        "symptom": "weight loss",
-        "disease": "Crohn's Disease",
-        "weight": 9
-    },
-    {
-        "symptom": "chills",
-        "disease": "Crohn's Disease",
-        "weight": 9
-    },
-    {
-        "symptom": "joint pain",
-        "disease": "Appendicitis",
-        "weight": 2
-    },
-    {
-        "symptom": "joint pain",
-        "disease": "Tuberculosis",
-        "weight": 10
-    },
-    {
-        "symptom": "fever",
-        "disease": "Pneumonia",
-        "weight": 10
-    },
-    {
-        "symptom": "headache",
-        "disease": "Malaria",
-        "weight": 6
-    },
-    {
-        "symptom": "dizziness",
-        "disease": "Anemia",
-        "weight": 1
-    },
-    {
-        "symptom": "fatigue",
-        "disease": "Typhoid",
-        "weight": 4
-    },
-    {
-        "symptom": "joint pain",
-        "disease": "Chronic Fatigue Syndrome",
-        "weight": 8
-    },
-    {
-        "symptom": "weight loss",
-        "disease": "Asthma",
-        "weight": 2
-    },
-    {
-        "symptom": "abdominal pain",
-        "disease": "Angina",
-        "weight": 10
-    },
-    {
-        "symptom": "headache",
-        "disease": "Flu",
-        "weight": 6
-    },
-    {
-        "symptom": "headache",
-        "disease": "Hypertension",
         "weight": 8
     },
     {
         "symptom": "nausea",
-        "disease": "Gastroenteritis",
-        "weight": 3
-    },
-    {
-        "symptom": "abdominal pain",
-        "disease": "Gastroenteritis",
-        "weight": 4
-    },
-    {
-        "symptom": "joint pain",
-        "disease": "Psoriasis",
-        "weight": 4
-    },
-    {
-        "symptom": "abdominal pain",
-        "disease": "Asthma",
-        "weight": 1
-    },
-    {
-        "symptom": "headache",
-        "disease": "Pulmonary Embolism",
-        "weight": 2
-    },
-    {
-        "symptom": "abdominal pain",
         "disease": "Lupus",
-        "weight": 7
-    },
-    {
-        "symptom": "rash",
-        "disease": "Hypothyroidism",
-        "weight": 6
-    },
-    {
-        "symptom": "weight loss",
-        "disease": "Sepsis",
-        "weight": 1
-    },
-    {
-        "symptom": "headache",
-        "disease": "Sepsis",
         "weight": 2
-    },
-    {
-        "symptom": "chills",
-        "disease": "Malaria",
-        "weight": 3
-    },
-    {
-        "symptom": "vomiting",
-        "disease": "Lupus",
-        "weight": 4
-    },
-    {
-        "symptom": "chills",
-        "disease": "Cancer",
-        "weight": 4
-    },
-    {
-        "symptom": "shortness of breath",
-        "disease": "Flu",
-        "weight": 3
-    },
-    {
-        "symptom": "vomiting",
-        "disease": "Chronic Fatigue Syndrome",
-        "weight": 9
-    },
-    {
-        "symptom": "abdominal pain",
-        "disease": "Anemia",
-        "weight": 7
-    },
-    {
-        "symptom": "rash",
-        "disease": "Hypertension",
-        "weight": 7
-    },
-    {
-        "symptom": "fever",
-        "disease": "Crohn's Disease",
-        "weight": 8
-    },
-    {
-        "symptom": "fatigue",
-        "disease": "Anemia",
-        "weight": 6
-    },
-    {
-        "symptom": "vomiting",
-        "disease": "Cancer",
-        "weight": 10
-    },
-    {
-        "symptom": "dizziness",
-        "disease": "Appendicitis",
-        "weight": 7
-    },
-    {
-        "symptom": "weight loss",
-        "disease": "Psoriasis",
-        "weight": 2
-    },
-    {
-        "symptom": "dizziness",
-        "disease": "Psoriasis",
-        "weight": 7
-    },
-    {
-        "symptom": "fever",
-        "disease": "Crohn's Disease",
-        "weight": 4
-    },
-    {
-        "symptom": "fatigue",
-        "disease": "Sepsis",
-        "weight": 1
-    },
-    {
-        "symptom": "abdominal pain",
-        "disease": "Cancer",
-        "weight": 10
-    },
-    {
-        "symptom": "shortness of breath",
-        "disease": "Heart Attack",
-        "weight": 4
-    },
-    {
-        "symptom": "joint pain",
-        "disease": "COVID-19",
-        "weight": 1
-    },
-    {
-        "symptom": "shortness of breath",
-        "disease": "Lupus",
-        "weight": 5
-    },
-    {
-        "symptom": "joint pain",
-        "disease": "Chickenpox",
-        "weight": 9
-    },
-    {
-        "symptom": "abdominal pain",
-        "disease": "Diabetes",
-        "weight": 8
-    },
-    {
-        "symptom": "abdominal pain",
-        "disease": "Pulmonary Embolism",
-        "weight": 3
-    },
-    {
-        "symptom": "chills",
-        "disease": "Cancer",
-        "weight": 10
-    },
-    {
-        "symptom": "rash",
-        "disease": "Malaria",
-        "weight": 9
-    },
-    {
-        "symptom": "nausea",
-        "disease": "Food Poisoning",
-        "weight": 10
-    },
-    {
-        "symptom": "fatigue",
-        "disease": "Tuberculosis",
-        "weight": 8
-    },
-    {
-        "symptom": "chest pain",
-        "disease": "Chickenpox",
-        "weight": 5
-    },
-    {
-        "symptom": "chest pain",
-        "disease": "Appendicitis",
-        "weight": 4
-    },
-    {
-        "symptom": "nausea",
-        "disease": "COVID-19",
-        "weight": 6
-    },
-    {
-        "symptom": "dizziness",
-        "disease": "Angina",
-        "weight": 9
-    },
-    {
-        "symptom": "nausea",
-        "disease": "Pulmonary Embolism",
-        "weight": 7
-    },
-    {
-        "symptom": "fever",
-        "disease": "Psoriasis",
-        "weight": 5
-    },
-    {
-        "symptom": "rash",
-        "disease": "Pulmonary Embolism",
-        "weight": 4
     },
     {
         "symptom": "diarrhea",
@@ -1785,339 +1225,899 @@
         "weight": 2
     },
     {
-        "symptom": "fatigue",
-        "disease": "Tuberculosis",
-        "weight": 7
-    },
-    {
         "symptom": "chills",
-        "disease": "Flu",
-        "weight": 9
-    },
-    {
-        "symptom": "chest pain",
         "disease": "Sepsis",
-        "weight": 1
+        "weight": 5
     },
     {
         "symptom": "vomiting",
-        "disease": "Cancer",
-        "weight": 7
-    },
-    {
-        "symptom": "cough",
-        "disease": "Measles",
-        "weight": 5
-    },
-    {
-        "symptom": "dizziness",
-        "disease": "Crohn's Disease",
-        "weight": 2
-    },
-    {
-        "symptom": "cough",
-        "disease": "Pneumonia",
-        "weight": 1
-    },
-    {
-        "symptom": "fatigue",
-        "disease": "Heart Attack",
-        "weight": 7
-    },
-    {
-        "symptom": "diarrhea",
-        "disease": "Pneumonia",
-        "weight": 4
-    },
-    {
-        "symptom": "dizziness",
-        "disease": "Food Poisoning",
-        "weight": 9
-    },
-    {
-        "symptom": "abdominal pain",
-        "disease": "Cancer",
-        "weight": 4
-    },
-    {
-        "symptom": "chest pain",
-        "disease": "Tuberculosis",
-        "weight": 10
-    },
-    {
-        "symptom": "chest pain",
-        "disease": "Pneumonia",
-        "weight": 1
-    },
-    {
-        "symptom": "chills",
-        "disease": "Flu",
+        "disease": "Asthma",
         "weight": 2
     },
     {
         "symptom": "fever",
-        "disease": "Crohn's Disease",
-        "weight": 1
-    },
-    {
-        "symptom": "shortness of breath",
-        "disease": "Asthma",
-        "weight": 5
-    },
-    {
-        "symptom": "diarrhea",
-        "disease": "Pulmonary Embolism",
-        "weight": 9
-    },
-    {
-        "symptom": "abdominal pain",
-        "disease": "Heart Attack",
-        "weight": 8
-    },
-    {
-        "symptom": "rash",
-        "disease": "Malaria",
-        "weight": 5
-    },
-    {
-        "symptom": "nausea",
-        "disease": "Typhoid",
-        "weight": 9
-    },
-    {
-        "symptom": "fatigue",
-        "disease": "Measles",
-        "weight": 10
-    },
-    {
-        "symptom": "rash",
-        "disease": "Heart Attack",
-        "weight": 3
-    },
-    {
-        "symptom": "chest pain",
-        "disease": "Angina",
-        "weight": 6
-    },
-    {
-        "symptom": "chest pain",
-        "disease": "Food Poisoning",
-        "weight": 4
-    },
-    {
-        "symptom": "chest pain",
-        "disease": "Asthma",
-        "weight": 3
-    },
-    {
-        "symptom": "dizziness",
         "disease": "Chronic Fatigue Syndrome",
-        "weight": 4
-    },
-    {
-        "symptom": "fever",
-        "disease": "Crohn's Disease",
         "weight": 2
     },
     {
-        "symptom": "headache",
-        "disease": "Sepsis",
-        "weight": 10
+        "symptom": "fever",
+        "disease": "Pulmonary Embolism",
+        "weight": 2
     },
     {
-        "symptom": "fever",
-        "disease": "Chickenpox",
-        "weight": 10
+        "symptom": "cough",
+        "disease": "Psoriasis",
+        "weight": 2
+    },
+    {
+        "symptom": "weight loss",
+        "disease": "Food Poisoning",
+        "weight": 2
     },
     {
         "symptom": "chest pain",
         "disease": "Appendicitis",
+        "weight": 2
+    },
+    {
+        "symptom": "headache",
+        "disease": "Malaria",
+        "weight": 2
+    },
+    {
+        "symptom": "dizziness",
+        "disease": "COVID-19",
         "weight": 3
     },
     {
-        "symptom": "fever",
-        "disease": "Sepsis",
-        "weight": 8
-    },
-    {
-        "symptom": "diarrhea",
-        "disease": "Psoriasis",
-        "weight": 9
-    },
-    {
         "symptom": "rash",
+        "disease": "Hypothyroidism",
+        "weight": 2
+    },
+    {
+        "symptom": "chest pain",
         "disease": "Lupus",
         "weight": 2
     },
     {
         "symptom": "rash",
+        "disease": "Gastroenteritis",
+        "weight": 2
+    },
+    {
+        "symptom": "joint pain",
+        "disease": "Angina",
+        "weight": 2
+    },
+    {
+        "symptom": "joint pain",
+        "disease": "Dengue",
+        "weight": 2
+    },
+    {
+        "symptom": "chest pain",
+        "disease": "Food Poisoning",
+        "weight": 2
+    },
+    {
+        "symptom": "cough",
         "disease": "Crohn's Disease",
+        "weight": 2
+    },
+    {
+        "symptom": "vomiting",
+        "disease": "Chickenpox",
+        "weight": 2
+    },
+    {
+        "symptom": "weight loss",
+        "disease": "Typhoid",
+        "weight": 2
+    },
+    {
+        "symptom": "fever",
+        "disease": "Tuberculosis",
+        "weight": 2
+    },
+    {
+        "symptom": "diarrhea",
+        "disease": "Pneumonia",
+        "weight": 2
+    },
+    {
+        "symptom": "rash",
+        "disease": "Appendicitis",
+        "weight": 2
+    },
+    {
+        "symptom": "fatigue",
+        "disease": "Flu",
+        "weight": 8
+    },
+    {
+        "symptom": "nausea",
+        "disease": "Appendicitis",
+        "weight": 2
+    },
+    {
+        "symptom": "fatigue",
+        "disease": "Measles",
+        "weight": 2
+    },
+    {
+        "symptom": "abdominal pain",
+        "disease": "Crohn's Disease",
+        "weight": 2
+    },
+    {
+        "symptom": "cough",
+        "disease": "Hypertension",
+        "weight": 2
+    },
+    {
+        "symptom": "joint pain",
+        "disease": "Psoriasis",
+        "weight": 2
+    },
+    {
+        "symptom": "chills",
+        "disease": "Measles",
+        "weight": 2
+    },
+    {
+        "symptom": "fever",
+        "disease": "Food Poisoning",
+        "weight": 2
+    },
+    {
+        "symptom": "abdominal pain",
+        "disease": "Food Poisoning",
+        "weight": 2
+    },
+    {
+        "symptom": "headache",
+        "disease": "Lupus",
+        "weight": 2
+    },
+    {
+        "symptom": "dizziness",
+        "disease": "Dengue",
+        "weight": 2
+    },
+    {
+        "symptom": "chest pain",
+        "disease": "Chronic Fatigue Syndrome",
+        "weight": 2
+    },
+    {
+        "symptom": "vomiting",
+        "disease": "Psoriasis",
+        "weight": 2
+    },
+    {
+        "symptom": "rash",
+        "disease": "Anemia",
+        "weight": 2
+    },
+    {
+        "symptom": "shortness of breath",
+        "disease": "Crohn's Disease",
+        "weight": 2
+    },
+    {
+        "symptom": "diarrhea",
+        "disease": "Dengue",
+        "weight": 2
+    },
+    {
+        "symptom": "abdominal pain",
+        "disease": "Heart Attack",
+        "weight": 2
+    },
+    {
+        "symptom": "rash",
+        "disease": "Anemia",
+        "weight": 2
+    },
+    {
+        "symptom": "chest pain",
+        "disease": "Chickenpox",
+        "weight": 2
+    },
+    {
+        "symptom": "vomiting",
+        "disease": "Crohn's Disease",
+        "weight": 2
+    },
+    {
+        "symptom": "fever",
+        "disease": "Measles",
+        "weight": 2
+    },
+    {
+        "symptom": "diarrhea",
+        "disease": "Chronic Fatigue Syndrome",
+        "weight": 2
+    },
+    {
+        "symptom": "rash",
+        "disease": "Anemia",
+        "weight": 2
+    },
+    {
+        "symptom": "chest pain",
+        "disease": "Psoriasis",
+        "weight": 2
+    },
+    {
+        "symptom": "abdominal pain",
+        "disease": "Appendicitis",
+        "weight": 5
+    },
+    {
+        "symptom": "chills",
+        "disease": "Chickenpox",
+        "weight": 2
+    },
+    {
+        "symptom": "weight loss",
+        "disease": "Angina",
+        "weight": 2
+    },
+    {
+        "symptom": "shortness of breath",
+        "disease": "Diabetes",
+        "weight": 2
+    },
+    {
+        "symptom": "abdominal pain",
+        "disease": "Lupus",
+        "weight": 2
+    },
+    {
+        "symptom": "fever",
+        "disease": "Chronic Fatigue Syndrome",
+        "weight": 2
+    },
+    {
+        "symptom": "cough",
+        "disease": "Pneumonia",
         "weight": 5
     },
     {
         "symptom": "chest pain",
         "disease": "Hypothyroidism",
-        "weight": 9
+        "weight": 2
+    },
+    {
+        "symptom": "joint pain",
+        "disease": "Tuberculosis",
+        "weight": 2
     },
     {
         "symptom": "weight loss",
-        "disease": "Appendicitis",
-        "weight": 9
-    },
-    {
-        "symptom": "fatigue",
-        "disease": "Heart Attack",
-        "weight": 7
-    },
-    {
-        "symptom": "chills",
-        "disease": "Appendicitis",
-        "weight": 5
-    },
-    {
-        "symptom": "headache",
-        "disease": "Food Poisoning",
-        "weight": 9
-    },
-    {
-        "symptom": "rash",
-        "disease": "Crohn's Disease",
-        "weight": 5
-    },
-    {
-        "symptom": "chills",
-        "disease": "Angina",
-        "weight": 1
-    },
-    {
-        "symptom": "abdominal pain",
-        "disease": "Asthma",
-        "weight": 7
+        "disease": "Chickenpox",
+        "weight": 2
     },
     {
         "symptom": "shortness of breath",
-        "disease": "Sepsis",
-        "weight": 7
-    },
-    {
-        "symptom": "vomiting",
-        "disease": "Angina",
-        "weight": 3
-    },
-    {
-        "symptom": "chills",
-        "disease": "Gastroenteritis",
-        "weight": 4
-    },
-    {
-        "symptom": "cough",
-        "disease": "Psoriasis",
-        "weight": 7
-    },
-    {
-        "symptom": "fever",
-        "disease": "Angina",
-        "weight": 10
-    },
-    {
-        "symptom": "joint pain",
-        "disease": "Pneumonia",
-        "weight": 1
-    },
-    {
-        "symptom": "fatigue",
-        "disease": "Dengue",
-        "weight": 8
+        "disease": "Hypothyroidism",
+        "weight": 2
     },
     {
         "symptom": "weight loss",
-        "disease": "Measles",
-        "weight": 1
+        "disease": "Crohn's Disease",
+        "weight": 2
+    },
+    {
+        "symptom": "chills",
+        "disease": "Crohn's Disease",
+        "weight": 2
     },
     {
         "symptom": "joint pain",
+        "disease": "Appendicitis",
+        "weight": 2
+    },
+    {
+        "symptom": "joint pain",
+        "disease": "Tuberculosis",
+        "weight": 2
+    },
+    {
+        "symptom": "fever",
+        "disease": "Pneumonia",
+        "weight": 2
+    },
+    {
+        "symptom": "headache",
+        "disease": "Malaria",
+        "weight": 2
+    },
+    {
+        "symptom": "dizziness",
         "disease": "Anemia",
         "weight": 2
     },
     {
-        "symptom": "rash",
-        "disease": "Malaria",
-        "weight": 9
-    },
-    {
-        "symptom": "fever",
-        "disease": "Tuberculosis",
-        "weight": 7
-    },
-    {
-        "symptom": "abdominal pain",
-        "disease": "Hypertension",
-        "weight": 8
-    },
-    {
-        "symptom": "weight loss",
-        "disease": "Gastroenteritis",
-        "weight": 5
-    },
-    {
-        "symptom": "rash",
-        "disease": "Sepsis",
+        "symptom": "fatigue",
+        "disease": "Typhoid",
         "weight": 2
     },
     {
-        "symptom": "chest pain",
-        "disease": "Sepsis",
-        "weight": 9
+        "symptom": "joint pain",
+        "disease": "Chronic Fatigue Syndrome",
+        "weight": 2
     },
     {
-        "symptom": "diarrhea",
-        "disease": "Heart Attack",
-        "weight": 4
-    },
-    {
-        "symptom": "fatigue",
-        "disease": "Measles",
-        "weight": 8
-    },
-    {
-        "symptom": "diarrhea",
+        "symptom": "weight loss",
         "disease": "Asthma",
-        "weight": 1
+        "weight": 2
     },
     {
-        "symptom": "chest pain",
-        "disease": "Sepsis",
-        "weight": 8
+        "symptom": "abdominal pain",
+        "disease": "Angina",
+        "weight": 2
     },
     {
-        "symptom": "fever",
-        "disease": "Pulmonary Embolism",
-        "weight": 9
-    },
-    {
-        "symptom": "fatigue",
-        "disease": "Diabetes",
-        "weight": 4
-    },
-    {
-        "symptom": "fatigue",
+        "symptom": "headache",
         "disease": "Flu",
         "weight": 2
     },
     {
+        "symptom": "headache",
+        "disease": "Hypertension",
+        "weight": 5
+    },
+    {
+        "symptom": "nausea",
+        "disease": "Gastroenteritis",
+        "weight": 2
+    },
+    {
+        "symptom": "abdominal pain",
+        "disease": "Gastroenteritis",
+        "weight": 2
+    },
+    {
+        "symptom": "joint pain",
+        "disease": "Psoriasis",
+        "weight": 2
+    },
+    {
+        "symptom": "abdominal pain",
+        "disease": "Asthma",
+        "weight": 2
+    },
+    {
+        "symptom": "headache",
+        "disease": "Pulmonary Embolism",
+        "weight": 2
+    },
+    {
+        "symptom": "abdominal pain",
+        "disease": "Lupus",
+        "weight": 2
+    },
+    {
+        "symptom": "rash",
+        "disease": "Hypothyroidism",
+        "weight": 2
+    },
+    {
+        "symptom": "weight loss",
+        "disease": "Sepsis",
+        "weight": 2
+    },
+    {
+        "symptom": "headache",
+        "disease": "Sepsis",
+        "weight": 2
+    },
+    {
+        "symptom": "chills",
+        "disease": "Malaria",
+        "weight": 5
+    },
+    {
+        "symptom": "vomiting",
+        "disease": "Lupus",
+        "weight": 2
+    },
+    {
+        "symptom": "chills",
+        "disease": "Cancer",
+        "weight": 2
+    },
+    {
+        "symptom": "shortness of breath",
+        "disease": "Flu",
+        "weight": 2
+    },
+    {
+        "symptom": "vomiting",
+        "disease": "Chronic Fatigue Syndrome",
+        "weight": 2
+    },
+    {
+        "symptom": "abdominal pain",
+        "disease": "Anemia",
+        "weight": 2
+    },
+    {
+        "symptom": "rash",
+        "disease": "Hypertension",
+        "weight": 2
+    },
+    {
+        "symptom": "fever",
+        "disease": "Crohn's Disease",
+        "weight": 2
+    },
+    {
+        "symptom": "fatigue",
+        "disease": "Anemia",
+        "weight": 5
+    },
+    {
+        "symptom": "vomiting",
+        "disease": "Cancer",
+        "weight": 2
+    },
+    {
+        "symptom": "dizziness",
+        "disease": "Appendicitis",
+        "weight": 2
+    },
+    {
+        "symptom": "weight loss",
+        "disease": "Psoriasis",
+        "weight": 2
+    },
+    {
+        "symptom": "dizziness",
+        "disease": "Psoriasis",
+        "weight": 2
+    },
+    {
+        "symptom": "fever",
+        "disease": "Crohn's Disease",
+        "weight": 2
+    },
+    {
+        "symptom": "fatigue",
+        "disease": "Sepsis",
+        "weight": 2
+    },
+    {
+        "symptom": "abdominal pain",
+        "disease": "Cancer",
+        "weight": 2
+    },
+    {
+        "symptom": "shortness of breath",
+        "disease": "Heart Attack",
+        "weight": 2
+    },
+    {
+        "symptom": "joint pain",
+        "disease": "COVID-19",
+        "weight": 3
+    },
+    {
+        "symptom": "shortness of breath",
+        "disease": "Lupus",
+        "weight": 2
+    },
+    {
+        "symptom": "joint pain",
+        "disease": "Chickenpox",
+        "weight": 2
+    },
+    {
+        "symptom": "abdominal pain",
+        "disease": "Diabetes",
+        "weight": 2
+    },
+    {
+        "symptom": "abdominal pain",
+        "disease": "Pulmonary Embolism",
+        "weight": 2
+    },
+    {
+        "symptom": "chills",
+        "disease": "Cancer",
+        "weight": 2
+    },
+    {
+        "symptom": "rash",
+        "disease": "Malaria",
+        "weight": 2
+    },
+    {
+        "symptom": "nausea",
+        "disease": "Food Poisoning",
+        "weight": 2
+    },
+    {
+        "symptom": "fatigue",
+        "disease": "Tuberculosis",
+        "weight": 2
+    },
+    {
+        "symptom": "chest pain",
+        "disease": "Chickenpox",
+        "weight": 2
+    },
+    {
+        "symptom": "chest pain",
+        "disease": "Appendicitis",
+        "weight": 2
+    },
+    {
+        "symptom": "nausea",
+        "disease": "COVID-19",
+        "weight": 3
+    },
+    {
+        "symptom": "dizziness",
+        "disease": "Angina",
+        "weight": 2
+    },
+    {
+        "symptom": "nausea",
+        "disease": "Pulmonary Embolism",
+        "weight": 2
+    },
+    {
+        "symptom": "fever",
+        "disease": "Psoriasis",
+        "weight": 2
+    },
+    {
+        "symptom": "rash",
+        "disease": "Pulmonary Embolism",
+        "weight": 2
+    },
+    {
+        "symptom": "diarrhea",
+        "disease": "Hypothyroidism",
+        "weight": 2
+    },
+    {
+        "symptom": "fatigue",
+        "disease": "Tuberculosis",
+        "weight": 2
+    },
+    {
+        "symptom": "chills",
+        "disease": "Flu",
+        "weight": 8
+    },
+    {
+        "symptom": "chest pain",
+        "disease": "Sepsis",
+        "weight": 2
+    },
+    {
+        "symptom": "vomiting",
+        "disease": "Cancer",
+        "weight": 2
+    },
+    {
+        "symptom": "cough",
+        "disease": "Measles",
+        "weight": 2
+    },
+    {
+        "symptom": "dizziness",
+        "disease": "Crohn's Disease",
+        "weight": 2
+    },
+    {
+        "symptom": "cough",
+        "disease": "Pneumonia",
+        "weight": 5
+    },
+    {
+        "symptom": "fatigue",
+        "disease": "Heart Attack",
+        "weight": 2
+    },
+    {
+        "symptom": "diarrhea",
+        "disease": "Pneumonia",
+        "weight": 2
+    },
+    {
+        "symptom": "dizziness",
+        "disease": "Food Poisoning",
+        "weight": 2
+    },
+    {
+        "symptom": "abdominal pain",
+        "disease": "Cancer",
+        "weight": 2
+    },
+    {
+        "symptom": "chest pain",
+        "disease": "Tuberculosis",
+        "weight": 2
+    },
+    {
+        "symptom": "chest pain",
+        "disease": "Pneumonia",
+        "weight": 5
+    },
+    {
+        "symptom": "chills",
+        "disease": "Flu",
+        "weight": 8
+    },
+    {
+        "symptom": "fever",
+        "disease": "Crohn's Disease",
+        "weight": 2
+    },
+    {
+        "symptom": "shortness of breath",
+        "disease": "Asthma",
+        "weight": 5
+    },
+    {
+        "symptom": "diarrhea",
+        "disease": "Pulmonary Embolism",
+        "weight": 2
+    },
+    {
+        "symptom": "abdominal pain",
+        "disease": "Heart Attack",
+        "weight": 2
+    },
+    {
+        "symptom": "rash",
+        "disease": "Malaria",
+        "weight": 2
+    },
+    {
+        "symptom": "nausea",
+        "disease": "Typhoid",
+        "weight": 2
+    },
+    {
+        "symptom": "fatigue",
+        "disease": "Measles",
+        "weight": 2
+    },
+    {
+        "symptom": "rash",
+        "disease": "Heart Attack",
+        "weight": 2
+    },
+    {
+        "symptom": "chest pain",
+        "disease": "Angina",
+        "weight": 5
+    },
+    {
+        "symptom": "chest pain",
+        "disease": "Food Poisoning",
+        "weight": 2
+    },
+    {
+        "symptom": "chest pain",
+        "disease": "Asthma",
+        "weight": 2
+    },
+    {
+        "symptom": "dizziness",
+        "disease": "Chronic Fatigue Syndrome",
+        "weight": 2
+    },
+    {
+        "symptom": "fever",
+        "disease": "Crohn's Disease",
+        "weight": 2
+    },
+    {
+        "symptom": "headache",
+        "disease": "Sepsis",
+        "weight": 2
+    },
+    {
+        "symptom": "fever",
+        "disease": "Chickenpox",
+        "weight": 2
+    },
+    {
+        "symptom": "chest pain",
+        "disease": "Appendicitis",
+        "weight": 2
+    },
+    {
+        "symptom": "fever",
+        "disease": "Sepsis",
+        "weight": 2
+    },
+    {
+        "symptom": "diarrhea",
+        "disease": "Psoriasis",
+        "weight": 2
+    },
+    {
+        "symptom": "rash",
+        "disease": "Lupus",
+        "weight": 2
+    },
+    {
+        "symptom": "rash",
+        "disease": "Crohn's Disease",
+        "weight": 2
+    },
+    {
+        "symptom": "chest pain",
+        "disease": "Hypothyroidism",
+        "weight": 2
+    },
+    {
+        "symptom": "weight loss",
+        "disease": "Appendicitis",
+        "weight": 2
+    },
+    {
+        "symptom": "fatigue",
+        "disease": "Heart Attack",
+        "weight": 2
+    },
+    {
+        "symptom": "chills",
+        "disease": "Appendicitis",
+        "weight": 2
+    },
+    {
+        "symptom": "headache",
+        "disease": "Food Poisoning",
+        "weight": 2
+    },
+    {
+        "symptom": "rash",
+        "disease": "Crohn's Disease",
+        "weight": 2
+    },
+    {
+        "symptom": "chills",
+        "disease": "Angina",
+        "weight": 2
+    },
+    {
+        "symptom": "abdominal pain",
+        "disease": "Asthma",
+        "weight": 2
+    },
+    {
+        "symptom": "shortness of breath",
+        "disease": "Sepsis",
+        "weight": 2
+    },
+    {
+        "symptom": "vomiting",
+        "disease": "Angina",
+        "weight": 2
+    },
+    {
+        "symptom": "chills",
+        "disease": "Gastroenteritis",
+        "weight": 2
+    },
+    {
+        "symptom": "cough",
+        "disease": "Psoriasis",
+        "weight": 2
+    },
+    {
+        "symptom": "fever",
+        "disease": "Angina",
+        "weight": 2
+    },
+    {
+        "symptom": "joint pain",
+        "disease": "Pneumonia",
+        "weight": 2
+    },
+    {
+        "symptom": "fatigue",
+        "disease": "Dengue",
+        "weight": 2
+    },
+    {
+        "symptom": "weight loss",
+        "disease": "Measles",
+        "weight": 2
+    },
+    {
+        "symptom": "joint pain",
+        "disease": "Anemia",
+        "weight": 2
+    },
+    {
+        "symptom": "rash",
+        "disease": "Malaria",
+        "weight": 2
+    },
+    {
+        "symptom": "fever",
+        "disease": "Tuberculosis",
+        "weight": 2
+    },
+    {
+        "symptom": "abdominal pain",
+        "disease": "Hypertension",
+        "weight": 2
+    },
+    {
+        "symptom": "weight loss",
+        "disease": "Gastroenteritis",
+        "weight": 2
+    },
+    {
+        "symptom": "rash",
+        "disease": "Sepsis",
+        "weight": 2
+    },
+    {
+        "symptom": "chest pain",
+        "disease": "Sepsis",
+        "weight": 2
+    },
+    {
+        "symptom": "diarrhea",
+        "disease": "Heart Attack",
+        "weight": 2
+    },
+    {
+        "symptom": "fatigue",
+        "disease": "Measles",
+        "weight": 2
+    },
+    {
+        "symptom": "diarrhea",
+        "disease": "Asthma",
+        "weight": 2
+    },
+    {
+        "symptom": "chest pain",
+        "disease": "Sepsis",
+        "weight": 2
+    },
+    {
+        "symptom": "fever",
+        "disease": "Pulmonary Embolism",
+        "weight": 2
+    },
+    {
+        "symptom": "fatigue",
+        "disease": "Diabetes",
+        "weight": 5
+    },
+    {
+        "symptom": "fatigue",
+        "disease": "Flu",
+        "weight": 8
+    },
+    {
         "symptom": "nausea",
         "disease": "Chronic Fatigue Syndrome",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Malaria",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "vomiting",
         "disease": "Chickenpox",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
@@ -2127,12 +2127,12 @@
     {
         "symptom": "weight loss",
         "disease": "Asthma",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "rash",
         "disease": "Asthma",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
@@ -2142,62 +2142,62 @@
     {
         "symptom": "chills",
         "disease": "Dengue",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "chest pain",
         "disease": "Anemia",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "nausea",
         "disease": "Lupus",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Pneumonia",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "nausea",
         "disease": "Crohn's Disease",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Psoriasis",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "chills",
         "disease": "Angina",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "weight loss",
         "disease": "COVID-19",
-        "weight": 1
+        "weight": 3
     },
     {
         "symptom": "shortness of breath",
         "disease": "Food Poisoning",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Anemia",
-        "weight": 6
+        "weight": 5
     },
     {
         "symptom": "nausea",
         "disease": "Sepsis",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "cough",
         "disease": "Pulmonary Embolism",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
@@ -2207,57 +2207,57 @@
     {
         "symptom": "shortness of breath",
         "disease": "Crohn's Disease",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
         "disease": "Pneumonia",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
         "disease": "Appendicitis",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "rash",
         "disease": "Psoriasis",
-        "weight": 8
+        "weight": 5
     },
     {
         "symptom": "chest pain",
         "disease": "Dengue",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
         "disease": "Malaria",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
         "disease": "Flu",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "chest pain",
         "disease": "Sepsis",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "cough",
         "disease": "Crohn's Disease",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
         "disease": "Lupus",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Gastroenteritis",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "weight loss",
@@ -2267,7 +2267,7 @@
     {
         "symptom": "abdominal pain",
         "disease": "Hypertension",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "weight loss",
@@ -2277,17 +2277,17 @@
     {
         "symptom": "rash",
         "disease": "Hypothyroidism",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
         "disease": "Measles",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "vomiting",
         "disease": "Sepsis",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "vomiting",
@@ -2297,37 +2297,37 @@
     {
         "symptom": "dizziness",
         "disease": "Gastroenteritis",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "COVID-19",
-        "weight": 10
+        "weight": 3
     },
     {
         "symptom": "nausea",
         "disease": "Tuberculosis",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "chest pain",
         "disease": "Chickenpox",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "chills",
         "disease": "Flu",
-        "weight": 9
+        "weight": 8
     },
     {
         "symptom": "fatigue",
         "disease": "Measles",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "chills",
         "disease": "Diabetes",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "dizziness",
@@ -2337,67 +2337,67 @@
     {
         "symptom": "vomiting",
         "disease": "Gastroenteritis",
-        "weight": 1
+        "weight": 5
     },
     {
         "symptom": "vomiting",
         "disease": "Flu",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Malaria",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Lupus",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "nausea",
         "disease": "Heart Attack",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "rash",
         "disease": "Diabetes",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "chills",
         "disease": "Asthma",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "shortness of breath",
         "disease": "Crohn's Disease",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Dengue",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Pneumonia",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "weight loss",
         "disease": "Typhoid",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
         "disease": "Chronic Fatigue Syndrome",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "cough",
         "disease": "Anemia",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
@@ -2407,122 +2407,122 @@
     {
         "symptom": "weight loss",
         "disease": "Cancer",
-        "weight": 2
+        "weight": 6
     },
     {
         "symptom": "headache",
         "disease": "Anemia",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Crohn's Disease",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "chest pain",
         "disease": "Typhoid",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "chills",
         "disease": "Appendicitis",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "dizziness",
         "disease": "Sepsis",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "shortness of breath",
         "disease": "Cancer",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "nausea",
         "disease": "Tuberculosis",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "chest pain",
         "disease": "Food Poisoning",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "dizziness",
         "disease": "Cancer",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "chest pain",
         "disease": "Cancer",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "vomiting",
         "disease": "Tuberculosis",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "headache",
         "disease": "Malaria",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "headache",
         "disease": "Angina",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "shortness of breath",
         "disease": "Heart Attack",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "weight loss",
         "disease": "Psoriasis",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "cough",
         "disease": "Pulmonary Embolism",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "vomiting",
         "disease": "COVID-19",
-        "weight": 10
+        "weight": 3
     },
     {
         "symptom": "chills",
         "disease": "Pneumonia",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "weight loss",
         "disease": "Lupus",
-        "weight": 9
+        "weight": 5
     },
     {
         "symptom": "headache",
         "disease": "Pneumonia",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "nausea",
         "disease": "Dengue",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "rash",
         "disease": "Malaria",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "chest pain",
         "disease": "Pneumonia",
-        "weight": 6
+        "weight": 5
     },
     {
         "symptom": "diarrhea",
@@ -2537,12 +2537,12 @@
     {
         "symptom": "chest pain",
         "disease": "Crohn's Disease",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "nausea",
         "disease": "Heart Attack",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "cough",
@@ -2552,72 +2552,72 @@
     {
         "symptom": "fever",
         "disease": "Angina",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "chest pain",
         "disease": "Psoriasis",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
         "disease": "Malaria",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "nausea",
         "disease": "Hypertension",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "nausea",
         "disease": "Food Poisoning",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
         "disease": "Pulmonary Embolism",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "dizziness",
         "disease": "Measles",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "chills",
         "disease": "Tuberculosis",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "shortness of breath",
         "disease": "Gastroenteritis",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "rash",
         "disease": "Typhoid",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "nausea",
         "disease": "Dengue",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "cough",
         "disease": "Chronic Fatigue Syndrome",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "vomiting",
         "disease": "Hypertension",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "shortness of breath",
         "disease": "Sepsis",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "fever",
@@ -2632,7 +2632,7 @@
     {
         "symptom": "headache",
         "disease": "Pneumonia",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "rash",
@@ -2642,7 +2642,7 @@
     {
         "symptom": "joint pain",
         "disease": "Flu",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
@@ -2652,12 +2652,12 @@
     {
         "symptom": "rash",
         "disease": "COVID-19",
-        "weight": 9
+        "weight": 3
     },
     {
         "symptom": "rash",
         "disease": "Diabetes",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "joint pain",
@@ -2667,27 +2667,27 @@
     {
         "symptom": "cough",
         "disease": "Cancer",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "vomiting",
         "disease": "Sepsis",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Food Poisoning",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Pneumonia",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "cough",
         "disease": "Gastroenteritis",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "chest pain",
@@ -2697,7 +2697,7 @@
     {
         "symptom": "fever",
         "disease": "Pulmonary Embolism",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "joint pain",
@@ -2712,12 +2712,12 @@
     {
         "symptom": "rash",
         "disease": "COVID-19",
-        "weight": 8
+        "weight": 3
     },
     {
         "symptom": "fever",
         "disease": "Malaria",
-        "weight": 8
+        "weight": 5
     },
     {
         "symptom": "diarrhea",
@@ -2727,117 +2727,117 @@
     {
         "symptom": "shortness of breath",
         "disease": "Appendicitis",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "dizziness",
         "disease": "Heart Attack",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "chills",
         "disease": "Lupus",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Malaria",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "shortness of breath",
         "disease": "Chickenpox",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
         "disease": "Appendicitis",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
         "disease": "Chronic Fatigue Syndrome",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "headache",
         "disease": "Appendicitis",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Hypertension",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Chickenpox",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Diabetes",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Anemia",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Diabetes",
-        "weight": 4
+        "weight": 5
     },
     {
         "symptom": "weight loss",
         "disease": "Food Poisoning",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Tuberculosis",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Chronic Fatigue Syndrome",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "weight loss",
         "disease": "Typhoid",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "headache",
         "disease": "Flu",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Asthma",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
         "disease": "Chickenpox",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "chest pain",
         "disease": "Tuberculosis",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "cold hands",
         "disease": "Gastroenteritis",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Pulmonary Embolism",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "hair loss",
@@ -2847,122 +2847,122 @@
     {
         "symptom": "fever",
         "disease": "Measles",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "cough",
         "disease": "Tuberculosis",
-        "weight": 3
+        "weight": 5
     },
     {
         "symptom": "sore throat",
         "disease": "Dengue",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "dizziness",
         "disease": "Chickenpox",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "blurred vision",
         "disease": "Gastroenteritis",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "itching",
         "disease": "Heart Attack",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "insomnia",
         "disease": "Asthma",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "swelling",
         "disease": "Tuberculosis",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "itching",
         "disease": "Flu",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "excessive thirst",
         "disease": "Pulmonary Embolism",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "dry mouth",
         "disease": "Tuberculosis",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "chest pain",
         "disease": "Pulmonary Embolism",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "chest pain",
         "disease": "Typhoid",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "blurred vision",
         "disease": "Heart Attack",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "hair loss",
         "disease": "Malaria",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "blurred vision",
         "disease": "Angina",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "loss of appetite",
         "disease": "Diabetes",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "swelling",
         "disease": "Pneumonia",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
         "disease": "Sepsis",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Flu",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "rash",
         "disease": "Cancer",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "cold hands",
         "disease": "Measles",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "COVID-19",
-        "weight": 6
+        "weight": 3
     },
     {
         "symptom": "swelling",
         "disease": "Anemia",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "back pain",
@@ -2972,17 +2972,17 @@
     {
         "symptom": "swelling",
         "disease": "Measles",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "weight loss",
         "disease": "Anemia",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "hair loss",
         "disease": "Typhoid",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "vomiting",
@@ -2992,62 +2992,62 @@
     {
         "symptom": "muscle weakness",
         "disease": "Sepsis",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "frequent urination",
         "disease": "Food Poisoning",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "swelling",
         "disease": "COVID-19",
-        "weight": 4
+        "weight": 3
     },
     {
         "symptom": "chest pain",
         "disease": "Pneumonia",
-        "weight": 9
+        "weight": 5
     },
     {
         "symptom": "loss of appetite",
         "disease": "Appendicitis",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Cancer",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
         "disease": "Asthma",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "cold hands",
         "disease": "COVID-19",
-        "weight": 4
+        "weight": 3
     },
     {
         "symptom": "rash",
         "disease": "Cancer",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "chills",
         "disease": "Asthma",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "excessive thirst",
         "disease": "Psoriasis",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "cough",
         "disease": "Appendicitis",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
@@ -3057,32 +3057,32 @@
     {
         "symptom": "hair loss",
         "disease": "Pulmonary Embolism",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "excessive thirst",
         "disease": "Chronic Fatigue Syndrome",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "sore throat",
         "disease": "Typhoid",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "dizziness",
         "disease": "Chickenpox",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
         "disease": "Malaria",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "hair loss",
         "disease": "Psoriasis",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "frequent urination",
@@ -3092,22 +3092,22 @@
     {
         "symptom": "rash",
         "disease": "Measles",
-        "weight": 1
+        "weight": 5
     },
     {
         "symptom": "vomiting",
         "disease": "Diabetes",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
         "disease": "Dengue",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
         "disease": "Hypothyroidism",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "excessive thirst",
@@ -3117,102 +3117,102 @@
     {
         "symptom": "chills",
         "disease": "Appendicitis",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "weight loss",
         "disease": "Angina",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "swelling",
         "disease": "Crohn's Disease",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "itching",
         "disease": "Chickenpox",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "weight loss",
         "disease": "Crohn's Disease",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "weight loss",
         "disease": "Pneumonia",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "muscle weakness",
         "disease": "Gastroenteritis",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "sore throat",
         "disease": "Sepsis",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "muscle weakness",
         "disease": "Psoriasis",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Tuberculosis",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Sepsis",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
         "disease": "Typhoid",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "cough",
         "disease": "Cancer",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "back pain",
         "disease": "Flu",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
         "disease": "Pneumonia",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
         "disease": "Chickenpox",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "headache",
         "disease": "Chronic Fatigue Syndrome",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "hair loss",
         "disease": "Angina",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Food Poisoning",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "blurred vision",
         "disease": "Chickenpox",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
@@ -3232,92 +3232,92 @@
     {
         "symptom": "vomiting",
         "disease": "Dengue",
-        "weight": 8
+        "weight": 5
     },
     {
         "symptom": "weight loss",
         "disease": "Diabetes",
-        "weight": 1
+        "weight": 5
     },
     {
         "symptom": "weight loss",
         "disease": "Chickenpox",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Heart Attack",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Lupus",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Measles",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Lupus",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "loss of appetite",
         "disease": "Anemia",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Appendicitis",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "headache",
         "disease": "Hypothyroidism",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "excessive thirst",
         "disease": "Angina",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "shortness of breath",
         "disease": "Sepsis",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "irritability",
         "disease": "Pneumonia",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "hair loss",
         "disease": "Pulmonary Embolism",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "cough",
         "disease": "Flu",
-        "weight": 3
+        "weight": 8
     },
     {
         "symptom": "chills",
         "disease": "Dengue",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "vomiting",
         "disease": "Hypertension",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "back pain",
         "disease": "Lupus",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "weight loss",
@@ -3327,7 +3327,7 @@
     {
         "symptom": "chest pain",
         "disease": "Anemia",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "blurred vision",
@@ -3337,12 +3337,12 @@
     {
         "symptom": "headache",
         "disease": "Gastroenteritis",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "frequent urination",
         "disease": "Hypothyroidism",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "joint pain",
@@ -3352,17 +3352,17 @@
     {
         "symptom": "chest pain",
         "disease": "Appendicitis",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Angina",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "chest tightness",
         "disease": "Crohn's Disease",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "chest tightness",
@@ -3372,202 +3372,202 @@
     {
         "symptom": "cold hands",
         "disease": "COVID-19",
-        "weight": 4
+        "weight": 3
     },
     {
         "symptom": "insomnia",
         "disease": "Crohn's Disease",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "chills",
         "disease": "Gastroenteritis",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "headache",
         "disease": "Pulmonary Embolism",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "shortness of breath",
         "disease": "Diabetes",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "frequent urination",
         "disease": "Food Poisoning",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Chronic Fatigue Syndrome",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Flu",
-        "weight": 7
+        "weight": 8
     },
     {
         "symptom": "blurred vision",
         "disease": "Chronic Fatigue Syndrome",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "sore throat",
         "disease": "Asthma",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Hypothyroidism",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "hair loss",
         "disease": "Chronic Fatigue Syndrome",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "hair loss",
         "disease": "Diabetes",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Typhoid",
-        "weight": 1
+        "weight": 5
     },
     {
         "symptom": "insomnia",
         "disease": "Anemia",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "insomnia",
         "disease": "Anemia",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "cold hands",
         "disease": "Hypertension",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "itching",
         "disease": "Chickenpox",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "frequent urination",
         "disease": "Pulmonary Embolism",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "swelling",
         "disease": "Malaria",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "weight loss",
         "disease": "Diabetes",
-        "weight": 9
+        "weight": 5
     },
     {
         "symptom": "cold hands",
         "disease": "Cancer",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "insomnia",
         "disease": "Tuberculosis",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "excessive thirst",
         "disease": "Heart Attack",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "headache",
         "disease": "Pneumonia",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "irritability",
         "disease": "Hypothyroidism",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "dry mouth",
         "disease": "Crohn's Disease",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "frequent urination",
         "disease": "Chronic Fatigue Syndrome",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "muscle weakness",
         "disease": "Heart Attack",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "muscle weakness",
         "disease": "Typhoid",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "excessive thirst",
         "disease": "Typhoid",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "itching",
         "disease": "Crohn's Disease",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
         "disease": "Pulmonary Embolism",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "frequent urination",
         "disease": "Cancer",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "frequent urination",
         "disease": "Hypothyroidism",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
         "disease": "Tuberculosis",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "back pain",
         "disease": "Chickenpox",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "swelling",
         "disease": "Anemia",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "shortness of breath",
         "disease": "Hypothyroidism",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
         "disease": "Angina",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "chest tightness",
@@ -3577,32 +3577,32 @@
     {
         "symptom": "fatigue",
         "disease": "Sepsis",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "nausea",
         "disease": "Sepsis",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "rash",
         "disease": "Typhoid",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "muscle weakness",
         "disease": "Cancer",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Dengue",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "cough",
         "disease": "Heart Attack",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "irritability",
@@ -3617,22 +3617,22 @@
     {
         "symptom": "chest pain",
         "disease": "Gastroenteritis",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "nausea",
         "disease": "Heart Attack",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "insomnia",
         "disease": "Dengue",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "sore throat",
         "disease": "Typhoid",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "joint pain",
@@ -3642,17 +3642,17 @@
     {
         "symptom": "irritability",
         "disease": "Appendicitis",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "nausea",
         "disease": "Flu",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Pulmonary Embolism",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "muscle weakness",
@@ -3662,127 +3662,127 @@
     {
         "symptom": "nausea",
         "disease": "Sepsis",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "shortness of breath",
         "disease": "Diabetes",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "frequent urination",
         "disease": "Sepsis",
-        "weight": 5
-    },
-    {
-        "symptom": "hair loss",
-        "disease": "Sepsis",
-        "weight": 3
-    },
-    {
-        "symptom": "chest tightness",
-        "disease": "Lupus",
-        "weight": 7
-    },
-    {
-        "symptom": "hair loss",
-        "disease": "COVID-19",
-        "weight": 7
-    },
-    {
-        "symptom": "chest tightness",
-        "disease": "Appendicitis",
-        "weight": 3
-    },
-    {
-        "symptom": "nausea",
-        "disease": "Hypertension",
-        "weight": 9
-    },
-    {
-        "symptom": "muscle weakness",
-        "disease": "Chickenpox",
-        "weight": 4
-    },
-    {
-        "symptom": "blurred vision",
-        "disease": "Chickenpox",
-        "weight": 9
-    },
-    {
-        "symptom": "nausea",
-        "disease": "Malaria",
-        "weight": 10
-    },
-    {
-        "symptom": "back pain",
-        "disease": "Crohn's Disease",
-        "weight": 7
-    },
-    {
-        "symptom": "chills",
-        "disease": "Chronic Fatigue Syndrome",
-        "weight": 3
-    },
-    {
-        "symptom": "vomiting",
-        "disease": "Chickenpox",
-        "weight": 4
-    },
-    {
-        "symptom": "sore throat",
-        "disease": "Cancer",
-        "weight": 6
-    },
-    {
-        "symptom": "blurred vision",
-        "disease": "Pulmonary Embolism",
-        "weight": 3
-    },
-    {
-        "symptom": "joint pain",
-        "disease": "Tuberculosis",
-        "weight": 1
-    },
-    {
-        "symptom": "weight loss",
-        "disease": "Pulmonary Embolism",
-        "weight": 5
-    },
-    {
-        "symptom": "vomiting",
-        "disease": "COVID-19",
-        "weight": 9
-    },
-    {
-        "symptom": "itching",
-        "disease": "Angina",
-        "weight": 7
-    },
-    {
-        "symptom": "fever",
-        "disease": "Sepsis",
-        "weight": 10
-    },
-    {
-        "symptom": "cold hands",
-        "disease": "Pneumonia",
-        "weight": 1
-    },
-    {
-        "symptom": "cough",
-        "disease": "Asthma",
         "weight": 2
     },
     {
         "symptom": "hair loss",
+        "disease": "Sepsis",
+        "weight": 2
+    },
+    {
+        "symptom": "chest tightness",
+        "disease": "Lupus",
+        "weight": 2
+    },
+    {
+        "symptom": "hair loss",
+        "disease": "COVID-19",
+        "weight": 3
+    },
+    {
+        "symptom": "chest tightness",
+        "disease": "Appendicitis",
+        "weight": 2
+    },
+    {
+        "symptom": "nausea",
+        "disease": "Hypertension",
+        "weight": 2
+    },
+    {
+        "symptom": "muscle weakness",
+        "disease": "Chickenpox",
+        "weight": 2
+    },
+    {
+        "symptom": "blurred vision",
+        "disease": "Chickenpox",
+        "weight": 2
+    },
+    {
+        "symptom": "nausea",
         "disease": "Malaria",
-        "weight": 10
+        "weight": 2
+    },
+    {
+        "symptom": "back pain",
+        "disease": "Crohn's Disease",
+        "weight": 2
+    },
+    {
+        "symptom": "chills",
+        "disease": "Chronic Fatigue Syndrome",
+        "weight": 2
+    },
+    {
+        "symptom": "vomiting",
+        "disease": "Chickenpox",
+        "weight": 2
+    },
+    {
+        "symptom": "sore throat",
+        "disease": "Cancer",
+        "weight": 2
+    },
+    {
+        "symptom": "blurred vision",
+        "disease": "Pulmonary Embolism",
+        "weight": 2
+    },
+    {
+        "symptom": "joint pain",
+        "disease": "Tuberculosis",
+        "weight": 2
+    },
+    {
+        "symptom": "weight loss",
+        "disease": "Pulmonary Embolism",
+        "weight": 2
+    },
+    {
+        "symptom": "vomiting",
+        "disease": "COVID-19",
+        "weight": 3
+    },
+    {
+        "symptom": "itching",
+        "disease": "Angina",
+        "weight": 2
+    },
+    {
+        "symptom": "fever",
+        "disease": "Sepsis",
+        "weight": 2
+    },
+    {
+        "symptom": "cold hands",
+        "disease": "Pneumonia",
+        "weight": 2
+    },
+    {
+        "symptom": "cough",
+        "disease": "Asthma",
+        "weight": 5
+    },
+    {
+        "symptom": "hair loss",
+        "disease": "Malaria",
+        "weight": 2
     },
     {
         "symptom": "dry mouth",
         "disease": "Heart Attack",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "sore throat",
@@ -3792,12 +3792,12 @@
     {
         "symptom": "fever",
         "disease": "Cancer",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "frequent urination",
         "disease": "Cancer",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "shortness of breath",
@@ -3807,17 +3807,17 @@
     {
         "symptom": "nausea",
         "disease": "Cancer",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "chills",
         "disease": "Gastroenteritis",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "insomnia",
         "disease": "Tuberculosis",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "fever",
@@ -3827,77 +3827,77 @@
     {
         "symptom": "irritability",
         "disease": "Psoriasis",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "chills",
         "disease": "Cancer",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "frequent urination",
         "disease": "Pulmonary Embolism",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "sore throat",
         "disease": "Heart Attack",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "vomiting",
         "disease": "Crohn's Disease",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "cold hands",
         "disease": "Sepsis",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "itching",
         "disease": "Tuberculosis",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "irritability",
         "disease": "Pulmonary Embolism",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "shortness of breath",
         "disease": "Asthma",
-        "weight": 1
+        "weight": 5
     },
     {
         "symptom": "dizziness",
         "disease": "Malaria",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "muscle weakness",
         "disease": "Pneumonia",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Pulmonary Embolism",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Diabetes",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "irritability",
         "disease": "Pulmonary Embolism",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "blurred vision",
         "disease": "Measles",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "vomiting",
@@ -3907,142 +3907,142 @@
     {
         "symptom": "blurred vision",
         "disease": "Tuberculosis",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "itching",
         "disease": "Angina",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
         "disease": "Pneumonia",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "dizziness",
         "disease": "Cancer",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "vomiting",
         "disease": "Psoriasis",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "itching",
         "disease": "Malaria",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "headache",
         "disease": "Anemia",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
         "disease": "Malaria",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "frequent urination",
         "disease": "Dengue",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "rash",
         "disease": "Anemia",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "back pain",
         "disease": "Crohn's Disease",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "frequent urination",
         "disease": "Food Poisoning",
-        "weight": 6
-    },
-    {
-        "symptom": "chest tightness",
-        "disease": "Angina",
-        "weight": 5
-    },
-    {
-        "symptom": "irritability",
-        "disease": "Asthma",
-        "weight": 8
-    },
-    {
-        "symptom": "chills",
-        "disease": "Typhoid",
-        "weight": 1
-    },
-    {
-        "symptom": "weight loss",
-        "disease": "Anemia",
-        "weight": 6
-    },
-    {
-        "symptom": "sore throat",
-        "disease": "Sepsis",
-        "weight": 10
-    },
-    {
-        "symptom": "back pain",
-        "disease": "Cancer",
-        "weight": 4
-    },
-    {
-        "symptom": "fever",
-        "disease": "Flu",
         "weight": 2
     },
     {
         "symptom": "chest tightness",
+        "disease": "Angina",
+        "weight": 2
+    },
+    {
+        "symptom": "irritability",
+        "disease": "Asthma",
+        "weight": 2
+    },
+    {
+        "symptom": "chills",
+        "disease": "Typhoid",
+        "weight": 2
+    },
+    {
+        "symptom": "weight loss",
+        "disease": "Anemia",
+        "weight": 2
+    },
+    {
+        "symptom": "sore throat",
+        "disease": "Sepsis",
+        "weight": 2
+    },
+    {
+        "symptom": "back pain",
+        "disease": "Cancer",
+        "weight": 2
+    },
+    {
+        "symptom": "fever",
+        "disease": "Flu",
+        "weight": 8
+    },
+    {
+        "symptom": "chest tightness",
         "disease": "Chronic Fatigue Syndrome",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "vomiting",
         "disease": "Angina",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
         "disease": "Anemia",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "cough",
         "disease": "Chronic Fatigue Syndrome",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Measles",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "muscle weakness",
         "disease": "Chickenpox",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "excessive thirst",
         "disease": "Chickenpox",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "frequent urination",
         "disease": "Typhoid",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Asthma",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "chest tightness",
@@ -4052,37 +4052,37 @@
     {
         "symptom": "fatigue",
         "disease": "Lupus",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Psoriasis",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Tuberculosis",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Chronic Fatigue Syndrome",
-        "weight": 3
+        "weight": 5
     },
     {
         "symptom": "diarrhea",
         "disease": "Crohn's Disease",
-        "weight": 2
+        "weight": 5
     },
     {
         "symptom": "vomiting",
         "disease": "Anemia",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "cold hands",
         "disease": "Lupus",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "chills",
@@ -4092,77 +4092,77 @@
     {
         "symptom": "dry mouth",
         "disease": "Diabetes",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "itching",
         "disease": "Flu",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "cough",
         "disease": "Measles",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Cancer",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "sore throat",
         "disease": "Malaria",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "swelling",
         "disease": "Chronic Fatigue Syndrome",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "cough",
         "disease": "Dengue",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "rash",
         "disease": "Tuberculosis",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Sepsis",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "vomiting",
         "disease": "Asthma",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "itching",
         "disease": "Tuberculosis",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "muscle weakness",
         "disease": "COVID-19",
-        "weight": 1
+        "weight": 3
     },
     {
         "symptom": "irritability",
         "disease": "Flu",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "dry mouth",
         "disease": "Cancer",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "excessive thirst",
         "disease": "COVID-19",
-        "weight": 1
+        "weight": 3
     },
     {
         "symptom": "abdominal pain",
@@ -4177,12 +4177,12 @@
     {
         "symptom": "dizziness",
         "disease": "Angina",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Chronic Fatigue Syndrome",
-        "weight": 10
+        "weight": 5
     },
     {
         "symptom": "loss of appetite",
@@ -4192,47 +4192,47 @@
     {
         "symptom": "dizziness",
         "disease": "Cancer",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Gastroenteritis",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Sepsis",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Food Poisoning",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "irritability",
         "disease": "Gastroenteritis",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "chest pain",
         "disease": "Diabetes",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "chest tightness",
         "disease": "Measles",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "chills",
         "disease": "Chickenpox",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Tuberculosis",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "fatigue",
@@ -4242,52 +4242,52 @@
     {
         "symptom": "chills",
         "disease": "Crohn's Disease",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "back pain",
         "disease": "Typhoid",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Asthma",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
         "disease": "Chickenpox",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
         "disease": "Psoriasis",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "loss of appetite",
         "disease": "Food Poisoning",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "irritability",
         "disease": "Appendicitis",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "dizziness",
         "disease": "Gastroenteritis",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "shortness of breath",
         "disease": "Gastroenteritis",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
         "disease": "Asthma",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "loss of appetite",
@@ -4297,22 +4297,22 @@
     {
         "symptom": "abdominal pain",
         "disease": "Heart Attack",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "dizziness",
         "disease": "Appendicitis",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "rash",
         "disease": "Malaria",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "headache",
         "disease": "Pneumonia",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "nausea",
@@ -4327,17 +4327,17 @@
     {
         "symptom": "irritability",
         "disease": "Asthma",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Anemia",
-        "weight": 10
+        "weight": 5
     },
     {
         "symptom": "nausea",
         "disease": "Crohn's Disease",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "irritability",
@@ -4347,12 +4347,12 @@
     {
         "symptom": "fatigue",
         "disease": "Hypothyroidism",
-        "weight": 8
+        "weight": 5
     },
     {
         "symptom": "dizziness",
         "disease": "Sepsis",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "irritability",
@@ -4362,7 +4362,7 @@
     {
         "symptom": "cough",
         "disease": "Heart Attack",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "rash",
@@ -4372,17 +4372,17 @@
     {
         "symptom": "itching",
         "disease": "Tuberculosis",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "shortness of breath",
         "disease": "Measles",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "excessive thirst",
         "disease": "Crohn's Disease",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "itching",
@@ -4392,22 +4392,22 @@
     {
         "symptom": "nausea",
         "disease": "Malaria",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Crohn's Disease",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "sore throat",
         "disease": "Dengue",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "irritability",
         "disease": "COVID-19",
-        "weight": 10
+        "weight": 3
     },
     {
         "symptom": "sore throat",
@@ -4417,97 +4417,97 @@
     {
         "symptom": "vomiting",
         "disease": "Malaria",
-        "weight": 7
+        "weight": 5
     },
     {
         "symptom": "irritability",
         "disease": "Asthma",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Tuberculosis",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "chills",
         "disease": "Psoriasis",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "chills",
         "disease": "Dengue",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "blurred vision",
         "disease": "Flu",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "rash",
         "disease": "Psoriasis",
-        "weight": 4
+        "weight": 5
     },
     {
         "symptom": "dizziness",
         "disease": "Pulmonary Embolism",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "chills",
         "disease": "Diabetes",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "chest pain",
         "disease": "Cancer",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "itching",
         "disease": "Malaria",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Gastroenteritis",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "chills",
         "disease": "Heart Attack",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "cold hands",
         "disease": "Dengue",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "insomnia",
         "disease": "Measles",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "rash",
         "disease": "Chickenpox",
-        "weight": 6
+        "weight": 5
     },
     {
         "symptom": "chills",
         "disease": "Cancer",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "vomiting",
         "disease": "Chickenpox",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "cough",
         "disease": "Cancer",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
@@ -4517,42 +4517,42 @@
     {
         "symptom": "headache",
         "disease": "Cancer",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "hair loss",
         "disease": "Anemia",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "cough",
         "disease": "Heart Attack",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "frequent urination",
         "disease": "Lupus",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "sore throat",
         "disease": "Malaria",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "sore throat",
         "disease": "Gastroenteritis",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "insomnia",
         "disease": "Asthma",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "itching",
         "disease": "Hypothyroidism",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "hair loss",
@@ -4562,57 +4562,57 @@
     {
         "symptom": "shortness of breath",
         "disease": "Dengue",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "muscle weakness",
         "disease": "Angina",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "frequent urination",
         "disease": "Diabetes",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "blurred vision",
         "disease": "Cancer",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "rash",
         "disease": "Heart Attack",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "nausea",
         "disease": "Typhoid",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "hair loss",
         "disease": "Heart Attack",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
         "disease": "Lupus",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "swelling",
         "disease": "Heart Attack",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Sepsis",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "sore throat",
         "disease": "Hypothyroidism",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "cold hands",
@@ -4622,22 +4622,22 @@
     {
         "symptom": "hair loss",
         "disease": "Anemia",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "vomiting",
         "disease": "Crohn's Disease",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "cold hands",
         "disease": "Psoriasis",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "muscle weakness",
         "disease": "Tuberculosis",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "nausea",
@@ -4647,47 +4647,47 @@
     {
         "symptom": "diarrhea",
         "disease": "Appendicitis",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "chest tightness",
         "disease": "Flu",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "itching",
         "disease": "Lupus",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "chest tightness",
         "disease": "Crohn's Disease",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "itching",
         "disease": "Angina",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "chills",
         "disease": "Sepsis",
-        "weight": 2
+        "weight": 5
     },
     {
         "symptom": "hair loss",
         "disease": "Hypertension",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "headache",
         "disease": "Dengue",
-        "weight": 8
+        "weight": 5
     },
     {
         "symptom": "frequent urination",
         "disease": "Diabetes",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "cold hands",
@@ -4697,72 +4697,72 @@
     {
         "symptom": "fever",
         "disease": "Pneumonia",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "loss of appetite",
         "disease": "Anemia",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "irritability",
         "disease": "Pneumonia",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "chills",
         "disease": "Chickenpox",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "weight loss",
         "disease": "Cancer",
-        "weight": 1
+        "weight": 6
     },
     {
         "symptom": "muscle weakness",
         "disease": "Food Poisoning",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "irritability",
         "disease": "Typhoid",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "dry mouth",
         "disease": "Anemia",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "cough",
         "disease": "Chickenpox",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "frequent urination",
         "disease": "Psoriasis",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "nausea",
         "disease": "Appendicitis",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "insomnia",
         "disease": "Hypothyroidism",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "nausea",
         "disease": "Anemia",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "diarrhea",
         "disease": "Food Poisoning",
-        "weight": 6
+        "weight": 8
     },
     {
         "symptom": "loss of appetite",
@@ -4772,72 +4772,72 @@
     {
         "symptom": "joint pain",
         "disease": "Crohn's Disease",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "dry mouth",
         "disease": "Angina",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Gastroenteritis",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "frequent urination",
         "disease": "Hypothyroidism",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "cold hands",
         "disease": "Chickenpox",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "sore throat",
         "disease": "Angina",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "chest pain",
         "disease": "Cancer",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Cancer",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "frequent urination",
         "disease": "Dengue",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "chest tightness",
         "disease": "Asthma",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "swelling",
         "disease": "Measles",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "fatigue",
         "disease": "Cancer",
-        "weight": 4
+        "weight": 2
     },
     {
         "symptom": "vomiting",
         "disease": "Hypothyroidism",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "fever",
         "disease": "Malaria",
-        "weight": 4
+        "weight": 5
     },
     {
         "symptom": "shortness of breath",
@@ -4847,22 +4847,22 @@
     {
         "symptom": "chills",
         "disease": "Pneumonia",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "cough",
         "disease": "Angina",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "cough",
         "disease": "Cancer",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "irritability",
         "disease": "Sepsis",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "nausea",
@@ -4872,27 +4872,27 @@
     {
         "symptom": "diarrhea",
         "disease": "Lupus",
-        "weight": 5
+        "weight": 2
     },
     {
         "symptom": "irritability",
         "disease": "COVID-19",
-        "weight": 2
+        "weight": 3
     },
     {
         "symptom": "headache",
         "disease": "Crohn's Disease",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "chills",
         "disease": "Heart Attack",
-        "weight": 9
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Hypertension",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "vomiting",
@@ -4902,22 +4902,22 @@
     {
         "symptom": "abdominal pain",
         "disease": "Gastroenteritis",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "excessive thirst",
         "disease": "Lupus",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "weight loss",
         "disease": "Cancer",
-        "weight": 3
+        "weight": 6
     },
     {
         "symptom": "frequent urination",
         "disease": "Pneumonia",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "fever",
@@ -4927,17 +4927,17 @@
     {
         "symptom": "vomiting",
         "disease": "Asthma",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "insomnia",
         "disease": "Hypertension",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "dizziness",
         "disease": "Hypertension",
-        "weight": 10
+        "weight": 2
     },
     {
         "symptom": "vomiting",
@@ -4947,47 +4947,47 @@
     {
         "symptom": "back pain",
         "disease": "Anemia",
-        "weight": 6
+        "weight": 2
     },
     {
         "symptom": "hair loss",
         "disease": "Typhoid",
-        "weight": 1
+        "weight": 2
     },
     {
         "symptom": "dizziness",
         "disease": "Heart Attack",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "joint pain",
         "disease": "Appendicitis",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "cough",
         "disease": "Anemia",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "chest pain",
         "disease": "Pneumonia",
-        "weight": 1
+        "weight": 5
     },
     {
         "symptom": "muscle weakness",
         "disease": "Sepsis",
-        "weight": 3
+        "weight": 2
     },
     {
         "symptom": "abdominal pain",
         "disease": "Hypothyroidism",
-        "weight": 7
+        "weight": 2
     },
     {
         "symptom": "chest pain",
         "disease": "Asthma",
-        "weight": 8
+        "weight": 2
     },
     {
         "symptom": "muscle weakness",
@@ -4997,6 +4997,6 @@
     {
         "symptom": "weight loss",
         "disease": "Sepsis",
-        "weight": 8
+        "weight": 2
     }
 ]
