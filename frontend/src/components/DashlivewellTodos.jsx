@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
-import useAegleCoveStore from '../store/AeglcoveStore';
+import useAegleCoveStore from '../store/AegleCoveStore.js';
 import { MdDelete } from "react-icons/md";
 import { RiEditBoxFill } from "react-icons/ri";
 import styles from '../styles/todo.module.css';

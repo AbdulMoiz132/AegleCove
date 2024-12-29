@@ -2,15 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
 
-.medicinesdeatilspage {
+.medicinesdeatilspage ,.diseasesdeatilspage {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
   font-family: 'Poppins', sans-serif;
+  line-height: 2.2vw;
 }
 
-.medicinepagerouter {
+.medicinepagerouter ,.diseasepagerouter {
   display: flex;
   gap: 1vw;
   margin-top: 4vh;
@@ -21,15 +21,16 @@
   font-weight: 700;
 }
 
-.medicinespagelink {
+.medicinespagelink ,.diseasespagelink {
   text-decoration: none;
+  text-align: left;
 }
 
 .linktext {
   text-decoration: underline #3db166;
 }
 
-.medicinedetails {
+.medicinedetails , .diseasedetails{
   width: 90vw;
   box-shadow: rgba(14, 63, 126, 0.06) 0px 0px 0px 1px, rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 2px 2px -1px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px, rgba(42, 51, 70, 0.03) 0px 10px 10px -5px, rgba(42, 51, 70, 0.03) 0px 24px 24px -8px;
   align-self: center;
@@ -39,7 +40,7 @@
   display: flex;
 }
 
-.medicinename {
+.medicinename ,.diseasename {
   font-size: 30px;
   font-weight: 800;
   color: #181818;
@@ -47,24 +48,24 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.medicineformula {
+.medicineformula ,.diseaseformula {
   font-size: 1.5vw;
   color: #3db166;
-  padding-left: 1.5vw;
+  padding-left: 1vw;
   font-family: 'Poppins', sans-serif;
 }
 
-.medicinedescription {
+.medicinedescription , .diseasedescription {
   font-size: 1.5vw;
   color: #181818;
   padding-left: 1.5vw;
   font-family: 'Merriweather', sans-serif;
 }
 
-.medicinedosage {
+.medicinedosage ,.diseasedosage {
   font-size: 1.5vw;
   color: #3db166;
-  padding: 1vw 1.5vw;
+  padding: 1.5vw 1.5vw;
   font-family: 'Merriweather', sans-serif;
 }
 
@@ -76,34 +77,47 @@
   font-family: 'Merriweather', sans-serif;
 }
 
-.medicinesideeffects {
+.medicinesideeffects ,.diseaseSymptoms,.diseaseTreatment , .preventiveMeasure {
   font-size: 1.5vw;
   color: #3db166;
-  padding: 1vw 2vw;
+  padding: 1.5vw 1.5vw;
   font-family: 'Merriweather', sans-serif;
 }
 
-.medicinesideeffectslist {
+.medicinesideeffectslist  ,.preventiveMeasureList  {
   font-size: 1.5vw;
   color: #181818;
   padding-left: 2vw;
+  padding-top: 0vw;
+  padding-bottom: 0vw;
   font-family: 'Merriweather', sans-serif;
 }
 
 .medicinealternatives {
   font-size: 1.5vw;
   color: #3db166;
-  padding: 1vw 2vw;
+  padding: .5vw 1.5vw;
   font-family: 'Merriweather', sans-serif;
 }
 
-.medicinealternativeslist {
+.medicinealternativeslist  {
   font-size: 1.5vw;
   color: #181818;
   font-family: 'Merriweather', sans-serif;
+  padding-left: 2vw;
 }
 
 .medicinealternativeslist li {
   list-style: none;
   padding-left: 2vw;
+  padding-top: 0vw;
+  padding-bottom: 0vw;
+}
+.diseaseSymptomsList ,.diseaseTreatmentList {
+  font-size: 1.5vw;
+  color: #181818;
+  padding-left: 2vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  font-family: 'Merriweather', sans-serif;
 }

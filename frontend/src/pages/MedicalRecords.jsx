@@ -2,44 +2,64 @@ import React, { useState } from 'react';
 import DashHeader from '../components/DashHeader';
 import DashSidemenu from '../components/DashSidemenu';
 import MedicalRecordForm from '../components/MedicalRecordForm';
-import useAegleCoveStore from '../store/AeglCoveStore';
+import useAegleCoveStore from '../store/AegleCoveStore';
 import styles from '../styles/medicalrecords.module.css';
+
 
 const MedicalRecords = () => {
   const medicalRecords = useAegleCoveStore((state) => state.user.medical_history);
   const setUser = useAegleCoveStore((state) => state.setUser);
-  const [showBodyMetricsForm, setShowBodyMetricsForm] = useState(false);
   const [showMedicalRecordForm, setShowMedicalRecordForm] = useState(false);
-
+  const [showRecord , setShowRecord] = useState(true);
+  const user = useAegleCoveStore ((state) => state.user);
   const handleDeleteRecord = (index) => {
+    
     const updatedRecords = [...medicalRecords];
     updatedRecords.splice(index, 1);
-    setUser({ medical_history: updatedRecords });
+  
+   
+    const updatedUser = {
+      ...user,
+      medical_history: updatedRecords, 
+    };
+  
+    setUser(updatedUser);
+  
+    
+    handleDelete(updatedUser);
   };
+  const handlehide = () => {
+    setShowRecord(true);
+    setShowMedicalRecordForm(false);
+  }
+  
 
-  const handleBodyMetricsSubmit = (event) => {
-    event.preventDefault();
-    const data = new FormData(event.target);
-    const weight = data.get('weight');
-    const height = data.get('height');
-    console.log({ weight, height });
-    // Handle body metrics form submission logic here
-  };
-
-  const handleMedicalRecordSubmit = (data) => {
-    console.log(data);
-    // Handle medical record form submission logic here
+  const handleDelete = async (data) => {
+    console.log(data)
+    setUser(data)
+    const response = await fetch('http://localhost:8080/user/update', {
+      method: 'Post',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data)
+    });
+    const result = await response.json();
+    if (!response.ok) {
+      alert(result.message)
+      console.log(result.message);
+      setUser(beforeupdate)
+      return;
+    }
+    alert('Record Deleted successfully');
   };
 
   const toggleMedicalRecordForm = () => {
     setShowMedicalRecordForm(!showMedicalRecordForm);
-    if (showBodyMetricsForm) setShowBodyMetricsForm(false);
+    setShowRecord(!showRecord);
+
   };
 
-  const toggleBodyMetricsForm = () => {
-    setShowBodyMetricsForm(!showBodyMetricsForm);
-    if (showMedicalRecordForm) setShowMedicalRecordForm(false);
-  };
 
   return (
     <div className={styles.medicalRecordsPage}>
@@ -50,42 +70,26 @@ const MedicalRecords = () => {
           <h1>Medical Records</h1>
           <div className={styles.buttonRow}>
             <button className={styles.actionButton} onClick={toggleMedicalRecordForm}>Add Record</button>
-            <button className={styles.actionButton} onClick={toggleBodyMetricsForm}>Add Body Metrics</button>
           </div>
           {showMedicalRecordForm && (
-            <MedicalRecordForm onSubmit={handleMedicalRecordSubmit} />
+            <MedicalRecordForm handlehide ={handlehide} />
           )}
-          {showBodyMetricsForm && (
-            <form className={styles.bodyMetricsForm} onSubmit={handleBodyMetricsSubmit}>
-              <div className={styles.formGroup}>
-                <label htmlFor="weight">Weight (kg)</label>
-                <input id="weight" name="weight" type="number" className={styles.inputField} />
-              </div>
-              <div className={styles.formGroup}>
-                <label htmlFor="height">Height (inches)</label>
-                <input id="height" name="height" type="number" className={styles.inputField} />
-              </div>
-              <button type="submit" className={styles.submitButton}>Submit</button>
-            </form>
-          )}
-          {medicalRecords.length > 0 ? (
+          {showRecord&&medicalRecords?.length > 0 ? (
             medicalRecords.map((record, index) => (
               <div key={index} className={styles.recordCard}>
-                <h3>{record.diseaseName}</h3>
-                <p>Type: {record.diseaseType}</p>
+                <h3>{record.diseasename}</h3>
+                <p>Type: {record.type}</p>
                 <p>Medications:</p>
                 <ul>
-                  {record.medications.map((med, idx) => (
-                    <li key={idx}>{med.medicineName} - {med.dosage} - {med.timing}</li>
+                  {record.medicines.map((med, idx) => (
+                    <li key={idx}>{med}</li>
                   ))}
                 </ul>
-                <p>Doctor Visits: {record.doctorVisits}</p>
-                <button className={styles.editButton}>Edit</button>
                 <button className={styles.deleteButton} onClick={() => handleDeleteRecord(index)}>Delete</button>
               </div>
             ))
           ) : (
-            <p>No medical records found.</p>
+            !showMedicalRecordForm && <p>Click the "Add Record" button to add a medical record.</p>
           )}
         </div>
       </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { useForm, FormProvider } from "react-hook-form"
 import styles from '../styles/form.module.css'
-import { Link,useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import Logo from '../components/Logo';
 import Loader from '../components/Loader';
@@ -17,28 +17,26 @@ function Signup() {
   const navigate = useNavigate();
   const onSubmit = async (data) => {
     console.log(data);
-      setMessage('');
-      const response = await fetch('http://localhost:8080/auth/signup', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(data),
-      })
-      if (!response.ok) {
-        const err = await response.json();
-        setMessage(err.message);
-        throw new Error('Network not responding');
-       
-      }
-      const result = await response.json();
-      console.log(result);
-      <PopOut title="Signup Successfull"  />;
-      setTimeout(() => {
-        navigate('/login')
-      }, 1000);
-      
-    
+    setMessage('');
+    const response = await fetch('http://localhost:8080/auth/signup', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    })
+    if (!response.ok) {
+      const err = await response.json();
+      setMessage(err.message);
+      throw new Error('Network not responding');
+
+    }
+    const result = await response.json();
+    console.log(result);
+    navigate('/login')
+
+
+
   }
 
   return (

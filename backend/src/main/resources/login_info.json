@@ -1,4 +1,9 @@
 {
+  "amemon.bscs23aeglecove" : {
+    "id" : 4,
+    "username" : "amemon.bscs23aeglecove",
+    "password" : "landimag"
+  },
   "helpme" : {
     "id" : 1,
     "username" : "helpme",
@@ -7,6 +12,11 @@
   "test" : {
     "id" : 3,
     "username" : "test",
+    "password" : "12345678"
+  },
+  "bharwat" : {
+    "id" : 3,
+    "username" : "bharwat",
     "password" : "12345678"
   },
   "shamtest" : {

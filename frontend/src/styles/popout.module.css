@@ -9,33 +9,26 @@
   background-color: white;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  width: 60;
-  max-width: 400px;
+  width: 100%;
+  max-width: 100vw;
+  height: 100vh;
   z-index: 1000;
-  padding: 1rem;
+  padding: 2rem;
   font-family: 'Poppins', sans-serif;
-  text-align: center;
-
-
 }
 
 .popoutcontent {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   text-align: center;
 }
 
-.h1 {
-  font-size: 22px;
-  font-weight: 700;
-  color: #3db166;
-  
-}
+
 
 .p {
-  font-size: 1.2rem;
+  font-size: 3rem;
   color: #181818;
-  
+  font-weight: 700;
+
 }

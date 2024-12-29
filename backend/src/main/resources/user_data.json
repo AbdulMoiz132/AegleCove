@@ -2,20 +2,46 @@
   "1" : {
     "firstname" : "Mai",
     "lastname" : "Ali",
-    "birthdate" : "2024-12-24",
-    "gender" : "custom",
+    "birthdate" : "2019-01-24",
+    "gender" : "male",
     "address" : "Bhawalpur",
     "contact" : "+92333633444",
-    "email" : "me@gmail.com"
+    "email" : "me@gmail.com",
+    "weight" : "80",
+    "height" : "67",
+    "medical_history" : [ {
+      "diseasename" : "maier",
+      "type" : "Chronic",
+      "medicines" : [ "throat musscle", "lankhaen" ]
+    }, {
+      "diseasename" : "sham",
+      "type" : "Genetic",
+      "medicines" : [ "zetro" ]
+    }, {
+      "diseasename" : "FLU",
+      "type" : "Chronic",
+      "medicines" : [ "zetro", "panadol", "ACEFYl", "johar jaushandra" ]
+    } ]
   },
   "2" : {
     "firstname" : "Sham",
     "lastname" : "idrees",
-    "birthdate" : "2024-12-24",
-    "gender" : "custom",
+    "birthdate" : "2018-10-23",
+    "gender" : "male",
     "address" : "kaloi",
     "contact" : "+92333633444",
-    "email" : "me@gmail.com"
+    "email" : "me@gmail.com",
+    "weight" : "76",
+    "height" : "72",
+    "medical_history" : [ {
+      "diseasename" : "Diabates",
+      "type" : "Genetic",
+      "medicines" : [ "zetro" ]
+    }, {
+      "diseasename" : "Diabates",
+      "type" : "Autoimmune",
+      "medicines" : [ "zetro" ]
+    } ]
   },
   "3" : {
     "firstname" : "hllo",
@@ -35,6 +61,34 @@
       "diseasename" : "AIDS",
       "type" : "chronic",
       "medicines" : [ "brufin", "panadol" ]
+    } ]
+  },
+  "4" : {
+    "firstname" : "Abdul",
+    "lastname" : "Moiz",
+    "birthdate" : "2005-05-11",
+    "gender" : "male",
+    "address" : "attar hostel",
+    "contact" : "+923133502069",
+    "email" : "moizmemon457@gmail.com",
+    "weight" : "56",
+    "height" : "71",
+    "medical_history" : [ {
+      "diseasename" : "maier",
+      "type" : "Chronic",
+      "medicines" : [ "throat musscle" ]
+    }, {
+      "medicines" : [ "zetro", "panadol" ],
+      "diseasename" : "flu",
+      "type" : "Autoimmune"
+    }, {
+      "medicines" : [ "vidmate " ],
+      "diseasename" : "dibaties",
+      "type" : "Chronic"
+    }, {
+      "diseasename" : "heart ",
+      "type" : "Genetic",
+      "medicines" : [ "espiromide" ]
     } ]
   }
 }

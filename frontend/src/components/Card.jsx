@@ -18,7 +18,7 @@ function Card(props) {
 
                 </div>
             </Link>
-            <Link to={props.link} className={styles.button}><span className={styles.span}>{props.button}  <FaArrowRight className={styles.arrow}/></span> </Link>
+            <Link to={props.link} className={styles.linkbutton}><span className={styles.span}>{props.button}  <FaArrowRight className={styles.arrow}/></span> </Link>
         </div>  
     )
 }

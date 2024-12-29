@@ -1,0 +1,60 @@
+ .helpPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  width: 100vw;
+  height: 100vh;
+} 
+
+.content {
+  display: flex;
+  width: 100%;
+  
+}
+ 
+.mainContent {
+  flex: 1;
+  padding: 20px;
+  margin-left: 10vh;
+} 
+
+.content h1 {
+  font-size: 2.5rem;
+  color: #3db166;
+  margin-bottom: 1rem;
+  margin-top: 15vh;
+  text-decoration: underline;
+}
+
+.content p {
+  font-size: 18px;
+  color: #181818;
+  margin-bottom: 1rem;
+}
+
+ol {
+  margin-left: 20px;
+  margin-bottom: 5vh;
+ 
+}
+ol li{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 1vh;
+    padding: 2vw;
+    border:2px  solid #3db166;
+    background-color: #181818;
+    color: white;
+    list-style: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+ol a {
+  color: #3db166;
+  text-decoration: none;
+}
+
+ol a:hover {
+  text-decoration: underline;
+} 

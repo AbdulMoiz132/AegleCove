@@ -2,6 +2,8 @@
 .aboutus {
     color: #181818;
     font-family: 'popins', sans-serif;
+    font-weight: 800;
+
 }
 .aboutus h2{
     color: #3db166;
@@ -12,19 +14,23 @@
     padding: 2vh;
     line-height: 2.5;
     font-family: 'popins', sans-serif;
+    font-weight: 700;
 }
 .plans {
     margin-top: 1vh;
     font-size: 1rem;
+    font-weight: 700;
 }
 
 .intro {
     margin: 1vh;
     font-size: 1rem;
     font-family: 'Merriweather', sans-serif;
+    font-weight: 700;
 }
 li{
     
-    padding:1vw
+    padding:1vw;
+    font-weight: 700;
 }
 

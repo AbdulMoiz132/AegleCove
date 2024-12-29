@@ -1,63 +1,70 @@
-import React, {  useEffect } from 'react';
-import { useParams,Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { useParams, Link } from 'react-router-dom';
 import Charul from '../components/Charul';
 import Logo from '../components/Logo';
-import useAegleCoveStore from '../store/AeglcoveStore';
+import useAegleCoveStore from '../store/AegleCoveStore';
 import SearchBar from '../components/SearchBar';
-import Styles from '../styles/medicines.module.css'
+import Styles from '../styles/medicines.module.css';
+import { searchItems } from '../utilities/helperfunctions';
 
-const Diseases = () => 
-{
-  const diseases= useAegleCoveStore((state)=>state.diseases)
-  const setDiseases = useAegleCoveStore((state)=>state.setDiseases)
+const Diseases = () => {
+  const diseases = useAegleCoveStore((state) => state.diseases);
+  const setDiseases = useAegleCoveStore((state) => state.setDiseases);
+  const [filteredDiseases, setFilteredDiseases] = useState([]);
   const { char } = useParams();
 
-
   const fetchDiseases = async () => {
-  
+   
       setDiseases([]);
-      const response = await fetch(`http:localhost:8080/diseases/${char}`);
-      if (!response.ok){ 
-
-        throw new Error('Failed to fetch medicines');
-        
+      const response = await fetch(`http://localhost:8080/data/diseases/${char}`);
+      if (!response.ok) {
+        throw new Error('Failed to fetch diseases');
       }
       const data = await response.json();
       setDiseases(data);
-    
-  }
+      setFilteredDiseases(data);
+  
+  };
+
   useEffect(() => {
-    
     fetchDiseases();
-  }, [char]); 
+  }, [char]);
+
+  const handleSearch = (e) => {
+    if (e.target.value === "") {
+      setFilteredDiseases(diseases);
+    } else {
+      setFilteredDiseases(searchItems(e.target.value, diseases));
+    }
+  };
 
   return (
     <div className={Styles.medicinespage}>
-         <Logo/>
-         <h1>Diseases A to Z</h1> 
+      <Logo />
       <div className={Styles.container}>
-      <Charul page='diseases'  />
+        <Charul page='diseases' char={char} />
         <div className={Styles.sectionA}>
           <div className={Styles.medicinesHeader}>
-            <h2>Diseases By :{char.toUpperCase()}</h2>
             <div className={Styles.searchBar}>
-            <SearchBar/>
+              <SearchBar handlechange={handleSearch} handleclick={handleSearch} />
             </div>
           </div>
           <div className={Styles.medicines}>
-          <ul className={Styles.list}>
-            {diseases.length > 0 ? (
-              diseases.map((disease) => <Link to='' key={disease.id} className={Styles.medlistli}>{disease}</Link>)
-            ) : (
-              <p>No Diseases found by {char.toUpperCase()}</p>
-            )}
-          </ul>
+            <ul className={Styles.list}>
+              {filteredDiseases?.length > 0 ? (
+                filteredDiseases.map((disease) => (
+                  <Link to={`/diseasedetails/${disease.id}`} key={disease.id} className={Styles.medlistli}>
+                    {disease.name}
+                  </Link>
+                ))
+              ) : (
+                <p>No diseases found!</p>
+              )}
+            </ul>
+          </div>
         </div>
-        </div>
-      
+      </div>
     </div>
-    </div>
- 
   );
 };
 

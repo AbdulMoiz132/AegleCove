@@ -4,19 +4,39 @@ import styles from '../styles/symptomform.module.css';
 import { ImCross } from "react-icons/im";
 
 const symptomsList = [
-  "Fever",
-  "Cough",
-  "Headache",
-  "Fatigue",
-  "Sore Throat",
-  "Runny Nose",
-  "Shortness of Breath",
-  "Nausea",
-  "Vomiting",
-  "Diarrhea"
+   'chills',
+    'diarrhea',
+    'headache',
+    'joint pain',
+    'fever',
+    'cough',
+    'fatigue',
+    'abdominal pain',
+    'chest pain',
+    'shortness of breath',
+    'weight loss',
+    'dizziness',
+    'nausea',
+    'rash',
+    'vomiting',
+    'blurred vision',
+    'sore throat',
+    'loss of appetite',
+    'insomnia',
+    'dry mouth',
+    'back pain',
+    'cold hands',
+    'itching',
+    'swelling',
+    'hair loss',
+    'excessive thirst',
+    'irritability',
+    'chest tightness',
+    'muscle weakness',
+    'frequent urination'
 ];
 
-const SymptomForm = () => {
+const SymptomForm = ({analysis}) => {
   const { register, handleSubmit, control, formState: { errors } } = useForm({
     defaultValues: {
       symptoms: [{ symptom: '' }, { symptom:'' }]
@@ -30,16 +50,14 @@ const SymptomForm = () => {
   const addSymptom = () => {
     append({ symptom: '' });
   };
+ 
 
-  const onSubmit = (data) => {
-    const symptomsArray = data.symptoms.map(item => item.symptom);
-    console.log(symptomsArray);
-  };
-
+  
+ 
 
   return (
   
-    <form className={styles.symptomForm} onSubmit={handleSubmit(onSubmit)}>
+    <form className={styles.symptomForm} onSubmit={handleSubmit(analysis)}>
       <h2 className={styles.formTitle}>Get Insights on Your Health</h2>
       <div className={styles.formContainer}>
         {fields.map((field, index) => (

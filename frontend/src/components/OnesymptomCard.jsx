@@ -5,13 +5,13 @@ const OnesymptomCard = ({ text, title }) => {
   
     <div style={{
       backgroundColor:"#181818",
-      color: "#3db162",
-      border:'1px none',
+      color: "#3db166",
+      border:'1px solid #3db166',
       padding: "10px",
       margin: "10px",
       borderRadius: "5px",
-      fontSize: "16px",
-      width:"15vw",
+      fontSize: "12.5px",
+      width:"20vw",
       height:"15vh",
       display: "flex",
       flexDirection:"column",
@@ -22,9 +22,9 @@ const OnesymptomCard = ({ text, title }) => {
       boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.2)"
       
     }}>
-      <h1>{title}</h1>
+      <h2>{title}</h2>
 
-      <p style={{ color: 'white' }}>{text}</p>
+      <p style={{ color: 'white',fontSize:'18px' ,marginTop:'1vh'}}>{text}</p>
 
   </div>
   )
