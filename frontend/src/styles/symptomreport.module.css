@@ -55,6 +55,12 @@
 }
 .back{
   position: relative;
+  left: 95%;
+  color: red;
+  cursor: pointer;
+}
+.userback{
+  position: relative;
   left: 65%;
   color: red;
   cursor: pointer;
