@@ -10,7 +10,6 @@ import LoginCradential from '../components/LoginCradential';
 import ContactInformation from '../components/ContactInformation';
 import PersonalInformation from '../components/PersonalInformation';
 
-
 function Signup() {
   const methods = useForm();
   const { isSubmitting } = methods.formState;
