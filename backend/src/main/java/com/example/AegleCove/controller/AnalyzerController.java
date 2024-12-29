@@ -2,9 +2,7 @@ package com.example.AegleCove.controller;
 import org.springframework.web.bind.annotation.*;
 
 import com.example.AegleCove.structures.SymptomDiseaseGraph;
-import com.example.AegleCove.entity.Edge;
-import com.example.AegleCove.structures.LinkedList;
-import com.example.AegleCove.structures.ListNode; 
+import com.example.AegleCove.entity.Edge; 
 import com.example.AegleCove.services.DataService;
 
 import org.springframework.http.ResponseEntity;
@@ -26,13 +24,11 @@ public class AnalyzerController
 
     void initializeGraph() 
     {
-        LinkedList<Edge> edges = dataService.getEdgeInfo();
-        ListNode<Edge> current = edges.getHeadNode();
-        while (current != null) 
+        List<Edge> edges = dataService.getEdgeInfo();
+
+        for (Edge edge : edges) 
         {
-            Edge edge = current.getData();
             graph.addEdge(edge.getSymptom(), edge.getDisease(), edge.getWeight());
-            current = current.getNext();
         }
     }
 
