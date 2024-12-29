@@ -60,7 +60,7 @@ const UserSymptomReport = ({ report = {} , handleback}) => {
          <button onClick={generatePDF} className={styles.downloadButton}>
         Download PDF
       </button>
-      <ImCross className={styles.back}  onClick={handleback}/>
+      <ImCross className={styles.userback}  onClick={handleback}/>
       <h2 className={styles.reportTitle}>Analysis Report</h2>
       <div className={styles.userInfo}>
         <p><strong>Name:</strong> {user.firstname}</p>
