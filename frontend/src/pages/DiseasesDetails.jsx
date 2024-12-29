@@ -9,18 +9,21 @@ import Styles from '../styles/medicinedetails.module.css';
 
 function DiseasesDetails() {
   const { id } = useParams();
-  const diseasesdetails = useAegleCoveStore((state) => state.diseasesdetails);
-  const setDiseasesDetails = useAegleCoveStore((state) => state.setDiseasesDetails);
-
+  const diseasedetails = useAegleCoveStore((state) => state.diseasedetails);
+  const setDiseaseDetails = useAegleCoveStore((state) => state.setDiseaseDetails);
+  const [message , setMessage] = useState('');
   const fetchDiseases = async () => {
     try {
       const response = await fetch(`http://localhost:8080/data/disease/${id}`);
       const data = await response.json();
       if (!response.ok) {
         setMessage(data.message)
+        console.log(message);
         throw new Error("Diseases not found");
       }
-      setDiseasesDetails(data);
+      console.log(data)
+      setDiseaseDetails(data);
+   
     } catch (error) {
       setMessage('Network Error please check Internet')
     }
@@ -40,29 +43,27 @@ function DiseasesDetails() {
         </div>
       </Link>
       <div className={Styles.diseasedetails}>
-        {diseasesdetails?.name ? (
+        {diseasedetails?.name ? (
           <div>
-            <h1 className={Styles.diseasename}>{diseasesdetails.name}</h1>
-            <h4 className={Styles.diseasedescription}>{diseasesdetails.description}</h4>
-            <h4 className={Styles.diseasedosage}>Symptoms</h4>
-            {diseasesdetails.symptoms.map((symptom, index) => (
+            <h1 className={Styles.diseasename}>{diseasedetails.name}</h1>
+            <h4 className={Styles.diseasedescription}>{diseasedetails.description}</h4>
+            <h4 className={Styles.diseaseSymptoms}>Symptoms</h4>
+            {diseasedetails?.symptoms?.map((symptom, index) => (
               <strong key={index}>
                 <li className={Styles.diseaseSymptomsList}>{symptom}</li>
               </strong>
             ))}
-            <h4 className={Styles.diseasesTreatment}>Treatment:</h4>
-            {diseasesdetails.treatment.map((treatment, index) => (
+            <h4 className={Styles.diseaseTreatment}>Treatment:</h4>
+            {diseasedetails?.treatment?.map((treatment, index) => (
               <strong key={index}>
-                <li className={Styles.diseasesTreatmentList}>{treatment}</li>
+                <li className={Styles.diseaseTreatmentList}>{treatment}</li>
               </strong>
             ))}
             
             <h4 className={Styles.preventiveMeasure}>Prevention:</h4>
-            {diseasesdetails.preventiveMeasure.map((preventiveMeasure, index) => (
+            {diseasedetails?.preventiveMeasures?.map((preventiveMeasures, index) => (
               <strong key={index}>
-                <Link to='#' className={Styles.preventiveMeasureList}>
-                  <li>{preventiveMeasure}</li>
-                </Link>
+                  <li className={Styles.preventiveMeasureList}>{preventiveMeasures}</li>
                 <br />
               </strong>
             ))}

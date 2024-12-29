@@ -23,10 +23,9 @@ const DashCard = ({ title }) => {
               delay: 3000,
               disableOnInteraction: false,
             }}
-            pagination={{
-              clickable: false,
-            }}
+            pagination={false}
             navigation={false}
+            indicators={false}
             modules={[Autoplay, Pagination, Navigation]}
             className="mySwiper"
           >
@@ -49,10 +48,10 @@ const DashCard = ({ title }) => {
           </Swiper>
         </div>
       ) : (
-        <div>
-          <p>No Issues Yet</p>
+        <div className={styles.noRecords}>
+          <p>No Records Yet</p>
           <div className={styles.btnwrapper}>
-            <Link to="/medicalrecords">Add Details</Link>
+            <Link to="/medicalrecords" className={styles.addDetails}>Add Details</Link>
           </div>
         </div>
       )}

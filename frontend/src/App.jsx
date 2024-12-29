@@ -40,7 +40,7 @@ function App() {
         } />
         <Route path='/diseases/:char' element={<Diseases />} />
         <Route path='/aboutus' element={<AboutUs />} />
-        <Route path='/medicinesdetails/:id' element={<MedicineDetails />} />
+        <Route path='/medicinedetails/:id' element={<MedicineDetails />} />
         <Route path='/medicalrecords' element={
           <ProtectedRoute> <MedicalRecords /></ProtectedRoute>} />
         <Route path='/dashboard/symptomanalyzer' element={
@@ -51,7 +51,7 @@ function App() {
          <Route path='/help' element={
           <ProtectedRoute><Help /></ProtectedRoute>
         } />
-        <Route path='/diseasesdetails/:id' element={<DiseasesDetails />} />
+        <Route path='/diseasedetails/:id' element={<DiseasesDetails />} />
         <Route path='/finddoctor' element={<FindDoctor />} />
         <Route path='/findpharmacy' element={<FindPharmacy />} />
         <Route path='/comingsoon' element={<ComingSoon/>} />

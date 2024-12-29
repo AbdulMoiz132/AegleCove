@@ -5,9 +5,9 @@
 .medicinesdeatilspage ,.diseasesdeatilspage {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
   font-family: 'Poppins', sans-serif;
+  line-height: 2.2vw;
 }
 
 .medicinepagerouter ,.diseasepagerouter {
@@ -23,6 +23,7 @@
 
 .medicinespagelink ,.diseasespagelink {
   text-decoration: none;
+  text-align: left;
 }
 
 .linktext {
@@ -50,7 +51,7 @@
 .medicineformula ,.diseaseformula {
   font-size: 1.5vw;
   color: #3db166;
-  padding-left: 1.5vw;
+  padding-left: 1vw;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -64,7 +65,7 @@
 .medicinedosage ,.diseasedosage {
   font-size: 1.5vw;
   color: #3db166;
-  padding: 1vw 1.5vw;
+  padding: 1.5vw 1.5vw;
   font-family: 'Merriweather', sans-serif;
 }
 
@@ -76,34 +77,47 @@
   font-family: 'Merriweather', sans-serif;
 }
 
-.medicinesideeffects {
+.medicinesideeffects ,.diseaseSymptoms,.diseaseTreatment , .preventiveMeasure {
   font-size: 1.5vw;
   color: #3db166;
-  padding: 1vw 2vw;
+  padding: 1.5vw 1.5vw;
   font-family: 'Merriweather', sans-serif;
 }
 
-.medicinesideeffectslist {
+.medicinesideeffectslist  ,.preventiveMeasureList  {
   font-size: 1.5vw;
   color: #181818;
   padding-left: 2vw;
+  padding-top: 0vw;
+  padding-bottom: 0vw;
   font-family: 'Merriweather', sans-serif;
 }
 
 .medicinealternatives {
   font-size: 1.5vw;
   color: #3db166;
-  padding: 1vw 2vw;
+  padding: .5vw 1.5vw;
   font-family: 'Merriweather', sans-serif;
 }
 
-.medicinealternativeslist {
+.medicinealternativeslist  {
   font-size: 1.5vw;
   color: #181818;
   font-family: 'Merriweather', sans-serif;
+  padding-left: 2vw;
 }
 
 .medicinealternativeslist li {
   list-style: none;
   padding-left: 2vw;
+  padding-top: 0vw;
+  padding-bottom: 0vw;
+}
+.diseaseSymptomsList ,.diseaseTreatmentList {
+  font-size: 1.5vw;
+  color: #181818;
+  padding-left: 2vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  font-family: 'Merriweather', sans-serif;
 }

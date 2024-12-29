@@ -5,33 +5,59 @@ import MedicalRecordForm from '../components/MedicalRecordForm';
 import useAegleCoveStore from '../store/AegleCoveStore';
 import styles from '../styles/medicalrecords.module.css';
 
+
 const MedicalRecords = () => {
   const medicalRecords = useAegleCoveStore((state) => state.user.medical_history);
   const setUser = useAegleCoveStore((state) => state.setUser);
   const [showMedicalRecordForm, setShowMedicalRecordForm] = useState(false);
-  const [editRecordIndex, setEditRecordIndex] = useState(null);
-
+  const [showRecord , setShowRecord] = useState(true);
+  const user = useAegleCoveStore ((state) => state.user);
   const handleDeleteRecord = (index) => {
+    
     const updatedRecords = [...medicalRecords];
     updatedRecords.splice(index, 1);
-    setUser({ medical_history: updatedRecords });
+  
+   
+    const updatedUser = {
+      ...user,
+      medical_history: updatedRecords, 
+    };
+  
+    setUser(updatedUser);
+  
+    
+    handleDelete(updatedUser);
   };
+  const handlehide = () => {
+    setShowRecord(true);
+    setShowMedicalRecordForm(false);
+  }
+  
 
-  // const handleMedicalRecordSubmit = (data) => {
-  //   const updatedRecords = [...medicalRecords];
-  //   if (editRecordIndex !== null) {
-  //     updatedRecords[editRecordIndex] = data;
-  //     setEditRecordIndex(null);
-  //   } else {
-  //     updatedRecords.push(data);
-  //   }
-  //   setUser({ medical_history: updatedRecords });
-  //   setShowMedicalRecordForm(false);
-  // };
+  const handleDelete = async (data) => {
+    console.log(data)
+    setUser(data)
+    const response = await fetch('http://localhost:8080/user/update', {
+      method: 'Post',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data)
+    });
+    const result = await response.json();
+    if (!response.ok) {
+      alert(result.message)
+      console.log(result.message);
+      setUser(beforeupdate)
+      return;
+    }
+    alert('Record Deleted successfully');
+  };
 
   const toggleMedicalRecordForm = () => {
     setShowMedicalRecordForm(!showMedicalRecordForm);
-    setEditRecordIndex(null);
+    setShowRecord(!showRecord);
+
   };
 
 
@@ -46,9 +72,9 @@ const MedicalRecords = () => {
             <button className={styles.actionButton} onClick={toggleMedicalRecordForm}>Add Record</button>
           </div>
           {showMedicalRecordForm && (
-            <MedicalRecordForm/>
+            <MedicalRecordForm handlehide ={handlehide} />
           )}
-          {medicalRecords?.length > 0 ? (
+          {showRecord&&medicalRecords?.length > 0 ? (
             medicalRecords.map((record, index) => (
               <div key={index} className={styles.recordCard}>
                 <h3>{record.diseasename}</h3>

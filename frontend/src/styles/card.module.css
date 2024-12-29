@@ -18,14 +18,14 @@
     text-align: center;
     color:white;
     margin-top: 3vh;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     
 }
 
-.cardp {
+.card p {
     padding: 1vw;
-    font-size: 12PX;
+    font-size: 18px;
     font-weight: 520;
     color : white;
     margin-top: 1vh
@@ -54,7 +54,7 @@
     width: 15vw;
     color: #3db166;
     border-radius: 3px;
-    margin-bottom: 1vh;
+    margin-bottom: 3vh;
     
 }
 .span{

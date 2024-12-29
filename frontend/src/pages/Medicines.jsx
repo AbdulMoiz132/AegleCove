@@ -55,7 +55,7 @@ const Medicines = () => {
             <ul className={Styles.list}>
               {filteredMedicines?.length > 0 ? (
                 filteredMedicines.map((med) => (
-                  <Link to={`/medicinesdetails/${med.id}`} key={med.id} className={Styles.medlistli}>
+                  <Link to={`/medicinedetails/${med.id}`} key={med.id} className={Styles.medlistli}>
                     {med.name}
                   </Link>
                 ))

@@ -53,7 +53,7 @@ const Diseases = () => {
             <ul className={Styles.list}>
               {filteredDiseases?.length > 0 ? (
                 filteredDiseases.map((disease) => (
-                  <Link to={`/disease/${disease.id}`} key={disease.id} className={Styles.medlistli}>
+                  <Link to={`/diseasedetails/${disease.id}`} key={disease.id} className={Styles.medlistli}>
                     {disease.name}
                   </Link>
                 ))

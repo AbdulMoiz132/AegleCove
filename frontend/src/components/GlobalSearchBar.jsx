@@ -17,6 +17,13 @@ const GlobalSearchBar = () => {
   const handleInputChange = (e) => {
     setQuery(e.target.value);  
   }
+
+  const handleKeyPress = (event) => {
+    if (event.key === 'Enter') {
+      handleSearch(event);
+    }
+  };
+
   return (
     <div className={styles.searchbar}>
       <input
@@ -25,6 +32,7 @@ const GlobalSearchBar = () => {
         placeholder="Search Here"
         value={query}
         onChange={handleInputChange}
+        onKeyPress={handleKeyPress}
         aria-label="Search"
       />
       <button 
@@ -38,4 +46,4 @@ const GlobalSearchBar = () => {
   );
 };
 
-export default GlobalSearchBar
+export default GlobalSearchBar;

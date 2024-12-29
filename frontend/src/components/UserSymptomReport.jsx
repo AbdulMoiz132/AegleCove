@@ -4,8 +4,9 @@ import { Link } from 'react-router-dom';
 import useAegleCoveStore from '../store/AegleCoveStore';
 import { calculateAge } from '../utilities/helperfunctions';
 import { jsPDF } from 'jspdf';
+import { ImCross } from "react-icons/im";
 
-const UserSymptomReport = ({ report = {} }) => {
+const UserSymptomReport = ({ report = {} , handleback}) => {
   const user = useAegleCoveStore((state) => state.user);
   const age = calculateAge(user.birthdate);
 
@@ -15,6 +16,7 @@ const UserSymptomReport = ({ report = {} }) => {
       .sort(([, valueA], [, valueB]) => valueB - valueA)
       .map(([key]) => key);
   };
+  
 
 
   const sortedDiseases = getSortedDiseases();
@@ -58,6 +60,7 @@ const UserSymptomReport = ({ report = {} }) => {
          <button onClick={generatePDF} className={styles.downloadButton}>
         Download PDF
       </button>
+      <ImCross className={styles.back}  onClick={handleback}/>
       <h2 className={styles.reportTitle}>Analysis Report</h2>
       <div className={styles.userInfo}>
         <p><strong>Name:</strong> {user.firstname}</p>

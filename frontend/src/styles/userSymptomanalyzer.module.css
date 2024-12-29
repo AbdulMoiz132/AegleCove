@@ -1,0 +1,23 @@
+.mainContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.formTitle{
+  font-size: 2rem;
+  padding: 4vh;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.back{
+  position: relative;
+  left: 95%;
+  color: red;
+  cursor: pointer;
+}
+.symptomanlyzercontainer{
+  margin-top: 12vh;
+}

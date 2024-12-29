@@ -16,6 +16,7 @@ function MedicineDetails() {
         throw new Error("Medicine not found");
       }
       const data = await response.json();
+      console.log(data)
       setMedicinesDetails(data);
     } catch (error) {
       console.error('Error fetching medicine:', error);
@@ -42,9 +43,9 @@ function MedicineDetails() {
             <h2 className={Styles.medicineformula}>{medicinesdetails.formula}</h2>
             <h4 className={Styles.medicinedescription}>{medicinesdetails.description}</h4>
             <h4 className={Styles.medicinedosage}>Recommended Dosage:</h4>
-            <h5 className={Styles.dosageforchildren}>Children</h5>
+            {medicinesdetails.recommendedDosage.children&&<h5 className={Styles.dosageforchildren}>Children</h5>}
             <p className={Styles.dosageforchildren}>{medicinesdetails.recommendedDosage.children}</p>
-            <h5 className={Styles.dosageforchildren}>Adults</h5>
+            {medicinesdetails.recommendedDosage.adults&&<h5 className={Styles.dosageforchildren}>Adults</h5>}
             <p className={Styles.dosageforchildren}>{medicinesdetails.recommendedDosage.adults}</p>
             <h4 className={Styles.medicinesideeffects}>Side Effects:</h4>
             {medicinesdetails.sideEffects.map((sideEffect, index) => (
@@ -54,12 +55,9 @@ function MedicineDetails() {
               </strong>
             ))}
             <h4 className={Styles.medicinealternatives}>Alternatives:</h4>
-            {medicinesdetails.alternatives.map((alternative, index) => (
+            {medicinesdetails.alternativeMedicines.map((alternative, index) => (
               <strong key={index}>
-                <Link to='#' className={Styles.medicinealternativeslist}>
-                  <li>{alternative}</li>
-                </Link>
-                <br />
+                  <li className={Styles.medicinealternativeslist}>{alternative}</li>
               </strong>
             ))}
           </div>

@@ -53,7 +53,7 @@ const useAegleCoveStore = create((set) => ({
     formula: null,
     sideEffects: [],
     recommendedDosage: { adults: null, children: null },
-    alternatives: [],
+    alternativeMedicines: [],
   },
 
 

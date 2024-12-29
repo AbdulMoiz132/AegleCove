@@ -3,7 +3,7 @@ import { useForm, useFieldArray } from 'react-hook-form';
 import styles from '../styles/medicalrecordform.module.css';
 import useAegleCoveStore from '../store/AegleCoveStore';
 
-const MedicalRecordForm = () => {
+const MedicalRecordForm = ({handlehide}) => {
   const diseaseTypes = ['Infectious', 'Chronic', 'Autoimmune', 'Genetic', 'Degenerative'];
   const { register, handleSubmit, control, formState: { errors } } = useForm({
     defaultValues: {
@@ -50,6 +50,7 @@ const MedicalRecordForm = () => {
 
       await response.json();
       alert('Record Updated Successfully');
+      handlehide();
     } catch (error) {
       console.error('Error submitting medical record:', error);
     }

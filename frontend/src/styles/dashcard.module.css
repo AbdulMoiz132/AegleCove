@@ -15,18 +15,18 @@
        
 }
 .Dash_Card h1{
-    font-size: 2rem;
+    font-size: 22px;
     font-weight: 800;
     color:white;
-    justify-self: flex-start;
-    margin-bottom: 2vh;
+    text-align: left;
+    padding: 2vh;
 
 }
 .Dash_Card p{
     font-size: 1.5rem;
     color: white;
     padding: 2vw;
-    justify-self: center;
+    
 }
 .Dash_Card_Container{
     width: 30vw;
@@ -65,4 +65,22 @@
     text-align: left;
     padding: 1vh 3vh;
     text-transform: capitalize;
+}
+.noRecords{
+    margin-top: 12vh;
+
+
+}
+.addDetails{
+    text-decoration: none;
+    font-size: 20px;
+    color: #3db166;
+    padding: 1vh;
+    border-radius: 5px;
+    border:1px solid #3db166;
+    cursor: pointer;
+    
+}
+.btnwrapper{
+    margin-top: 25vh;
 }
