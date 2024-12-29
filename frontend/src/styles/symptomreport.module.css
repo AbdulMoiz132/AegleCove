@@ -1,0 +1,67 @@
+/* Import Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.report {
+  margin-top: 1rem;
+  width: 30vw;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow:rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  font-family: 'Poppins', sans-serif;
+  margin: 0 auto;
+}
+
+.reportTitle {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #3db166;
+  text-decoration: underline;
+}
+
+
+.reportDescription {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #181818;
+}
+
+.reportList {
+  list-style-type: none;
+  padding: 0;
+}
+.reportList h3{
+  margin-top: 5vh;
+  color: #3db166;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.reportItem {
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+  color: #181818;
+}
+.downloadButton{
+  background-color: #181818;
+  color: #3db166;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 2px;
+  font-weight: 700;
+  height: 5vh;
+  padding:1vh;
+
+}
+.back{
+  position: relative;
+  left: 95%;
+  color: red;
+  cursor: pointer;
+}
+.userback{
+  position: relative;
+  left: 65%;
+  color: red;
+  cursor: pointer;
+}

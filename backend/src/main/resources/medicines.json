@@ -1,0 +1,5074 @@
+[
+    {
+        "id": 0,
+        "name": "Actidil Elixir"
+    },
+    {
+        "id": 1,
+        "name": "Aldactone Tablets"
+    },
+    {
+        "id": 2,
+        "name": "Alprazolam Tablets"
+    },
+    {
+        "id": 3,
+        "name": "Amoxil 250 mg Capsules"
+    },
+    {
+        "id": 4,
+        "name": "Amoxil 500 mg Capsules"
+    },
+    {
+        "id": 5,
+        "name": "Amoxil Drops"
+    },
+    {
+        "id": 6,
+        "name": "Amoxil Syrup 125mg"
+    },
+    {
+        "id": 7,
+        "name": "Amoxil Syrup 250mg"
+    },
+    {
+        "id": 8,
+        "name": "Ampiclox 250mg Capsules"
+    },
+    {
+        "id": 9,
+        "name": "Ampiclox 500mg Capsules"
+    },
+    {
+        "id": 10,
+        "name": "Ampiclox Drops"
+    },
+    {
+        "id": 11,
+        "name": "Ampiclox Syrup 250mg"
+    },
+    {
+        "id": 12,
+        "name": "Angised Tablets"
+    },
+    {
+        "id": 13,
+        "name": "Atarax Tablet 25mg"
+    },
+    {
+        "id": 14,
+        "name": "Augmentin 1g Tablets"
+    },
+    {
+        "id": 15,
+        "name": "Augmentin 375mg Tablets"
+    },
+    {
+        "id": 16,
+        "name": "Augmentin 625mg Tablets"
+    },
+    {
+        "id": 17,
+        "name": "Augmentin Drops"
+    },
+    {
+        "id": 18,
+        "name": "Augmentin Suspension 156.25mg"
+    },
+    {
+        "id": 19,
+        "name": "Augmentin Suspension 312.5mg"
+    },
+    {
+        "id": 20,
+        "name": "Augmentin Suspension 457mg/5ml"
+    },
+    {
+        "id": 21,
+        "name": "Avamys Nasal Spray"
+    },
+    {
+        "id": 22,
+        "name": "Avodart Capsules"
+    },
+    {
+        "id": 23,
+        "name": "Azithromycin 250mg Tablets"
+    },
+    {
+        "id": 24,
+        "name": "Azithromycin 500mg Tablets"
+    },
+    {
+        "id": 25,
+        "name": "Azithromycin Oral Suspension"
+    },
+    {
+        "id": 26,
+        "name": "Azelastine 137mcg Nasal Spray"
+    },
+    {
+        "id": 27,
+        "name": "Aspirin Tablets"
+    },
+    {
+        "id": 28,
+        "name": "Atorvastatin 10mg Tablets"
+    },
+    {
+        "id": 29,
+        "name": "Atorvastatin 20mg Tablets"
+    },
+    {
+        "id": 30,
+        "name": "Atenolol 25mg Tablets"
+    },
+    {
+        "id": 31,
+        "name": "Atenolol 50mg Tablets"
+    },
+    {
+        "id": 32,
+        "name": "Amlodipine 5mg Tablets"
+    },
+    {
+        "id": 33,
+        "name": "Amlodipine 10mg Tablets"
+    },
+    {
+        "id": 34,
+        "name": "Acyclovir Tablets"
+    },
+    {
+        "id": 35,
+        "name": "Acyclovir 5% Cream"
+    },
+    {
+        "id": 36,
+        "name": "Amiodarone Tablets"
+    },
+    {
+        "id": 37,
+        "name": "Aspirin 75mg Tablets"
+    },
+    {
+        "id": 38,
+        "name": "Amlodipine 2.5mg Tablets"
+    },
+    {
+        "id": 39,
+        "name": "Azathioprine Tablets"
+    },
+    {
+        "id": 40,
+        "name": "Alendronate Sodium 70mg Tablets"
+    },
+    {
+        "id": 41,
+        "name": "Amitriptyline 10mg Tablets"
+    },
+    {
+        "id": 42,
+        "name": "Amitriptyline 25mg Tablets"
+    },
+    {
+        "id": 43,
+        "name": "Acetaminophen 500mg Tablets"
+    },
+    {
+        "id": 44,
+        "name": "Acetaminophen 100mg/5ml Syrup"
+    },
+    {
+        "id": 45,
+        "name": "Azopt Eye Drops"
+    },
+    {
+        "id": 46,
+        "name": "Aripiprazole Tablets"
+    },
+    {
+        "id": 47,
+        "name": "Benadryl Syrup"
+    },
+    {
+        "id": 48,
+        "name": "Baclofen Tablets"
+    },
+    {
+        "id": 49,
+        "name": "Benzathine Penicillin"
+    },
+    {
+        "id": 50,
+        "name": "Bromhexine Syrup"
+    },
+    {
+        "id": 51,
+        "name": "Betamethasone Tablets"
+    },
+    {
+        "id": 52,
+        "name": "Bicalutamide Tablets"
+    },
+    {
+        "id": 53,
+        "name": "Bupropion Tablets"
+    },
+    {
+        "id": 54,
+        "name": "Bisoprolol Tablets"
+    },
+    {
+        "id": 55,
+        "name": "Budesonide Inhaler"
+    },
+    {
+        "id": 56,
+        "name": "Benzocaine Gel"
+    },
+    {
+        "id": 57,
+        "name": "Bupropion SR Tablets"
+    },
+    {
+        "id": 58,
+        "name": "Benzonatate Capsules"
+    },
+    {
+        "id": 59,
+        "name": "Bicalutamide 150 mg"
+    },
+    {
+        "id": 60,
+        "name": "Benzylpenicillin"
+    },
+    {
+        "id": 61,
+        "name": "Bromazepam"
+    },
+    {
+        "id": 62,
+        "name": "Budesonide"
+    },
+    {
+        "id": 63,
+        "name": "Benzyl Alcohol"
+    },
+    {
+        "id": 64,
+        "name": "Betahistine"
+    },
+    {
+        "id": 1248,
+        "name": "Brufen 400mg Tablets"
+    },
+    {
+        "id": 65,
+        "name": "Bismuth Subsalicylate"
+    },
+    {
+        "id": 66,
+        "name": "Bromocriptine"
+    },
+    {
+        "id": 67,
+        "name": "Bupropion XL Tablets"
+    },
+    {
+        "id": 68,
+        "name": "Bumetanide"
+    },
+    {
+        "id": 69,
+        "name": "Betamethasone Dipropionate"
+    },
+    {
+        "id": 70,
+        "name": "Bacillus Calmette-Guerin (BCG)"
+    },
+    {
+        "id": 71,
+        "name": "Bupivacaine"
+    },
+    {
+        "id": 72,
+        "name": "Bupropion HCl Extended Release"
+    },
+    {
+        "id": 73,
+        "name": "Brompheniramine"
+    },
+    {
+        "id": 74,
+        "name": "Betaxolol"
+    },
+    {
+        "id": 75,
+        "name": "Benzalkonium Chloride"
+    },
+    {
+        "id": 76,
+        "name": "Bimatoprost"
+    },
+    {
+        "id": 77,
+        "name": "Benzodiazepines"
+    },
+    {
+        "id": 78,
+        "name": "Budesonide/Formoterol"
+    },
+    {
+        "id": 79,
+        "name": "Budesonide Acetate"
+    },
+    {
+        "id": 80,
+        "name": "Benzofibrate"
+    },
+    {
+        "id": 81,
+        "name": "Brimonidine Tartrate"
+    },
+    {
+        "id": 82,
+        "name": "Brompheniramine Maleate"
+    },
+    {
+        "id": 83,
+        "name": "Bismuth Subgallate"
+    },
+    {
+        "id": 84,
+        "name": "Butalbital"
+    },
+    {
+        "id": 85,
+        "name": "Bimatoprost Ophthalmic"
+    },
+    {
+        "id": 86,
+        "name": "Bromodiphenhydramine"
+    },
+    {
+        "id": 87,
+        "name": "Budesonide Nebulizer"
+    },
+    {
+        "id": 88,
+        "name": "Bumex"
+    },
+    {
+        "id": 89,
+        "name": "Bicalutamide 50 mg"
+    },
+    {
+        "id": 90,
+        "name": "Bacitracin Zinc"
+    },
+    {
+        "id": 91,
+        "name": "Biphasic Isophane Insulin"
+    },
+    {
+        "id": 92,
+        "name": "Betamethasone Valerate"
+    },
+    {
+        "id": 93,
+        "name": "Benznidazole"
+    },
+    {
+        "id": 94,
+        "name": "Bupivacaine Hydrochloride"
+    },
+    {
+        "id": 95,
+        "name": "Betrixaban"
+    },
+    {
+        "id": 96,
+        "name": "Benzocaine Lozenges"
+    },
+    {
+        "id": 97,
+        "name": "Bupropion Immediate Release"
+    },
+    {
+        "id": 98,
+        "name": "Bismuth Subsalicylate Chewable Tablets"
+    },
+    {
+        "id": 99,
+        "name": "C-Pac Tablet 250 mg"
+    },
+    {
+        "id": 100,
+        "name": "C-Zar 25 mg Tablet"
+    },
+    {
+        "id": 101,
+        "name": "Cefomerc"
+    },
+    {
+        "id": 102,
+        "name": "Cefon"
+    },
+    {
+        "id": 103,
+        "name": "Cefotax"
+    },
+    {
+        "id": 104,
+        "name": "Claforan"
+    },
+    {
+        "id": 105,
+        "name": "Clavox"
+    },
+    {
+        "id": 106,
+        "name": "Cliver"
+    },
+    {
+        "id": 107,
+        "name": "Cinnarizine and Domperidone Tablets (Pelton-C)"
+    },
+    {
+        "id": 108,
+        "name": "Ciprofloxacin Tablets (C-Pac)"
+    },
+    {
+        "id": 109,
+        "name": "Clopidogrel Tablets"
+    },
+    {
+        "id": 110,
+        "name": "Cetirizine Tablets"
+    },
+    {
+        "id": 111,
+        "name": "Ciprofloxacin Eye Drops"
+    },
+    {
+        "id": 112,
+        "name": "Ceftriaxone Injection"
+    },
+    {
+        "id": 113,
+        "name": "Candesartan Tablets"
+    },
+    {
+        "id": 114,
+        "name": "Cefixime Capsules"
+    },
+    {
+        "id": 115,
+        "name": "Cefuroxime Tablets"
+    },
+    {
+        "id": 116,
+        "name": "Ciprofloxacin Ear Drops"
+    },
+    {
+        "id": 117,
+        "name": "Cefpodoxime Tablets"
+    },
+    {
+        "id": 118,
+        "name": "Cefdinir Capsules"
+    },
+    {
+        "id": 119,
+        "name": "Cefprozil Tablets"
+    },
+    {
+        "id": 120,
+        "name": "Cefepime Injection"
+    },
+    {
+        "id": 121,
+        "name": "Cefoperazone Injection"
+    },
+    {
+        "id": 122,
+        "name": "Cefotetan Injection"
+    },
+    {
+        "id": 123,
+        "name": "Cefazolin Injection"
+    },
+    {
+        "id": 124,
+        "name": "Ciprofloxacin Suspension"
+    },
+    {
+        "id": 125,
+        "name": "Cefadroxil Capsules"
+    },
+    {
+        "id": 126,
+        "name": "Cefaclor Tablets"
+    },
+    {
+        "id": 127,
+        "name": "Cefixime Suspension"
+    },
+    {
+        "id": 128,
+        "name": "Cefuroxime Suspension"
+    },
+    {
+        "id": 129,
+        "name": "Cefpodoxime Suspension"
+    },
+    {
+        "id": 130,
+        "name": "Cefdinir Suspension"
+    },
+    {
+        "id": 131,
+        "name": "Cefprozil Suspension"
+    },
+    {
+        "id": 132,
+        "name": "Cefepime Suspension"
+    },
+    {
+        "id": 133,
+        "name": "Cefoperazone Suspension"
+    },
+    {
+        "id": 129,
+        "name": "Cefpodoxime Suspension"
+    },
+    {
+        "id": 130,
+        "name": "Cefdinir Suspension"
+    },
+    {
+        "id": 131,
+        "name": "Cefprozil Suspension"
+    },
+    {
+        "id": 132,
+        "name": "Cefepime Suspension"
+    },
+    {
+        "id": 133,
+        "name": "Cefoperazone Suspension"
+    },
+    {
+        "id": 134,
+        "name": "Cefotetan Suspension"
+    },
+    {
+        "id": 135,
+        "name": "Cefazolin Suspension"
+    },
+    {
+        "id": 136,
+        "name": "Ciprofloxacin Ointment"
+    },
+    {
+        "id": 137,
+        "name": "Cefadroxil Ointment"
+    },
+    {
+        "id": 138,
+        "name": "Cefaclor Ointment"
+    },
+    {
+        "id": 139,
+        "name": "Cefixime Ointment"
+    },
+    {
+        "id": 140,
+        "name": "Cefuroxime Ointment"
+    },
+    {
+        "id": 141,
+        "name": "Cefpodoxime Ointment"
+    },
+    {
+        "id": 142,
+        "name": "Cefdinir Ointment"
+    },
+    {
+        "id": 143,
+        "name": "Cefprozil Ointment"
+    },
+    {
+        "id": 144,
+        "name": "Cefepime Ointment"
+    },
+    {
+        "id": 145,
+        "name": "Cefoperazone Ointment"
+    },
+    {
+        "id": 146,
+        "name": "Cefotetan Ointment"
+    },
+    {
+        "id": 147,
+        "name": "Cefazolin Ointment"
+    },
+    {
+        "id": 148,
+        "name": "Dexamethasone Tablets"
+    },
+    {
+        "id": 149,
+        "name": "Diazepam Tablets"
+    },
+    {
+        "id": 150,
+        "name": "Doxazosin Tablets"
+    },
+    {
+        "id": 151,
+        "name": "Doxycycline Capsules"
+    },
+    {
+        "id": 152,
+        "name": "Diclofenac Sodium Tablets"
+    },
+    {
+        "id": 153,
+        "name": "Diphenhydramine Tablets"
+    },
+    {
+        "id": 154,
+        "name": "Domperidone Tablets"
+    },
+    {
+        "id": 155,
+        "name": "Dexamethasone Injection"
+    },
+    {
+        "id": 156,
+        "name": "Doxycycline Tablets"
+    },
+    {
+        "id": 157,
+        "name": "Dapoxetine Tablets"
+    },
+    {
+        "id": 158,
+        "name": "Desloratadine Tablets"
+    },
+    {
+        "id": 159,
+        "name": "Divalproex Sodium Tablets"
+    },
+    {
+        "id": 160,
+        "name": "Dexamethasone Oral Solution"
+    },
+    {
+        "id": 161,
+        "name": "Dymista Nasal Spray"
+    },
+    {
+        "id": 162,
+        "name": "Doxycycline Syrup"
+    },
+    {
+        "id": 163,
+        "name": "Diphenhydramine Syrup"
+    },
+    {
+        "id": 164,
+        "name": "Diclofenac Gel"
+    },
+    {
+        "id": 165,
+        "name": "Doxylamine Succinate Tablets"
+    },
+    {
+        "id": 166,
+        "name": "Diclomol Gel"
+    },
+    {
+        "id": 167,
+        "name": "Dapsone Tablets"
+    },
+    {
+        "id": 168,
+        "name": "Dovonex Cream"
+    },
+    {
+        "id": 169,
+        "name": "Darunavir Tablets"
+    },
+    {
+        "id": 170,
+        "name": "Daclatasvir Tablets"
+    },
+    {
+        "id": 171,
+        "name": "Dantrolene Sodium Capsules"
+    },
+    {
+        "id": 172,
+        "name": "Dexona Tablets"
+    },
+    {
+        "id": 173,
+        "name": "Dufalac Syrup"
+    },
+    {
+        "id": 174,
+        "name": "Darifenacin Tablets"
+    },
+    {
+        "id": 175,
+        "name": "Dimenhydrinate Tablets"
+    },
+    {
+        "id": 176,
+        "name": "Diltiazem Tablets"
+    },
+    {
+        "id": 177,
+        "name": "Dysmen 10 mg Tablet"
+    },
+    {
+        "id": 178,
+        "name": "Daflon 500mg Tablets"
+    },
+    {
+        "id": 179,
+        "name": "Diuretic Tablets"
+    },
+    {
+        "id": 180,
+        "name": "Dexaprin Tablets"
+    },
+    {
+        "id": 181,
+        "name": "Dexamethasone Eye Drops"
+    },
+    {
+        "id": 182,
+        "name": "Duloxetine Tablets"
+    },
+    {
+        "id": 183,
+        "name": "Divalproex Sodium Syrup"
+    },
+    {
+        "id": 184,
+        "name": "Doxycycline Hyclate Tablets"
+    },
+    {
+        "id": 185,
+        "name": "Desonide Cream"
+    },
+    {
+        "id": 186,
+        "name": "Dicloran Tablets"
+    },
+    {
+        "id": 187,
+        "name": "Diabex Tablets"
+    },
+    {
+        "id": 188,
+        "name": "Dapsone 25mg Tablets"
+    },
+    {
+        "id": 189,
+        "name": "Depakote 500mg Tablets"
+    },
+    {
+        "id": 190,
+        "name": "Drotaverine Tablets"
+    },
+    {
+        "id": 191,
+        "name": "Divalproex Sodium Capsules"
+    },
+    {
+        "id": 192,
+        "name": "Dorzolamide Eye Drops"
+    },
+    {
+        "id": 193,
+        "name": "Daflon 1000mg Tablets"
+    },
+    {
+        "id": 194,
+        "name": "Diclofenac Potassium Tablets"
+    },
+    {
+        "id": 195,
+        "name": "Dronedarone Tablets"
+    },
+    {
+        "id": 196,
+        "name": "Dexamethasone Oral Tablets"
+    },
+    {
+        "id": 197,
+        "name": "Econazole Topical"
+    },
+    {
+        "id": 198,
+        "name": "Econopred\u00ae (Prednisolone Ophthalmic)"
+    },
+    {
+        "id": 199,
+        "name": "Eculizumab Injection"
+    },
+    {
+        "id": 200,
+        "name": "Edaravone Injection"
+    },
+    {
+        "id": 201,
+        "name": "Edaravone Oral"
+    },
+    {
+        "id": 202,
+        "name": "Edarbi\u00ae (Azilsartan)"
+    },
+    {
+        "id": 203,
+        "name": "Edarbyclor\u00ae (Azilsartan and Chlorthalidone)"
+    },
+    {
+        "id": 204,
+        "name": "Edecrin\u00ae (Ethacrynic Acid)"
+    },
+    {
+        "id": 205,
+        "name": "Edex\u00ae (Alprostadil Urogenital)"
+    },
+    {
+        "id": 206,
+        "name": "Edluar\u00ae (Zolpidem)"
+    },
+    {
+        "id": 207,
+        "name": "Edoxaban"
+    },
+    {
+        "id": 208,
+        "name": "Edurant\u00ae (Rilpivirine)"
+    },
+    {
+        "id": 209,
+        "name": "EES\u00ae (Erythromycin)"
+    },
+    {
+        "id": 210,
+        "name": "Efavirenz"
+    },
+    {
+        "id": 211,
+        "name": "Efavirenz, Emtricitabine, and Tenofovir"
+    },
+    {
+        "id": 212,
+        "name": "Efavirenz, Lamivudine, and Tenofovir"
+    },
+    {
+        "id": 213,
+        "name": "Efinaconazole Topical"
+    },
+    {
+        "id": 214,
+        "name": "Eflornithine"
+    },
+    {
+        "id": 215,
+        "name": "Efudex\u00ae Cream (Fluorouracil Topical)"
+    },
+    {
+        "id": 216,
+        "name": "Efudex\u00ae Solution (Fluorouracil Topical)"
+    },
+    {
+        "id": 217,
+        "name": "Elacestrant"
+    },
+    {
+        "id": 218,
+        "name": "Elafibranor"
+    },
+    {
+        "id": 219,
+        "name": "Elagolix"
+    },
+    {
+        "id": 220,
+        "name": "Elagolix, Estradiol, and Norethindrone"
+    },
+    {
+        "id": 221,
+        "name": "Elahere\u00ae (Mirvetuximab soravtansine-gynx Injection)"
+    },
+    {
+        "id": 246,
+        "name": "Elavil\u00ae (Amitriptyline)"
+    },
+    {
+        "id": 223,
+        "name": "Electrolyte Injection"
+    },
+    {
+        "id": 224,
+        "name": "Elderberry Extract"
+    },
+    {
+        "id": 225,
+        "name": "Elidel\u00ae (Pimecrolimus Cream)"
+    },
+    {
+        "id": 226,
+        "name": "Elmiron\u00ae (Pentosan Polysulfate Sodium)"
+    },
+    {
+        "id": 227,
+        "name": "Elvanse\u00ae (Lisdexamfetamine Dimesylate)"
+    },
+    {
+        "id": 228,
+        "name": "Eloxatin\u00ae (Oxaliplatin Injection)"
+    },
+    {
+        "id": 229,
+        "name": "Erythrocin\u00ae (Erythromycin)"
+    },
+    {
+        "id": 230,
+        "name": "Erythromycin Topical"
+    },
+    {
+        "id": 231,
+        "name": "Erythromycin Ophthalmic Ointment"
+    },
+    {
+        "id": 232,
+        "name": "Erythema Ointment"
+    },
+    {
+        "id": 233,
+        "name": "Esbriet\u00ae (Pirfenidone)"
+    },
+    {
+        "id": 234,
+        "name": "Escitalopram"
+    },
+    {
+        "id": 235,
+        "name": "Esomeprazole Magnesium"
+    },
+    {
+        "id": 236,
+        "name": "Eszopiclone"
+    },
+    {
+        "id": 237,
+        "name": "Etanercept Injection"
+    },
+    {
+        "id": 238,
+        "name": "Etizolam Tablets"
+    },
+    {
+        "id": 239,
+        "name": "Etonogestrel Implant"
+    },
+    {
+        "id": 240,
+        "name": "Excedrin\u00ae (Acetaminophen, Aspirin, and Caffeine)"
+    },
+    {
+        "id": 241,
+        "name": "Exemestane"
+    },
+    {
+        "id": 242,
+        "name": "Exforge\u00ae (Amlodipine and Valsartan)"
+    },
+    {
+        "id": 243,
+        "name": "Exelon\u00ae (Rivastigmine)"
+    },
+    {
+        "id": 244,
+        "name": "Excedrin Migraine"
+    },
+    {
+        "id": 245,
+        "name": "Elderflower Extract"
+    },
+    {
+        "id": 246,
+        "name": "Elavil\u00ae (Amitriptyline)"
+    },
+    {
+        "id": 247,
+        "name": "Fexofenadine Tablets"
+    },
+    {
+        "id": 248,
+        "name": "Fluoxetine Capsules"
+    },
+    {
+        "id": 249,
+        "name": "Fluticasone Propionate Nasal Spray"
+    },
+    {
+        "id": 250,
+        "name": "Furosemide Tablets"
+    },
+    {
+        "id": 251,
+        "name": "Famotidine Tablets"
+    },
+    {
+        "id": 252,
+        "name": "Fluconazole Capsules"
+    },
+    {
+        "id": 253,
+        "name": "Ferrous Sulfate Tablets"
+    },
+    {
+        "id": 254,
+        "name": "Folic Acid Tablets"
+    },
+    {
+        "id": 255,
+        "name": "Fluconazole Oral Suspension"
+    },
+    {
+        "id": 256,
+        "name": "Fentanyl Transdermal Patch"
+    },
+    {
+        "id": 257,
+        "name": "Fluoxetine Oral Solution"
+    },
+    {
+        "id": 258,
+        "name": "Fluticasone Propionate Cream"
+    },
+    {
+        "id": 259,
+        "name": "Fexofenadine Oral Suspension"
+    },
+    {
+        "id": 260,
+        "name": "Fluconazole Injection"
+    },
+    {
+        "id": 261,
+        "name": "Furosemide Injection"
+    },
+    {
+        "id": 262,
+        "name": "Famotidine Oral Suspension"
+    },
+    {
+        "id": 263,
+        "name": "Fluoxetine Tablets"
+    },
+    {
+        "id": 264,
+        "name": "Fluticasone Propionate Inhaler"
+    },
+    {
+        "id": 265,
+        "name": "Fentanyl Buccal Tablet"
+    },
+    {
+        "id": 266,
+        "name": "Fluconazole Topical Cream"
+    },
+    {
+        "id": 267,
+        "name": "Ferrous Sulfate Oral Solution"
+    },
+    {
+        "id": 268,
+        "name": "Folic Acid Oral Solution"
+    },
+    {
+        "id": 269,
+        "name": "Fluoxetine Capsules (Delayed Release)"
+    },
+    {
+        "id": 270,
+        "name": "Fluticasone Propionate Lotion"
+    },
+    {
+        "id": 271,
+        "name": "Fexofenadine Capsules"
+    },
+    {
+        "id": 272,
+        "name": "Fluconazole Tablets"
+    },
+    {
+        "id": 273,
+        "name": "Furosemide Oral Solution"
+    },
+    {
+        "id": 274,
+        "name": "Famotidine Injection"
+    },
+    {
+        "id": 275,
+        "name": "Fluoxetine Oral Suspension (Sugar-Free)"
+    },
+    {
+        "id": 276,
+        "name": "Fluticasone Propionate Nasal Drops"
+    },
+    {
+        "id": 277,
+        "name": "Fentanyl Sublingual Tablet"
+    },
+    {
+        "id": 278,
+        "name": "Fluconazole Vaginal Cream"
+    },
+    {
+        "id": 279,
+        "name": "Ferrous Sulfate Chewable Tablets"
+    },
+    {
+        "id": 280,
+        "name": "Folic Acid Injection"
+    },
+    {
+        "id": 281,
+        "name": "Fluoxetine Delayed-Release Capsules"
+    },
+    {
+        "id": 282,
+        "name": "Fluticasone Propionate Nasal Gel"
+    },
+    {
+        "id": 283,
+        "name": "Fexofenadine Extended-Release Tablets"
+    },
+    {
+        "id": 284,
+        "name": "Fluconazole Oral Suspension (Sugar-Free)"
+    },
+    {
+        "id": 285,
+        "name": "Furosemide Oral Suspension (Sugar-Free)"
+    },
+    {
+        "id": 286,
+        "name": "Famotidine Delayed-Release Tablets"
+    },
+    {
+        "id": 287,
+        "name": "Fluoxetine Delayed-Release Oral Solution"
+    },
+    {
+        "id": 288,
+        "name": "Fluticasone Propionate Nasal Spray (Alcohol-Free)"
+    },
+    {
+        "id": 289,
+        "name": "Fentanyl Transdermal System (Matrix)"
+    },
+    {
+        "id": 290,
+        "name": "Fluconazole Injection (Single-Dose Vial)"
+    },
+    {
+        "id": 291,
+        "name": "Ferrous Sulfate Extended-Release Tablets"
+    },
+    {
+        "id": 292,
+        "name": "Folic Acid Extended-Release Tablets"
+    },
+    {
+        "id": 293,
+        "name": "Fluoxetine Oral Solution (Alcohol-Free)"
+    },
+    {
+        "id": 294,
+        "name": "Fluticasone Propionate Nasal Spray (Alcohol-Free) (Metered)"
+    },
+    {
+        "id": 295,
+        "name": "Fexofenadine Oral Suspension (Sugar-Free)"
+    },
+    {
+        "id": 1249,
+        "name": "Flagyl 500mg Tablets"
+    },
+    {
+        "id": 1250,
+        "name": "Gravinate Tablets"
+    },
+    {
+        "id": 296,
+        "name": "Gabapentin Capsules"
+    },
+    {
+        "id": 297,
+        "name": "Gatifloxacin Ophthalmic Solution"
+    },
+    {
+        "id": 298,
+        "name": "Gaviscon Liquid"
+    },
+    {
+        "id": 299,
+        "name": "Gaviscon Tablets"
+    },
+    {
+        "id": 300,
+        "name": "Gemfibrozil Tablets"
+    },
+    {
+        "id": 301,
+        "name": "Gleevec Tablets"
+    },
+    {
+        "id": 302,
+        "name": "Glimepiride Tablets"
+    },
+    {
+        "id": 303,
+        "name": "Glipizide Tablets"
+    },
+    {
+        "id": 304,
+        "name": "Glucagon Injection"
+    },
+    {
+        "id": 305,
+        "name": "Glucophage Tablets"
+    },
+    {
+        "id": 306,
+        "name": "Glucosamine Sulfate Tablets"
+    },
+    {
+        "id": 307,
+        "name": "Glutathione Injection"
+    },
+    {
+        "id": 308,
+        "name": "Glyburide Tablets"
+    },
+    {
+        "id": 309,
+        "name": "Glycopyrrolate Tablets"
+    },
+    {
+        "id": 310,
+        "name": "Glyxambi Tablets"
+    },
+    {
+        "id": 311,
+        "name": "Gocovri Capsules"
+    },
+    {
+        "id": 312,
+        "name": "GoLYTELY Solution"
+    },
+    {
+        "id": 313,
+        "name": "Goserelin Acetate Injection"
+    },
+    {
+        "id": 314,
+        "name": "Granisetron Injection"
+    },
+    {
+        "id": 315,
+        "name": "Griseofulvin Tablets"
+    },
+    {
+        "id": 316,
+        "name": "Guaifenesin Syrup"
+    },
+    {
+        "id": 317,
+        "name": "Guaifenesin Tablets"
+    },
+    {
+        "id": 318,
+        "name": "Guanfacine Tablets"
+    },
+    {
+        "id": 319,
+        "name": "Gvoke HypoPen Injection"
+    },
+    {
+        "id": 320,
+        "name": "Gaviscon Double Action Liquid"
+    },
+    {
+        "id": 321,
+        "name": "Gaviscon Double Action Tablets"
+    },
+    {
+        "id": 322,
+        "name": "Gaviscon Advance Liquid"
+    },
+    {
+        "id": 323,
+        "name": "Gaviscon Advance Tablets"
+    },
+    {
+        "id": 324,
+        "name": "Gaviscon Infant Powder"
+    },
+    {
+        "id": 325,
+        "name": "Gaviscon Infant Liquid"
+    },
+    {
+        "id": 326,
+        "name": "Gaviscon Liquid Original"
+    },
+    {
+        "id": 327,
+        "name": "Gaviscon Tablets Original"
+    },
+    {
+        "id": 328,
+        "name": "Gaviscon Liquid Extra Strength"
+    },
+    {
+        "id": 329,
+        "name": "Gaviscon Tablets Extra Strength"
+    },
+    {
+        "id": 330,
+        "name": "Gaviscon Liquid Peppermint"
+    },
+    {
+        "id": 331,
+        "name": "Gaviscon Tablets Peppermint"
+    },
+    {
+        "id": 332,
+        "name": "Gaviscon Liquid Aniseed"
+    },
+    {
+        "id": 333,
+        "name": "Gaviscon Tablets Aniseed"
+    },
+    {
+        "id": 334,
+        "name": "Gaviscon Liquid Orange"
+    },
+    {
+        "id": 335,
+        "name": "Gaviscon Tablets Orange"
+    },
+    {
+        "id": 336,
+        "name": "Gaviscon Liquid Lemon"
+    },
+    {
+        "id": 337,
+        "name": "Gaviscon Tablets Lemon"
+    },
+    {
+        "id": 338,
+        "name": "Gaviscon Liquid Strawberry"
+    },
+    {
+        "id": 339,
+        "name": "Gaviscon Tablets Strawberry"
+    },
+    {
+        "id": 340,
+        "name": "Gaviscon Liquid Blackcurrant"
+    },
+    {
+        "id": 341,
+        "name": "Gaviscon Tablets Blackcurrant"
+    },
+    {
+        "id": 342,
+        "name": "Gaviscon Liquid Raspberry"
+    },
+    {
+        "id": 343,
+        "name": "Gaviscon Tablets Raspberry"
+    },
+    {
+        "id": 344,
+        "name": "Gaviscon Liquid Cherry"
+    },
+    {
+        "id": 345,
+        "name": "Gaviscon Tablets Cherry"
+    },
+    {
+        "id": 346,
+        "name": "Haloperidol Tablets"
+    },
+    {
+        "id": 347,
+        "name": "Hydrochlorothiazide Tablets"
+    },
+    {
+        "id": 348,
+        "name": "Hydrocortisone Cream"
+    },
+    {
+        "id": 349,
+        "name": "Heparin Injection"
+    },
+    {
+        "id": 350,
+        "name": "Hydroxyzine Tablets"
+    },
+    {
+        "id": 351,
+        "name": "Hydralazine Tablets"
+    },
+    {
+        "id": 352,
+        "name": "Hydromorphone Injection"
+    },
+    {
+        "id": 353,
+        "name": "Hydroxychloroquine Tablets"
+    },
+    {
+        "id": 354,
+        "name": "Hydroxyurea Capsules"
+    },
+    {
+        "id": 355,
+        "name": "Hydrocodone Bitartrate and Acetaminophen Tablets"
+    },
+    {
+        "id": 356,
+        "name": "Hydrocortisone Sodium Succinate Injection"
+    },
+    {
+        "id": 357,
+        "name": "Hydroxyprogesterone Caproate Injection"
+    },
+    {
+        "id": 358,
+        "name": "Hydroxyurea Tablets"
+    },
+    {
+        "id": 359,
+        "name": "Hydroxyzine Hydrochloride Syrup"
+    },
+    {
+        "id": 360,
+        "name": "Hydrocortisone Acetate Suppositories"
+    },
+    {
+        "id": 361,
+        "name": "Hydroxyethyl Starch Injection"
+    },
+    {
+        "id": 362,
+        "name": "Hydroxycarbamide Capsules"
+    },
+    {
+        "id": 363,
+        "name": "Hydroxypropyl Methylcellulose Ophthalmic Solution"
+    },
+    {
+        "id": 364,
+        "name": "Hydroxypropyl Cellulose Ophthalmic Insert"
+    },
+    {
+        "id": 365,
+        "name": "Hydroxyamphetamine Hydrobromide and Tropicamide Ophthalmic Solution"
+    },
+    {
+        "id": 366,
+        "name": "Hydroxyapatite Capsules"
+    },
+    {
+        "id": 367,
+        "name": "Hydroxyapatite Tablets"
+    },
+    {
+        "id": 368,
+        "name": "Hydroxyapatite Oral Suspension"
+    },
+    {
+        "id": 369,
+        "name": "Hydroxyapatite Chewable Tablets"
+    },
+    {
+        "id": 370,
+        "name": "Hydroxyapatite Effervescent Tablets"
+    },
+    {
+        "id": 371,
+        "name": "Hydroxyapatite Granules"
+    },
+    {
+        "id": 372,
+        "name": "Hydroxyapatite Powder"
+    },
+    {
+        "id": 373,
+        "name": "Hydroxyapatite Injectable Suspension"
+    },
+    {
+        "id": 374,
+        "name": "Hydroxyapatite Dental Paste"
+    },
+    {
+        "id": 375,
+        "name": "Hydroxyapatite Bone Graft Substitute"
+    },
+    {
+        "id": 376,
+        "name": "Hydroxyapatite Coated Implants"
+    },
+    {
+        "id": 377,
+        "name": "Hydroxyapatite Scaffold"
+    },
+    {
+        "id": 378,
+        "name": "Hydroxyapatite Nanoparticles"
+    },
+    {
+        "id": 379,
+        "name": "Hydroxyapatite Microspheres"
+    },
+    {
+        "id": 380,
+        "name": "Hydroxyapatite Bioceramics"
+    },
+    {
+        "id": 381,
+        "name": "Hydroxyapatite Composite Materials"
+    },
+    {
+        "id": 382,
+        "name": "Hydroxyapatite Coatings"
+    },
+    {
+        "id": 383,
+        "name": "Hydroxyapatite Cement"
+    },
+    {
+        "id": 384,
+        "name": "Hydroxyapatite Gel"
+    },
+    {
+        "id": 385,
+        "name": "Hydroxyapatite Solution"
+    },
+    {
+        "id": 386,
+        "name": "Hydroxyapatite Suspension"
+    },
+    {
+        "id": 387,
+        "name": "Hydroxyapatite Paste"
+    },
+    {
+        "id": 388,
+        "name": "Hydroxyapatite Cream"
+    },
+    {
+        "id": 389,
+        "name": "Hydroxyapatite Lotion"
+    },
+    {
+        "id": 390,
+        "name": "Hydroxyapatite Serum"
+    },
+    {
+        "id": 391,
+        "name": "Hydroxyapatite Mask"
+    },
+    {
+        "id": 392,
+        "name": "Hydroxyapatite Cleanser"
+    },
+    {
+        "id": 393,
+        "name": "Hydroxyapatite Toner"
+    },
+    {
+        "id": 394,
+        "name": "Hydroxyapatite Moisturizer"
+    },
+    {
+        "id": 395,
+        "name": "Hydroxyapatite Sunscreen"
+    },
+    {
+        "id": 396,
+        "name": "Ibuprofen Tablets"
+    },
+    {
+        "id": 397,
+        "name": "Ibandronate Injection"
+    },
+    {
+        "id": 398,
+        "name": "Ibrutinib Capsules"
+    },
+    {
+        "id": 399,
+        "name": "Imatinib Tablets"
+    },
+    {
+        "id": 400,
+        "name": "Indomethacin Capsules"
+    },
+    {
+        "id": 401,
+        "name": "Insulin Aspart Injection"
+    },
+    {
+        "id": 402,
+        "name": "Insulin Glargine Injection"
+    },
+    {
+        "id": 403,
+        "name": "Insulin Lispro Injection"
+    },
+    {
+        "id": 404,
+        "name": "Interferon Alfa Injection"
+    },
+    {
+        "id": 405,
+        "name": "Interferon Beta Injection"
+    },
+    {
+        "id": 406,
+        "name": "Ipratropium Bromide Inhaler"
+    },
+    {
+        "id": 407,
+        "name": "Irbesartan Tablets"
+    },
+    {
+        "id": 408,
+        "name": "Iron Sucrose Injection"
+    },
+    {
+        "id": 409,
+        "name": "Isosorbide Dinitrate Tablets"
+    },
+    {
+        "id": 410,
+        "name": "Isosorbide Mononitrate Tablets"
+    },
+    {
+        "id": 411,
+        "name": "Isotretinoin Capsules"
+    },
+    {
+        "id": 412,
+        "name": "Itraconazole Capsules"
+    },
+    {
+        "id": 413,
+        "name": "Ivabradine Tablets"
+    },
+    {
+        "id": 414,
+        "name": "Ivermectin Tablets"
+    },
+    {
+        "id": 415,
+        "name": "Isoniazid Tablets"
+    },
+    {
+        "id": 416,
+        "name": "Isoniazid Syrup"
+    },
+    {
+        "id": 417,
+        "name": "Isoniazid Injection"
+    },
+    {
+        "id": 418,
+        "name": "Ipratropium Bromide Nasal Spray"
+    },
+    {
+        "id": 419,
+        "name": "Indapamide Tablets"
+    },
+    {
+        "id": 420,
+        "name": "Inosine Pranobex Tablets"
+    },
+    {
+        "id": 421,
+        "name": "Imipramine Tablets"
+    },
+    {
+        "id": 422,
+        "name": "Imiquimod Cream"
+    },
+    {
+        "id": 423,
+        "name": "Infliximab Injection"
+    },
+    {
+        "id": 424,
+        "name": "Inosine Pranobex Syrup"
+    },
+    {
+        "id": 425,
+        "name": "Iopromide Injection"
+    },
+    {
+        "id": 426,
+        "name": "Iodine Oral Solution"
+    },
+    {
+        "id": 427,
+        "name": "Iodine Tincture"
+    },
+    {
+        "id": 428,
+        "name": "Iodine Povidone Solution"
+    },
+    {
+        "id": 429,
+        "name": "Iodine Povidone Ointment"
+    },
+    {
+        "id": 430,
+        "name": "Iodine Povidone Scrub"
+    },
+    {
+        "id": 431,
+        "name": "Iodine Povidone Gargle"
+    },
+    {
+        "id": 432,
+        "name": "Iodine Povidone Mouthwash"
+    },
+    {
+        "id": 433,
+        "name": "Iodine Povidone Vaginal Douche"
+    },
+    {
+        "id": 434,
+        "name": "Iodine Povidone Surgical Solution"
+    },
+    {
+        "id": 435,
+        "name": "Iodine Povidone Eye Drops"
+    },
+    {
+        "id": 436,
+        "name": "Iodine Povidone Ear Drops"
+    },
+    {
+        "id": 437,
+        "name": "Iodine Povidone Nasal Drops"
+    },
+    {
+        "id": 438,
+        "name": "Iodine Povidone Throat Spray"
+    },
+    {
+        "id": 439,
+        "name": "Iodine Povidone Hand Sanitizer"
+    },
+    {
+        "id": 440,
+        "name": "Iodine Povidone Skin Cleanser"
+    },
+    {
+        "id": 441,
+        "name": "Iodine Povidone Wound Dressing"
+    },
+    {
+        "id": 442,
+        "name": "Iodine Povidone Burn Cream"
+    },
+    {
+        "id": 443,
+        "name": "Iodine Povidone Antiseptic Solution"
+    },
+    {
+        "id": 444,
+        "name": "Iodine Povidone Disinfectant Solution"
+    },
+    {
+        "id": 445,
+        "name": "Iodine Povidone Preoperative Skin Preparation"
+    },
+    {
+        "id": 446,
+        "name": "Jadelle"
+    },
+    {
+        "id": 447,
+        "name": "Jadenu"
+    },
+    {
+        "id": 448,
+        "name": "Jaimiess"
+    },
+    {
+        "id": 449,
+        "name": "Jakafi"
+    },
+    {
+        "id": 450,
+        "name": "Jalyn"
+    },
+    {
+        "id": 451,
+        "name": "Jantoven"
+    },
+    {
+        "id": 452,
+        "name": "Janumet"
+    },
+    {
+        "id": 453,
+        "name": "Janumet XR"
+    },
+    {
+        "id": 454,
+        "name": "Januvia"
+    },
+    {
+        "id": 455,
+        "name": "Jardiance"
+    },
+    {
+        "id": 456,
+        "name": "Jasmiel"
+    },
+    {
+        "id": 457,
+        "name": "Jatenzo"
+    },
+    {
+        "id": 458,
+        "name": "Jaypirca"
+    },
+    {
+        "id": 459,
+        "name": "Jelmyto"
+    },
+    {
+        "id": 460,
+        "name": "Jemperli"
+    },
+    {
+        "id": 461,
+        "name": "Jencycla"
+    },
+    {
+        "id": 462,
+        "name": "Jentadueto"
+    },
+    {
+        "id": 463,
+        "name": "Jesduvroq"
+    },
+    {
+        "id": 464,
+        "name": "Jeuveau"
+    },
+    {
+        "id": 465,
+        "name": "Jevtana"
+    },
+    {
+        "id": 466,
+        "name": "Jinteli"
+    },
+    {
+        "id": 467,
+        "name": "Joenja"
+    },
+    {
+        "id": 468,
+        "name": "Jojoba topical"
+    },
+    {
+        "id": 469,
+        "name": "Jolessa"
+    },
+    {
+        "id": 470,
+        "name": "Jolivette"
+    },
+    {
+        "id": 471,
+        "name": "Jornay PM"
+    },
+    {
+        "id": 472,
+        "name": "Joyeaux"
+    },
+    {
+        "id": 473,
+        "name": "Jubbonti"
+    },
+    {
+        "id": 474,
+        "name": "Jublia"
+    },
+    {
+        "id": 475,
+        "name": "Juluca"
+    },
+    {
+        "id": 476,
+        "name": "Junel"
+    },
+    {
+        "id": 477,
+        "name": "Junel 1.5/30"
+    },
+    {
+        "id": 478,
+        "name": "Junel 1/20"
+    },
+    {
+        "id": 479,
+        "name": "Junel Fe 24"
+    },
+    {
+        "id": 480,
+        "name": "Juniper"
+    },
+    {
+        "id": 481,
+        "name": "Juvederm"
+    },
+    {
+        "id": 482,
+        "name": "Juxtapid"
+    },
+    {
+        "id": 483,
+        "name": "Jynarque"
+    },
+    {
+        "id": 484,
+        "name": "Jynneos"
+    },
+    {
+        "id": 485,
+        "name": "Jovensia"
+    },
+    {
+        "id": 486,
+        "name": "Jovemelin"
+    },
+    {
+        "id": 487,
+        "name": "Joymax"
+    },
+    {
+        "id": 488,
+        "name": "Jotrol"
+    },
+    {
+        "id": 489,
+        "name": "Jovian"
+    },
+    {
+        "id": 490,
+        "name": "Jovidol"
+    },
+    {
+        "id": 491,
+        "name": "Junction"
+    },
+    {
+        "id": 492,
+        "name": "Ketoconazole"
+    },
+    {
+        "id": 493,
+        "name": "Ketorolac"
+    },
+    {
+        "id": 494,
+        "name": "Klor-Con"
+    },
+    {
+        "id": 495,
+        "name": "Keflex"
+    },
+    {
+        "id": 496,
+        "name": "Klonopin"
+    },
+    {
+        "id": 504,
+        "name": "Kaletra"
+    },
+    {
+        "id": 498,
+        "name": "Kineret"
+    },
+    {
+        "id": 499,
+        "name": "Kivexa"
+    },
+    {
+        "id": 500,
+        "name": "Klor-Con M10"
+    },
+    {
+        "id": 501,
+        "name": "Klor-Con M15"
+    },
+    {
+        "id": 502,
+        "name": "Klor-Con M20"
+    },
+    {
+        "id": 503,
+        "name": "Kepivance"
+    },
+    {
+        "id": 504,
+        "name": "Kaletra"
+    },
+    {
+        "id": 515,
+        "name": "Kombiglyze XR"
+    },
+    {
+        "id": 506,
+        "name": "Kenalog"
+    },
+    {
+        "id": 507,
+        "name": "Kadian"
+    },
+    {
+        "id": 508,
+        "name": "Kadian 30 mg"
+    },
+    {
+        "id": 509,
+        "name": "Korylan"
+    },
+    {
+        "id": 510,
+        "name": "Kytone"
+    },
+    {
+        "id": 511,
+        "name": "Klor-Con 10"
+    },
+    {
+        "id": 512,
+        "name": "Klor-Con 20"
+    },
+    {
+        "id": 513,
+        "name": "Krystexxa"
+    },
+    {
+        "id": 514,
+        "name": "Kraft Cheese"
+    },
+    {
+        "id": 515,
+        "name": "Kombiglyze XR"
+    },
+    {
+        "id": 516,
+        "name": "Kadian ER"
+    },
+    {
+        "id": 517,
+        "name": "Kogenate"
+    },
+    {
+        "id": 528,
+        "name": "Keltia"
+    },
+    {
+        "id": 519,
+        "name": "Ketenol"
+    },
+    {
+        "id": 520,
+        "name": "Kenevac"
+    },
+    {
+        "id": 521,
+        "name": "Koras"
+    },
+    {
+        "id": 522,
+        "name": "Ketazole"
+    },
+    {
+        "id": 523,
+        "name": "Kratom"
+    },
+    {
+        "id": 524,
+        "name": "Kalodin"
+    },
+    {
+        "id": 525,
+        "name": "Kenacort"
+    },
+    {
+        "id": 526,
+        "name": "Kumaril"
+    },
+    {
+        "id": 527,
+        "name": "Karditone"
+    },
+    {
+        "id": 528,
+        "name": "Keltia"
+    },
+    {
+        "id": 529,
+        "name": "Kednos"
+    },
+    {
+        "id": 530,
+        "name": "Kocoglu"
+    },
+    {
+        "id": 531,
+        "name": "Kosan"
+    },
+    {
+        "id": 532,
+        "name": "Ketrax"
+    },
+    {
+        "id": 533,
+        "name": "Kofyren"
+    },
+    {
+        "id": 534,
+        "name": "Ksolen"
+    },
+    {
+        "id": 535,
+        "name": "Kemorin"
+    },
+    {
+        "id": 536,
+        "name": "Kizvex"
+    },
+    {
+        "id": 537,
+        "name": "Kediat"
+    },
+    {
+        "id": 538,
+        "name": "Kuddi"
+    },
+    {
+        "id": 539,
+        "name": "Kremzar"
+    },
+    {
+        "id": 540,
+        "name": "Karmyl"
+    },
+    {
+        "id": 541,
+        "name": "Kalmox"
+    },
+    {
+        "id": 542,
+        "name": "Kenoderm"
+    },
+    {
+        "id": 543,
+        "name": "Lisinopril"
+    },
+    {
+        "id": 544,
+        "name": "Loratadine"
+    },
+    {
+        "id": 545,
+        "name": "Loperamide"
+    },
+    {
+        "id": 546,
+        "name": "Levothyroxine"
+    },
+    {
+        "id": 547,
+        "name": "Lansoprazole"
+    },
+    {
+        "id": 548,
+        "name": "Lisinopril/Hydrochlorothiazide"
+    },
+    {
+        "id": 549,
+        "name": "Lyrica"
+    },
+    {
+        "id": 550,
+        "name": "Levofloxacin"
+    },
+    {
+        "id": 551,
+        "name": "Lidocaine"
+    },
+    {
+        "id": 552,
+        "name": "Lopressor"
+    },
+    {
+        "id": 553,
+        "name": "Lactulose"
+    },
+    {
+        "id": 554,
+        "name": "Lofepramine"
+    },
+    {
+        "id": 555,
+        "name": "Lacosamide"
+    },
+    {
+        "id": 556,
+        "name": "Labetalol"
+    },
+    {
+        "id": 557,
+        "name": "Lamotrigine"
+    },
+    {
+        "id": 558,
+        "name": "Lenvima"
+    },
+    {
+        "id": 559,
+        "name": "Lactobacillus"
+    },
+    {
+        "id": 560,
+        "name": "Lurasidone"
+    },
+    {
+        "id": 561,
+        "name": "Lorazepam"
+    },
+    {
+        "id": 562,
+        "name": "Levetiracetam"
+    },
+    {
+        "id": 563,
+        "name": "Liraglutide"
+    },
+    {
+        "id": 564,
+        "name": "Lurasidone Hydrochloride"
+    },
+    {
+        "id": 565,
+        "name": "Lidocaine Patches"
+    },
+    {
+        "id": 566,
+        "name": "Lindane"
+    },
+    {
+        "id": 567,
+        "name": "Lignocaine"
+    },
+    {
+        "id": 568,
+        "name": "Lactated Ringer\u2019s Solution"
+    },
+    {
+        "id": 569,
+        "name": "L-arginine"
+    },
+    {
+        "id": 570,
+        "name": "L-Methylfolate"
+    },
+    {
+        "id": 571,
+        "name": "Leflunomide"
+    },
+    {
+        "id": 572,
+        "name": "Laminaria"
+    },
+    {
+        "id": 573,
+        "name": "L-Glutamine"
+    },
+    {
+        "id": 574,
+        "name": "Lisdexamfetamine"
+    },
+    {
+        "id": 575,
+        "name": "Leuprolide"
+    },
+    {
+        "id": 576,
+        "name": "Lanreotide"
+    },
+    {
+        "id": 577,
+        "name": "Lignocaine Injection"
+    },
+    {
+        "id": 578,
+        "name": "L-Carnitine"
+    },
+    {
+        "id": 579,
+        "name": "Latanoprost"
+    },
+    {
+        "id": 580,
+        "name": "Lurasidone Hydrochloride Tablets"
+    },
+    {
+        "id": 581,
+        "name": "Lincocin"
+    },
+    {
+        "id": 582,
+        "name": "Lofexidine"
+    },
+    {
+        "id": 583,
+        "name": "L-asparaginase"
+    },
+    {
+        "id": 584,
+        "name": "Laminin"
+    },
+    {
+        "id": 585,
+        "name": "Lacosamide Tablets"
+    },
+    {
+        "id": 586,
+        "name": "Lactobacillus Acidophilus"
+    },
+    {
+        "id": 587,
+        "name": "Levocetirizine"
+    },
+    {
+        "id": 588,
+        "name": "Lomustine"
+    },
+    {
+        "id": 589,
+        "name": "Lazanda"
+    },
+    {
+        "id": 590,
+        "name": "L-Cysteine"
+    },
+    {
+        "id": 591,
+        "name": "Lenvatinib"
+    },
+    {
+        "id": 592,
+        "name": "Metformin"
+    },
+    {
+        "id": 593,
+        "name": "Methotrexate"
+    },
+    {
+        "id": 594,
+        "name": "Metoprolol"
+    },
+    {
+        "id": 595,
+        "name": "Montelukast"
+    },
+    {
+        "id": 596,
+        "name": "Mupirocin"
+    },
+    {
+        "id": 597,
+        "name": "Mirtazapine"
+    },
+    {
+        "id": 598,
+        "name": "Meloxicam"
+    },
+    {
+        "id": 599,
+        "name": "Morphine"
+    },
+    {
+        "id": 600,
+        "name": "Methadone"
+    },
+    {
+        "id": 601,
+        "name": "Metronidazole"
+    },
+    {
+        "id": 602,
+        "name": "Miconazole"
+    },
+    {
+        "id": 603,
+        "name": "Methylphenidate"
+    },
+    {
+        "id": 604,
+        "name": "Magnesium Oxide"
+    },
+    {
+        "id": 605,
+        "name": "Methimazole"
+    },
+    {
+        "id": 606,
+        "name": "Meclizine"
+    },
+    {
+        "id": 607,
+        "name": "Mefloquine"
+    },
+    {
+        "id": 608,
+        "name": "Misoprostol"
+    },
+    {
+        "id": 609,
+        "name": "Medroxyprogesterone"
+    },
+    {
+        "id": 610,
+        "name": "Methylprednisolone"
+    },
+    {
+        "id": 611,
+        "name": "Meropenem"
+    },
+    {
+        "id": 612,
+        "name": "Mesalamine"
+    },
+    {
+        "id": 613,
+        "name": "Methyldopa"
+    },
+    {
+        "id": 614,
+        "name": "Methocarbamol"
+    },
+    {
+        "id": 615,
+        "name": "Metaxalone"
+    },
+    {
+        "id": 616,
+        "name": "Milrinone"
+    },
+    {
+        "id": 617,
+        "name": "Minocycline"
+    },
+    {
+        "id": 618,
+        "name": "Mometasone"
+    },
+    {
+        "id": 619,
+        "name": "Methylergonovine"
+    },
+    {
+        "id": 620,
+        "name": "Mifepristone"
+    },
+    {
+        "id": 621,
+        "name": "Metyrapone"
+    },
+    {
+        "id": 622,
+        "name": "Mecasermin"
+    },
+    {
+        "id": 623,
+        "name": "Melatonin"
+    },
+    {
+        "id": 624,
+        "name": "Memantine"
+    },
+    {
+        "id": 625,
+        "name": "Methazolamide"
+    },
+    {
+        "id": 626,
+        "name": "Midazolam"
+    },
+    {
+        "id": 627,
+        "name": "Moxifloxacin"
+    },
+    {
+        "id": 628,
+        "name": "Magnesium Citrate"
+    },
+    {
+        "id": 629,
+        "name": "Mivacurium"
+    },
+    {
+        "id": 630,
+        "name": "Myozyme"
+    },
+    {
+        "id": 631,
+        "name": "Macitentan"
+    },
+    {
+        "id": 632,
+        "name": "Methyclothiazide"
+    },
+    {
+        "id": 633,
+        "name": "Megestrol Acetate"
+    },
+    {
+        "id": 634,
+        "name": "Minoxidil"
+    },
+    {
+        "id": 635,
+        "name": "Mesna"
+    },
+    {
+        "id": 1251,
+        "name": "Mecasermin Rinfabate"
+    },
+    {
+        "id": 637,
+        "name": "Maraviroc"
+    },
+    {
+        "id": 638,
+        "name": "Methscopolamine"
+    },
+    {
+        "id": 639,
+        "name": "Metoclopramide"
+    },
+    {
+        "id": 640,
+        "name": "Metipranolol"
+    },
+    {
+        "id": 641,
+        "name": "Migalastat"
+    },
+    {
+        "id": 642,
+        "name": "Methoxyflurane"
+    },
+    {
+        "id": 643,
+        "name": "Naproxen"
+    },
+    {
+        "id": 644,
+        "name": "Naltrexone"
+    },
+    {
+        "id": 645,
+        "name": "Naloxone"
+    },
+    {
+        "id": 646,
+        "name": "Neomycin"
+    },
+    {
+        "id": 647,
+        "name": "Nifedipine"
+    },
+    {
+        "id": 648,
+        "name": "Nitroglycerin"
+    },
+    {
+        "id": 649,
+        "name": "Nizatidine"
+    },
+    {
+        "id": 650,
+        "name": "Nebivolol"
+    },
+    {
+        "id": 651,
+        "name": "Nicotine"
+    },
+    {
+        "id": 652,
+        "name": "Nimodipine"
+    },
+    {
+        "id": 653,
+        "name": "Nivolumab"
+    },
+    {
+        "id": 654,
+        "name": "Nitrofurantoin"
+    },
+    {
+        "id": 655,
+        "name": "Nortriptyline"
+    },
+    {
+        "id": 656,
+        "name": "Nadolol"
+    },
+    {
+        "id": 657,
+        "name": "Nalbuphine"
+    },
+    {
+        "id": 658,
+        "name": "Natalizumab"
+    },
+    {
+        "id": 659,
+        "name": "Nebulized Saline"
+    },
+    {
+        "id": 660,
+        "name": "Nelarabine"
+    },
+    {
+        "id": 661,
+        "name": "Nelfinavir"
+    },
+    {
+        "id": 662,
+        "name": "Neostigmine"
+    },
+    {
+        "id": 663,
+        "name": "Naproxen Sodium"
+    },
+    {
+        "id": 664,
+        "name": "Niacin"
+    },
+    {
+        "id": 665,
+        "name": "Norethindrone"
+    },
+    {
+        "id": 666,
+        "name": "Nateglinide"
+    },
+    {
+        "id": 667,
+        "name": "Naphazoline"
+    },
+    {
+        "id": 668,
+        "name": "Nimorazole"
+    },
+    {
+        "id": 669,
+        "name": "Nimorazole Injection"
+    },
+    {
+        "id": 670,
+        "name": "Nabumetone"
+    },
+    {
+        "id": 671,
+        "name": "Nicardipine"
+    },
+    {
+        "id": 672,
+        "name": "Nilutamide"
+    },
+    {
+        "id": 673,
+        "name": "Nitisinone"
+    },
+    {
+        "id": 674,
+        "name": "Nitazoxanide"
+    },
+    {
+        "id": 675,
+        "name": "Nitric Oxide"
+    },
+    {
+        "id": 676,
+        "name": "Norepinephrine"
+    },
+    {
+        "id": 677,
+        "name": "Nizatidine Tablets"
+    },
+    {
+        "id": 678,
+        "name": "Noradrenaline"
+    },
+    {
+        "id": 679,
+        "name": "Nitroprusside"
+    },
+    {
+        "id": 680,
+        "name": "Nab-paclitaxel"
+    },
+    {
+        "id": 681,
+        "name": "Nebcin"
+    },
+    {
+        "id": 682,
+        "name": "Netupitant"
+    },
+    {
+        "id": 683,
+        "name": "Nevirapine"
+    },
+    {
+        "id": 684,
+        "name": "Nalmefene"
+    },
+    {
+        "id": 685,
+        "name": "Nadroparin"
+    },
+    {
+        "id": 686,
+        "name": "Nalidixic Acid"
+    },
+    {
+        "id": 687,
+        "name": "Nelarabine Injection"
+    },
+    {
+        "id": 688,
+        "name": "Naproxen Extended Release"
+    },
+    {
+        "id": 689,
+        "name": "Nexplanon"
+    },
+    {
+        "id": 690,
+        "name": "Nitrofurazone"
+    },
+    {
+        "id": 691,
+        "name": "Norvasc"
+    },
+    {
+        "id": 692,
+        "name": "Nilotinib"
+    },
+    {
+        "id": 693,
+        "name": "Naldemedine"
+    },
+    {
+        "id": 694,
+        "name": "Omeprazole"
+    },
+    {
+        "id": 695,
+        "name": "Ondansetron"
+    },
+    {
+        "id": 696,
+        "name": "Oxycodone"
+    },
+    {
+        "id": 697,
+        "name": "Olaparib"
+    },
+    {
+        "id": 698,
+        "name": "Olmesartan"
+    },
+    {
+        "id": 699,
+        "name": "Oxybutynin"
+    },
+    {
+        "id": 700,
+        "name": "Octreotide"
+    },
+    {
+        "id": 701,
+        "name": "Oxfendazole"
+    },
+    {
+        "id": 702,
+        "name": "Olanzapine"
+    },
+    {
+        "id": 703,
+        "name": "Orlistat"
+    },
+    {
+        "id": 704,
+        "name": "Oxycontin"
+    },
+    {
+        "id": 705,
+        "name": "Omalizumab"
+    },
+    {
+        "id": 706,
+        "name": "Oxyphenbutazone"
+    },
+    {
+        "id": 707,
+        "name": "Oxytocin"
+    },
+    {
+        "id": 708,
+        "name": "Oral Rehydration Salts"
+    },
+    {
+        "id": 709,
+        "name": "Oxybenzone"
+    },
+    {
+        "id": 710,
+        "name": "Oxacillin"
+    },
+    {
+        "id": 711,
+        "name": "Olaparib Capsules"
+    },
+    {
+        "id": 712,
+        "name": "Oftagel"
+    },
+    {
+        "id": 713,
+        "name": "Oxcarbazepine"
+    },
+    {
+        "id": 714,
+        "name": "Oxcarbazepine Tablets"
+    },
+    {
+        "id": 715,
+        "name": "Oxygen"
+    },
+    {
+        "id": 716,
+        "name": "Oritavancin"
+    },
+    {
+        "id": 717,
+        "name": "Oxycodone/Acetaminophen"
+    },
+    {
+        "id": 718,
+        "name": "Opana"
+    },
+    {
+        "id": 719,
+        "name": "Ospemifene"
+    },
+    {
+        "id": 720,
+        "name": "Omeprazole/Antibiotic"
+    },
+    {
+        "id": 721,
+        "name": "Opioid"
+    },
+    {
+        "id": 722,
+        "name": "Omeprazole/Antibiotic Combination"
+    },
+    {
+        "id": 723,
+        "name": "Omalizumab Injection"
+    },
+    {
+        "id": 724,
+        "name": "Oxychloroquine"
+    },
+    {
+        "id": 725,
+        "name": "Ornithine"
+    },
+    {
+        "id": 726,
+        "name": "Oral Glucose Tablets"
+    },
+    {
+        "id": 727,
+        "name": "Olaparib Oral"
+    },
+    {
+        "id": 728,
+        "name": "Oxytocin Injection"
+    },
+    {
+        "id": 729,
+        "name": "Oxycodone Hydrochloride"
+    },
+    {
+        "id": 730,
+        "name": "Oxybutynin Chloride"
+    },
+    {
+        "id": 731,
+        "name": "Oseltamivir"
+    },
+    {
+        "id": 732,
+        "name": "Olmesartan Medoxomil"
+    },
+    {
+        "id": 733,
+        "name": "Oral Iron Supplements"
+    },
+    {
+        "id": 734,
+        "name": "Oxycodone Extended Release"
+    },
+    {
+        "id": 735,
+        "name": "Oflomelid"
+    },
+    {
+        "id": 736,
+        "name": "Oxyphenylbutazone"
+    },
+    {
+        "id": 737,
+        "name": "Olaparib Tablets"
+    },
+    {
+        "id": 738,
+        "name": "Opiate Antagonists"
+    },
+    {
+        "id": 739,
+        "name": "Oxygen Therapy"
+    },
+    {
+        "id": 740,
+        "name": "Oxaliplatin"
+    },
+    {
+        "id": 741,
+        "name": "Obeticholic Acid"
+    },
+    {
+        "id": 742,
+        "name": "Oprelvekin"
+    },
+    {
+        "id": 743,
+        "name": "Paracetamol"
+    },
+    {
+        "id": 744,
+        "name": "Prednisone"
+    },
+    {
+        "id": 745,
+        "name": "Pantoprazole"
+    },
+    {
+        "id": 746,
+        "name": "Phenytoin"
+    },
+    {
+        "id": 747,
+        "name": "Propranolol"
+    },
+    {
+        "id": 748,
+        "name": "Penicillin"
+    },
+    {
+        "id": 749,
+        "name": "Piperacillin"
+    },
+    {
+        "id": 750,
+        "name": "Prednisolone"
+    },
+    {
+        "id": 751,
+        "name": "Prazosin"
+    },
+    {
+        "id": 752,
+        "name": "Pioglitazone"
+    },
+    {
+        "id": 753,
+        "name": "Piroxicam"
+    },
+    {
+        "id": 754,
+        "name": "Pravastatin"
+    },
+    {
+        "id": 755,
+        "name": "Paroxetine"
+    },
+    {
+        "id": 756,
+        "name": "Palbociclib"
+    },
+    {
+        "id": 757,
+        "name": "Perindopril"
+    },
+    {
+        "id": 758,
+        "name": "Pemetrexed"
+    },
+    {
+        "id": 759,
+        "name": "Pyridoxine"
+    },
+    {
+        "id": 760,
+        "name": "Probenecid"
+    },
+    {
+        "id": 761,
+        "name": "Prazosin Hydrochloride"
+    },
+    {
+        "id": 762,
+        "name": "Pyrantel Pamoate"
+    },
+    {
+        "id": 763,
+        "name": "Plerixafor"
+    },
+    {
+        "id": 764,
+        "name": "Pentosan Polysulfate"
+    },
+    {
+        "id": 765,
+        "name": "Promethazine"
+    },
+    {
+        "id": 766,
+        "name": "Pindolol"
+    },
+    {
+        "id": 767,
+        "name": "Prazepam"
+    },
+    {
+        "id": 768,
+        "name": "Piracetam"
+    },
+    {
+        "id": 769,
+        "name": "Polymyxin B"
+    },
+    {
+        "id": 770,
+        "name": "Pindolol Hydrochloride"
+    },
+    {
+        "id": 771,
+        "name": "Phenobarbital"
+    },
+    {
+        "id": 772,
+        "name": "Phenylephrine"
+    },
+    {
+        "id": 773,
+        "name": "Prednisolone Acetate"
+    },
+    {
+        "id": 774,
+        "name": "Prasugrel"
+    },
+    {
+        "id": 775,
+        "name": "Pemetrexed Disodium"
+    },
+    {
+        "id": 776,
+        "name": "Phenylpropanolamine"
+    },
+    {
+        "id": 777,
+        "name": "Piroxicam Capsules"
+    },
+    {
+        "id": 778,
+        "name": "Pyridostigmine"
+    },
+    {
+        "id": 779,
+        "name": "Paliperidone"
+    },
+    {
+        "id": 780,
+        "name": "Paroxetine Hydrochloride"
+    },
+    {
+        "id": 781,
+        "name": "Pentoxifylline"
+    },
+    {
+        "id": 782,
+        "name": "Prochlorperazine"
+    },
+    {
+        "id": 783,
+        "name": "Perampanel"
+    },
+    {
+        "id": 784,
+        "name": "Pentamidine"
+    },
+    {
+        "id": 785,
+        "name": "Prandin"
+    },
+    {
+        "id": 786,
+        "name": "Pediatric Electrolyte Solution"
+    },
+    {
+        "id": 787,
+        "name": "Proton Pump Inhibitors"
+    },
+    {
+        "id": 788,
+        "name": "Propranolol Hydrochloride"
+    },
+    {
+        "id": 789,
+        "name": "Procarbazine"
+    },
+    {
+        "id": 790,
+        "name": "Pantoprazole Sodium"
+    },
+    {
+        "id": 791,
+        "name": "Prazosin Hydrochloride Capsules"
+    },
+    {
+        "id": 792,
+        "name": "Pimecrolimus"
+    },
+    {
+        "id": 1252,
+        "name": "Panadol 500mg Tablets"
+    },
+    {
+        "id": 793,
+        "name": "Quetiapine"
+    },
+    {
+        "id": 794,
+        "name": "Quinapril"
+    },
+    {
+        "id": 795,
+        "name": "Quinine"
+    },
+    {
+        "id": 796,
+        "name": "Quinidine"
+    },
+    {
+        "id": 797,
+        "name": "Quasense"
+    },
+    {
+        "id": 798,
+        "name": "Quillivant XR"
+    },
+    {
+        "id": 799,
+        "name": "Qvar"
+    },
+    {
+        "id": 800,
+        "name": "Quinfamox"
+    },
+    {
+        "id": 801,
+        "name": "Questran"
+    },
+    {
+        "id": 802,
+        "name": "QuoVadis"
+    },
+    {
+        "id": 803,
+        "name": "Quinagolide"
+    },
+    {
+        "id": 804,
+        "name": "Quinicrine"
+    },
+    {
+        "id": 805,
+        "name": "Quinagolide Hydrochloride"
+    },
+    {
+        "id": 806,
+        "name": "Qigong"
+    },
+    {
+        "id": 807,
+        "name": "Q-Tussin"
+    },
+    {
+        "id": 808,
+        "name": "Questran Light"
+    },
+    {
+        "id": 809,
+        "name": "Quinidex"
+    },
+    {
+        "id": 810,
+        "name": "Qsymia"
+    },
+    {
+        "id": 811,
+        "name": "Qlux"
+    },
+    {
+        "id": 812,
+        "name": "Quinapril Hydrochloride"
+    },
+    {
+        "id": 813,
+        "name": "Quellor"
+    },
+    {
+        "id": 814,
+        "name": "Qualaquin"
+    },
+    {
+        "id": 815,
+        "name": "Quercetin"
+    },
+    {
+        "id": 816,
+        "name": "Qti-Serum"
+    },
+    {
+        "id": 817,
+        "name": "Qfever Vaccine"
+    },
+    {
+        "id": 818,
+        "name": "Quinoderm"
+    },
+    {
+        "id": 819,
+        "name": "Quinsair"
+    },
+    {
+        "id": 820,
+        "name": "Qadruple Antiretroviral Therapy"
+    },
+    {
+        "id": 821,
+        "name": "Qotec"
+    },
+    {
+        "id": 822,
+        "name": "Quadramet"
+    },
+    {
+        "id": 823,
+        "name": "Quinora"
+    },
+    {
+        "id": 824,
+        "name": "Quinolone Antibiotics"
+    },
+    {
+        "id": 825,
+        "name": "Quillichew ER"
+    },
+    {
+        "id": 826,
+        "name": "Quinipril"
+    },
+    {
+        "id": 827,
+        "name": "Quick-Mix"
+    },
+    {
+        "id": 828,
+        "name": "Q-Zyme"
+    },
+    {
+        "id": 829,
+        "name": "Quetherapy"
+    },
+    {
+        "id": 830,
+        "name": "Qulipta"
+    },
+    {
+        "id": 831,
+        "name": "QVC-HT"
+    },
+    {
+        "id": 832,
+        "name": "Quinnite"
+    },
+    {
+        "id": 833,
+        "name": "Qscalp"
+    },
+    {
+        "id": 834,
+        "name": "Quink"
+    },
+    {
+        "id": 835,
+        "name": "Quinolone Injection"
+    },
+    {
+        "id": 836,
+        "name": "Quickie"
+    },
+    {
+        "id": 837,
+        "name": "Quetiapine Fumarate"
+    },
+    {
+        "id": 838,
+        "name": "Quinogyl"
+    },
+    {
+        "id": 839,
+        "name": "Quinoxalines"
+    },
+    {
+        "id": 840,
+        "name": "Qtonic"
+    },
+    {
+        "id": 841,
+        "name": "Quinlor"
+    },
+    {
+        "id": 842,
+        "name": "Ranitidine"
+    },
+    {
+        "id": 843,
+        "name": "Rosuvastatin"
+    },
+    {
+        "id": 844,
+        "name": "Risperidone"
+    },
+    {
+        "id": 845,
+        "name": "Ropinirole"
+    },
+    {
+        "id": 846,
+        "name": "Rivaroxaban"
+    },
+    {
+        "id": 847,
+        "name": "Rifampin"
+    },
+    {
+        "id": 848,
+        "name": "Risedronate"
+    },
+    {
+        "id": 849,
+        "name": "Requip"
+    },
+    {
+        "id": 850,
+        "name": "Rocuronium"
+    },
+    {
+        "id": 851,
+        "name": "Ranolazine"
+    },
+    {
+        "id": 852,
+        "name": "Reglan"
+    },
+    {
+        "id": 853,
+        "name": "Reyataz"
+    },
+    {
+        "id": 854,
+        "name": "Remicade"
+    },
+    {
+        "id": 855,
+        "name": "Rheumatrex"
+    },
+    {
+        "id": 856,
+        "name": "Rivastigmine"
+    },
+    {
+        "id": 857,
+        "name": "Rapamune"
+    },
+    {
+        "id": 858,
+        "name": "Rocaltrol"
+    },
+    {
+        "id": 859,
+        "name": "Radium-223 Dichloride"
+    },
+    {
+        "id": 860,
+        "name": "Rifapentine"
+    },
+    {
+        "id": 861,
+        "name": "Ropivacaine"
+    },
+    {
+        "id": 862,
+        "name": "Requip XL"
+    },
+    {
+        "id": 863,
+        "name": "Riluzole"
+    },
+    {
+        "id": 864,
+        "name": "Rizatriptan"
+    },
+    {
+        "id": 865,
+        "name": "Rivaroxaban Tablets"
+    },
+    {
+        "id": 866,
+        "name": "Rituximab"
+    },
+    {
+        "id": 867,
+        "name": "Ranitidine Hydrochloride"
+    },
+    {
+        "id": 868,
+        "name": "Renvela"
+    },
+    {
+        "id": 869,
+        "name": "Revolade"
+    },
+    {
+        "id": 870,
+        "name": "Rheumatrex (Methotrexate)"
+    },
+    {
+        "id": 871,
+        "name": "Rocaltrol Capsules"
+    },
+    {
+        "id": 872,
+        "name": "Rizatriptan Benzoate"
+    },
+    {
+        "id": 873,
+        "name": "Remicade Injection"
+    },
+    {
+        "id": 874,
+        "name": "Reglan Tablets"
+    },
+    {
+        "id": 875,
+        "name": "Rifamycin"
+    },
+    {
+        "id": 876,
+        "name": "Rohypnol"
+    },
+    {
+        "id": 877,
+        "name": "Rapaflo"
+    },
+    {
+        "id": 878,
+        "name": "Rytary"
+    },
+    {
+        "id": 879,
+        "name": "Relpax"
+    },
+    {
+        "id": 880,
+        "name": "Rocephin"
+    },
+    {
+        "id": 881,
+        "name": "Rifaximin"
+    },
+    {
+        "id": 882,
+        "name": "Roxithromycin"
+    },
+    {
+        "id": 883,
+        "name": "Rivaroxaban Oral"
+    },
+    {
+        "id": 884,
+        "name": "Replagal"
+    },
+    {
+        "id": 885,
+        "name": "Rocaltrol Injection"
+    },
+    {
+        "id": 886,
+        "name": "Ranitidine Syrup"
+    },
+    {
+        "id": 887,
+        "name": "Rufinamide"
+    },
+    {
+        "id": 888,
+        "name": "Radiculopathy"
+    },
+    {
+        "id": 889,
+        "name": "Recombinant Human Erythropoietin"
+    },
+    {
+        "id": 890,
+        "name": "Rheumatology Medications"
+    },
+    {
+        "id": 891,
+        "name": "Safi"
+    },
+    {
+        "id": 892,
+        "name": "Seroquel 25 mg"
+    },
+    {
+        "id": 893,
+        "name": "Sulfadoxine and Pyrimethamine"
+    },
+    {
+        "id": 894,
+        "name": "Sertraline"
+    },
+    {
+        "id": 895,
+        "name": "Sulfasalazine"
+    },
+    {
+        "id": 896,
+        "name": "Sangobion"
+    },
+    {
+        "id": 897,
+        "name": "Synalar"
+    },
+    {
+        "id": 898,
+        "name": "Stat-A"
+    },
+    {
+        "id": 899,
+        "name": "Stemetil"
+    },
+    {
+        "id": 900,
+        "name": "Skilax"
+    },
+    {
+        "id": 901,
+        "name": "Stugeron"
+    },
+    {
+        "id": 902,
+        "name": "Silliver"
+    },
+    {
+        "id": 903,
+        "name": "Sunny D Stat"
+    },
+    {
+        "id": 904,
+        "name": "Sartan"
+    },
+    {
+        "id": 905,
+        "name": "Seacal"
+    },
+    {
+        "id": 906,
+        "name": "Sandoz"
+    },
+    {
+        "id": 907,
+        "name": "Sodium Chloride"
+    },
+    {
+        "id": 908,
+        "name": "Sodium Bicarbonate"
+    },
+    {
+        "id": 909,
+        "name": "Sodium Valproate"
+    },
+    {
+        "id": 910,
+        "name": "Sodium Ascorbate"
+    },
+    {
+        "id": 911,
+        "name": "Sodium Citrate"
+    },
+    {
+        "id": 912,
+        "name": "Sodium Iodide"
+    },
+    {
+        "id": 913,
+        "name": "Sodium Sulfate"
+    },
+    {
+        "id": 914,
+        "name": "Sodium Thiosulfate"
+    },
+    {
+        "id": 915,
+        "name": "Sodium Tetradecyl Sulfate"
+    },
+    {
+        "id": 916,
+        "name": "Sodium Hyaluronate"
+    },
+    {
+        "id": 917,
+        "name": "Sodium Benzoate"
+    },
+    {
+        "id": 918,
+        "name": "Sodium Bicarbonate Injection"
+    },
+    {
+        "id": 919,
+        "name": "Sodium Chloride Nasal Spray"
+    },
+    {
+        "id": 920,
+        "name": "Sildenafil"
+    },
+    {
+        "id": 921,
+        "name": "Sodium Chloride Salt"
+    },
+    {
+        "id": 922,
+        "name": "Solu-Medrol"
+    },
+    {
+        "id": 923,
+        "name": "Sildenafil Citrate"
+    },
+    {
+        "id": 924,
+        "name": "Simvastatin"
+    },
+    {
+        "id": 925,
+        "name": "Sodium Acetate"
+    },
+    {
+        "id": 926,
+        "name": "Sodium Deoxycholate"
+    },
+    {
+        "id": 927,
+        "name": "Sotalol"
+    },
+    {
+        "id": 928,
+        "name": "Scopolamine"
+    },
+    {
+        "id": 929,
+        "name": "Somatropin"
+    },
+    {
+        "id": 930,
+        "name": "Symbicort"
+    },
+    {
+        "id": 931,
+        "name": "Salbutamol"
+    },
+    {
+        "id": 932,
+        "name": "Sodium Butyrate"
+    },
+    {
+        "id": 933,
+        "name": "Sulfamethoxazole"
+    },
+    {
+        "id": 934,
+        "name": "Serratiopeptidase"
+    },
+    {
+        "id": 935,
+        "name": "Sinarest"
+    },
+    {
+        "id": 936,
+        "name": "Sustanon"
+    },
+    {
+        "id": 937,
+        "name": "Sodium Chloride Solution"
+    },
+    {
+        "id": 938,
+        "name": "Sulfinpyrazone"
+    },
+    {
+        "id": 939,
+        "name": "Seretide"
+    },
+    {
+        "id": 940,
+        "name": "Sundown Naturals"
+    },
+    {
+        "id": 941,
+        "name": "Sodium L-Glutamate"
+    },
+    {
+        "id": 942,
+        "name": "Tacrolimus"
+    },
+    {
+        "id": 943,
+        "name": "Tadalafil"
+    },
+    {
+        "id": 944,
+        "name": "Tamsulosin"
+    },
+    {
+        "id": 945,
+        "name": "Tamoxifen"
+    },
+    {
+        "id": 946,
+        "name": "Tetracycline"
+    },
+    {
+        "id": 947,
+        "name": "Terbinafine"
+    },
+    {
+        "id": 948,
+        "name": "Terazosin"
+    },
+    {
+        "id": 949,
+        "name": "Testosterone"
+    },
+    {
+        "id": 950,
+        "name": "Theophylline"
+    },
+    {
+        "id": 951,
+        "name": "Thiamine"
+    },
+    {
+        "id": 952,
+        "name": "Ticagrelor"
+    },
+    {
+        "id": 953,
+        "name": "Timolol"
+    },
+    {
+        "id": 954,
+        "name": "Tiotropium"
+    },
+    {
+        "id": 955,
+        "name": "Tizanidine"
+    },
+    {
+        "id": 956,
+        "name": "Tolterodine"
+    },
+    {
+        "id": 957,
+        "name": "Topiramate"
+    },
+    {
+        "id": 958,
+        "name": "Tramadol"
+    },
+    {
+        "id": 959,
+        "name": "Tranexamic acid"
+    },
+    {
+        "id": 960,
+        "name": "Trazodone"
+    },
+    {
+        "id": 961,
+        "name": "Triamcinolone"
+    },
+    {
+        "id": 962,
+        "name": "Triamterene"
+    },
+    {
+        "id": 963,
+        "name": "Trileptal"
+    },
+    {
+        "id": 964,
+        "name": "Trintellix"
+    },
+    {
+        "id": 965,
+        "name": "Triptorelin"
+    },
+    {
+        "id": 966,
+        "name": "Trulicity"
+    },
+    {
+        "id": 967,
+        "name": "Tretinoin"
+    },
+    {
+        "id": 968,
+        "name": "Tobramycin"
+    },
+    {
+        "id": 969,
+        "name": "Tobramycin and Dexamethasone"
+    },
+    {
+        "id": 970,
+        "name": "Tobramycin Inhalation Powder"
+    },
+    {
+        "id": 971,
+        "name": "Tobramycin Ophthalmic Ointment"
+    },
+    {
+        "id": 972,
+        "name": "Tobramycin Injection"
+    },
+    {
+        "id": 973,
+        "name": "Tocilizumab"
+    },
+    {
+        "id": 974,
+        "name": "Topical Lidocaine"
+    },
+    {
+        "id": 975,
+        "name": "Tizanidine Hydrochloride"
+    },
+    {
+        "id": 976,
+        "name": "Tegretol"
+    },
+    {
+        "id": 977,
+        "name": "Temozolomide"
+    },
+    {
+        "id": 1253,
+        "name": "Thyroid Extract"
+    },
+    {
+        "id": 979,
+        "name": "Tiagabine"
+    },
+    {
+        "id": 980,
+        "name": "Tadalafil Tablets"
+    },
+    {
+        "id": 981,
+        "name": "Tamsulosin Hydrochloride"
+    },
+    {
+        "id": 982,
+        "name": "Thalidomide"
+    },
+    {
+        "id": 983,
+        "name": "Tafenoquine"
+    },
+    {
+        "id": 984,
+        "name": "Tocopherol"
+    },
+    {
+        "id": 985,
+        "name": "Tolvaptan"
+    },
+    {
+        "id": 986,
+        "name": "Tamsulosin and Dutasteride"
+    },
+    {
+        "id": 987,
+        "name": "Tegaserod"
+    },
+    {
+        "id": 988,
+        "name": "Tigecycline"
+    },
+    {
+        "id": 989,
+        "name": "Ticlopidine"
+    },
+    {
+        "id": 990,
+        "name": "Tramadol Hydrochloride"
+    },
+    {
+        "id": 991,
+        "name": "Ulipristal Acetate"
+    },
+    {
+        "id": 992,
+        "name": "Uramox"
+    },
+    {
+        "id": 993,
+        "name": "Utrogestan"
+    },
+    {
+        "id": 994,
+        "name": "Ursodiol"
+    },
+    {
+        "id": 995,
+        "name": "Ustekinumab"
+    },
+    {
+        "id": 996,
+        "name": "Urokinase"
+    },
+    {
+        "id": 997,
+        "name": "Uptolac"
+    },
+    {
+        "id": 998,
+        "name": "Ursodeoxycholic Acid"
+    },
+    {
+        "id": 999,
+        "name": "Uptake"
+    },
+    {
+        "id": 1000,
+        "name": "Urticalm"
+    },
+    {
+        "id": 1001,
+        "name": "Urapidil"
+    },
+    {
+        "id": 1002,
+        "name": "Uczone"
+    },
+    {
+        "id": 1003,
+        "name": "Uroflo"
+    },
+    {
+        "id": 1004,
+        "name": "Urised"
+    },
+    {
+        "id": 1005,
+        "name": "Urederm"
+    },
+    {
+        "id": 1006,
+        "name": "Uretic"
+    },
+    {
+        "id": 1007,
+        "name": "Uvir"
+    },
+    {
+        "id": 1008,
+        "name": "Ultracet"
+    },
+    {
+        "id": 1009,
+        "name": "Uptal"
+    },
+    {
+        "id": 1010,
+        "name": "Ursil"
+    },
+    {
+        "id": 1011,
+        "name": "Utegra"
+    },
+    {
+        "id": 1012,
+        "name": "Umanol"
+    },
+    {
+        "id": 1013,
+        "name": "Uvitex"
+    },
+    {
+        "id": 1014,
+        "name": "Urokinase Injection"
+    },
+    {
+        "id": 1015,
+        "name": "Urex"
+    },
+    {
+        "id": 1016,
+        "name": "Urodex"
+    },
+    {
+        "id": 1017,
+        "name": "Urokinase 10,000 IU"
+    },
+    {
+        "id": 1018,
+        "name": "Urobiotic"
+    },
+    {
+        "id": 1019,
+        "name": "Ucliv"
+    },
+    {
+        "id": 1020,
+        "name": "Uptoflex"
+    },
+    {
+        "id": 1021,
+        "name": "Urosolv"
+    },
+    {
+        "id": 1022,
+        "name": "Ultrimax"
+    },
+    {
+        "id": 1023,
+        "name": "Uricozyme"
+    },
+    {
+        "id": 1024,
+        "name": "Ulmerg"
+    },
+    {
+        "id": 1025,
+        "name": "Utral"
+    },
+    {
+        "id": 1026,
+        "name": "Utenol"
+    },
+    {
+        "id": 1027,
+        "name": "Udiar"
+    },
+    {
+        "id": 1028,
+        "name": "Uldox"
+    },
+    {
+        "id": 1029,
+        "name": "Urbason"
+    },
+    {
+        "id": 1030,
+        "name": "Ultracin"
+    },
+    {
+        "id": 1031,
+        "name": "Uvistat"
+    },
+    {
+        "id": 1032,
+        "name": "Unilab"
+    },
+    {
+        "id": 1033,
+        "name": "Ucpol"
+    },
+    {
+        "id": 1034,
+        "name": "UriCare"
+    },
+    {
+        "id": 1035,
+        "name": "Urostin"
+    },
+    {
+        "id": 1036,
+        "name": "Urica"
+    },
+    {
+        "id": 1037,
+        "name": "Uranol"
+    },
+    {
+        "id": 1038,
+        "name": "Urtex"
+    },
+    {
+        "id": 1039,
+        "name": "Urolene"
+    },
+    {
+        "id": 1040,
+        "name": "Valacyclovir"
+    },
+    {
+        "id": 1041,
+        "name": "Valium"
+    },
+    {
+        "id": 1042,
+        "name": "Valsartan"
+    },
+    {
+        "id": 1043,
+        "name": "Vecuronium"
+    },
+    {
+        "id": 1044,
+        "name": "Venlafaxine"
+    },
+    {
+        "id": 1045,
+        "name": "Verapamil"
+    },
+    {
+        "id": 1046,
+        "name": "Vitamin D"
+    },
+    {
+        "id": 1047,
+        "name": "Vitamin B12"
+    },
+    {
+        "id": 1048,
+        "name": "Vitamin C"
+    },
+    {
+        "id": 1049,
+        "name": "Vitamin E"
+    },
+    {
+        "id": 1050,
+        "name": "Vicks VapoRub"
+    },
+    {
+        "id": 1051,
+        "name": "Vincristine"
+    },
+    {
+        "id": 1052,
+        "name": "Vinorelbine"
+    },
+    {
+        "id": 1053,
+        "name": "Vinpocetine"
+    },
+    {
+        "id": 1054,
+        "name": "Voriconazole"
+    },
+    {
+        "id": 1055,
+        "name": "Votrient"
+    },
+    {
+        "id": 1056,
+        "name": "Vytorin"
+    },
+    {
+        "id": 1057,
+        "name": "Vagifem"
+    },
+    {
+        "id": 1058,
+        "name": "Vazotab"
+    },
+    {
+        "id": 1059,
+        "name": "Vandetanib"
+    },
+    {
+        "id": 1060,
+        "name": "Vibramycin"
+    },
+    {
+        "id": 1061,
+        "name": "Valtrex"
+    },
+    {
+        "id": 1062,
+        "name": "Vaxchora"
+    },
+    {
+        "id": 1063,
+        "name": "Vancocin"
+    },
+    {
+        "id": 1064,
+        "name": "Vibra-Tabs"
+    },
+    {
+        "id": 1065,
+        "name": "Vibrocillin"
+    },
+    {
+        "id": 1066,
+        "name": "Vermox"
+    },
+    {
+        "id": 1067,
+        "name": "Vibramycin 100mg"
+    },
+    {
+        "id": 1068,
+        "name": "Venlafaxine XR"
+    },
+    {
+        "id": 1069,
+        "name": "Vitarol"
+    },
+    {
+        "id": 1070,
+        "name": "Vasotec"
+    },
+    {
+        "id": 1071,
+        "name": "Vaseline"
+    },
+    {
+        "id": 1072,
+        "name": "Vesicare"
+    },
+    {
+        "id": 1073,
+        "name": "Valproic Acid"
+    },
+    {
+        "id": 1074,
+        "name": "Vick's Cough Syrup"
+    },
+    {
+        "id": 1075,
+        "name": "Viralys"
+    },
+    {
+        "id": 1076,
+        "name": "Vapouriser"
+    },
+    {
+        "id": 1077,
+        "name": "Vagisil"
+    },
+    {
+        "id": 1078,
+        "name": "Valdecoxib"
+    },
+    {
+        "id": 1079,
+        "name": "Voltaren"
+    },
+    {
+        "id": 1080,
+        "name": "Vancocin HCl"
+    },
+    {
+        "id": 1081,
+        "name": "Vasopressin"
+    },
+    {
+        "id": 1082,
+        "name": "Vulsell"
+    },
+    {
+        "id": 1083,
+        "name": "Vibrant Health"
+    },
+    {
+        "id": 1084,
+        "name": "Viracept"
+    },
+    {
+        "id": 1085,
+        "name": "Viroguard"
+    },
+    {
+        "id": 1086,
+        "name": "Viberzi"
+    },
+    {
+        "id": 1087,
+        "name": "Vintafol"
+    },
+    {
+        "id": 1088,
+        "name": "Vymada"
+    },
+    {
+        "id": 1089,
+        "name": "Vestra"
+    },
+    {
+        "id": 1090,
+        "name": "Warfarin"
+    },
+    {
+        "id": 1091,
+        "name": "Wegovy"
+    },
+    {
+        "id": 1046,
+        "name": "Vitamin D"
+    },
+    {
+        "id": 1092,
+        "name": "Wixela Inhub"
+    },
+    {
+        "id": 1093,
+        "name": "Winstrol"
+    },
+    {
+        "id": 1094,
+        "name": "Wegovy Injection"
+    },
+    {
+        "id": 1254,
+        "name": "Wheaton"
+    },
+    {
+        "id": 1255,
+        "name": "Winco"
+    },
+    {
+        "id": 1095,
+        "name": "Warfarin Sodium"
+    },
+    {
+        "id": 1096,
+        "name": "Welchol"
+    },
+    {
+        "id": 1097,
+        "name": "Wobenzym"
+    },
+    {
+        "id": 1256,
+        "name": "Wulfenia"
+    },
+    {
+        "id": 1257,
+        "name": "Wesleco"
+    },
+    {
+        "id": 1098,
+        "name": "Wymzya"
+    },
+    {
+        "id": 1258,
+        "name": "Wockhardt"
+    },
+    {
+        "id": 1259,
+        "name": "Wheaton Pharm"
+    },
+    {
+        "id": 1099,
+        "name": "Wralax"
+    },
+    {
+        "id": 1100,
+        "name": "Writhol"
+    },
+    {
+        "id": 1101,
+        "name": "Wormin"
+    },
+    {
+        "id": 1102,
+        "name": "White Willow Bark"
+    },
+    {
+        "id": 1103,
+        "name": "Westrom"
+    },
+    {
+        "id": 1104,
+        "name": "Wellbutrin"
+    },
+    {
+        "id": 1105,
+        "name": "Wegoby"
+    },
+    {
+        "id": 1106,
+        "name": "Wistrol Injection"
+    },
+    {
+        "id": 1107,
+        "name": "Xanax"
+    },
+    {
+        "id": 1108,
+        "name": "Xarelto"
+    },
+    {
+        "id": 1109,
+        "name": "Xeloda"
+    },
+    {
+        "id": 1110,
+        "name": "Xenical"
+    },
+    {
+        "id": 1111,
+        "name": "Xigris"
+    },
+    {
+        "id": 1112,
+        "name": "Xyzal"
+    },
+    {
+        "id": 1113,
+        "name": "Xipamide"
+    },
+    {
+        "id": 1114,
+        "name": "Xylocaine"
+    },
+    {
+        "id": 1115,
+        "name": "Xanax XR"
+    },
+    {
+        "id": 1116,
+        "name": "Xopenex"
+    },
+    {
+        "id": 1117,
+        "name": "Xatmep"
+    },
+    {
+        "id": 1118,
+        "name": "Xeloda Tablets"
+    },
+    {
+        "id": 1119,
+        "name": "Xanthine"
+    },
+    {
+        "id": 1120,
+        "name": "Xenaz"
+    },
+    {
+        "id": 1121,
+        "name": "Xymex"
+    },
+    {
+        "id": 1122,
+        "name": "Xelok"
+    },
+    {
+        "id": 1123,
+        "name": "Xazal"
+    },
+    {
+        "id": 1124,
+        "name": "Xitrans"
+    },
+    {
+        "id": 1125,
+        "name": "Xarelto 20mg"
+    },
+    {
+        "id": 1126,
+        "name": "Xenical Capsules"
+    },
+    {
+        "id": 1127,
+        "name": "Xenaz 2mg"
+    },
+    {
+        "id": 1128,
+        "name": "Xenon"
+    },
+    {
+        "id": 1129,
+        "name": "Xyloplus"
+    },
+    {
+        "id": 1130,
+        "name": "Xylophan"
+    },
+    {
+        "id": 1131,
+        "name": "Xcloz"
+    },
+    {
+        "id": 1132,
+        "name": "Xylin"
+    },
+    {
+        "id": 1133,
+        "name": "Xalbion"
+    },
+    {
+        "id": 1134,
+        "name": "Xamino"
+    },
+    {
+        "id": 1135,
+        "name": "Xecorp"
+    },
+    {
+        "id": 1136,
+        "name": "Xecute"
+    },
+    {
+        "id": 1137,
+        "name": "Xonex"
+    },
+    {
+        "id": 1138,
+        "name": "Xmantra"
+    },
+    {
+        "id": 1139,
+        "name": "Xenogen"
+    },
+    {
+        "id": 1140,
+        "name": "Xylozene"
+    },
+    {
+        "id": 1141,
+        "name": "Xilef"
+    },
+    {
+        "id": 1142,
+        "name": "Xgal"
+    },
+    {
+        "id": 1143,
+        "name": "Xytril"
+    },
+    {
+        "id": 1144,
+        "name": "Ximec"
+    },
+    {
+        "id": 1145,
+        "name": "Xterex"
+    },
+    {
+        "id": 1146,
+        "name": "Xantor"
+    },
+    {
+        "id": 1147,
+        "name": "Xorbet"
+    },
+    {
+        "id": 1148,
+        "name": "Xceed"
+    },
+    {
+        "id": 1149,
+        "name": "Xiduna"
+    },
+    {
+        "id": 1150,
+        "name": "Xoklem"
+    },
+    {
+        "id": 1151,
+        "name": "Xasex"
+    },
+    {
+        "id": 1152,
+        "name": "Xantra"
+    },
+    {
+        "id": 1153,
+        "name": "Xebex"
+    },
+    {
+        "id": 1154,
+        "name": "Xopar"
+    },
+    {
+        "id": 1155,
+        "name": "Yasmin"
+    },
+    {
+        "id": 1156,
+        "name": "Yervoy"
+    },
+    {
+        "id": 1157,
+        "name": "Yuvaflor"
+    },
+    {
+        "id": 1158,
+        "name": "Yttrium-90"
+    },
+    {
+        "id": 1159,
+        "name": "Yasmin 28"
+    },
+    {
+        "id": 1160,
+        "name": "Yohimbine"
+    },
+    {
+        "id": 1161,
+        "name": "Yalow"
+    },
+    {
+        "id": 1162,
+        "name": "Yasminelle"
+    },
+    {
+        "id": 1163,
+        "name": "Yaz"
+    },
+    {
+        "id": 1164,
+        "name": "Yondelis"
+    },
+    {
+        "id": 1165,
+        "name": "Yogurt with Probiotics"
+    },
+    {
+        "id": 1166,
+        "name": "Yousuf"
+    },
+    {
+        "id": 1167,
+        "name": "Yelpaz"
+    },
+    {
+        "id": 1168,
+        "name": "Yariv"
+    },
+    {
+        "id": 1169,
+        "name": "Yprocare"
+    },
+    {
+        "id": 1170,
+        "name": "Ygri"
+    },
+    {
+        "id": 1171,
+        "name": "Yaleast"
+    },
+    {
+        "id": 1172,
+        "name": "Yunnan Baiyao"
+    },
+    {
+        "id": 1173,
+        "name": "Yefril"
+    },
+    {
+        "id": 1174,
+        "name": "Yukozet"
+    },
+    {
+        "id": 1175,
+        "name": "Ydrox"
+    },
+    {
+        "id": 1176,
+        "name": "Yvi-Red"
+    },
+    {
+        "id": 1177,
+        "name": "Yfex"
+    },
+    {
+        "id": 1178,
+        "name": "Yusvaz"
+    },
+    {
+        "id": 1179,
+        "name": "Yaldor"
+    },
+    {
+        "id": 1180,
+        "name": "Yaz-28"
+    },
+    {
+        "id": 1181,
+        "name": "Yuvani"
+    },
+    {
+        "id": 1182,
+        "name": "Ythora"
+    },
+    {
+        "id": 1183,
+        "name": "Yuzef"
+    },
+    {
+        "id": 1184,
+        "name": "Yeddo"
+    },
+    {
+        "id": 1185,
+        "name": "Yubvex"
+    },
+    {
+        "id": 1186,
+        "name": "Yves"
+    },
+    {
+        "id": 1187,
+        "name": "Yoself"
+    },
+    {
+        "id": 1188,
+        "name": "Ylong"
+    },
+    {
+        "id": 1189,
+        "name": "Yotemp"
+    },
+    {
+        "id": 1190,
+        "name": "Yuga"
+    },
+    {
+        "id": 1191,
+        "name": "Yali"
+    },
+    {
+        "id": 1192,
+        "name": "Ymed"
+    },
+    {
+        "id": 1193,
+        "name": "Yinex"
+    },
+    {
+        "id": 1194,
+        "name": "Ytronic"
+    },
+    {
+        "id": 1195,
+        "name": "Yacov"
+    },
+    {
+        "id": 1196,
+        "name": "Yalit"
+    },
+    {
+        "id": 1197,
+        "name": "Ytotal"
+    },
+    {
+        "id": 1198,
+        "name": "Ycell"
+    },
+    {
+        "id": 1199,
+        "name": "Y-Protec"
+    },
+    {
+        "id": 1200,
+        "name": "Yamacit"
+    },
+    {
+        "id": 1201,
+        "name": "Y-max"
+    },
+    {
+        "id": 1202,
+        "name": "Zoloft"
+    },
+    {
+        "id": 1203,
+        "name": "Zantac"
+    },
+    {
+        "id": 1204,
+        "name": "Zithromax"
+    },
+    {
+        "id": 1205,
+        "name": "Zyprexa"
+    },
+    {
+        "id": 1206,
+        "name": "Zolpidem"
+    },
+    {
+        "id": 1207,
+        "name": "Zaroxolyn"
+    },
+    {
+        "id": 1208,
+        "name": "Zocor"
+    },
+    {
+        "id": 1209,
+        "name": "Zarontin"
+    },
+    {
+        "id": 1210,
+        "name": "Zyrtec"
+    },
+    {
+        "id": 1211,
+        "name": "Zicam"
+    },
+    {
+        "id": 1212,
+        "name": "Zyrtec-D"
+    },
+    {
+        "id": 1213,
+        "name": "Zaditor"
+    },
+    {
+        "id": 1214,
+        "name": "Zostavax"
+    },
+    {
+        "id": 1215,
+        "name": "Zofran"
+    },
+    {
+        "id": 1216,
+        "name": "Zolmitriptan"
+    },
+    {
+        "id": 1217,
+        "name": "Zanaflex"
+    },
+    {
+        "id": 1218,
+        "name": "Zocor 20 mg"
+    },
+    {
+        "id": 1219,
+        "name": "Zitromax"
+    },
+    {
+        "id": 1220,
+        "name": "Zetia"
+    },
+    {
+        "id": 1221,
+        "name": "Zavesca"
+    },
+    {
+        "id": 1222,
+        "name": "Zovio"
+    },
+    {
+        "id": 1223,
+        "name": "Zanidip"
+    },
+    {
+        "id": 1224,
+        "name": "Zepatier"
+    },
+    {
+        "id": 1225,
+        "name": "Zaditor Eye Drops"
+    },
+    {
+        "id": 1226,
+        "name": "Zyvox"
+    },
+    {
+        "id": 1227,
+        "name": "Zoster Vaccine"
+    },
+    {
+        "id": 1228,
+        "name": "Zaltrap"
+    },
+    {
+        "id": 1229,
+        "name": "Zollinger-Ellison Syndrome"
+    },
+    {
+        "id": 1230,
+        "name": "Zinacef"
+    },
+    {
+        "id": 1231,
+        "name": "Zanaflex 2mg"
+    },
+    {
+        "id": 1232,
+        "name": "Zocor 10 mg"
+    },
+    {
+        "id": 1233,
+        "name": "Zemplar"
+    },
+    {
+        "id": 1234,
+        "name": "Zedex"
+    },
+    {
+        "id": 1235,
+        "name": "Zaditor 0.25%"
+    },
+    {
+        "id": 1236,
+        "name": "Zydelig"
+    },
+    {
+        "id": 1237,
+        "name": "Zebeta"
+    },
+    {
+        "id": 1238,
+        "name": "Zofran ODT"
+    },
+    {
+        "id": 1239,
+        "name": "Zarac"
+    },
+    {
+        "id": 1240,
+        "name": "Zapier"
+    },
+    {
+        "id": 1241,
+        "name": "Zoster Vaccine Live"
+    },
+    {
+        "id": 1242,
+        "name": "Zyban"
+    },
+    {
+        "id": 1243,
+        "name": "Zydol"
+    },
+    {
+        "id": 1244,
+        "name": "Zydus"
+    },
+    {
+        "id": 1245,
+        "name": "Zymar"
+    },
+    {
+        "id": 1246,
+        "name": "Zafirlukast"
+    },
+    {
+        "id": 1247,
+        "name": "Zarcon"
+    },
+    {
+        "id": 1248,
+        "name": "Zelboraf"
+    },
+    {
+        "id": 1249,
+        "name": "Zorvolex"
+    },
+    {
+        "id": 1250,
+        "name": "Zostrix"
+    },
+    {
+        "id": 1251,
+        "name": "Zepose"
+    }
+]

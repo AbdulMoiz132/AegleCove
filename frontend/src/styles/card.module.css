@@ -1,0 +1,100 @@
+.card {
+    height:35vh;
+    width: 50vw;
+    background-color: #181818;
+    transition-duration: 1s;
+    cursor: pointer;
+    border: 2px none;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid ;
+    box-shadow:  rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card h1 {
+    text-align: center;
+    color:white;
+    margin-top: 3vh;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+
+.card p {
+    padding: 1vw;
+    font-size: 18px;
+    font-weight: 520;
+    color : white;
+    margin-top: 1vh
+}
+
+
+.card a {
+    text-decoration: none
+}
+
+.cardhead {
+    text-decoration: underline
+}
+
+.cardhead:hover {
+    text-decoration: none
+}
+
+.arrow {
+    padding: .5vw;
+    border-radius: 50%;
+   
+}
+.linkbutton{
+    border: 1px solid #3db166;
+    width: 15vw;
+    color: #3db166;
+    border-radius: 3px;
+    margin-bottom: 3vh;
+    
+}
+.span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px
+
+}
+.button:hover{
+    background-color: #181818;
+    color: #3db166;
+
+}
+.button:active{
+    background-color: #181818;
+    color: #3db166;
+}
+
+@media screen and (max-width:800px) {
+    .card {
+       
+        height: 25vh;
+        width: 80vw
+    }
+
+    .card p {
+        font-size: 5vw;
+    }
+    .arrow{
+        width: 9vw;
+    }
+}
+
+@media screen and (min-height:900px) and (min-width:1000px) {
+    .card {
+        height: 20vh
+    }
+
+    .card p {
+        font-size: medium
+    }
+}

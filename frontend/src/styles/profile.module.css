@@ -1,0 +1,87 @@
+/* Import Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.profilePage {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  width: 100vw;
+
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+
+}
+
+.mainContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+ 
+}
+
+.profileTitle {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #181818;
+}
+
+.profileDetails {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  width: 100%;
+  max-width: 80vw;
+ 
+}
+
+.profileDetails_p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  color: #181818;
+}
+
+.profileDetails label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #181818;
+}
+
+  .profileDetails input {
+    padding: 0.5rem;
+    border: 1px solid #181818;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 100%;
+    height: auto;
+  }
+
+.profileDetails button {
+  padding: 0.75rem 1.5rem;
+  background-color: #3db166;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 5vh;
+}
+.sectionTitle{
+  font-size: 1.5rem;
+  margin: 5vh  0;
+}
+
+.profileDetails button:hover {
+  background-color: #34a65f;
+}
