@@ -12,25 +12,24 @@ import com.example.AegleCove.entity.MedicineData;
 import com.example.AegleCove.entity.Disease;
 import com.example.AegleCove.entity.DiseaseData;
 import com.example.AegleCove.services.DataService;
-import com.example.AegleCove.structures.LinkedList;
+import java.util.List;  // Change from LinkedList to List
 
 
 @RestController
 @RequestMapping("/data")
 public class DataController 
 {
-    DataService dataService;
+    private final DataService dataService;
 
-    DataController()
+    public DataController() 
     {
         dataService = new DataService();
     }
 
     @GetMapping("/medicines/{letter}")
-    public ResponseEntity<LinkedList<Medicine>> getMedicines(@PathVariable char letter) 
+    public ResponseEntity<List<Medicine>> getMedicines(@PathVariable char letter) 
     {
-    
-            LinkedList<Medicine> medicines = dataService.getMedicinesByLetter(letter);
+            List<Medicine> medicines = dataService.getMedicinesByLetter(letter);
             if (medicines == null || medicines.isEmpty()) {
                 return new ResponseEntity<>(HttpStatus.NOT_FOUND);
             }
@@ -38,10 +37,9 @@ public class DataController
     }
 
     @GetMapping("/diseases/{letter}")
-    public ResponseEntity<LinkedList<Disease>> getDiseases(@PathVariable char letter) 
+    public ResponseEntity<List<Disease>> getDiseases(@PathVariable char letter) 
     {
-       
-            LinkedList<Disease> diseases = dataService.getDiseasesByLetter(letter);
+            List<Disease> diseases = dataService.getDiseasesByLetter(letter);
             if (diseases == null || diseases.isEmpty()) {
                 return new ResponseEntity<>(HttpStatus.NOT_FOUND);
             }
@@ -61,13 +59,10 @@ public class DataController
     @GetMapping("/disease/{id}")
     public ResponseEntity<DiseaseData> getDiseaseInfo(@PathVariable Long id)
     {
-    
         DiseaseData diseaseData = dataService.getDiseaseInfo(id);
         if (diseaseData == null) {
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
         return new ResponseEntity<>(diseaseData, HttpStatus.OK);
-        
     }
 }
-

@@ -8,12 +8,12 @@ public class MedicineData implements Identifiable, Comparable<MedicineData> {
     private String name;
     private String description;
     private String formula;
-    @JsonProperty("side_effects")
-    private List<String> side_effects;
-    @JsonProperty("recommended_dosage")
-    private Object recommended_dosage;
-    @JsonProperty("alternative_medicines")
-    private List<String> alternative_medicines;
+    @JsonProperty("sideEffects")
+    private List<String> sideEffects;
+    @JsonProperty("recommendedDosage")
+    private Object recommendedDosage;
+    @JsonProperty("alternativeMedicines")
+    private List<String> alternativeMedicines;
     
     public MedicineData() {}
 
@@ -22,9 +22,9 @@ public class MedicineData implements Identifiable, Comparable<MedicineData> {
         this.name = name;
         this.description = description;
         this.formula = formula;
-        this.side_effects = side_effects;
-        this.recommended_dosage = recommended_dosage;
-        this.alternative_medicines = alternative_medicines;
+        this.sideEffects = side_effects;
+        this.recommendedDosage = recommended_dosage;
+        this.alternativeMedicines = alternative_medicines;
     }
 
     public Long getId() {
@@ -44,19 +44,19 @@ public class MedicineData implements Identifiable, Comparable<MedicineData> {
     }
 
     public List<String> getSideEffects() {
-        return side_effects;
+        return sideEffects;
     }
 
     public Object getRecommendedDosage() {
-        return recommended_dosage;
+        return recommendedDosage;
     }
 
     public void setRecommendedDosage(Object recommended_dosage) {
-        this.recommended_dosage = recommended_dosage;
+        this.recommendedDosage = recommended_dosage;
     }
 
     public List<String> getAlternativeMedicines() {
-        return alternative_medicines;
+        return alternativeMedicines;
     }
 
     public void setId(Long id) {
@@ -76,12 +76,12 @@ public class MedicineData implements Identifiable, Comparable<MedicineData> {
     }
 
     public void setSideEffects(List<String> side_effects) {
-        this.side_effects = side_effects;
+        this.sideEffects = side_effects;
     }
 
    
     public void setAlternativeMedicines(List<String> alternative_medicines) {
-        this.alternative_medicines = alternative_medicines;
+        this.alternativeMedicines = alternative_medicines;
     }
     
     @Override

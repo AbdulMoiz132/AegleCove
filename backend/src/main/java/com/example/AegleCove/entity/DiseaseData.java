@@ -12,8 +12,8 @@ public class DiseaseData implements Identifiable, Comparable<DiseaseData> {
     private List<String> symptoms;
     @JsonProperty("treatment")
     private List<String> treatment;
-    @JsonProperty("preventive_measures")
-    private List<String> preventive_measures;
+    @JsonProperty("preventiveMeasures")
+    private List<String> preventiveMeasures;
 
     public DiseaseData() {}
 
@@ -23,7 +23,7 @@ public class DiseaseData implements Identifiable, Comparable<DiseaseData> {
         this.description = description;
         this.symptoms = symptoms;
         this.treatment = treatment;
-        this.preventive_measures = preventive_measures;
+        this.preventiveMeasures = preventive_measures;
     }
 
     public Long getId() {
@@ -47,7 +47,7 @@ public class DiseaseData implements Identifiable, Comparable<DiseaseData> {
     }
 
     public List<String> getPreventiveMeasures() {
-        return preventive_measures;
+        return preventiveMeasures;
     }
 
     public void setId(Long id) {
@@ -71,7 +71,7 @@ public class DiseaseData implements Identifiable, Comparable<DiseaseData> {
     }
 
     public void setPreventiveMeasures(List<String> preventive_measures) {
-        this.preventive_measures = preventive_measures;
+        this.preventiveMeasures = preventive_measures;
     }
 
     @Override
