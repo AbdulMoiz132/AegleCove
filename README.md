@@ -18,7 +18,7 @@ AegleCove is a full-stack web application built to help users manage their healt
 - Backend: Spring Boot (Java)  
 - Storage: File System (JSON-based)  
 - Visualization: Chart.js / Recharts  
-- Tools: Postman, VS Code, IntelliJ IDEA  
+- Tools: Postman, VS Code
 
 ## Project Highlights
 
